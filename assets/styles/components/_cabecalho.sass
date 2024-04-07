@@ -1,0 +1,32 @@
+@import '../abstract/_variaveis'
+header
+    display: grid
+    grid-template-columns: 1fr 40px
+    a
+        text-decoration: none
+        padding: .5em 0
+        color: $preto
+        display: flex
+        column-gap: .3em
+        align-items: center
+        margin-left: .8em
+        img
+            width: 35px
+        h1
+            font-size: 1.7em
+            font-family: $fonteTerciaria
+            color: $branco
+            text-shadow: 0 0 2px black
+            white-space: nowrap
+    button
+        padding: .5em 0
+        width: 40px
+        height: 40px
+        font-size: 1.6em
+        background: transparent
+        border: none
+        color: $branco
+        justify-self: end
+        cursor: pointer
+        &:active
+            background-color: orange /* alterar depois */

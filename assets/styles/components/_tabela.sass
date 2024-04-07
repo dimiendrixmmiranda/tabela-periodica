@@ -1,0 +1,82 @@
+@import '../abstract/_variaveis'
+.conteudo
+    width: 98%
+    white-space: nowrap
+    overflow-y: hidden
+    padding: 1em
+    .elementos
+        width: 100%
+        padding: 0
+        max-width: 1150px
+        display: grid
+        grid-template-columns: repeat(18, 50px)
+        grid-template-rows: repeat(7, 50px) 40px repeat(2, 50px)
+        gap: .2em
+        overflow-x: scroll
+        margin: 1.5em auto
+        padding-bottom: .8em
+        @media screen and ( min-width: 876px)
+            overflow: hidden
+        .quebra
+            grid-column: 1/19
+            grid-row: 8/9
+            width: 100%
+            height: 100%
+        button
+            position: relative
+            font-weight: bold
+            font-size: 1em
+            color: white
+            text-shadow: 1px 1px 3px black
+            width: 100%
+            height: 100%
+            cursor: pointer
+            span
+                font-size: .7em
+                position: absolute
+                top: 5%
+                left: 5%
+        .seta1
+            width: 100%
+            height: 100%
+            grid-row: 6/10
+            grid-column: 3/4
+            background-image: url('../imgs/arrow-1.svg')
+            background-size: 36px
+            background-position: 2.7em .4em
+            background-repeat: no-repeat
+            overflow-y: visible
+            font-size: .7em
+            color: white
+            font-weight: bold
+            font-family: $fonteSecundaria
+        .seta2
+            width: 100%
+            height: 100%
+            background: transparent
+            grid-row: 7/11
+            grid-column: 3/4
+            background-image: url('../imgs/arrow-2.svg')
+            background-size: 40px
+            background-position: 1.1em 1.1em
+            font-weight: bold
+            background-repeat: no-repeat
+            overflow-y: visible
+            font-size: .7em
+            color: white
+            font-family: $fonteSecundaria
+        .elemento-checado
+            opacity: 1!important
+@media screen and ( min-width: 1024px )
+    .conteudo
+        .elementos
+            grid-template-columns: repeat(18, 60px)
+            grid-template-rows: repeat(7, 60px) 40px repeat(2, 60px)
+            overflow-x: scroll
+            button
+                width: 100%
+                height: 100%
+@media screen and ( min-width: 1200px )
+    .conteudo
+        .elementos
+            overflow-x: hidden

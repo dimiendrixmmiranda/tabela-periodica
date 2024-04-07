@@ -1,0 +1,100 @@
+@import '../abstract/_variaveis'
+.visor
+    width: 100%
+    max-width: 1130px
+    margin: 0 auto
+    display: grid
+    grid-template-columns: 7.5rem 1fr
+    grid-template-rows: 1fr 7.5rem 1fr
+    overflow: hidden
+    column-gap: .5em
+    row-gap: .5em
+    padding: .4em .6em .4em .6em
+    font-family: $fonteSecundaria
+    background-color: #00224D
+    color: $branco
+    h2
+        grid-column: 1/3
+        font-size: 1.6em
+    .visor-simbolo-elemento
+        background-color: orange
+        position: relative
+        height: 100%
+        width: 100%
+        h3
+            position: absolute
+            top: 50%
+            left: 50%
+            transform: translate(-50%, -50%)
+            font-size: 3em
+        p
+            position: absolute
+            left: 60%
+            top: 80%
+            font-size: 1.1em
+    .visor-informacoes-elemento
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        row-gap: .2em
+        li
+            flex-grow: 1
+            display: grid
+            grid-template-columns: 70% 1fr
+            white-space: wrap
+            font-size: .68em
+            border: solid 1px black
+            padding: .1em .2em
+            background-color: #FC6736
+            width: 100%
+            p
+                align-self: center
+                justify-self: center
+                font-size: 1em
+                font-weight: bold
+            h4
+                border-right: solid 1px black
+                align-self: center
+                height: 100%
+                margin-top: .6em
+    button
+        grid-column: 1/3
+        font-weight: bold
+        font-size: 1em
+        text-transform: uppercase
+        position: relative
+        background-color: #FC6736
+        color: $branco
+        cursor: pointer
+        i
+            font-size: .6em
+    .visor-mais-informacoes
+        grid-column: 1/3
+        overflow: hidden
+        display: flex
+        flex-direction: column
+        padding-top: .6em
+        display: none
+        li
+            display: grid
+            grid-template-columns: 50% 1fr
+            font-size: .8em
+            white-space: pre-wrap
+            border: solid 1px black
+            h4
+                align-self: center
+                border-right: solid 1px black
+                height: 100%
+                padding: .3em
+            p
+                align-self: center
+                padding: .3em
+                position: relative
+                height: 100%
+                img
+                    width: 50%
+                    padding: .5em
+                    justify-self: center
+                    margin: 0 auto
+                    display: block
+                    max-width: 80px

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles/style.css">
+    <link rel="shortcut icon" href="./assets/imgs/tabela-periodica.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Tabela Periódica</title>
+</head>
+
+<body>
+    <header>
+        <a href="#">
+            <img src="./assets/imgs/tabela-periodica.png" alt="">
+            <h1>Tabela Periódica</h1>
+        </a>
+        <button><i class="fa-solid fa-bars"></i></button>
+    </header>
+
+    <div class="conteudo">
+        <div class="visor">
+            <h2>Hidrogênio</h2>
+            <div class="visor-simbolo-elemento">
+                <h3>H</h3>
+                <p>1008</p>
+            </div>
+            <ul class="visor-informacoes-elemento">
+                <li>
+                    <h4>Símbolo</h4>
+                    <p>H</p>
+                </li>
+                <li>
+                    <h4>Número Atômico</h4>
+                    <p>1</p>
+                </li>
+                <li>
+                    <h4>Massa Atômica</h4>
+                    <p>1008</p>
+                </li>
+                <li>
+                    <h4>Configuração Eletrônica</h4>
+                    <p>1s²</p>
+                </li>
+            </ul>
+            <button>Ver mais detalhes <i class="fa-solid fa-turn-down"></i></button>
+            <ul class="visor-mais-informacoes">
+                <li>
+                    <h4>Grupo e Período:</h4>
+                    <p>Grupo 1, Período 1</p>
+                </li>
+                <li>
+                    <h4>Raio Atômico</h4>
+                    <p>25 pm (covalente), 120 pm (Van der Waals)</p>
+                </li>
+                <li>
+                    <h4>Estado Natural</h4>
+                    <p>Gasoso</p>
+                </li>
+                <li>
+                    <h4>Ponto de fusão</h4>
+                    <p>14.01 K (-259.14°C, -434.45°F)</p>
+                </li>
+                <li>
+                    <h4>Ponto de Ebulição</h4>
+                    <p>14.01 K (-259.14°C, -434.45°F)</p>
+                </li>
+                <li>
+                    <h4>Densidade</h4>
+                    <p>0.08988 g/L</p>
+                </li>
+                <li>
+                    <h4>Eletronegatividade</h4>
+                    <p>2.20 (escala de Pauling)</p>
+                </li>
+                <li>
+                    <h4>Aplicações Comuns</h4>
+                    <p>Produção de Amônia, refino de petróleo, armazenamento de energia, propulsão de foguete</p>
+                </li>
+                <li>
+                    <h4>Imagem Representativa</h4>
+                    <p><img src="./assets/imgs/hidrogenio.png" alt=""></p>
+                </li>
+            </ul>
+        </div>
+        <div class="elementos"></div>
+        <ul class="filtro">
+            <h2>Utilize o filtro para facilitar na localização do seu elemento:</h2>
+            <li class="nao-metal" data-categoria="nao-metal">
+                <input type="checkbox" name="nao-metal" id="nao-metal">
+                <label for="nao-metal">Não metais</label>
+            </li>
+            <li class="metal-alcalino" data-categoria="metal-alcalino">
+                <input type="checkbox" name="metal-alcalino" id="metal-alcalino">
+                <label for="metal-alcalino">Metais Alcalinos</label>
+            </li>
+            <li class="semimetal" data-categoria="semimetal">
+                <input type="checkbox" name="semimetal" id="semimetal">
+                <label for="semimetal">Semimetais</label>
+            </li>
+            <li class="outros-metais" data-categoria="outros-metais">
+                <input type="checkbox" name="outros-metais" id="outros-metais">
+                <label for="outros-metais">Outros Metais</label>
+            </li>
+            <li class="lantanideos" data-categoria="lantanideos">
+                <input type="checkbox" name="lantanideos" id="lantanideos">
+                <label for="lantanideos">Lantanídeos</label>
+            </li>
+            <li class="gas-nobre" data-categoria="gas-nobre">
+                <input type="checkbox" name="gas-nobre" id="gas-nobre">
+                <label for="gas-nobre">Gases Nobres</label>
+            </li>
+            <li class="metal-alcalino-terroso" data-categoria="metal-alcalino-terroso">
+                <input type="checkbox" name="metal-alcalino-terroso" id="metal-alcalino-terroso">
+                <label for="metal-alcalino-terroso">Metais alcalino-terrosos</label>
+            </li>
+            <li class="halogenios" data-categoria="halogenios">
+                <input type="checkbox" name="halogenios" id="halogenios">
+                <label for="halogenios">Halogênios</label>
+            </li>
+            <li class="metal-de-transicao" data-categoria="metal-de-transicao">
+                <input type="checkbox" name="metal-de-transicao" id="metal-de-transicao">
+                <label for="metal-de-transicao">Metais de transição</label>
+            </li>
+            <li class="actinidios" data-categoria="actinidios">
+                <input type="checkbox" name="actinidios" id="actinidios">
+                <label for="actinidios">Actinídios</label>
+            </li>
+        </ul>
+
+        <script type="module" src="./script.js"></script>
+    </div>
+
+    <footer>
+        Projeto idealizado e criado por Dimi Endrix Martins Miranda, utilizando conceitos e conhecimentos adquiridos na Alura e na Cod3r. Projeto baseado em HTML, SASS e JavaScript, utilizando manipulação de DOM e uma pequena api de Suporte para dados estáveis. <strong>Projetos sem fins lucrativos!</strong>
+    </footer>
+</body>
+
+<!-- 
+
+    Organizar o código
+    Implementar o layout do cabecalho
+    Implementar melhor o visor de informações
+    Logica do filtro
+    colocar contorno no visor
+ -->
+
+</html>
