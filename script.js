@@ -1,20 +1,20 @@
+import { toggleBtnVerDetalhes } from "./script/btnVerDetalhes.js";
+import { criarBotao } from "./script/criarBotao.js";
 import { determinarCoresDosElementos } from "./script/determinarCoresBtns.js";
 import { validacaoFiltroCategoria } from "./script/filtro.js";
 import { formatarBotoes } from "./script/formatarBotoes.js"
+import { selecionarElemento } from "./script/selecionarElemento.js";
 import { tabelaPeriodica } from "./script/tabelaPeriodica.js";
-const divElementos = document.querySelector('.elementos')
 
-tabelaPeriodica.forEach(elemento => {
-    const button = document.createElement('button')
-    const numeroAtomico = document.createElement('span')
-    numeroAtomico.innerHTML = elemento.numeroAtomico
-    button.innerHTML = elemento.sigla
-    button.dataset.categoria = elemento.categoria
-    button.dataset.elemento = elemento.nome
-    button.appendChild(numeroAtomico)
-    divElementos.appendChild(button)
-})
-
+tabelaPeriodica.forEach(elemento => criarBotao(elemento))
 formatarBotoes()
 determinarCoresDosElementos()
 validacaoFiltroCategoria()
+toggleBtnVerDetalhes()
+
+const listaDeBotoes = document.querySelectorAll('.elementos button').forEach(btn => selecionarElemento(btn))
+
+/**
+ * FALTA COLOCAR OS OUTROS DADOS E REVER OS MESMOS POIS TEM ALGUMAS DIVERGENCIAS ENTRE ELES
+ * REVER O ESTILO DO CABEÇALHO
+ * */
