@@ -22,8 +22,9 @@ export const tabelaPeriodica = [
         }
     },
     {
-        sigla: "He",
         nome: 'Hélio',
+        categoria: "gas-nobre",
+        sigla: "He",
         numeroAtomico: 2,
         massaAtomica: 4.0026,
         configuracaoEletronica: "1s²",
@@ -41,11 +42,11 @@ export const tabelaPeriodica = [
             eletrons: 2,
             neutrons: 2 // Para o hélio, o número de nêutrons é geralmente igual ao número de prótons
         },
-        categoria: "gas-nobre"
     },
     {
-        sigla: "Li",
         nome: 'Lítio',
+        categoria: "metal-alcalino",
+        sigla: "Li",
         numeroAtomico: 3,
         massaAtomica: 6.94,
         configuracaoEletronica: "[He] 2s¹",
@@ -63,11 +64,11 @@ export const tabelaPeriodica = [
             eletrons: 3,
             neutrons: 4 // O número de nêutrons pode variar, mas geralmente é próximo ao número de prótons
         },
-        categoria: "metal-alcalino",
     },
     {
-        sigla: "Be",
         nome: "Berílio",
+        categoria: "metal-alcalino-terroso",
+        sigla: "Be",
         numeroAtomico: 4,
         massaAtomica: 9.0121831,
         configuracaoEletronica: "[He] 2s²",
@@ -85,11 +86,11 @@ export const tabelaPeriodica = [
             eletrons: 4,
             neutrons: 5 // O número de nêutrons pode variar, mas geralmente é próximo ao número de prótons
         },
-        categoria: "metal-alcalino-terroso"
     },
     {
-        sigla: "B",
         nome: "Boro",
+        categoria: "semimetal",
+        sigla: "B",
         numeroAtomico: 5,
         massaAtomica: 10.81,
         configuracaoEletronica: "[He] 2s² 2p¹",
@@ -107,11 +108,11 @@ export const tabelaPeriodica = [
             eletrons: 5,
             neutrons: 6 // O número de nêutrons pode variar, mas geralmente é próximo ao número de prótons
         },
-        categoria: "semimetal"
     },
     {
-        sigla: "C",
         nome: "Carbono",
+        categoria: "nao-metal",
+        sigla: "C",
         numeroAtomico: 6,
         massaAtomica: 12.011,
         configuracaoEletronica: "[He] 2s² 2p²",
@@ -129,11 +130,11 @@ export const tabelaPeriodica = [
             eletrons: 6,
             neutrons: 6 // O número de nêutrons pode variar, mas geralmente é próximo ao número de prótons
         },
-        categoria: "nao-metal"
     },
     {
-        sigla: "N",
         nome: 'Nitrogênio',
+        categoria: "nao-metal",
+        sigla: "N",
         numeroAtomico: 7,
         massaAtomica: 14.007,
         configuracaoEletronica: "[He] 2s² 2p³",
@@ -151,11 +152,11 @@ export const tabelaPeriodica = [
             eletrons: 7,
             neutrons: 7 // O número de nêutrons pode variar, mas geralmente é próximo ao número de prótons
         },
-        categoria: "nao-metal"
     },
     {
-        sigla: "O",
         nome: 'Oxigênio',
+        categoria: "nao-metal",
+        sigla: "O",
         numeroAtomico: 8,
         massaAtomica: 15.999,
         configuracaoEletronica: "[He] 2s² 2p⁴",
@@ -173,11 +174,11 @@ export const tabelaPeriodica = [
             eletrons: 8,
             neutrons: 8 // O número de nêutrons pode variar, mas geralmente é próximo ao número de prótons
         },
-        categoria: "nao-metal"
     },
     {
-        sigla: "F",
         nome: "Flúor",
+        categoria: "halogenios",
+        sigla: "F",
         numeroAtomico: 9,
         massaAtomica: 18.998403163,
         configuracaoEletronica: "[He] 2s² 2p⁵",
@@ -195,11 +196,11 @@ export const tabelaPeriodica = [
             eletrons: 9,
             neutrons: 10 // O número de nêutrons pode variar, mas geralmente é próximo ao número de prótons
         },
-        categoria: "halogenios"
     },
     {
-        sigla: "Ne",
         nome: "Neônio",
+        categoria: "gas-nobre",
+        sigla: "Ne",
         numeroAtomico: 10,
         massaAtomica: 20.1797,
         configuracaoEletronica: "[He] 2s² 2p⁶",
@@ -217,7 +218,6 @@ export const tabelaPeriodica = [
             eletrons: 10,
             neutrons: 10 // Para os gases nobres, o número de nêutrons é geralmente igual ao número de prótons
         },
-        categoria: "gas-nobre"
     },
     {
         sigla: "Na",
@@ -1173,7 +1173,10 @@ export const tabelaPeriodica = [
         configuracaoEletronica: "[Kr] 4d¹⁰ 5s² 5p⁶",
         grupo: 18,
         periodo: 5,
+        raioAtomico: 108,
         estadoNatural: "Gás",
+        pontoDeFusao: -111.74,
+        pontoDeEbulicao: -108.09,
         densidade: 0.005887, // Em g/cm³ (a 0 °C, 1 atm)
         eletronegatividade: null, // O xenônio é um gás nobre e tem uma eletronegatividade muito baixa
         aplicacoesComuns: ["Iluminação", "Imagem médica", "Propulsão de satélites"],
@@ -1324,7 +1327,10 @@ export const tabelaPeriodica = [
         configuracaoEletronica: "[Xe] 4f^5 6s^2",
         grupo: 3,
         periodo: 6,
+        raioAtomico: 185,
         estadoNatural: "Sintético",
+        pontoDeFusao: 1042,
+        pontoDeEbulicao: 3000,
         densidade: null, // Não aplicável para o promécio sintético
         eletronegatividade: null, // Não aplicável para o promécio sintético
         aplicacoesComuns: ["Usado como fonte de radiação em marcadores de raios-X industriais", "Pesquisas científicas"],
@@ -1365,7 +1371,10 @@ export const tabelaPeriodica = [
         configuracaoEletronica: "[Xe] 4f^7 6s^2",
         grupo: 3,
         periodo: 6,
+        raioAtomico: 112,
         estadoNatural: "Sólido",
+        pontoDeFusao: 822,
+        pontoDeEbulicao: 1597,
         densidade: 5.243, // Em g/cm³ (aproximado)
         eletronegatividade: 1.2, // Valor aproximado
         aplicacoesComuns: ["Fósforos em tubo de TV", "Materiais luminescentes", "Reatores nucleares"],
@@ -1384,7 +1393,10 @@ export const tabelaPeriodica = [
         configuracaoEletronica: "[Xe] 4f^7 5d^1 6s^2",
         grupo: 3,
         periodo: 6,
+        raioAtomico: 180,
         estadoNatural: "Sólido",
+        pontoDeFusao: 1312,
+        pontoDeEbulicao: 3250,
         densidade: 7.9, // Em g/cm³ (aproximado)
         eletronegatividade: 1.2, // Valor aproximado
         aplicacoesComuns: ["Materiais para reatores nucleares", "Agentes de contraste em ressonância magnética", "Filmes de fósforo"],
@@ -1403,7 +1415,10 @@ export const tabelaPeriodica = [
         configuracaoEletronica: "[Xe] 4f^9 6s^2",
         grupo: 3,
         periodo: 6,
+        raioAtomico: 175,
         estadoNatural: "Sólido",
+        pontoDeFusao: 1356,
+        pontoDeEbulicao: 3230,
         densidade: 8.23, // Em g/cm³ (aproximado)
         eletronegatividade: 1.2, // Valor aproximado
         aplicacoesComuns: ["Fósforos em tubos de TV", "Filmes magneto-ópticos", "Materiais luminescentes"],
@@ -1422,7 +1437,10 @@ export const tabelaPeriodica = [
         configuracaoEletronica: "[Xe] 4f^10 6s^2",
         grupo: 3,
         periodo: 6,
+        raioAtomico: 178,
         estadoNatural: "Sólido",
+        pontoDeFusao: 1412,
+        pontoDeEbulicao: 2562,
         densidade: 8.56, // Em g/cm³ (aproximado)
         eletronegatividade: 1.22, // Valor aproximado
         aplicacoesComuns: ["Materiais para reatores nucleares", "Ímãs de alta resistência", "Lasers"],
@@ -1441,7 +1459,10 @@ export const tabelaPeriodica = [
         configuracaoEletronica: "[Xe] 4f^11 6s^2",
         grupo: 3,
         periodo: 6,
+        raioAtomico: 175,
         estadoNatural: "Sólido",
+        pontoDeFusao: 1461,
+        pontoDeEbulicao: 2720,
         densidade: 8.80, // Em g/cm³ (aproximado)
         eletronegatividade: 1.23, // Valor aproximado
         aplicacoesComuns: ["Lasers", "Materiais para reatores nucleares", "Dopagem em dispositivos magneto-ópticos"],
@@ -1460,7 +1481,10 @@ export const tabelaPeriodica = [
         configuracaoEletronica: "[Xe] 4f^12 6s^2",
         grupo: 3,
         periodo: 6,
+        raioAtomico: 175,
         estadoNatural: "Sólido",
+        pontoDeFusao: 1529,
+        pontoDeEbulicao: 2868,
         densidade: 9.07, // Em g/cm³ (aproximado)
         eletronegatividade: 1.24, // Valor aproximado
         aplicacoesComuns: ["Lasers", "Materiais para reatores nucleares", "Dopagem em dispositivos magneto-ópticos"],
@@ -1479,7 +1503,10 @@ export const tabelaPeriodica = [
         configuracaoEletronica: "[Xe] 4f^13 6s^2",
         grupo: 3,
         periodo: 6,
+        raioAtomico: 'Desconhecido',
         estadoNatural: "Sólido",
+        pontoDeFusao: 1545,
+        pontoDeEbulicao: 1950,
         densidade: 9.32, // Em g/cm³ (aproximado)
         eletronegatividade: 1.25, // Valor aproximado
         aplicacoesComuns: ["Lasers de estado sólido", "Dispositivos optoeletrônicos", "Pesquisas científicas"],
@@ -1498,7 +1525,10 @@ export const tabelaPeriodica = [
         configuracaoEletronica: "[Xe] 4f^14 6s^2",
         grupo: 3,
         periodo: 6,
+        raioAtomico: 176,
         estadoNatural: "Sólido",
+        pontoDeFusao: 1530,
+        pontoDeEbulicao: 3264,
         densidade: 6.90, // Em g/cm³ (aproximado)
         eletronegatividade: 1.1, // Valor aproximado
         aplicacoesComuns: ["Lasers", "Relógios atômicos", "Estudos sobre cristalografia"],
@@ -1517,7 +1547,10 @@ export const tabelaPeriodica = [
         configuracaoEletronica: "[Xe] 4f^14 5d^1 6s^2",
         grupo: 3,
         periodo: 6,
+        raioAtomico: 174,
         estadoNatural: "Sólido",
+        pontoDeFusao: 1663,
+        pontoDeEbulicao: 3395,
         densidade: 9.84, // Em g/cm³ (aproximado)
         eletronegatividade: 1.27, // Valor aproximado
         aplicacoesComuns: ["Catalisadores", "Propulsores em aviões", "Materiais para dispositivos eletrônicos"],
@@ -1536,7 +1569,10 @@ export const tabelaPeriodica = [
         configuracaoEletronica: "[Xe] 4f^14 5d^2 6s^2",
         grupo: 4,
         periodo: 6,
+        raioAtomico: 159,
         estadoNatural: "Sólido",
+        pontoDeFusao: 2233,
+        pontoDeEbulicao: 4602,
         densidade: 13.31, // Em g/cm³ (aproximado)
         eletronegatividade: 1.3, // Valor aproximado
         aplicacoesComuns: ["Fabricação de barras de controle nuclear", "Revestimentos resistentes à corrosão", "Componentes de reatores nucleares"],
@@ -1555,7 +1591,10 @@ export const tabelaPeriodica = [
         configuracaoEletronica: "[Xe] 4f^14 5d^3 6s^2",
         grupo: 5,
         periodo: 6,
+        raioAtomico: 200,
         estadoNatural: "Sólido",
+        pontoDeFusao: 2980,
+        pontoDeEbulicao: 2980,
         densidade: 16.69, // Em g/cm³ (aproximado)
         eletronegatividade: 1.5, // Valor aproximado
         aplicacoesComuns: ["Capacitores eletrolíticos", "Componentes de equipamentos médicos", "Revestimentos de metais preciosos"],
@@ -1574,7 +1613,10 @@ export const tabelaPeriodica = [
         configuracaoEletronica: "[Xe] 4f^14 5d^4 6s^2",
         grupo: 6,
         periodo: 6,
+        raioAtomico: 193,
         estadoNatural: "Sólido",
+        pontoDeFusao: 3550,
+        pontoDeEbulicao: 4287,
         densidade: 19.25, // Em g/cm³ (aproximado)
         eletronegatividade: 2.36, // Valor aproximado
         aplicacoesComuns: ["Filamentos de lâmpadas incandescentes", "Elétrodos de soldagem", "Componentes de equipamentos de raio-X"],
@@ -1593,7 +1635,10 @@ export const tabelaPeriodica = [
         configuracaoEletronica: "[Xe] 4f^14 5d^5 6s^2",
         grupo: 7,
         periodo: 6,
+        raioAtomico: 137,
         estadoNatural: "Sólido",
+        pontoDeFusao: 3185,
+        pontoDeEbulicao: 5596,
         densidade: 21.02, // Em g/cm³ (aproximado)
         eletronegatividade: 1.9, // Valor aproximado
         aplicacoesComuns: ["Filamentos em lâmpadas de flash", "Catalisador em refinarias de petróleo", "Componente em superligas para turbinas de avião"],
@@ -1612,7 +1657,10 @@ export const tabelaPeriodica = [
         configuracaoEletronica: "[Xe] 4f^14 5d^6 6s^2",
         grupo: 8,
         periodo: 6,
+        raioAtomico: 185,
         estadoNatural: "Sólido",
+        pontoDeFusao: 3033,
+        pontoDeEbulicao: 5012,
         densidade: 22.59, // Em g/cm³ (aproximado)
         eletronegatividade: 2.2, // Valor aproximado
         aplicacoesComuns: ["Agulhas em microscópios eletrônicos", "Catalisador em processos químicos", "Componente em ligas de platina-osmio"],
@@ -1631,7 +1679,10 @@ export const tabelaPeriodica = [
         configuracaoEletronica: "[Xe] 4f^14 5d^7 6s^2",
         grupo: 9,
         periodo: 6,
+        raioAtomico: 135,
         estadoNatural: "Sólido",
+        pontoDeFusao: 2446,
+        pontoDeEbulicao: 4428,
         densidade: 22.56, // Em g/cm³ (aproximado)
         eletronegatividade: 2.2, // Valor aproximado
         aplicacoesComuns: ["Eletrodos em velas de ignição", "Fabricação de utensílios de laboratório", "Componente em ligas de platina-irídio"],
@@ -1643,14 +1694,17 @@ export const tabelaPeriodica = [
         categoria: "metal-de-transicao"
     },
     {
+        nome: "Platina",
         numeroAtomico: 78,
         sigla: "Pt",
-        nome: "Platina",
         massaAtomica: 195.084,
         configuracaoEletronica: "[Xe] 4f^14 5d^9 6s^1",
         grupo: 10,
         periodo: 6,
+        raioAtomico: 139,
         estadoNatural: "Sólido",
+        pontoDeFusao: 1768.2,
+        pontoDeEbulicao: 3825,
         densidade: 21.45, // Em g/cm³ (aproximado)
         eletronegatividade: 2.28, // Valor aproximado
         aplicacoesComuns: ["Joalheria", "Catalisadores em reações químicas", "Eletrodos em dispositivos médicos"],
@@ -1669,7 +1723,10 @@ export const tabelaPeriodica = [
         configuracaoEletronica: "[Xe] 4f^14 5d^10 6s^1",
         grupo: 11,
         periodo: 6,
+        raioAtomico: 174,
         estadoNatural: "Sólido",
+        pontoDeFusao: 1064,
+        pontoDeEbulicao: 2856,
         densidade: 19.32, // Em g/cm³ (aproximado)
         eletronegatividade: 2.54, // Valor aproximado
         aplicacoesComuns: ["Joalheria", "Eletrônicos", "Componentes em dispositivos médicos"],
@@ -1688,7 +1745,10 @@ export const tabelaPeriodica = [
         configuracaoEletronica: "[Xe] 4f^14 5d^10 6s^2",
         grupo: 12,
         periodo: 6,
+        raioAtomico: 150,
         estadoNatural: "Líquido",
+        pontoDeFusao: -38.8,
+        pontoDeEbulicao: 356.7,
         densidade: 13.5336, // Em g/cm³ (aproximado)
         eletronegatividade: 2.00, // Valor aproximado
         aplicacoesComuns: ["Instrumentos de medição", "Lâmpadas fluorescentes", "Processos industriais"],
@@ -1707,7 +1767,10 @@ export const tabelaPeriodica = [
         configuracaoEletronica: "[Xe] 4f^14 5d^10 6s^2 6p^1",
         grupo: 13,
         periodo: 6,
+        raioAtomico: 156,
         estadoNatural: "Sólido",
+        pontoDeFusao: 303.5,
+        pontoDeEbulicao: 174,
         densidade: 11.85, // Em g/cm³ (aproximado)
         eletronegatividade: 1.62, // Valor aproximado
         aplicacoesComuns: ["Dopante em semicondutores", "Produção de vidros especiais", "Em medicina nuclear"],
@@ -1726,7 +1789,10 @@ export const tabelaPeriodica = [
         configuracaoEletronica: "[Xe] 4f^14 5d^10 6s^2 6p^2",
         grupo: 14,
         periodo: 6,
+        raioAtomico: 180,
         estadoNatural: "Sólido",
+        pontoDeFusao: 327,
+        pontoDeEbulicao: 1740,
         densidade: 11.34, // Em g/cm³ (aproximado)
         eletronegatividade: 2.33, // Valor aproximado
         aplicacoesComuns: ["Baterias de chumbo-ácido", "Proteção contra radiação", "Munição e projéteis"],
@@ -1745,7 +1811,10 @@ export const tabelaPeriodica = [
         configuracaoEletronica: "[Xe] 4f^14 5d^10 6s^2 6p^3",
         grupo: 15,
         periodo: 6,
+        raioAtomico: 148,
         estadoNatural: "Sólido",
+        pontoDeFusao: 271,
+        pontoDeEbulicao: 1564,
         densidade: 9.78, // Em g/cm³ (aproximado)
         eletronegatividade: 2.02, // Valor aproximado
         aplicacoesComuns: ["Ligas metálicas", "Pigmentos em cosméticos", "Medicina nuclear"],
@@ -1764,7 +1833,10 @@ export const tabelaPeriodica = [
         configuracaoEletronica: "[Xe] 4f^14 5d^10 6s^2 6p^4",
         grupo: 16,
         periodo: 6,
+        raioAtomico: 190,
         estadoNatural: "Sólido",
+        pontoDeFusao: 254,
+        pontoDeEbulicao: 962,
         densidade: 9.20, // Em g/cm³ (aproximado)
         eletronegatividade: 2.0, // Valor aproximado
         aplicacoesComuns: ["Fonte de calor em dispositivos termoelétricos", "Pesquisas em física nuclear", "Como fonte de radiação alfa"],
@@ -1783,7 +1855,10 @@ export const tabelaPeriodica = [
         configuracaoEletronica: "[Xe] 4f^14 5d^10 6s^2 6p^5",
         grupo: 17,
         periodo: 6,
+        raioAtomico: 200,
         estadoNatural: "Sólido",
+        pontoDeFusao: 300,
+        pontoDeEbulicao: 340,
         densidade: "Desconhecida", // A densidade do astato não é bem estabelecida
         eletronegatividade: 2.2, // Valor aproximado
         aplicacoesComuns: ["Pesquisas científicas", "Fonte de partículas alfa em experimentos nucleares", "Como traçador radioativo"],
@@ -1802,7 +1877,10 @@ export const tabelaPeriodica = [
         configuracaoEletronica: "[Xe] 4f^14 5d^10 6s^2 6p^6",
         grupo: 18,
         periodo: 6,
+        raioAtomico: 134,
         estadoNatural: "Gasoso",
+        pontoDeFusao: -71,
+        pontoDeEbulicao: -61.7,
         densidade: "Desconhecida", // A densidade do radônio varia de acordo com a temperatura e pressão
         eletronegatividade: "Desconhecida", // Não tem uma eletronegatividade bem definida
         aplicacoesComuns: ["Usado em terapias contra o câncer", "Como traçador em estudos de vazamento de gás", "Em técnicas de radiografia industrial"],
@@ -1821,7 +1899,10 @@ export const tabelaPeriodica = [
         configuracaoEletronica: "[Rn] 7s^1",
         grupo: 1,
         periodo: 7,
+        raioAtomico: 260,
         estadoNatural: "Sólido", // Aparência metálica brilhante (predito)
+        pontoDeFusao: 22,
+        pontoDeEbulicao: 665,
         densidade: "Desconhecida", // A densidade do frâncio não é bem estabelecida
         eletronegatividade: 0.7, // Valor aproximado
         aplicacoesComuns: ["Não possui aplicações comerciais devido à sua raridade e radioatividade"],
@@ -1840,7 +1921,10 @@ export const tabelaPeriodica = [
         configuracaoEletronica: "[Rn] 7s^2",
         grupo: 2,
         periodo: 7,
+        raioAtomico: 215,
         estadoNatural: "Sólido",
+        pontoDeFusao: 700,
+        pontoDeEbulicao: 1140,
         densidade: 5,
         eletronegatividade: 0.9,
         aplicacoesComuns: ["Utilizado em radioterapia para tratamento de câncer", "Em dispositivos de detecção de radiação", "Produção de relógios e instrumentos de medição de precisão"],
@@ -1859,7 +1943,10 @@ export const tabelaPeriodica = [
         configuracaoEletronica: "[Rn] 6d^1 7s^2",
         grupo: 3,
         periodo: 7,
+        raioAtomico: 195,
         estadoNatural: "Sólido",
+        pontoDeFusao: 1050,
+        pontoDeEbulicao: 3200,
         densidade: 10.07, // Em g/cm³ (aproximado)
         eletronegatividade: 1.1, // Valor aproximado
         aplicacoesComuns: ["Utilizado em terapia de radioterapia", "Em fontes de nêutrons para pesquisas nucleares", "Na produção de isótopos radioativos para pesquisa científica"],
@@ -1878,7 +1965,10 @@ export const tabelaPeriodica = [
         configuracaoEletronica: "[Rn] 6d^2 7s^2",
         grupo: 4,
         periodo: 7,
+        raioAtomico: 206,
         estadoNatural: "Sólido",
+        pontoDeFusao: 1750,
+        pontoDeEbulicao: 4788,
         densidade: 11.72, // Em g/cm³ (aproximado)
         eletronegatividade: 1.3, // Valor aproximado
         aplicacoesComuns: ["Utilizado em reatores nucleares como combustível", "Na produção de lentes ópticas de alta qualidade", "Em ligas metálicas devido à sua resistência à corrosão"],
@@ -1897,7 +1987,10 @@ export const tabelaPeriodica = [
         configuracaoEletronica: "[Rn] 5f^2 6d^1 7s^2",
         grupo: 3,
         periodo: 7,
+        raioAtomico: 163,
         estadoNatural: "Sólido",
+        pontoDeFusao: 1572,
+        pontoDeEbulicao: 4000,
         densidade: 15.37, // Em g/cm³ (aproximado)
         eletronegatividade: 1.5, // Valor aproximado
         aplicacoesComuns: ["Utilizado em reatores nucleares como combustível e em bombas de nêutrons", "Na datação de rochas e minerais por técnicas radiométricas", "Em pesquisa científica para produção de isótopos radioativos"],
@@ -1916,7 +2009,10 @@ export const tabelaPeriodica = [
         configuracaoEletronica: "[Rn] 5f^3 6d^1 7s^2",
         grupo: 3,
         periodo: 7,
+        raioAtomico: 175,
         estadoNatural: "Sólido",
+        pontoDeFusao: 1135,
+        pontoDeEbulicao: 1135,
         densidade: 19.05, // Em g/cm³ (aproximado)
         eletronegatividade: 1.38, // Valor aproximado
         aplicacoesComuns: ["Utilizado em reatores nucleares para produção de energia elétrica", "Na fabricação de armas nucleares", "Em dispositivos de medição de idade como datação por urânio"],
@@ -1935,7 +2031,10 @@ export const tabelaPeriodica = [
         configuracaoEletronica: "[Rn] 5f^4 6d^1 7s^2",
         grupo: 3,
         periodo: 7,
+        raioAtomico: 155,
         estadoNatural: "Sólido",
+        pontoDeFusao: 644,
+        pontoDeEbulicao: 3902,
         densidade: "Desconhecida", // A densidade do netúnio não é bem estabelecida
         eletronegatividade: 1.36, // Valor aproximado
         aplicacoesComuns: ["Utilizado em pesquisas nucleares e na produção de isótopos radioativos", "Em fontes de nêutrons para pesquisa científica", "Na fabricação de armas nucleares"],
@@ -1954,7 +2053,10 @@ export const tabelaPeriodica = [
         configuracaoEletronica: "[Rn] 5f^6 7s^2",
         grupo: 3,
         periodo: 7,
+        raioAtomico: 175,
         estadoNatural: "Sólido",
+        pontoDeFusao: 640,
+        pontoDeEbulicao: 3228,
         densidade: 19.86, // Em g/cm³ (aproximado)
         eletronegatividade: 1.28, // Valor aproximado
         aplicacoesComuns: ["Utilizado em reatores nucleares para produção de energia", "Na fabricação de armas nucleares", "Em dispositivos de marcação e alimentação de fontes de energia"],
@@ -1973,7 +2075,10 @@ export const tabelaPeriodica = [
         configuracaoEletronica: "[Rn] 5f^7 7s^2",
         grupo: 3,
         periodo: 7,
+        raioAtomico: 173,
         estadoNatural: "Sólido",
+        pontoDeFusao: 1176,
+        pontoDeEbulicao: 2011,
         densidade: 13.67, // Em g/cm³ (aproximado)
         eletronegatividade: 1.3, // Valor aproximado
         aplicacoesComuns: ["Utilizado em dispositivos de detecção de fumaça em detectores de incêndio", "Em fontes de nêutrons para pesquisa e em terapia de radioterapia", "Na fabricação de dispositivos médicos para tratamento de câncer"],
@@ -1992,7 +2097,10 @@ export const tabelaPeriodica = [
         configuracaoEletronica: "[Rn] 5f^7 6d^1 7s^2",
         grupo: 3,
         periodo: 7,
+        raioAtomico: 174,
         estadoNatural: "Sólido",
+        pontoDeFusao: 1345,
+        pontoDeEbulicao: 1345,
         densidade: 13.51, // Em g/cm³ (aproximado)
         eletronegatividade: 1.3, // Valor aproximado
         aplicacoesComuns: ["Utilizado em fontes de energia para dispositivos espaciais e pacemakers", "Em detectores de umidade e sensores de temperatura", "Na produção de isótopos radioativos para pesquisa científica"],
@@ -2011,7 +2119,10 @@ export const tabelaPeriodica = [
         configuracaoEletronica: "[Rn] 5f^9 7s^2",
         grupo: 3,
         periodo: 7,
+        raioAtomico: 170,
         estadoNatural: "Sólido",
+        pontoDeFusao: 986,
+        pontoDeEbulicao: null,
         densidade: "Desconhecida", // A densidade do berquélio não é bem estabelecida
         eletronegatividade: "Desconhecida", // Não há dados confiáveis sobre a eletronegatividade do berquélio
         aplicacoesComuns: ["Utilizado em pesquisas nucleares e em experimentos científicos", "Na produção de isótopos radioativos para estudos biológicos e químicos", "Em sistemas de detecção de radiação"],
@@ -2030,7 +2141,10 @@ export const tabelaPeriodica = [
         configuracaoEletronica: "[Rn] 5f^10 7s^2",
         grupo: 3,
         periodo: 7,
+        raioAtomico: null,
         estadoNatural: "Sólido",
+        pontoDeFusao: 900,
+        pontoDeEbulicao: 1470,
         densidade: "Desconhecida", // A densidade do califórnio não é bem estabelecida
         eletronegatividade: "Desconhecida", // Não há dados confiáveis sobre a eletronegatividade do califórnio
         aplicacoesComuns: ["Utilizado em pesquisas nucleares e experimentos científicos avançados", "Na produção de isótopos radioativos para estudos médicos e industriais", "Em sistemas de detecção de partículas nucleares"],
@@ -2049,7 +2163,10 @@ export const tabelaPeriodica = [
         configuracaoEletronica: "[Rn] 5f^11 7s^2",
         grupo: 3,
         periodo: 7,
+        raioAtomico: null,
         estadoNatural: "Sólido",
+        pontoDeFusao: 860,
+        pontoDeEbulicao: null,
         densidade: "Desconhecida", // A densidade do einstênio não é bem estabelecida
         eletronegatividade: "Desconhecida", // Não há dados confiáveis sobre a eletronegatividade do einstênio
         aplicacoesComuns: ["Utilizado em pesquisas nucleares e experimentos científicos avançados", "Na produção de isótopos radioativos para estudos médicos e industriais", "Em pesquisas sobre a estrutura do núcleo atômico"],
@@ -2068,7 +2185,10 @@ export const tabelaPeriodica = [
         configuracaoEletronica: "[Rn] 5f^12 7s^2",
         grupo: "Grupo 3",
         periodo: 7,
+        raioAtomico: null,
         estadoNatural: "Sólido",
+        pontoDeFusao: 1527,
+        pontoDeEbulicao: null,
         densidade: "Desconhecida", // A densidade do férmio não é bem estabelecida
         eletronegatividade: "Desconhecida", // Não há dados confiáveis sobre a eletronegatividade do férmio
         aplicacoesComuns: ["Utilizado em pesquisas nucleares e experimentos científicos avançados", "Na produção de isótopos radioativos para estudos médicos e industriais", "Em estudos sobre a estrutura do núcleo atômico"],

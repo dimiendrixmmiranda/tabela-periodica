@@ -33,21 +33,6 @@ export function validacaoFiltroCategoria() {
             }
         })
     })
-
-    // listaCheckboxFiltro.forEach(elemento => {
-    //     elemento.addEventListener('click', () => {
-    //         const categoria = elemento.parentElement.dataset.categoria
-    //         const listaDeElementos = document.querySelectorAll('.elementos button')
-    //         const listaElementosDaCategoria = document.querySelectorAll(`.elementos [data-categoria="${categoria}"]`)
-
-    //         if (elemento.checked) {
-    //             listaDeElementos.forEach(elemento => elemento.style.opacity = '.6')
-    //             listaElementosDaCategoria.forEach(elemento => elemento.style.opacity = '1')
-    //         } else {
-    //             listaDeElementos.forEach(elemento => elemento.style.opacity = '1')
-    //         }
-    //     })
-    // })
 }
 
 function verificarCheckboxChecado() {

@@ -15,6 +15,7 @@ toggleBtnVerDetalhes()
 const listaDeBotoes = document.querySelectorAll('.elementos button').forEach(btn => selecionarElemento(btn))
 
 /**
- * FALTA COLOCAR OS OUTROS DADOS E REVER OS MESMOS POIS TEM ALGUMAS DIVERGENCIAS ENTRE ELES
- * REVER O ESTILO DO CABEÇALHO
+ * Falta implementar os ultimos 18 elementos (ponto de fusão, ebulição e raio atomico)
+ * Fazer a lógica de selecionar o primeiro elemento
+ * Elaborar uma especie de introdução ao site, como no pomodoro ou no buywise
  * */
