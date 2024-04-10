@@ -13,94 +13,108 @@
 </head>
 
 <body>
-    <header>
+    <header class="cabecalho">
         <a href="#">
             <img src="./assets/imgs/tabela-periodica.png" alt="">
             <h1>Tabela Periódica</h1>
         </a>
-        <button><i class="fa-solid fa-bars"></i></button>
+        <button>
+            <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <ul>
+            <li><a href="#">História</a></li>
+            <li><a href="#">Exercicios</a></li>
+            <li><a href="#">Informações</a></li>
+        </ul>
     </header>
+    <div class="banner">
+        <h2>Navegue pelo Reino dos Elementos! <strong>Uma Tabela Periódica Digital Inovadora!</strong></h2>
+        <img src="./assets/imgs/post.svg" alt="">
+        <p>Utilize nossa Tabela Periódica para obter informações como densidade, eletronegatividade, configuração eletrônica entre muitos outros dados dos elementos</p>
+        <a href="#visor"><img src="./assets/imgs/seta-para-baixo.png" alt=""></a>
+    </div>
 
     <div class="conteudo">
-        <div class="visor">
+        <div class="visor" id="visor">
             <h2 id="nomeElemento">Hidrogênio</h2>
             <div class="visor-simbolo-elemento cor">
                 <h3 class="simboloElemento">H</h3>
                 <p class="massaAtomicaElemento">1008</p>
             </div>
             <ul class="visor-informacoes-elemento">
-                <li class="cor">
-                    <h4>Símbolo</h4>
+                <li class="cor visor-informacoes-elemento-item">
+                    <h4>Símbolo:</h4>
                     <span></span>
                     <p class="simboloElemento">H</p>
                 </li>
-                <li class="cor">
-                    <h4>Número Atômico</h4>
+                <li class="cor visor-informacoes-elemento-item">
+                    <h4>Número Atômico:</h4>
                     <span></span>
                     <p class="numeroAtomico">1</p>
                 </li>
-                <li class="cor">
-                    <h4>Massa Atômica</h4>
+                <li class="cor visor-informacoes-elemento-item">
+                    <h4>Massa Atômica:</h4>
                     <span></span>
                     <p class="massaAtomicaElemento">1008</p>
                 </li>
-                <li class="cor">
-                    <h4>Configuração Eletrônica</h4>
+                <li class="cor visor-informacoes-elemento-item">
+                    <h4>Configuração Eletrônica:</h4>
                     <span></span>
                     <p class="configuracaoEletronica">1s²</p>
                 </li>
-                <li class="cor">
-                    <h4>Estado Natural</h4>
+                <li class="cor visor-informacoes-elemento-item">
+                    <h4>Estado Natural:</h4>
                     <span></span>
                     <p class="estadoNatural">Gasoso</p>
                 </li>
-                <li class="cor">
-                    <h4>Ponto de fusão</h4>
+                <li class="cor visor-informacoes-elemento-item">
+                    <h4>Ponto de fusão:</h4>
                     <span></span>
                     <p class="pontoDeFusao">14.01 K (-259.14°C, -434.45°F)</p>
                 </li>
-                <li class="cor">
-                    <h4>Ponto de Ebulição</h4>
+                <li class="cor visor-informacoes-elemento-item">
+                    <h4>Ponto de Ebulição:</h4>
                     <span></span>
                     <p class="pontoDeEbulicao">14.01 K (-259.14°C, -434.45°F)</p>
                 </li>
-                <li class="cor">
-                    <h4>Densidade</h4>
+                <li class="cor visor-informacoes-elemento-item">
+                    <h4>Densidade:</h4>
                     <span></span>
                     <p class="densidade">0.08988 g/L</p>
                 </li>
             </ul>
             <button class="cor" id="btnVerDetalhes">Ver mais detalhes <i class="fa-solid fa-turn-down"></i></button>
             <ul class="visor-mais-informacoes">
-                <li class="cor">
+                <li class="cor visor-mais-informacoes">
                     <h4>Estado Natural</h4>
                     <p class="estadoNatural">Gasoso</p>
                 </li>
-                <li class="cor">
+                <li class="cor visor-mais-informacoes">
                     <h4>Ponto de fusão</h4>
                     <p class="pontoDeFusao">14.01 K (-259.14°C, -434.45°F)</p>
                 </li>
-                <li class="cor">
+                <li class="cor visor-mais-informacoes">
                     <h4>Ponto de Ebulição</h4>
                     <p class="pontoDeEbulicao">14.01 K (-259.14°C, -434.45°F)</p>
                 </li>
-                <li class="cor">
+                <li class="cor visor-mais-informacoes">
                     <h4>Densidade</h4>
                     <p class="densidade">0.08988 g/L</p>
                 </li>
-                <li class="cor">
+                <li class="cor visor-mais-informacoes">
                     <h4>Grupo e Período:</h4>
                     <p class="grupoPeriodo">Grupo 1, Período 1</p>
                 </li>
-                <li class="cor">
+                <li class="cor visor-mais-informacoes">
                     <h4>Raio Atômico</h4>
                     <p class="raioAtomico">25 pm (covalente), 120 pm (Van der Waals)</p>
                 </li>
-                <li class="cor">
+                <li class="cor visor-mais-informacoes">
                     <h4>Eletronegatividade</h4>
                     <p class="eletronegatividade">2.20 (escala de Pauling)</p>
                 </li>
-                <li class="cor">
+                <li class="cor visor-mais-informacoes">
                     <h4>Aplicações Comuns</h4>
                     <p class="aplicacoesComuns">Produção de Amônia, refino de petróleo, armazenamento de energia, propulsão de foguete</p>
                 </li>

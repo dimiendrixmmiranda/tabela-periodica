@@ -2207,7 +2207,10 @@ export const tabelaPeriodica = [
         configuracaoEletronica: "[Rn] 5f^13 7s^2",
         grupo: "Grupo 3",
         periodo: 7,
+        raioAtomico: null,
         estadoNatural: "Sólido",
+        pontoDeFusao: 827,
+        pontoDeEbulicao: null,
         densidade: "Desconhecida", // A densidade do mendelévio não é bem estabelecida
         eletronegatividade: "Desconhecida", // Não há dados confiáveis sobre a eletronegatividade do mendelévio
         aplicacoesComuns: ["Utilizado em pesquisas nucleares e experimentos científicos avançados", "Na produção de isótopos radioativos para estudos médicos e industriais", "Em estudos sobre a estrutura do núcleo atômico"],
@@ -2226,7 +2229,10 @@ export const tabelaPeriodica = [
         configuracaoEletronica: "[Rn] 5f^14 7s^2",
         grupo: "Grupo 3",
         periodo: 7,
+        raioAtomico: null,
         estadoNatural: "Sólido",
+        pontoDeFusao: 644,
+        pontoDeEbulicao: 3902,
         densidade: "Desconhecida", // A densidade do nóbelio não é bem estabelecida
         eletronegatividade: "Desconhecida", // Não há dados confiáveis sobre a eletronegatividade do nóbelio
         aplicacoesComuns: ["Utilizado em pesquisas nucleares e experimentos científicos avançados", "Na produção de isótopos radioativos para estudos médicos e industriais", "Em estudos sobre a estrutura do núcleo atômico"],
@@ -2245,7 +2251,10 @@ export const tabelaPeriodica = [
         configuracaoEletronica: "[Rn] 5f^14 6d^1 7s^2",
         grupo: "Grupo 3",
         periodo: 7,
+        raioAtomico: null,
         estadoNatural: "Sólido",
+        pontoDeFusao: 1626.85,
+        pontoDeEbulicao: null,
         densidade: "Desconhecida", // A densidade do laurêncio não é bem estabelecida
         eletronegatividade: "Desconhecida", // Não há dados confiáveis sobre a eletronegatividade do laurêncio
         aplicacoesComuns: ["Utilizado em pesquisas nucleares e experimentos científicos avançados", "Na produção de isótopos radioativos para estudos médicos e industriais", "Em estudos sobre a estrutura do núcleo atômico"],
@@ -2264,7 +2273,10 @@ export const tabelaPeriodica = [
         configuracaoEletronica: "[Rn] 5f^14 6d^2 7s^2",
         grupo: "Grupo 4",
         periodo: 7,
+        raioAtomico: null,
         estadoNatural: "Sintético",
+        pontoDeFusao: 2100,
+        pontoDeEbulicao: 5500,
         densidade: "Desconhecida", // A densidade do rutherfórdio não é bem estabelecida
         eletronegatividade: "Desconhecida", // Não há dados confiáveis sobre a eletronegatividade do rutherfórdio
         aplicacoesComuns: ["Utilizado em pesquisas nucleares e experimentos científicos avançados", "Em estudos sobre a estrutura do núcleo atômico"],
@@ -2283,7 +2295,10 @@ export const tabelaPeriodica = [
         configuracaoEletronica: "[Rn] 5f^14 6d^3 7s^2",
         grupo: "Grupo 5",
         periodo: 7,
+        raioAtomico: null,
         estadoNatural: "Sintético",
+        pontoDeFusao: null,
+        pontoDeEbulicao: null,
         densidade: "Desconhecida", // A densidade do dúbnio não é bem estabelecida
         eletronegatividade: "Desconhecida", // Não há dados confiáveis sobre a eletronegatividade do dúbnio
         aplicacoesComuns: ["Utilizado em pesquisas nucleares e experimentos científicos avançados", "Em estudos sobre a estrutura do núcleo atômico"],
@@ -2302,7 +2317,10 @@ export const tabelaPeriodica = [
         configuracaoEletronica: "[Rn] 5f^14 6d^4 7s^2",
         grupo: "Grupo 6",
         periodo: 7,
+        raioAtomico: null,
         estadoNatural: "Sintético",
+        pontoDeFusao: null,
+        pontoDeEbulicao: null,
         densidade: "Desconhecida", // A densidade do seabórgio não é bem estabelecida
         eletronegatividade: "Desconhecida", // Não há dados confiáveis sobre a eletronegatividade do seabórgio
         aplicacoesComuns: ["Utilizado em pesquisas nucleares e experimentos científicos avançados", "Em estudos sobre a estrutura do núcleo atômico"],
@@ -2321,7 +2339,10 @@ export const tabelaPeriodica = [
         configuracaoEletronica: "[Rn] 5f^14 6d^5 7s^2",
         grupo: "Grupo 7",
         periodo: 7,
+        raioAtomico: null,
         estadoNatural: "Sintético",
+        pontoDeFusao: null,
+        pontoDeEbulicao: null,
         densidade: "Desconhecida", // A densidade do bóhrio não é bem estabelecida
         eletronegatividade: "Desconhecida", // Não há dados confiáveis sobre a eletronegatividade do bóhrio
         aplicacoesComuns: ["Utilizado em pesquisas nucleares e experimentos científicos avançados", "Em estudos sobre a estrutura do núcleo atômico"],
@@ -2341,6 +2362,9 @@ export const tabelaPeriodica = [
         grupo: "Grupo 8",
         periodo: 7,
         estadoNatural: "Sintético",
+        raioAtomico: null,
+        pontoDeFusao: null,
+        pontoDeEbulicao: null,
         densidade: "Desconhecida", // A densidade do hássio não é bem estabelecida
         eletronegatividade: "Desconhecida", // Não há dados confiáveis sobre a eletronegatividade do hássio
         aplicacoesComuns: ["Utilizado em pesquisas nucleares e experimentos científicos avançados", "Em estudos sobre a estrutura do núcleo atômico"],
@@ -2360,6 +2384,9 @@ export const tabelaPeriodica = [
         grupo: "Grupo 9",
         periodo: 7,
         estadoNatural: "Sintético",
+        raioAtomico: null,
+        pontoDeFusao: null,
+        pontoDeEbulicao: null,
         densidade: "Desconhecida", // A densidade do meitnério não é bem estabelecida
         eletronegatividade: "Desconhecida", // Não há dados confiáveis sobre a eletronegatividade do meitnério
         aplicacoesComuns: ["Utilizado em pesquisas nucleares e experimentos científicos avançados", "Em estudos sobre a estrutura do núcleo atômico"],
@@ -2379,6 +2406,9 @@ export const tabelaPeriodica = [
         grupo: "Grupo 10",
         periodo: 7,
         estadoNatural: "Sintético",
+        raioAtomico: null,
+        pontoDeFusao: null,
+        pontoDeEbulicao: null,
         densidade: "Desconhecida", // A densidade do darmstádio não é bem estabelecida
         eletronegatividade: "Desconhecida", // Não há dados confiáveis sobre a eletronegatividade do darmstádio
         aplicacoesComuns: ["Utilizado em pesquisas nucleares e experimentos científicos avançados", "Em estudos sobre a estrutura do núcleo atômico"],
@@ -2398,6 +2428,9 @@ export const tabelaPeriodica = [
         grupo: "Grupo 11",
         periodo: 7,
         estadoNatural: "Hipotético",
+        raioAtomico: null,
+        pontoDeFusao: null,
+        pontoDeEbulicao: null,
         densidade: "Desconhecida",
         eletronegatividade: "Desconhecida",
         aplicacoesComuns: ["Não aplicável (ainda não foi isolado na natureza)"],
@@ -2417,6 +2450,9 @@ export const tabelaPeriodica = [
         grupo: "Grupo 12",
         periodo: 7,
         estadoNatural: "Sintético",
+        raioAtomico: null,
+        pontoDeFusao: null,
+        pontoDeEbulicao: null,
         densidade: "Desconhecida", // A densidade do copernício não é bem estabelecida
         eletronegatividade: "Desconhecida", // Não há dados confiáveis sobre a eletronegatividade do copernício
         aplicacoesComuns: ["Utilizado em pesquisas nucleares e experimentos científicos avançados", "Em estudos sobre a estrutura do núcleo atômico"],
@@ -2436,6 +2472,9 @@ export const tabelaPeriodica = [
         grupo: "Grupo 13",
         periodo: 7,
         estadoNatural: "Sintético",
+        raioAtomico: null,
+        pontoDeFusao: 430,
+        pontoDeEbulicao: 1100,
         densidade: "Desconhecida", // A densidade do nihônio não é bem estabelecida
         eletronegatividade: "Desconhecida", // Não há dados confiáveis sobre a eletronegatividade do nihônio
         aplicacoesComuns: ["Utilizado em pesquisas nucleares e experimentos científicos avançados", "Em estudos sobre a estrutura do núcleo atômico"],
@@ -2455,6 +2494,9 @@ export const tabelaPeriodica = [
         grupo: "Grupo 14",
         periodo: 7,
         estadoNatural: "Sintético",
+        raioAtomico: null,
+        pontoDeFusao: 70,
+        pontoDeEbulicao: 150,
         densidade: "Desconhecida", // A densidade do fleróvio não é bem estabelecida
         eletronegatividade: "Desconhecida", // Não há dados confiáveis sobre a eletronegatividade do fleróvio
         aplicacoesComuns: ["Utilizado em pesquisas nucleares e experimentos científicos avançados", "Em estudos sobre a estrutura do núcleo atômico"],
@@ -2474,6 +2516,9 @@ export const tabelaPeriodica = [
         grupo: "Grupo 15",
         periodo: 7,
         estadoNatural: "Sintético",
+        raioAtomico: null,
+        pontoDeFusao: null,
+        pontoDeEbulicao: null,
         densidade: "Desconhecida", // A densidade do moscóvio não é bem estabelecida
         eletronegatividade: "Desconhecida", // Não há dados confiáveis sobre a eletronegatividade do moscóvio
         aplicacoesComuns: ["Utilizado em pesquisas nucleares e experimentos científicos avançados", "Em estudos sobre a estrutura do núcleo atômico"],
@@ -2493,6 +2538,9 @@ export const tabelaPeriodica = [
         grupo: "Grupo 16",
         periodo: 7,
         estadoNatural: "Sintético",
+        raioAtomico: null,
+        pontoDeFusao: null,
+        pontoDeEbulicao: null,
         densidade: "Desconhecida", // A densidade do livermório não é bem estabelecida
         eletronegatividade: "Desconhecida", // Não há dados confiáveis sobre a eletronegatividade do livermório
         aplicacoesComuns: ["Utilizado em pesquisas nucleares e experimentos científicos avançados", "Em estudos sobre a estrutura do núcleo atômico"],
@@ -2512,6 +2560,9 @@ export const tabelaPeriodica = [
         grupo: "Grupo 17",
         periodo: 7,
         estadoNatural: "Sintético",
+        raioAtomico: null,
+        pontoDeFusao: null,
+        pontoDeEbulicao: null,
         densidade: "Desconhecida", // A densidade do tenesso não é bem estabelecida
         eletronegatividade: "Desconhecida", // Não há dados confiáveis sobre a eletronegatividade do tenesso
         aplicacoesComuns: ["Utilizado em pesquisas nucleares e experimentos científicos avançados", "Em estudos sobre a estrutura do núcleo atômico"],
@@ -2531,6 +2582,9 @@ export const tabelaPeriodica = [
         grupo: "Grupo 18",
         periodo: 7,
         estadoNatural: "Sintético",
+        raioAtomico: null,
+        pontoDeFusao: null,
+        pontoDeEbulicao: null,
         densidade: "Desconhecida", // A densidade do oganessônio não é bem estabelecida
         eletronegatividade: "Desconhecida", // Não há dados confiáveis sobre a eletronegatividade do oganessônio
         aplicacoesComuns: ["Utilizado em pesquisas nucleares e experimentos científicos avançados", "Em estudos sobre a estrutura do núcleo atômico"],

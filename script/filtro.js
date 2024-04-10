@@ -9,7 +9,7 @@ export function validacaoFiltroCategoria() {
 
             const listaDeElementos = document.querySelectorAll('.elementos button')
             listaDeElementos.forEach(elemento => {
-                elemento.style.opacity = '.6'
+                elemento.style.opacity = '.4'
                 elemento.classList.remove('elemento-checado')
             })
 

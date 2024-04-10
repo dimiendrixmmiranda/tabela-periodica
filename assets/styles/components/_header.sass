@@ -1,0 +1,64 @@
+@import '../abstract/_variaveis'
+.cabecalho
+    display: grid
+    grid-template-columns: 1fr 40px
+    padding: .5em .2em
+    a
+        display: flex
+        width: 100%
+        height: 100%
+        text-decoration: none
+        color: white
+        column-gap: .5em
+        align-items: center
+        img
+            width: 40px
+        h1
+            font-family: $fonteSecundaria
+            font-size: 1.75em
+    button
+        background-color: transparent
+        border: none
+        font-size: 1.7em
+        color: white
+    ul
+        display: none
+@media screen and ( min-width: 425px )
+    .cabecalho
+        grid-template-columns: 1fr 50px
+        padding: .7em .5em
+        a
+            img
+                width: 50px
+            h1
+                font-size: 2.3em
+
+@media screen and ( min-width: 768px )
+    .cabecalho
+        grid-template-columns: auto 1fr
+        ul
+            list-style: none
+            display: flex
+            grid-column: 2/3
+            column-gap: .5em
+            margin: 0 auto
+            li
+                font-size: 1.4em
+                font-weight: bold
+                font-family: $fonteSecundaria
+        button
+            display: none
+@media screen and ( min-width: 1440px )
+    .cabecalho
+        padding: .7em .5em
+        a
+            column-gap: 1em
+            img
+                width: 60px
+            h1
+                font-size: 3em
+        ul
+            margin: 0
+            margin-left: auto
+            margin-right: 2em
+            column-gap: 2em

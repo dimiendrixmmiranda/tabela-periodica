@@ -1,3 +1,4 @@
+@import './_variaveis'
 * 
     margin: 0
     padding: 0
@@ -5,5 +6,22 @@
 
 body 
     min-height: 100vh
-    background-color: #02033f
-    // background: linear-gradient(to bottom, #FF204E, #A0153E, #5D0E41)
+    // background-color: #02033f
+    background: linear-gradient(45deg, #0E185F, #273cb3, #3d5eca, #6196ff)
+    background-size: 300% 300%
+    animation: colors 6s ease infinite
+    &::-webkit-scrollbar
+        width: 6px
+    &::-webkit-scrollbar-track
+        background: #060c35
+    &::-webkit-scrollbar-thumb
+        background-color: $amarelo
+
+@keyframes colors
+    0%
+        background-position: 0% 50%
+    50%
+        background-position: 100% 50%
+    100%
+        background-position: 0% 50%
+        
