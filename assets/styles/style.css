@@ -446,8 +446,8 @@ footer strong {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 90vh;
-  margin-top: 2em;
+  height: 95vh;
+  margin-top: 1.5em;
 }
 .banner h2 {
   text-align: center;
@@ -467,10 +467,10 @@ footer strong {
   margin-top: 1.5em;
 }
 .banner a {
-  margin: auto 0;
+  margin: 1em 0;
 }
 .banner a img {
-  width: 40px;
+  width: 50px;
 }
 
 @media screen and (min-width: 425px) {
