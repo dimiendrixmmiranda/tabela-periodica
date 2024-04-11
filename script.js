@@ -7,8 +7,8 @@ import { selecionarElemento } from "./script/selecionarElemento.js";
 import { selecionarPrimeiroElemento } from "./script/selecionarPrimeiroElemento.js";
 import { tabelaPeriodica } from "./script/tabelaPeriodica.js";
 
-selecionarPrimeiroElemento()
 
+selecionarPrimeiroElemento()
 tabelaPeriodica.forEach(elemento => criarBotao(elemento))
 formatarBotoes()
 determinarCoresDosElementos()
