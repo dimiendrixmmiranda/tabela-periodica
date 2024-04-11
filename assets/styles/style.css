@@ -447,6 +447,7 @@ footer strong {
   flex-direction: column;
   align-items: center;
   height: 90vh;
+  margin-top: 2em;
 }
 .banner h2 {
   text-align: center;
@@ -463,6 +464,10 @@ footer strong {
   text-shadow: 1px 1px 3px black;
   color: #fff;
   font-weight: bold;
+  margin-top: 1.5em;
+}
+.banner a {
+  margin: auto 0;
 }
 .banner a img {
   width: 40px;
