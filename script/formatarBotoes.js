@@ -2,6 +2,7 @@ const divElementos = document.querySelector('.elementos')
 
 export function formatarBotoes() { 
     const quebraDeLinha = criarElemento('div', 'quebra')
+    const elementoHistoria = criarElementoHistoria()
     const seta1 = criarElemento('div', 'seta1', '57-71')
     const seta2 = criarElemento('div', 'seta2', '89-103')
 
@@ -48,6 +49,7 @@ export function formatarBotoes() {
     elemento104.style.gridColumn = '4/5'
 
     divElementos.appendChild(quebraDeLinha)
+    divElementos.appendChild(elementoHistoria)
     divElementos.appendChild(seta1)
     divElementos.appendChild(seta2)
 }
@@ -57,4 +59,16 @@ function criarElemento(tag, classe, texto = ''){
     elemento.classList.add(classe)
     elemento.innerHTML = texto
     return elemento
+}
+
+function criarElementoHistoria(){
+    const containerHistoria = criarElemento('div', 'container-historia')
+    const titulo = criarElemento('h3', 'container-historia-titulo', 'História')
+    const texto = criarElemento('p', 'container-historia-texto')
+    const imgElemento = criarElemento('img', 'container-historia-img')
+
+    containerHistoria.appendChild(titulo)
+    containerHistoria.appendChild(texto)
+    containerHistoria.appendChild(imgElemento)
+    return containerHistoria
 }

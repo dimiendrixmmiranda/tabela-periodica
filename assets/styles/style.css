@@ -18,6 +18,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   min-height: 100vh;
   background: linear-gradient(45deg, #0E185F, #273cb3, #3d5eca, #6196ff);
@@ -81,12 +85,20 @@ body::-webkit-scrollbar-thumb {
   width: 100%;
   height: 100%;
   cursor: pointer;
+  box-shadow: 0 0 2px 0.5px black;
 }
-.conteudo .elementos button span {
-  font-size: 0.7em;
+.conteudo .elementos button .numero-atomico-elemento {
+  font-size: 0.65em;
   position: absolute;
-  top: 5%;
+  top: 0%;
   left: 5%;
+}
+.conteudo .elementos button .nome-elemento {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%);
+  font-size: 0.45em;
 }
 .conteudo .elementos .seta1 {
   width: 100%;
@@ -122,6 +134,43 @@ body::-webkit-scrollbar-thumb {
 .conteudo .elementos .elemento-checado {
   opacity: 1 !important;
 }
+.conteudo .elementos .container-historia {
+  font-family: "Raleway", sans-serif;
+  grid-column: 3/13;
+  grid-row: 1/4;
+  background-color: #EBEBEB;
+  padding: 0.7em;
+  width: 95%;
+  height: 95%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 110px 1fr 100px;
+  grid-template-rows: auto 1fr;
+  row-gap: 0.5em;
+  box-shadow: 2px 2px 4px 2px black;
+}
+.conteudo .elementos .container-historia .container-historia-titulo {
+  background-color: #0C7ED9;
+  padding: 0.2em 1em 0.2em 0.5em;
+  border-radius: 0 10px 10px 0;
+  color: #fff;
+}
+.conteudo .elementos .container-historia .container-historia-texto {
+  grid-row: 2/3;
+  grid-column: 1/3;
+  word-break: normal;
+  white-space: wrap;
+  display: flex;
+  font-size: 0.8em;
+  font-family: "Lato", sans-serif;
+}
+.conteudo .elementos .container-historia .container-historia-img {
+  grid-row: 2/3;
+  grid-column: 3/4;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
 
 @media screen and (min-width: 1024px) {
   .conteudo .elementos {
@@ -140,16 +189,25 @@ body::-webkit-scrollbar-thumb {
   .conteudo .elementos .seta2 {
     background-size: 45px;
   }
+  .conteudo .elementos .container-historia {
+    grid-template-columns: 110px 1fr 135px;
+  }
+  .conteudo .elementos .container-historia .container-historia-texto {
+    font-size: 1em;
+  }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1270px) {
   .conteudo .elementos {
     overflow-x: hidden;
+  }
+  .conteudo .elementos button .nome-elemento {
+    font-size: 0.55em;
   }
 }
 .visor {
   width: 90%;
   max-width: 1130px;
-  margin: 0.5em auto 0 auto;
+  margin: 0.5em auto 2em auto;
   display: grid;
   grid-template-columns: 8rem 1fr;
   grid-template-rows: 1fr auto 1fr;
@@ -466,7 +524,7 @@ footer strong {
   margin-top: 1.5em;
 }
 .banner a {
-  margin: 1em 0;
+  margin: 2em 0;
 }
 .banner a img {
   width: 50px;
@@ -490,7 +548,6 @@ footer strong {
     grid-template-columns: repeat(2, 50%);
     justify-content: center;
     align-items: center;
-    height: 90vh;
   }
   .banner h2 {
     justify-self: center;
@@ -528,6 +585,7 @@ footer strong {
   }
   .banner p {
     font-size: 2.8em;
+    margin: 0;
   }
 }
 .cabecalho {

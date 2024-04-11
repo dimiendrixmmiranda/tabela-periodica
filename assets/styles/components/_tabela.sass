@@ -29,11 +29,18 @@
             width: 100%
             height: 100%
             cursor: pointer
-            span
-                font-size: .7em
+            box-shadow: 0 0 2px .5px black
+            .numero-atomico-elemento
+                font-size: .65em
                 position: absolute
-                top: 5%
+                top: 0%
                 left: 5%
+            .nome-elemento
+                position: absolute
+                bottom: 10%
+                left: 50%
+                transform: translate(-50%)
+                font-size: .45em
         .seta1
             width: 100%
             height: 100%
@@ -65,6 +72,40 @@
             font-family: $fonteSecundaria
         .elemento-checado
             opacity: 1!important
+        .container-historia
+            font-family: $fonteTerciaria
+            grid-column: 3/13
+            grid-row: 1/4
+            background-color: #EBEBEB
+            padding: .7em
+            width: 95%
+            height: 95%
+            margin: 0 auto
+            display: grid
+            grid-template-columns: 110px 1fr 100px
+            grid-template-rows: auto 1fr
+            row-gap: .5em
+            box-shadow: 2px 2px 4px 2px black
+            .container-historia-titulo
+                background-color: #0C7ED9
+                padding: .2em 1em .2em .5em
+                border-radius: 0 10px 10px 0 
+                color: $branco
+            .container-historia-texto
+                grid-row: 2/3
+                grid-column: 1/3
+                word-break: normal
+                white-space: wrap
+                display: flex
+                font-size: .8em
+                font-family: $fonteLato
+            .container-historia-img
+                grid-row: 2/3
+                grid-column: 3/4
+                overflow: hidden
+                width: 100%
+                height: 100%
+
 @media screen and ( min-width: 1024px )
     .conteudo
         .elementos
@@ -79,7 +120,15 @@
                 background-position: 3em .4em
             .seta2
                 background-size: 45px
-@media screen and ( min-width: 1200px )
+            .container-historia
+                grid-template-columns: 110px 1fr 135px
+                .container-historia-texto
+                    font-size: 1em
+
+@media screen and ( min-width: 1270px )
     .conteudo
         .elementos
             overflow-x: hidden
+            button 
+                .nome-elemento
+                    font-size: .55em
