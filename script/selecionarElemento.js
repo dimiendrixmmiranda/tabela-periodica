@@ -63,13 +63,7 @@ export function substituirElemento(dadosDoElemento, corElemento) {
 
     const containerHistoria = document.querySelector('.container-historia')
     // MOCADO
-    containerHistoria.querySelector('.container-historia-texto').innerHTML = `
-    Henry Cavendish foi o primeiro a distinguir o hidrogênio de outros gases em 1766, quando o preparou reagindo ácido clorídrico com zinco.
+    containerHistoria.querySelector('.container-historia-texto').innerHTML = dadosDoElemento.historia
 
-    Em 1670, o cientista inglês Robert Boyle havia observado sua produção reagindo ácidos fortes com metais.
-    
-    O cientista francês Antoine Lavoisier nomeou o elemento hidrogênio em 1783.
-    `
-
-    containerHistoria.querySelector('.container-historia-img').setAttribute('src', 'https://images-of-elements.com/hydrogen.jpg')
+    containerHistoria.querySelector('.container-historia-img').setAttribute('src', dadosDoElemento.endereçoImagemElemento)
 }

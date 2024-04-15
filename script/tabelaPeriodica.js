@@ -1,223 +1,356 @@
 export const tabelaPeriodica = [
     {
         nome: "Hidrogênio",
-        categoria: "nao-metal",
-        sigla: "H",
-        numeroAtomico: 1,
-        massaAtomica: 1.008,
-        configuracaoEletronica: "1s¹",
         grupo: 1,
         periodo: 1,
-        raioAtomico: 53, // Valor aproximado em pm
-        estadoNatural: "Gasoso",
-        pontoDeFusao: -259.14, // Em °C
-        pontoDeEbulicao: -252.87, // Em °C
-        densidade: 0.08988, // Em g/L
-        eletronegatividade: 2.20, // Valor aproximado
-        aplicacoesComuns: ["Produção de amônia", "Hidrogenação de óleos", "Propulsão de foguetes"],
+        sigla: "H",
         decomposicao: {
             protons: 1,
             eletrons: 1,
-            neutrons: 0 // No hidrogênio, número de nêutrons é geralmente 0
-        }
+            neutrons: 0
+        },
+        numeroAtomico: 1,
+        massaAtomica: 1.008,
+        categoria: "nao-metal",
+        configuracaoEletronica: "1s¹",
+        cor: null,
+        radioativo: false,
+        estadoNatural: "Gasoso",
+        densidade: 0.08988,
+        pontoDeFusao: -259.14,
+        pontoDeEbulicao: -252.87,
+        etalpiaDeFusao: 0.558, // kJ/mol
+        etalpiaDeVaporizacao: 0.452, // kJ/mol
+        calorEspecifico: 14.304, // J/g·K
+        abundanciaNaCrostaTerrestre: 0.15,
+        abundanciaNoUniverso: 75,
+        raioAtomico: 53,
+        raioCovalente: 31,
+        eletronegatividade: 2.20, // Escala de Pauling
+        volumeAtomico: 14.4, // cm3/mol
+        condutividadeTermica: 0.001815, // W/cm·K
+        aplicacoesComuns: ["Produção de amônia", "Hidrogenação de óleos", "Propulsão de foguetes"],
+        historia: `Henry Cavendish foi o primeiro a distinguir o hidrogênio de outros gases em 1766, quando o preparou reagindo ácido clorídrico com zinco. Em 1670, o cientista inglês Robert Boyle havia observado sua produção reagindo ácidos fortes com metais. O cientista francês Antoine Lavoisier nomeou o elemento hidrogênio em 1783.`,
+        endereçoImagemElemento: 'https://images-of-elements.com/hydrogen.jpg',
+        curiosidade: 'O Hidrogénio é o principal componente de Júpiter e dos outros planetas gigantes gasosos.'
     },
     {
-        nome: 'Hélio',
-        categoria: "gas-nobre",
-        sigla: "He",
-        numeroAtomico: 2,
-        massaAtomica: 4.0026,
-        configuracaoEletronica: "1s²",
+        nome: "Hélio",
         grupo: 18,
         periodo: 1,
-        raioAtomico: 31, // Valor aproximado em pm
-        estadoNatural: "Gasoso",
-        pontoDeFusao: -272.2, // Em °C
-        pontoDeEbulicao: -268.9, // Em °C
-        densidade: 0.1786, // Em g/L
-        eletronegatividade: null, // Não disponível para gases nobres
-        aplicacoesComuns: ["Enchimento de balões", "Ar de proteção em soldagem"],
+        sigla: "He",
         decomposicao: {
             protons: 2,
             eletrons: 2,
-            neutrons: 2 // Para o hélio, o número de nêutrons é geralmente igual ao número de prótons
+            neutrons: 2
         },
+        numeroAtomico: 2,
+        massaAtomica: 4.002602,
+        categoria: "gas-nobre",
+        configuracaoEletronica: "1s²",
+        cor: null,
+        radioativo: false,
+        estadoNatural: "Gasoso",
+        densidade: 0.08988,
+        pontoDeFusao: -272.2,
+        pontoDeEbulicao: -268.93,
+        etalpiaDeFusao: 0.02, // kJ/mol
+        etalpiaDeVaporizacao: 0.083, // kJ/mol
+        calorEspecifico: 5.193, // J/g·K
+        abundanciaNaCrostaTerrestre: 0.00055,
+        abundanciaNoUniverso: 23,
+        raioAtomico: 31,
+        raioCovalente: 28,
+        eletronegatividade: null, // Escala de Pauling
+        volumeAtomico: 27.2, // cm3/mol
+        condutividadeTermica: 0.00152, // W/cm·K
+        aplicacoesComuns: ["Enchimento de balões", "Ar de proteção em soldagem"],
+        historia: `O astrônomo francês Jules Janssen obteve a primeira evidência de hélio durante o eclipse solar de 1868. Norman Lockyer e Edward Frankland sugeriram o nome hélio para o novo elemento. Em 1895, Sir William Ramsay descobriu o hélio na clevite mineral de urânio. Foi descoberto independentemente em cleveite por Per Teodor Cleve e Abraham Langlet.`,
+        endereçoImagemElemento: 'https://images-of-elements.com/s/helium.jpg',
+        curiosidade: 'Ao contrário de todos os outros elementos, o hélio permanece líquido até ao zero absoluto, a pressões normais.'
     },
     {
-        nome: 'Lítio',
-        categoria: "metal-alcalino",
-        sigla: "Li",
-        numeroAtomico: 3,
-        massaAtomica: 6.94,
-        configuracaoEletronica: "[He] 2s¹",
+        nome: "Lítio",
         grupo: 1,
         periodo: 2,
-        raioAtomico: 145, // Valor aproximado em pm
-        estadoNatural: "Sólido",
-        pontoDeFusao: 180.54, // Em °C
-        pontoDeEbulicao: 1347, // Em °C
-        densidade: 0.534, // Em g/cm³
-        eletronegatividade: 0.98, // Valor aproximado
-        aplicacoesComuns: ["Baterias de íon-lítio", "Ligas metálicas"],
+        sigla: "Li",
         decomposicao: {
             protons: 3,
             eletrons: 3,
-            neutrons: 4 // O número de nêutrons pode variar, mas geralmente é próximo ao número de prótons
+            neutrons: 4
         },
+        numeroAtomico: 3,
+        massaAtomica: 6.941,
+        categoria: "metal-alcalino",
+        configuracaoEletronica: "[He] 2s¹",
+        cor: 'Prata',
+        radioativo: false,
+        estadoNatural: "Sólido",
+        densidade: 0.534,
+        pontoDeFusao: 180.54,
+        pontoDeEbulicao: 1342,
+        etalpiaDeFusao: 3, // kJ/mol
+        etalpiaDeVaporizacao: 147, // kJ/mol
+        calorEspecifico: 3.582, // J/g·K
+        abundanciaNaCrostaTerrestre: 0.0017,
+        abundanciaNoUniverso: 0.0000006,
+        raioAtomico: 152,
+        raioCovalente: 128,
+        eletronegatividade: 0.98, // Escala de Pauling
+        volumeAtomico: 13.10, // cm3/mol
+        condutividadeTermica: 0.847, // W/cm·K
+        aplicacoesComuns: ["Baterias de íon-lítio", "Ligas metálicas"],
+        historia: `Foi descoberto em 1817 por Johann Arfvedson, quando estava analizando minerais da ilha Sueca Uto.
+        O metal puro foi isolado no ano seguinte pelos químicos William Thomas Brande (sueco) e Sir Humphry Davy (inglês), trabalhando independentemente. em 1855, grandes quantias de lítio foram produzidas pela eletrólize do cloreto de lítio por Robert Bunsen e Augustus Matthiessen.`,
+        endereçoImagemElemento: 'https://images-of-elements.com/s/lithium.jpg',
+        curiosidade: 'O Lítio é o único metal que reage com o Azoto, em condições normais'
     },
     {
         nome: "Berílio",
-        categoria: "metal-alcalino-terroso",
-        sigla: "Be",
-        numeroAtomico: 4,
-        massaAtomica: 9.0121831,
-        configuracaoEletronica: "[He] 2s²",
         grupo: 2,
         periodo: 2,
-        raioAtomico: 112, // Valor aproximado em pm
-        estadoNatural: "Sólido",
-        pontoDeFusao: 1287, // Em °C
-        pontoDeEbulicao: 2470, // Em °C
-        densidade: 1.85, // Em g/cm³
-        eletronegatividade: 1.57, // Valor aproximado
-        aplicacoesComuns: ["Ligas de metal para aeroespacial", "Componentes eletrônicos"],
+        sigla: "Be",
         decomposicao: {
             protons: 4,
             eletrons: 4,
-            neutrons: 5 // O número de nêutrons pode variar, mas geralmente é próximo ao número de prótons
+            neutrons: 5
         },
+        numeroAtomico: 4,
+        massaAtomica: 9.012182,
+        categoria: "metal-alcalino-terroso",
+        configuracaoEletronica: "[He] 2s²",
+        cor: 'Cinza ',
+        radioativo: false,
+        estadoNatural: "Sólido",
+        densidade: 1.85,
+        pontoDeFusao: 1287,
+        pontoDeEbulicao: 2469,
+        etalpiaDeFusao: 7.95, // kJ/mol
+        etalpiaDeVaporizacao: 297, // kJ/mol
+        calorEspecifico: 1.825, // J/g·K
+        abundanciaNaCrostaTerrestre: 0.00019,
+        abundanciaNoUniverso: 0.0000001,
+        raioAtomico: 112,
+        raioCovalente: 96,
+        eletronegatividade: 1.57, // Escala de Pauling
+        volumeAtomico: 4.9, // cm3/mol
+        condutividadeTermica: 2.01, // W/cm·K
+        aplicacoesComuns: ["Ligas de metal para aeroespacial", "Componentes eletrônicos"],
+        historia: `Louis-Nicolas Vauquelin descobriu o berílio em sua forma de oxido, beryl e esmeraldas em 1798.
+        Friedrich Wöhler e Antoine Bussy independentemente isilaram berílio em 1828 no reação química de potássio metálico com cloreto de berílio.O primeiro processo comercialmente bem sucedido para produção de berílio foi desebvolvido em 1932 por Alfred Stock e Hans Goldschmidt.`,
+        endereçoImagemElemento: 'https://images-of-elements.com/s/beryllium.jpg',
+        curiosidade: 'A esmeralda é um composto natural de berílio'
     },
     {
         nome: "Boro",
-        categoria: "semimetal",
-        sigla: "B",
-        numeroAtomico: 5,
-        massaAtomica: 10.81,
-        configuracaoEletronica: "[He] 2s² 2p¹",
         grupo: 13,
         periodo: 2,
-        raioAtomico: 87, // Valor aproximado em pm
-        estadoNatural: "Sólido",
-        pontoDeFusao: 2075, // Em °C
-        pontoDeEbulicao: 4000, // Em °C
-        densidade: 2.34, // Em g/cm³
-        eletronegatividade: 2.04, // Valor aproximado
-        aplicacoesComuns: ["Fibras de vidro", "Borossilicato de vidro (ex: pirex)", "Reforço em materiais compostos"],
+        sigla: "B",
         decomposicao: {
             protons: 5,
             eletrons: 5,
-            neutrons: 6 // O número de nêutrons pode variar, mas geralmente é próximo ao número de prótons
+            neutrons: 6
         },
+        numeroAtomico: 5,
+        massaAtomica: 10.811,
+        categoria: "semimetal",
+        configuracaoEletronica: "[He] 2s² 2p¹",
+        cor: 'Preto',
+        radioativo: false,
+        estadoNatural: "Sólido",
+        densidade: 2.34,
+        pontoDeFusao: 2076,
+        pontoDeEbulicao: 3927,
+        etalpiaDeFusao: 50, // kJ/mol
+        etalpiaDeVaporizacao: 507, // kJ/mol
+        calorEspecifico: 1.026, // J/g·K
+        abundanciaNaCrostaTerrestre: 0.00086,
+        abundanciaNoUniverso: 0.0000001,
+        raioAtomico: 90,
+        raioCovalente: 84,
+        eletronegatividade: 2.04, // Escala de Pauling
+        volumeAtomico: 4.6, // cm3/mol
+        condutividadeTermica: 0.274, // W/cm·K
+        aplicacoesComuns: ["Fibras de vidro", "Borossilicato de vidro (ex: pirex)", "Reforço em materiais compostos"],
+        historia: `Os compostos de boro eram conhecidos por milhares de anos, mas o elemento nao foi descoberto até 1808, quando foi isolado por Sir Humphry Davy, Gay-Lussac e Louis Jacques Thénard. Jöns Jakob Berzelius identificou o boro como um elemento em 1824.`,
+        endereçoImagemElemento: 'https://images-of-elements.com/s/boron.jpg',
+        curiosidade: 'O boro é um nutriente essencial a todas as plantas verdes'
+
     },
     {
         nome: "Carbono",
-        categoria: "nao-metal",
-        sigla: "C",
-        numeroAtomico: 6,
-        massaAtomica: 12.011,
-        configuracaoEletronica: "[He] 2s² 2p²",
         grupo: 14,
         periodo: 2,
-        raioAtomico: 67, // Valor aproximado em pm
-        estadoNatural: "Sólido",
-        pontoDeFusao: 3550, // Em °C
-        pontoDeEbulicao: 4027, // Em °C
-        densidade: 2.267, // Em g/cm³
-        eletronegatividade: 2.55, // Valor aproximado
-        aplicacoesComuns: ["Construção de materiais compostos (ex: fibra de carbono)", "Baterias de íon-lítio", "Catálise"],
+        sigla: "C",
         decomposicao: {
             protons: 6,
             eletrons: 6,
-            neutrons: 6 // O número de nêutrons pode variar, mas geralmente é próximo ao número de prótons
+            neutrons: 6
         },
+        numeroAtomico: 6,
+        massaAtomica: 12.0107,
+        categoria: "nao-metal",
+        configuracaoEletronica: "[He] 2s² 2p²",
+        cor: 'Preto',
+        radioativo: false,
+        estadoNatural: "Sólido",
+        densidade: 2.267,
+        pontoDeFusao: 3675,
+        pontoDeEbulicao: 4027,
+        etalpiaDeFusao: 105, // kJ/mol
+        etalpiaDeVaporizacao: 715, // kJ/mol
+        calorEspecifico: 0.709, // J/g·K
+        abundanciaNaCrostaTerrestre: 0.18,
+        abundanciaNoUniverso: 0.05,
+        raioAtomico: 67,
+        raioCovalente: 77,
+        eletronegatividade: 2.55, // Escala de Pauling
+        volumeAtomico: 5.31, // cm3/mol
+        condutividadeTermica: 1.29, // W/cm·K
+        aplicacoesComuns: ["Construção de materiais compostos (ex: fibra de carbono)", "Baterias de íon-lítio", "Catálise"],
+        historia: `O carbono foi descoberto na pré-historia, conhecido nas formas de fumaça e carvão pelas civilizações mais antigas. Em 1772, Antoine Lavoisier mostrou que diamantes eram uma das formas do carbono; quando queimol amostras de carvão e diamante, e percebeu que nenhum deles produziu água. Em 1779, Carl Wihelm Scheele constatou que grafite queimado formava dioxido de carbono, o que seria mais uma forma do carbono.`,
+        endereçoImagemElemento: 'https://images-of-elements.com/s/carbon.jpg',
+        curiosidade: 'O carbono representa cerca de 20% do peso, dos organismos vivos'
     },
     {
-        nome: 'Nitrogênio',
-        categoria: "nao-metal",
-        sigla: "N",
-        numeroAtomico: 7,
-        massaAtomica: 14.007,
-        configuracaoEletronica: "[He] 2s² 2p³",
+        nome: "Nitrogênio",
         grupo: 15,
         periodo: 2,
-        raioAtomico: 56, // Valor aproximado em pm
-        estadoNatural: "Gasoso",
-        pontoDeFusao: -210.1, // Em °C
-        pontoDeEbulicao: -195.79, // Em °C
-        densidade: 0.001251, // Em g/cm³
-        eletronegatividade: 3.04, // Valor aproximado
-        aplicacoesComuns: ["Produção de amônia", "Fertilizantes", "Indústria alimentícia"],
+        sigla: "N",
         decomposicao: {
             protons: 7,
             eletrons: 7,
-            neutrons: 7 // O número de nêutrons pode variar, mas geralmente é próximo ao número de prótons
+            neutrons: 7
         },
+        numeroAtomico: 7,
+        massaAtomica: 14.0067,
+        categoria: "nao-metal",
+        configuracaoEletronica: "[He] 2s² 2p³",
+        cor: null,
+        radioativo: false,
+        estadoNatural: "Gasoso",
+        densidade: 0.0012506,
+        pontoDeFusao: -210,
+        pontoDeEbulicao: -195.79,
+        etalpiaDeFusao: 0.36, // kJ/mol
+        etalpiaDeVaporizacao: 2.79, // kJ/mol
+        calorEspecifico: 1.04, // J/g·K
+        abundanciaNaCrostaTerrestre: 0.002,
+        abundanciaNoUniverso: 0.1,
+        raioAtomico: 56,
+        raioCovalente: 71,
+        eletronegatividade: 3.04, // Escala de Pauling
+        volumeAtomico: 17.3, // cm3/mol
+        condutividadeTermica: 0.0002598, // W/cm·K
+        aplicacoesComuns: ["Produção de amônia", "Fertilizantes", "Indústria alimentícia"],
+        historia: `É considerado que o nitrogenio foi descoberto pelo físico escocês Daniel Rutherford em 1772, que chamou-o de ar nitroso ou ar fixo. Era também estudado ao mesmo tempo por Carl Wihelm Scheele, Henry Cavendish e Joseph Priestley. Em 1790 o químico francês Jean Antoine Claude Chaptal nomeou o elemento de nitrogenio.`,
+        endereçoImagemElemento: 'https://images-of-elements.com/s/nitrogen.jpg',
+        curiosidade: 'O azoto (ou nitrogênio) está presente em todos os organismos vivos, nas proteínas, ácidos nucleicos e noutras moléculas'
     },
     {
-        nome: 'Oxigênio',
-        categoria: "nao-metal",
-        sigla: "O",
-        numeroAtomico: 8,
-        massaAtomica: 15.999,
-        configuracaoEletronica: "[He] 2s² 2p⁴",
+        nome: "Oxigênio",
         grupo: 16,
         periodo: 2,
-        raioAtomico: 48, // Valor aproximado em pm
-        estadoNatural: "Gasoso",
-        pontoDeFusao: -218.79, // Em °C
-        pontoDeEbulicao: -182.95, // Em °C
-        densidade: 0.001429, // Em g/cm³
-        eletronegatividade: 3.44, // Valor aproximado
-        aplicacoesComuns: ["Respiração", "Oxigenoterapia", "Combustíveis e oxidantes"],
+        sigla: "O",
         decomposicao: {
             protons: 8,
             eletrons: 8,
-            neutrons: 8 // O número de nêutrons pode variar, mas geralmente é próximo ao número de prótons
+            neutrons: 8
         },
+        numeroAtomico: 8,
+        massaAtomica: 15.9994,
+        categoria: "nao-metal",
+        configuracaoEletronica: "[He] 2s² 2p⁴",
+        cor: null,
+        radioativo: false,
+        estadoNatural: "Gasoso",
+        densidade: 0.001429,
+        pontoDeFusao: -218.79,
+        pontoDeEbulicao: -182.95,
+        etalpiaDeFusao: 0.222, // kJ/mol
+        etalpiaDeVaporizacao: 3.41, // kJ/mol
+        calorEspecifico: 0.918, // J/g·K
+        abundanciaNaCrostaTerrestre: 46,
+        abundanciaNoUniverso: 1,
+        raioAtomico: 48,
+        raioCovalente: 66,
+        eletronegatividade: 3.44, // Escala de Pauling
+        volumeAtomico: 14, // cm3/mol
+        condutividadeTermica: 0.0002674, // W/cm·K
+        aplicacoesComuns: ["Respiração", "Oxigenoterapia", "Combustíveis e oxidantes"],
+        historia: `Carld Wilhelm Scheele obteve oxigenio ao aquecer óxido de mercúrio e nitratos em 1771, mas não publicou suas descobertas até 1777, Joseph Priestley também obteve esse elemento com 1774. O nome foi dado em 1777 por Antoine Lavoisier, cujo esperimentos ajudaram a desmentir a crença popular de sua combustão e corrosão.`,
+        endereçoImagemElemento: 'https://images-of-elements.com/s/oxygen.jpg',
+        curiosidade: 'As cores verde e vermelha da Aurora Boreal são provocadas por átomos de oxigénio'
     },
     {
         nome: "Flúor",
-        categoria: "halogenios",
-        sigla: "F",
-        numeroAtomico: 9,
-        massaAtomica: 18.998403163,
-        configuracaoEletronica: "[He] 2s² 2p⁵",
         grupo: 17,
         periodo: 2,
-        raioAtomico: 42, // Valor aproximado em pm
-        estadoNatural: "Gasoso",
-        pontoDeFusao: -219.62, // Em °C
-        pontoDeEbulicao: -188.12, // Em °C
-        densidade: 0.001696, // Em g/cm³
-        eletronegatividade: 3.98, // Valor aproximado
-        aplicacoesComuns: ["Odontologia", "Tratamento de água", "Produção de compostos químicos"],
+        sigla: "F",
         decomposicao: {
             protons: 9,
             eletrons: 9,
-            neutrons: 10 // O número de nêutrons pode variar, mas geralmente é próximo ao número de prótons
+            neutrons: 10
         },
+        numeroAtomico: 9,
+        massaAtomica: 18.9984032,
+        categoria: "halogenios",
+        configuracaoEletronica: "[He] 2s² 2p⁵",
+        cor: null,
+        radioativo: false,
+        estadoNatural: "Gasoso",
+        densidade: 0.001696,
+        pontoDeFusao: -219.62,
+        pontoDeEbulicao: -188.12,
+        etalpiaDeFusao: 0.26, // kJ/mol
+        etalpiaDeVaporizacao: 3.27, // kJ/mol
+        calorEspecifico: 0.824, // J/g·K
+        abundanciaNaCrostaTerrestre: 0.054,
+        abundanciaNoUniverso: 0.00004,
+        raioAtomico: 42,
+        raioCovalente: 64,
+        eletronegatividade: 3.98, // Escala de Pauling
+        volumeAtomico: 17.1, // cm3/mol
+        condutividadeTermica: 0.000279, // W/cm·K
+        aplicacoesComuns: ["Odontologia", "Tratamento de água", "Produção de compostos químicos"],
+        historia: `Em 1529, Georgius Agricola descreveu a aplicação da fluorite como fundente. Em 1670, Heinrich Schwandhard descobriu ser possível gravar em vidro, quando exposto à fuorite misturada com ácido. Em 1810, o cientista francês Andre-Marie Ampere propôs que o ácido fluorídrico fosse um composto formado por hidrogénio e um novo elemento. Em 1886, o elemento foi, finalmente, isolado por Henri Moissan.`,
+        endereçoImagemElemento: 'https://images-of-elements.com/s/fluorine.jpg',
+        curiosidade: 'O Flúor reage violentamente com a água para produzir oxigênio'
     },
     {
         nome: "Neônio",
-        categoria: "gas-nobre",
-        sigla: "Ne",
-        numeroAtomico: 10,
-        massaAtomica: 20.1797,
-        configuracaoEletronica: "[He] 2s² 2p⁶",
         grupo: 18,
         periodo: 2,
-        raioAtomico: 38, // Valor aproximado em pm
-        estadoNatural: "Gasoso",
-        pontoDeFusao: -248.59, // Em °C
-        pontoDeEbulicao: -246.08, // Em °C
-        densidade: 0.0009, // Em g/cm³
-        eletronegatividade: null, // Não disponível para gases nobres
-        aplicacoesComuns: ["Lâmpadas de néon", "Indicadores luminosos", "Enchimento de tubos de descarga"],
+        sigla: "Ne",
         decomposicao: {
             protons: 10,
             eletrons: 10,
-            neutrons: 10 // Para os gases nobres, o número de nêutrons é geralmente igual ao número de prótons
+            neutrons: 10
         },
+        numeroAtomico: 10,
+        massaAtomica: 20.1797,
+        categoria: "gas-nobre",
+        configuracaoEletronica: "[He] 2s² 2p⁶",
+        cor: null,
+        radioativo: false,
+        estadoNatural: "Gasoso",
+        densidade: 0.0008999,
+        pontoDeFusao: -248.59,
+        pontoDeEbulicao:  -246.08,
+        etalpiaDeFusao: 0.34, // kJ/mol
+        etalpiaDeVaporizacao: 1.75, // kJ/mol
+        calorEspecifico: 1.03, // J/g·K
+        abundanciaNaCrostaTerrestre: 0.0000003,
+        abundanciaNoUniverso: 0.13,
+        raioAtomico: 38,
+        raioCovalente: 58,
+        eletronegatividade: null, // Escala de Pauling
+        volumeAtomico: 16.7, // cm3/mol
+        condutividadeTermica: 0.000493, // W/cm·K
+        aplicacoesComuns: ["Lâmpadas de néon", "Indicadores luminosos", "Enchimento de tubos de descarga"],        historia: `O Neônio foi descoberto em 1898 pelos químicos britânicos Sir William Ramsay e Morris W. Travers em Londres. Foi descoberto quando Ramsay resfriou uma amostra de ar até que se tornasse um líquido, então aqueceu o líquido e capturou os gases enquanto eles ferviam. Depois de 1902, a empresa de Georges Claude, a Air Liquide, estava produzindo quantidades industriais de neônio como um subproduto de seu negócio de liquefação de ar.`,
+        endereçoImagemElemento: 'https://images-of-elements.com/s/neon.jpg',
+        curiosidade: 'Numa válvula termiónica, o Neônio produz um brilho laranja avermelhado'
+        
     },
     {
         sigla: "Na",
