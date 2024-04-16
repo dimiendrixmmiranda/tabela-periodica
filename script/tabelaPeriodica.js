@@ -336,7 +336,7 @@ export const tabelaPeriodica = [
         estadoNatural: "Gasoso",
         densidade: 0.0008999,
         pontoDeFusao: -248.59,
-        pontoDeEbulicao:  -246.08,
+        pontoDeEbulicao: -246.08,
         etalpiaDeFusao: 0.34, // kJ/mol
         etalpiaDeVaporizacao: 1.75, // kJ/mol
         calorEspecifico: 1.03, // J/g·K
@@ -347,230 +347,359 @@ export const tabelaPeriodica = [
         eletronegatividade: null, // Escala de Pauling
         volumeAtomico: 16.7, // cm3/mol
         condutividadeTermica: 0.000493, // W/cm·K
-        aplicacoesComuns: ["Lâmpadas de néon", "Indicadores luminosos", "Enchimento de tubos de descarga"],        historia: `O Neônio foi descoberto em 1898 pelos químicos britânicos Sir William Ramsay e Morris W. Travers em Londres. Foi descoberto quando Ramsay resfriou uma amostra de ar até que se tornasse um líquido, então aqueceu o líquido e capturou os gases enquanto eles ferviam. Depois de 1902, a empresa de Georges Claude, a Air Liquide, estava produzindo quantidades industriais de neônio como um subproduto de seu negócio de liquefação de ar.`,
+        aplicacoesComuns: ["Lâmpadas de néon", "Indicadores luminosos", "Enchimento de tubos de descarga"], historia: `O Neônio foi descoberto em 1898 pelos químicos britânicos Sir William Ramsay e Morris W. Travers em Londres. Foi descoberto quando Ramsay resfriou uma amostra de ar até que se tornasse um líquido, então aqueceu o líquido e capturou os gases enquanto eles ferviam. Depois de 1902, a empresa de Georges Claude, a Air Liquide, estava produzindo quantidades industriais de neônio como um subproduto de seu negócio de liquefação de ar.`,
         endereçoImagemElemento: 'https://images-of-elements.com/s/neon.jpg',
         curiosidade: 'Numa válvula termiónica, o Neônio produz um brilho laranja avermelhado'
-        
     },
     {
-        sigla: "Na",
-        nome: 'Sódio',
-        numeroAtomico: 11,
-        massaAtomica: 22.98976928,
-        configuracaoEletronica: "[Ne] 3s¹",
+        nome: "Sódio",
         grupo: 1,
         periodo: 3,
-        raioAtomico: 186, // Valor aproximado em pm
-        estadoNatural: "Sólido",
-        pontoDeFusao: 97.72, // Em °C
-        pontoDeEbulicao: 882.9, // Em °C
-        densidade: 0.97, // Em g/cm³
-        eletronegatividade: 0.93, // Valor aproximado
-        aplicacoesComuns: ["Produção de ligas metálicas", "Indústria alimentícia", "Baterias de sódio"],
+        sigla: "Na",
         decomposicao: {
             protons: 11,
             eletrons: 11,
-            neutrons: 12 // O número de nêutrons pode variar, mas geralmente é próximo ao número de prótons
+            neutrons: 12
         },
-        categoria: "metal-alcalino"
+        numeroAtomico: 11,
+        massaAtomica: 22.98976928,
+        categoria: "metal-alcalino",
+        configuracaoEletronica: "[Ne] 3s¹",
+        cor: 'prata',
+        radioativo: false,
+        estadoNatural: "Sólido",
+        densidade: 0.971,
+        pontoDeFusao: 97.72,
+        pontoDeEbulicao: 883,
+        etalpiaDeFusao: 2.6, // kJ/mol
+        etalpiaDeVaporizacao: 97.7, // kJ/mol
+        calorEspecifico: 1.228, // J/g·K
+        abundanciaNaCrostaTerrestre: 2.3,
+        abundanciaNoUniverso: 0.002,
+        raioAtomico: 186,
+        raioCovalente: 166,
+        eletronegatividade: 0.93, // Escala de Pauling
+        volumeAtomico: 23.7, // cm3/mol
+        condutividadeTermica: 1.41, // W/cm·K
+        aplicacoesComuns: ["Produção de ligas metálicas", "Indústria alimentícia", "Baterias de sódio"],
+        historia: `A abreviatura química do sódio foi publicada pela primeira vez por Jöns Jakob Berzelius em seu sistema de símbolos atômicos. É uma contração do novo nome latino do elemento natrium, que se refere ao natrão egípcio, um sal mineral natural feito principalmente de carbonato de sódio hidratado. Em 1807, Sir Humphry Davy isolou o sódio pela primeira vez por eletrólise de hidróxido de sódio seco, que havia sido levemente umedecido.`,
+        endereçoImagemElemento: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Na_%28Sodium%29.jpg/800px-Na_%28Sodium%29.jpg?20080405111018',
+        curiosidade: 'O Sódio arde no ar, produzindo uma chama amarela brilhante'
     },
     {
-        sigla: "Mg",
         nome: "Magnésio",
-        numeroAtomico: 12,
-        massaAtomica: 24.305,
-        configuracaoEletronica: "[Ne] 3s²",
         grupo: 2,
         periodo: 3,
-        raioAtomico: 160, // Valor aproximado em pm
-        estadoNatural: "Sólido",
-        pontoDeFusao: 650, // Em °C
-        pontoDeEbulicao: 1090, // Em °C
-        densidade: 1.74, // Em g/cm³
-        eletronegatividade: 1.31, // Valor aproximado
-        aplicacoesComuns: ["Ligas metálicas", "Medicamentos (ex: leite de magnésia)", "Pirrotecnia"],
+        sigla: "Mg",
         decomposicao: {
             protons: 12,
             eletrons: 12,
-            neutrons: 12 // O número de nêutrons pode variar, mas geralmente é próximo ao número de prótons
+            neutrons: 12
         },
-        categoria: "metal-alcalino-terroso"
+        numeroAtomico: 12,
+        massaAtomica: 24.305,
+        categoria: "metal-alcalino-terroso",
+        configuracaoEletronica: "[Ne] 3s2",
+        cor: 'prata',
+        radioativo: false,
+        estadoNatural: "Sólido",
+        densidade: 1.738,
+        pontoDeFusao: 650,
+        pontoDeEbulicao: 1090,
+        etalpiaDeFusao: 8.7, // kJ/mol
+        etalpiaDeVaporizacao: 128, // kJ/mol
+        calorEspecifico: 1.023, // J/g·K
+        abundanciaNaCrostaTerrestre: 2.9,
+        abundanciaNoUniverso: 0.06,
+        raioAtomico: 160,
+        raioCovalente: 141,
+        eletronegatividade: 1.31, // Escala de Pauling
+        volumeAtomico: 13.97, // cm3/mol
+        condutividadeTermica: 1.56, // W/cm·K
+        aplicacoesComuns: ["Ligas metálicas", "Medicamentos (ex: leite de magnésia)", "Pirrotecnia"],
+        historia: `O químico escocês Joseph Black reconheceu o magnésio como um elemento em 1755. O magnésio foi isolado pela primeira vez por Sir Humphry Davy em 1808, em Londres. Ele usou a eletrólise em uma mistura de magnésia e óxido de mercúrio. Antoine Bussy o preparou de forma coerente em 1831.`,
+        endereçoImagemElemento: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Na_%28Sodium%29.jpg/800px-Na_%28Sodium%29.jpg?20080405111018',
+        curiosidade: 'Quando arde no ar, o Magnésio produz uma luz branca, brilhante'
     },
     {
-        sigla: "Al",
         nome: "Alumínio",
-        numeroAtomico: 13,
-        massaAtomica: 26.9815386,
-        configuracaoEletronica: "[Ne] 3s² 3p¹",
         grupo: 13,
         periodo: 3,
-        raioAtomico: 143, // Valor aproximado em pm
-        estadoNatural: "Sólido",
-        pontoDeFusao: 660.32, // Em °C
-        pontoDeEbulicao: 2467, // Em °C
-        densidade: 2.70, // Em g/cm³
-        eletronegatividade: 1.61, // Valor aproximado
-        aplicacoesComuns: ["Construção de estruturas", "Embalagens", "Equipamentos elétricos"],
+        sigla: "Al",
         decomposicao: {
             protons: 13,
             eletrons: 13,
-            neutrons: 14 // O número de nêutrons pode variar, mas geralmente é próximo ao número de prótons
+            neutrons: 14
         },
-        categoria: "outros-metais"
+        numeroAtomico: 13,
+        massaAtomica: 26.9815386,
+        categoria: "outros-metais",
+        configuracaoEletronica: "[Ne] 3s² 3p¹",
+        cor: 'prata',
+        radioativo: false,
+        estadoNatural: "Sólido",
+        densidade: 2.698,
+        pontoDeFusao: 660.32,
+        pontoDeEbulicao: 2519,
+        etalpiaDeFusao: 10.7, // kJ/mol
+        etalpiaDeVaporizacao: 293, // kJ/mol
+        calorEspecifico: 0.897, // J/g·K
+        abundanciaNaCrostaTerrestre: 8.1,
+        abundanciaNoUniverso: 0.005,
+        raioAtomico: 143,
+        raioCovalente: 121,
+        eletronegatividade: 1.61, // Escala de Pauling
+        volumeAtomico: 9.98, // cm3/mol
+        condutividadeTermica: 2.37, // W/cm·K
+        aplicacoesComuns: ["Construção de estruturas", "Embalagens", "Equipamentos elétricos"],
+        historia: `Em 1761, Guyton de Morveau propôs o nome alumina para a base em alúmen, e Antoine Lavoisier, em 1787, pensou que se tratava de um óxido de um metal ainda não descoberto. Sir Humphry Davy identificou a existência de uma base metálica de alúmen em 1808. Hans Christian Ørsted foi o primeiro a isolar o alumínio metálico em 1825 na forma impura. Friedrich Wöhler é geralmente creditado por ter isolado o metal em 1827.`,
+        endereçoImagemElemento: 'https://images-of-elements.com/s/aluminium-4.jpg',
+        curiosidade: 'Em condições normais, o Alumínio não adere aos ímans'
     },
     {
-        sigla: "Si",
         nome: "Silício",
-        numeroAtomico: 14,
-        massaAtomica: 28.085,
-        configuracaoEletronica: "[Ne] 3s² 3p²",
         grupo: 14,
         periodo: 3,
-        raioAtomico: 117, // Valor aproximado em pm
-        estadoNatural: "Sólido",
-        pontoDeFusao: 1414, // Em °C
-        pontoDeEbulicao: 3265, // Em °C
-        densidade: 2.3296, // Em g/cm³
-        eletronegatividade: 1.90, // Valor aproximado
-        aplicacoesComuns: ["Fabricação de chips e semicondutores", "Vidros (ex: vidro de janelas)"],
+        sigla: "Si",
         decomposicao: {
             protons: 14,
             eletrons: 14,
-            neutrons: 14 // O número de nêutrons pode variar, mas geralmente é próximo ao número de prótons
+            neutrons: 14
         },
-        categoria: "semimetal"
+        numeroAtomico: 14,
+        massaAtomica: 28.0855,
+        categoria: "semimetal",
+        configuracaoEletronica: "[Ne] 3s² 3p²",
+        cor: 'Cinza',
+        radioativo: false,
+        estadoNatural: "Sólido",
+        densidade: 2.3296,
+        pontoDeFusao: 1414,
+        pontoDeEbulicao: 3265,
+        etalpiaDeFusao: 50.2, // kJ/mol
+        etalpiaDeVaporizacao: 359, // kJ/mol
+        calorEspecifico: 0.705, // J/g·K
+        abundanciaNaCrostaTerrestre: 27,
+        abundanciaNoUniverso: 0.07,
+        raioAtomico: 111,
+        raioCovalente: 111,
+        eletronegatividade: 1.9, // Escala de Pauling
+        volumeAtomico: 12.1, // cm3/mol
+        condutividadeTermica: 1.48, // W/cm·K
+        aplicacoesComuns: ["Fabricação de chips e semicondutores", "Vidros (ex: vidro de janelas)"],
+        historia: `Em 1800, Sir Humphry Davy pensava que a sílica era um composto e não um elemento; mas em 1811, Gay Lussac e Louis Jacques Thénard provavelmente prepararam silício amorfo impuro aquecendo o potássio com tetrafluoreto de silício. Em 1824, Jöns Jakob Berzelius preparou silício amorfo pelo mesmo método geral. Henri Deville em 1854 preparou pela primeira vez o silício cristalino, a segunda forma alotrópica do elemento.`,
+        endereçoImagemElemento: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/SiliconCroda.jpg/800px-SiliconCroda.jpg?20080208160612',
+        curiosidade: 'O Silício tem a propriedade invulgar de aumentar de volume, quando congela'
     },
     {
-        sigla: "P",
         nome: "Fósforo",
-        numeroAtomico: 15,
-        massaAtomica: 30.973761998,
-        configuracaoEletronica: "[Ne] 3s² 3p³",
         grupo: 15,
         periodo: 3,
-        raioAtomico: 110, // Valor aproximado em pm
-        estadoNatural: "Sólido",
-        pontoDeFusao: 44.15, // Em °C
-        pontoDeEbulicao: 280.5, // Em °C
-        densidade: 1.82, // Em g/cm³
-        eletronegatividade: 2.19, // Valor aproximado
-        aplicacoesComuns: ["Fertilizantes", "Fósforos", "Produtos químicos"],
+        sigla: "Si",
         decomposicao: {
             protons: 15,
             eletrons: 15,
-            neutrons: 16 // O número de nêutrons pode variar, mas geralmente é próximo ao número de prótons
+            neutrons: 16
         },
-        categoria: "nao-metal"
+        numeroAtomico: 15,
+        massaAtomica: 30.973762,
+        categoria: "outros-metais",
+        configuracaoEletronica: "[Ne] 3s² 3p³",
+        cor: null,
+        radioativo: false,
+        estadoNatural: "Sólido",
+        densidade: 1.82,
+        pontoDeFusao: 44.1,
+        pontoDeEbulicao: 279.85,
+        etalpiaDeFusao: 0.64, // kJ/mol
+        etalpiaDeVaporizacao: 12.4, // kJ/mol
+        calorEspecifico: 0.769, // J/g·K
+        abundanciaNaCrostaTerrestre: 0.099,
+        abundanciaNoUniverso: 0.0007,
+        raioAtomico: 98,
+        raioCovalente: 107,
+        eletronegatividade: 2.19, // Escala de Pauling
+        volumeAtomico: 17, // cm3/mol
+        condutividadeTermica: 0.00235, // W/cm·K
+        aplicacoesComuns: ["Fertilizantes", "Fósforos", "Produtos químicos"],
+        historia: `Hennig Brand descobriu o fósforo em 1669, em Hamburgo, na Alemanha, preparando-o a partir da urina. Em 1769, Johan Gottlieb Gahn e Carl Wilhelm Scheele mostraram que o fosfato de cálcio é encontrado nos ossos e eles obtiveram fósforo elementar da cinza óssea. Antoine Lavoisier reconheceu o fósforo como um elemento em 1777.`,
+        endereçoImagemElemento: 'https://images-of-elements.com/s/red-phosphorus.jpg',
+        curiosidade: 'O Fósforo natural existe maioritariamente em duas formas: branca e vermelha'
     },
     {
-        sigla: "S",
-        nome: 'Enxofre',
-        numeroAtomico: 16,
-        massaAtomica: 32.06,
-        configuracaoEletronica: "[Ne] 3s² 3p⁴",
+        nome: "Enxofre",
         grupo: 16,
         periodo: 3,
-        raioAtomico: 100, // Valor aproximado em pm
-        estadoNatural: "Sólido",
-        pontoDeFusao: 115.21, // Em °C
-        pontoDeEbulicao: 444.72, // Em °C
-        densidade: 2.07, // Em g/cm³
-        eletronegatividade: 2.58, // Valor aproximado
-        aplicacoesComuns: ["Indústria de fertilizantes", "Produção de ácido sulfúrico", "Produtos de cuidado pessoal"],
+        sigla: "S",
         decomposicao: {
             protons: 16,
             eletrons: 16,
-            neutrons: 16 // O número de nêutrons pode variar, mas geralmente é próximo ao número de prótons
+            neutrons: 16
         },
-        categoria: "nao-metal"
+        numeroAtomico: 16,
+        massaAtomica: 32.065,
+        categoria: "outros-metais",
+        configuracaoEletronica: "[Ne] 3s² 3p⁴",
+        cor: 'Amarelo',
+        radioativo: false,
+        estadoNatural: "Sólido",
+        densidade: 2.067,
+        pontoDeFusao: 115.21,
+        pontoDeEbulicao: 444.65,
+        etalpiaDeFusao: 1.73, // kJ/mol
+        etalpiaDeVaporizacao: 9.8, // kJ/mol
+        calorEspecifico: 0.71, // J/g·K
+        abundanciaNaCrostaTerrestre: 0.042,
+        abundanciaNoUniverso: 0.05,
+        raioAtomico: 88,
+        raioCovalente: 105,
+        eletronegatividade: 2.58, // Escala de Pauling
+        volumeAtomico: 15.5, // cm3/mol
+        condutividadeTermica: 0.00269, // W/cm·K
+        aplicacoesComuns: ["Indústria de fertilizantes", "Produção de ácido sulfúrico", "Produtos de cuidado pessoal"],
+        historia: `Hennig Brand descobriu o fósforo em 1669, em Hamburgo, na Alemanha, preparando-o a partir da urina. Em 1769, Johan Gottlieb Gahn e Carl Wilhelm Scheele mostraram que o fosfato de cálcio é encontrado nos ossos e eles obtiveram fósforo elementar da cinza óssea. Antoine Lavoisier reconheceu o fósforo como um elemento em 1777.`,
+        endereçoImagemElemento: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Sulfur-sample.jpg/799px-Sulfur-sample.jpg?20070516165927',
+        curiosidade: 'A penicilina é um antibiótico natural, à base de enxofre'
     },
     {
-        nome: 'Cloro',
-        sigla: "Cl",
-        numeroAtomico: 17,
-        massaAtomica: 35.45,
-        configuracaoEletronica: "[Ne] 3s² 3p⁵",
+        nome: "Cloro",
         grupo: 17,
         periodo: 3,
-        raioAtomico: 79, // Valor aproximado em pm
-        estadoNatural: "Gasoso",
-        pontoDeFusao: -101.5, // Em °C
-        pontoDeEbulicao: -34.04, // Em °C
-        densidade: 0.003214, // Em g/cm³
-        eletronegatividade: 3.16, // Valor aproximado
-        aplicacoesComuns: ["Desinfetante", "Produção de PVC", "Branqueamento de água"],
+        sigla: "Cl",
         decomposicao: {
             protons: 17,
             eletrons: 17,
-            neutrons: 18 // O número de nêutrons pode variar, mas geralmente é próximo ao número de prótons
+            neutrons: 18
         },
-        categoria: "halogenios"
+        numeroAtomico: 17,
+        massaAtomica: 35.453,
+        categoria: "halogenios",
+        configuracaoEletronica: "[Ne] 3s² 3p⁵",
+        cor: 'Amarelo',
+        radioativo: false,
+        estadoNatural: "Gasoso",
+        densidade: 0.003214,
+        pontoDeFusao: -101.5,
+        pontoDeEbulicao: -34.04,
+        etalpiaDeFusao: 3.2, // kJ/mol
+        etalpiaDeVaporizacao: 10.2, // kJ/mol
+        calorEspecifico: 0.479, // J/g·K
+        abundanciaNaCrostaTerrestre: 0.017,
+        abundanciaNoUniverso: 0.0001,
+        raioAtomico: 79,
+        raioCovalente: 102,
+        eletronegatividade: 3.16, // Escala de Pauling
+        volumeAtomico: 22.7, // cm3/mol
+        condutividadeTermica: 0.000089, // W/cm·K
+        aplicacoesComuns: ["Desinfetante", "Produção de PVC", "Branqueamento de água"],
+        historia: `Por volta de 1630, o cloro foi reconhecido como gás pelo químico e médico belga Jan Baptist van Helmont. O cloro elementar foi preparado e estudado pela primeira vez em 1774 pelo químico sueco Carl Wilhelm Scheele. Em 1810, o consenso científico era de que o cloro era na verdade um composto que continha oxigênio. Em 1811, Sir Humphry Davy concluiu que o novo gás era na verdade um novo elemento.`,
+        endereçoImagemElemento: 'https://images-of-elements.com/s/chlorine.jpg',
+        curiosidade: 'As rãs-arborícolas possuem um composto de Cloro na pele que é um poderosíssimo analgésico'
     },
     {
         nome: "Argônio",
-        sigla: "Ar",
-        numeroAtomico: 18,
-        massaAtomica: 39.948,
-        configuracaoEletronica: "[Ne] 3s² 3p⁶",
         grupo: 18,
         periodo: 3,
-        raioAtomico: 71, // Valor aproximado em pm
-        estadoNatural: "Gasoso",
-        pontoDeFusao: -189.36, // Em °C
-        pontoDeEbulicao: -185.85, // Em °C
-        densidade: 0.001784, // Em g/cm³
-        eletronegatividade: null, // Não disponível para gases nobres
-        aplicacoesComuns: ["Enchimento de lâmpadas incandescentes", "Ambientes de proteção em soldagem", "Preservação de amostras químicas"],
+        sigla: "Ar",
         decomposicao: {
             protons: 18,
             eletrons: 18,
-            neutrons: 22 // Para os gases nobres, o número de nêutrons é geralmente igual ao número de prótons
+            neutrons: 22
         },
-        categoria: "gas-nobre"
+        numeroAtomico: 18,
+        massaAtomica: 39.948,
+        categoria: "gas-nobre",
+        configuracaoEletronica: "[Ne] 3s² 3p⁶",
+        cor: null,
+        radioativo: false,
+        estadoNatural: "Gasoso",
+        densidade: 0.0017837,
+        pontoDeFusao: -189.35,
+        pontoDeEbulicao: -185.85,
+        etalpiaDeFusao: 1.18, // kJ/mol
+        etalpiaDeVaporizacao: 6.5, // kJ/mol
+        calorEspecifico: 0.52, // J/g·K
+        abundanciaNaCrostaTerrestre: 0.00015,
+        abundanciaNoUniverso: 0.02,
+        raioAtomico: 71,
+        raioCovalente: 106,
+        eletronegatividade: null, // Escala de Pauling
+        volumeAtomico: 22.4, // cm3/mol
+        condutividadeTermica: 0.0001772, // W/cm·K
+        aplicacoesComuns: ["Enchimento de lâmpadas incandescentes", "Ambientes de proteção em soldagem", "Preservação de amostras químicas"],
+        historia: `Árgon era suspeito de estar presente no ar por Henry Cavendish em 1785. Ele não foi isolado até 1894 por Lord Rayleigh e Sir William Ramsay na Escócia. Árgon se tornou o primeiro membro dos gases nobres a ser descoberto. Em 1957, a IUPAC concordou que o símbolo deveria mudar de A para Ar.`,
+        endereçoImagemElemento: 'https://images-of-elements.com/s/argon.jpg',
+        curiosidade: 'O Argônio produz um gás laser azul-esverdeado'
     },
     {
         nome: "Potássio",
-        sigla: "K",
-        numeroAtomico: 19,
-        massaAtomica: 39.0983,
-        configuracaoEletronica: "[Ar] 4s¹",
         grupo: 1,
         periodo: 4,
-        raioAtomico: 243, // Valor aproximado em pm
-        estadoNatural: "Sólido",
-        pontoDeFusao: 63.38, // Em °C
-        pontoDeEbulicao: 759.9, // Em °C
-        densidade: 0.89, // Em g/cm³
-        eletronegatividade: 0.82, // Valor aproximado
-        aplicacoesComuns: ["Fertilizantes", "Indústria farmacêutica", "Alimentos para enriquecimento de potássio"],
+        sigla: "K",
         decomposicao: {
             protons: 19,
             eletrons: 19,
-            neutrons: 20 // O número de nêutrons pode variar, mas geralmente é próximo ao número de prótons
+            neutrons: 20
         },
-        categoria: "metal-alcalino"
+        numeroAtomico: 19,
+        massaAtomica: 39.0983,
+        categoria: "metal-alcalino",
+        configuracaoEletronica: "[Ar] 4s¹",
+        cor: 'Prata',
+        radioativo: false,
+        estadoNatural: "Sólido",
+        densidade: 0.862,
+        pontoDeFusao: 63.38,
+        pontoDeEbulicao: 759,
+        etalpiaDeFusao: 2.33, // kJ/mol
+        etalpiaDeVaporizacao: 76.9, // kJ/mol
+        calorEspecifico: 0.757, // J/g·K
+        abundanciaNaCrostaTerrestre: 1.5,
+        abundanciaNoUniverso: 0.0003,
+        raioAtomico: 227,
+        raioCovalente: 203,
+        eletronegatividade: 0.82, // Escala de Pauling
+        volumeAtomico: 45.46, // cm3/mol
+        condutividadeTermica: 1.024, // W/cm·K
+        aplicacoesComuns: ["Fertilizantes", "Indústria farmacêutica", "Alimentos para enriquecimento de potássio"],
+        historia: `O símbolo K do potássio vem de 'kalium', o nome do elemento na Alemanha e na Escandinávia. O potássio metálico foi isolado pela primeira vez em 1807 por Sir Humphry Davy, que o derivou do potássio cáustico pelo uso da eletrólise do sal fundido com a pilha voltaica recém-descoberta. O potássio foi o primeiro metal isolado por eletrólise.`,
+        endereçoImagemElemento: 'https://images-of-elements.com/s/potassium.jpg',
+        curiosidade: 'Pessoas com dietas pobres em Potássio, poderão sofrer de hipocalemia'
     },
     {
         nome: "Cálcio",
-        sigla: "Ca",
-        numeroAtomico: 20,
-        massaAtomica: 40.078,
-        configuracaoEletronica: "[Ar] 4s²",
         grupo: 2,
         periodo: 4,
-        raioAtomico: 194, // Valor aproximado em pm
-        estadoNatural: "Sólido",
-        pontoDeFusao: 842, // Em °C
-        pontoDeEbulicao: 1484, // Em °C
-        densidade: 1.55, // Em g/cm³
-        eletronegatividade: 1, // Valor aproximado
-        aplicacoesComuns: ["Produção de ligas metálicas", "Construção de estruturas", "Suplementos alimentares"],
+        sigla: "Ca",
         decomposicao: {
             protons: 20,
             eletrons: 20,
-            neutrons: 20 // O número de nêutrons pode variar, mas geralmente é próximo ao número de prótons
+            neutrons: 20
         },
-        categoria: "metal-alcalino-terroso"
+        numeroAtomico: 20,
+        massaAtomica: 40.078,
+        categoria: "metal-alcalino-terroso",
+        configuracaoEletronica: "[Ar] 4s²",
+        cor: 'Prata',
+        radioativo: false,
+        estadoNatural: "Sólido",
+        densidade: 1.54,
+        pontoDeFusao: 842,
+        pontoDeEbulicao: 1484,
+        etalpiaDeFusao: 8.54, // kJ/mol
+        etalpiaDeVaporizacao: 155, // kJ/mol
+        calorEspecifico: 0.647, // J/g·K
+        abundanciaNaCrostaTerrestre: 5,
+        abundanciaNoUniverso: 0.007,
+        raioAtomico: 197,
+        raioCovalente: 176,
+        eletronegatividade: 1, // Escala de Pauling
+        volumeAtomico: 29.9, // cm3/mol
+        condutividadeTermica: 2.01, // W/cm·K
+        aplicacoesComuns: ["Produção de ligas metálicas", "Construção de estruturas", "Suplementos alimentares"],
+        historia: `O cálcio já era conhecido no século I, quando os antigos romanos preparavam a cal como óxido de cálcio. O cálcio foi isolado pela primeira vez por Sir Humphry Davy em 1808, quando ele eletrolisou uma mistura de cal e óxido de mercúrio. Davy estava tentando isolar o cálcio; quando soube que Jöns Jakob Berzelius e Pontin preparavam amálgama de cálcio eletrolizando cal em mercúrio, ele mesmo tentou.`,
+        endereçoImagemElemento: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Calcium_unter_Argon_Schutzgasatmosph%C3%A4re.jpg/800px-Calcium_unter_Argon_Schutzgasatmosph%C3%A4re.jpg?20070308094022',
+        curiosidade: 'A casca do ovo é principalmente constituída por carbonato de Cálcio'
     },
     {
         nome: "Escândio",

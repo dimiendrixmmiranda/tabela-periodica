@@ -214,12 +214,12 @@ body::-webkit-scrollbar-thumb {
   margin: 0.5em auto 2em auto;
   display: grid;
   grid-template-columns: 8rem 1fr;
-  grid-template-rows: 1fr auto 1fr;
+  grid-template-rows: 1fr 8rem 1fr;
   overflow: hidden;
   -moz-column-gap: 0.2em;
        column-gap: 0.2em;
   row-gap: 0.5em;
-  padding: 0.1em 0.6em;
+  padding: 0.4em 0.6em;
   font-family: "Ubuntu", sans-serif;
   background-color: #0a3e81;
   color: #fff;
@@ -230,7 +230,6 @@ body::-webkit-scrollbar-thumb {
   font-size: 1.6em;
 }
 .visor .visor-simbolo-elemento {
-  background-color: rgb(144, 210, 109);
   position: relative;
   width: 8em;
   height: 8em;
@@ -251,20 +250,17 @@ body::-webkit-scrollbar-thumb {
   font-size: 1em;
 }
 .visor .visor-informacoes-elemento {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
   row-gap: 0.2em;
   text-shadow: 0 0 2px black;
 }
 .visor .visor-informacoes-elemento .visor-informacoes-elemento-item {
-  flex-grow: 1;
   display: grid;
   grid-template-columns: 65% 2px 1fr;
   white-space: wrap;
   font-size: 0.68em;
   border: solid 1px black;
-  background-color: rgb(144, 210, 109);
   width: 100%;
   position: relative;
 }
@@ -298,7 +294,6 @@ body::-webkit-scrollbar-thumb {
   font-size: 1em;
   text-transform: uppercase;
   position: relative;
-  background-color: rgb(144, 210, 109);
   color: #fff;
   cursor: pointer;
   text-shadow: 0 0 2px black;
