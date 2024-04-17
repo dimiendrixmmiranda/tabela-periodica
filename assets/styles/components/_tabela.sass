@@ -30,6 +30,8 @@
             height: 100%
             cursor: pointer
             box-shadow: 0 0 2px .5px black
+            border: solid 1px black
+            outline: none
             .numero-atomico-elemento
                 font-size: .65em
                 position: absolute
@@ -41,6 +43,8 @@
                 left: 50%
                 transform: translate(-50%)
                 font-size: .45em
+        .btn-selecionado
+            border: solid 3px black
         .seta1
             width: 100%
             height: 100%
@@ -103,6 +107,12 @@
                 width: 100%
                 overflow-y: scroll
                 overflow-x: hidden
+                &::-webkit-scrollbar
+                    width: 3px
+                &::-webkit-scrollbar-track
+                    background: $amarelo
+                &::-webkit-scrollbar-thumb
+                    background-color: #0C7ED9
             .container-historia-img
                 grid-row: 2/3
                 grid-column: 3/4

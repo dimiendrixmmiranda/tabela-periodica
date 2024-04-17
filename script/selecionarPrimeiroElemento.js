@@ -21,6 +21,7 @@ export function definirPrimeiroElemento(){
     selecionarElementoDom('.container-historia-img', tabelaPeriodica[0].historia)
     const historiaImagem = document.querySelector('.container-historia-img').setAttribute('src', tabelaPeriodica[0].endereçoImagemElemento)
     definirCorDeFundo(tabelaPeriodica[0].categoria)
+    definirElementoSelecionado(tabelaPeriodica[0].nome)
 }
 
 function definirCorDeFundo(categoria){
@@ -29,6 +30,10 @@ function definirCorDeFundo(categoria){
     document.querySelectorAll('.cor').forEach(el => el.style.backgroundColor = cor)
 }
 
+function definirElementoSelecionado(nome){
+    document.querySelectorAll('.elementos button').forEach(btn => btn.classList.remove('btn-selecionado'))
+    document.querySelector(`[data-elemento="${nome}"]`).classList.add('btn-selecionado')
+}
 
 // fazer a verificação se o elemento é null ou não
 function selecionarElementoDom(seletor, valor, unidade = ''){

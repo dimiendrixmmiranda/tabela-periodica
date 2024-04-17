@@ -495,7 +495,7 @@ export const tabelaPeriodica = [
         nome: "Fósforo",
         grupo: 15,
         periodo: 3,
-        sigla: "Si",
+        sigla: "P",
         decomposicao: {
             protons: 15,
             eletrons: 15,
@@ -503,7 +503,7 @@ export const tabelaPeriodica = [
         },
         numeroAtomico: 15,
         massaAtomica: 30.973762,
-        categoria: "outros-metais",
+        categoria: "nao-metal",
         configuracaoEletronica: "[Ne] 3s² 3p³",
         cor: null,
         radioativo: false,
@@ -538,7 +538,7 @@ export const tabelaPeriodica = [
         },
         numeroAtomico: 16,
         massaAtomica: 32.065,
-        categoria: "outros-metais",
+        categoria: "nao-metal",
         configuracaoEletronica: "[Ne] 3s² 3p⁴",
         cor: 'Amarelo',
         radioativo: false,
@@ -703,223 +703,353 @@ export const tabelaPeriodica = [
     },
     {
         nome: "Escândio",
-        sigla: "Sc",
-        numeroAtomico: 21,
-        massaAtomica: 44.955908,
-        configuracaoEletronica: "[Ar] 3d¹ 4s²",
         grupo: 3,
         periodo: 4,
-        raioAtomico: 162, // Valor aproximado em pm
-        estadoNatural: "Sólido",
-        pontoDeFusao: 1541, // Em °C
-        pontoDeEbulicao: 2836, // Em °C
-        densidade: 2.985, // Em g/cm³
-        eletronegatividade: 1.36, // Valor aproximado
-        aplicacoesComuns: ["Ligas de alumínio", "Componentes de lâmpadas de vapor de mercúrio", "Sensores"],
+        sigla: "Sc",
         decomposicao: {
             protons: 21,
             eletrons: 21,
-            neutrons: 24 // O número de nêutrons pode variar, mas geralmente é próximo ao número de prótons
+            neutrons: 24
         },
-        categoria: "metal-de-transicao"
+        numeroAtomico: 21,
+        massaAtomica: 44.955912,
+        categoria: "metal-de-transicao",
+        configuracaoEletronica: "[Ar] 3d¹ 4s²",
+        cor: 'Prata',
+        radioativo: false,
+        estadoNatural: "Sólido",
+        densidade: 2.989,
+        pontoDeFusao: 2805.8,
+        pontoDeEbulicao: 2836,
+        etalpiaDeFusao: 16, // kJ/mol
+        etalpiaDeVaporizacao: 318, // kJ/mol
+        calorEspecifico: 0.568, // J/g·K
+        abundanciaNaCrostaTerrestre: 0.0026,
+        abundanciaNoUniverso: 0.000003,
+        raioAtomico: 162,
+        raioCovalente: 170,
+        eletronegatividade: 1.36, // Escala de Pauling
+        volumeAtomico: 15, // cm3/mol
+        condutividadeTermica: 0.158, // W/cm·K
+        aplicacoesComuns: ["Ligas de alumínio", "Componentes de lâmpadas de vapor de mercúrio", "Sensores"],
+        historia: `Em 1879, Lars Fredrik Nilson e sua equipe detectaram escândio nos minerais euxenite e gadolinite. Nilsom então preparou 2 gramas de oxido de escândio de alta pureza. Per Teodor Cleve mostrou que o escândio tinha propriedades similares as prévistas por Mendeleev para eka-boro Escândio metálico foi preparado pela primeira vez em 1937 por Fischer e seu colegas`,
+        endereçoImagemElemento: 'https://images-of-elements.com/s/scandium-2.jpg',
+        curiosidade: 'A forma estável do Escândio é criada nas supernovas, no processo-r'
     },
     {
         nome: "Titânio",
-        sigla: "Ti",
-        numeroAtomico: 22,
-        massaAtomica: 47.867,
-        configuracaoEletronica: "[Ar] 3d² 4s²",
         grupo: 4,
         periodo: 4,
-        raioAtomico: 147, // Valor aproximado em pm
-        estadoNatural: "Sólido",
-        pontoDeFusao: 1668, // Em °C
-        pontoDeEbulicao: 3287, // Em °C
-        densidade: 4.506, // Em g/cm³
-        eletronegatividade: 1.54, // Valor aproximado
-        aplicacoesComuns: ["Aeronáutica", "Indústria naval", "Implantes médicos"],
+        sigla: "Ti",
         decomposicao: {
             protons: 22,
             eletrons: 22,
-            neutrons: 26 // O número de nêutrons pode variar, mas geralmente é próximo ao número de prótons
+            neutrons: 26
         },
-        categoria: "metal-de-transicao"
+        numeroAtomico: 22,
+        massaAtomica: 47.867,
+        categoria: "metal-de-transicao",
+        configuracaoEletronica: "[Ar] 3d² 4s²",
+        cor: 'Prata',
+        radioativo: false,
+        estadoNatural: "Sólido",
+        densidade: 4.54,
+        pontoDeFusao: 1668,
+        pontoDeEbulicao: 3287,
+        etalpiaDeFusao: 18.7, // kJ/mol
+        etalpiaDeVaporizacao: 425, // kJ/mol
+        calorEspecifico: 0.523, // J/g·K
+        abundanciaNaCrostaTerrestre: 0.66,
+        abundanciaNoUniverso: 0.0003,
+        raioAtomico: 147,
+        raioCovalente: 160,
+        eletronegatividade: 1.54, // Escala de Pauling
+        volumeAtomico: 10.64, // cm3/mol
+        condutividadeTermica: 0.219, // W/cm·K
+        aplicacoesComuns: ["Aeronáutica", "Indústria naval", "Implantes médicos"],
+        historia: `William Gregor encontrou óxido de titanio no mineral ilmenite em 1791. Martin Heintich Klaproth descobriu independentemente o elemento no mineral rutilo em 1795 e o nomeou. a forma pura e metálica só foi obtida em 1910 por Matthew A. Hunter. Em 1936, o processo de Kroll tornou a produção comercial do titanio possivel.`,
+        endereçoImagemElemento: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Titan-crystal_bar.JPG/800px-Titan-crystal_bar.JPG?20090724123530',
+        curiosidade: 'O Titânio é um dos poucos elementos que arde na presença de nitrogénio puro'
     },
     {
         nome: "Vanádio",
-        sigla: "V",
-        numeroAtomico: 23,
-        massaAtomica: 50.9415,
-        configuracaoEletronica: "[Ar] 3d³ 4s²",
         grupo: 5,
         periodo: 4,
-        raioAtomico: 134, // Valor aproximado em pm
-        estadoNatural: "Sólido",
-        pontoDeFusao: 1910, // Em °C
-        pontoDeEbulicao: 3407, // Em °C
-        densidade: 6.11, // Em g/cm³
-        eletronegatividade: 1.63, // Valor aproximado
-        aplicacoesComuns: ["Ligas metálicas", "Componentes de aço", "Catalisadores químicos"],
+        sigla: "V",
         decomposicao: {
             protons: 23,
             eletrons: 23,
-            neutrons: 28 // O número de nêutrons pode variar, mas geralmente é próximo ao número de prótons
+            neutrons: 28
         },
-        categoria: "metal-de-transicao"
+        numeroAtomico: 23,
+        massaAtomica: 50.9415,
+        categoria: "metal-de-transicao",
+        configuracaoEletronica: "[Ar] 3d³ 4s²",
+        cor: 'Prata',
+        radioativo: false,
+        estadoNatural: "Sólido",
+        densidade: 6.11,
+        pontoDeFusao: 1910,
+        pontoDeEbulicao: 3407,
+        etalpiaDeFusao: 22.8, // kJ/mol
+        etalpiaDeVaporizacao: 453, // kJ/mol
+        calorEspecifico: 0.489, // J/g·K
+        abundanciaNaCrostaTerrestre: 0.019,
+        abundanciaNoUniverso: 0.0001,
+        raioAtomico: 134,
+        raioCovalente: 153,
+        eletronegatividade: 1.63, // Escala de Pauling
+        volumeAtomico: 8.78, // cm3/mol
+        condutividadeTermica: 0.307, // W/cm·K
+        aplicacoesComuns: ["Ligas metálicas", "Componentes de aço", "Catalisadores químicos"],
+        historia: `Vanadio foi originalmente descoberto por Andrés Manuel del Río em 1801. Em 1805, o químico frances Hippolyte Victor Collet-Descotils declarou incorretamente que o elemento descoberto por del Río era apenas uma amostra impura de cromo. Em 1831, o químico suéco Nils Gabriel Sefström redescobriu o elemento em um novo óxido encontrado durante um trabalho com minérios de ferro. No mesmo ano, Friedrish Wöhler confirmou o trabalho anterior de del Río`,
+        endereçoImagemElemento: 'https://images-of-elements.com/s/vanadium-crystals-2.jpg',
+        curiosidade: 'O Vanádio é menerado sobretudo, na África do Sul, no noroeste da China, e na Rússia oriental'
     },
     {
-        nome: "Crômio",
-        sigla: "Cr",
-        numeroAtomico: 24,
-        massaAtomica: 51.9961,
-        configuracaoEletronica: "[Ar] 3d⁵ 4s¹",
+        nome: "Cromo",
         grupo: 6,
         periodo: 4,
-        raioAtomico: 128, // Valor aproximado em pm
-        estadoNatural: "Sólido",
-        pontoDeFusao: 1907, // Em °C
-        pontoDeEbulicao: 2671, // Em °C
-        densidade: 7.19, // Em g/cm³
-        eletronegatividade: 1.66, // Valor aproximado
-        aplicacoesComuns: ["Fabricação de aço inoxidável", "Cromagem", "Pigmentos"],
+        sigla: "Cr",
         decomposicao: {
             protons: 24,
             eletrons: 24,
-            neutrons: 28 // O número de nêutrons pode variar, mas geralmente é próximo ao número de prótons
+            neutrons: 28
         },
-        categoria: "metal-de-transicao"
+        numeroAtomico: 24,
+        massaAtomica: 51.9961,
+        categoria: "metal-de-transicao",
+        configuracaoEletronica: "[Ar] 3d⁵ 4s¹",
+        cor: 'Prata',
+        radioativo: false,
+        estadoNatural: "Sólido",
+        densidade: 7.15,
+        pontoDeFusao: 1907,
+        pontoDeEbulicao: 2671,
+        etalpiaDeFusao: 20.5, // kJ/mol
+        etalpiaDeVaporizacao: 339, // kJ/mol
+        calorEspecifico: 0.449, // J/g·K
+        abundanciaNaCrostaTerrestre: 0.014,
+        abundanciaNoUniverso: 0.0015,
+        raioAtomico: 128,
+        raioCovalente: 138,
+        eletronegatividade: 1.66, // Escala de Pauling
+        volumeAtomico: 7.23, // cm3/mol
+        condutividadeTermica: 0.937, // W/cm·K
+        aplicacoesComuns: ["Fabricação de aço inoxidável", "Cromagem", "Pigmentos"],
+        historia: `Em 1797, Louis Nicolas Vauquelin recebeu amostras de minério de crocoite. Em 1798, Vauquelin decobriu que era possivel isolar o cromo metálico aquecendo o oxido em um forno de carvão vegetal, fazendo dele o descobridor do elemento. Vauquelin tambem foi capas de detectar traços de cromo em pedras preciosas, como rubis e esmeraldas.`,
+        endereçoImagemElemento: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Chromium_crystals_and_1cm3_cube.jpg/800px-Chromium_crystals_and_1cm3_cube.jpg?20100427224119',
+        curiosidade: 'O óxido de Crómio foi utilizado pelos chineses na dinastia Qin, hão mais de 2000 anos'
     },
     {
         nome: "Manganês",
-        sigla: "Mn",
-        numeroAtomico: 25,
-        massaAtomica: 54.938044,
-        configuracaoEletronica: "[Ar] 3d⁵ 4s²",
         grupo: 7,
         periodo: 4,
-        raioAtomico: 127, // Valor aproximado em pm
-        estadoNatural: "Sólido",
-        pontoDeFusao: 1246, // Em °C
-        pontoDeEbulicao: 2061, // Em °C
-        densidade: 7.21, // Em g/cm³
-        eletronegatividade: 1.55, // Valor aproximado
-        aplicacoesComuns: ["Produção de aço", "Baterias recarregáveis", "Pigmentos para tintas"],
+        sigla: "Mn",
         decomposicao: {
             protons: 25,
             eletrons: 25,
-            neutrons: 30 // O número de nêutrons pode variar, mas geralmente é próximo ao número de prótons
+            neutrons: 30
         },
-        categoria: "metal-de-transicao"
+        numeroAtomico: 25,
+        massaAtomica: 54.938045,
+        categoria: "metal-de-transicao",
+        configuracaoEletronica: "[Ar] 3d⁵ 4s²",
+        cor: 'Prata',
+        radioativo: false,
+        estadoNatural: "Sólido",
+        densidade: 7.44,
+        pontoDeFusao: 1246,
+        pontoDeEbulicao: 2061,
+        etalpiaDeFusao: 13.2, // kJ/mol
+        etalpiaDeVaporizacao: 220, // kJ/mol
+        calorEspecifico: 0.479, // J/g·K
+        abundanciaNaCrostaTerrestre: 0.11,
+        abundanciaNoUniverso: 0.0008,
+        raioAtomico: 127,
+        raioCovalente: 139,
+        eletronegatividade: 1.55, // Escala de Pauling
+        volumeAtomico: 7.4, // cm3/mol
+        condutividadeTermica: 0.0782, // W/cm·K
+        aplicacoesComuns: ["Produção de aço", "Baterias recarregáveis", "Pigmentos para tintas"],
+        historia: `No meio do séc XVIII, o químico suéco Carl Wilhelm Scheele usou pyrolusite para produzir cloro. Scheele e outros estavam cientes de que pyrolusite continha um novo elemento, mas não conseguiam isola-lo. Johan Gottlieb Gahn foi o primeiro a isolar um amostra impura de manganes em 1774, reduzindo o óxido com carbono.`,
+        endereçoImagemElemento: 'https://images-of-elements.com/s/manganese-2.jpg',
+        curiosidade: 'Pensa-se que os neandertais terão utilizado Manganês preto como cosmético, hão 50.000 anos'
     },
     {
         nome: "Ferro",
-        sigla: "Fe",
-        numeroAtomico: 26,
-        massaAtomica: 55.845,
-        configuracaoEletronica: "[Ar] 3d⁶ 4s²",
         grupo: 8,
         periodo: 4,
-        raioAtomico: 126, // Valor aproximado em pm
-        estadoNatural: "Sólido",
-        pontoDeFusao: 1538, // Em °C
-        pontoDeEbulicao: 2862, // Em °C
-        densidade: 7.87, // Em g/cm³
-        eletronegatividade: 1.83, // Valor aproximado
-        aplicacoesComuns: ["Indústria metalúrgica", "Construção", "Produção de aço"],
+        sigla: "Fe",
         decomposicao: {
             protons: 26,
             eletrons: 26,
-            neutrons: 30 // O número de nêutrons pode variar, mas geralmente é próximo ao número de prótons
+            neutrons: 30
         },
-        categoria: "metal-de-transicao"
+        numeroAtomico: 26,
+        massaAtomica: 55.845,
+        categoria: "metal-de-transicao",
+        configuracaoEletronica: "[Ar] 3d⁶ 4s²",
+        cor: 'Cinza',
+        radioativo: false,
+        estadoNatural: "Sólido",
+        densidade: 7.874,
+        pontoDeFusao: 1538,
+        pontoDeEbulicao: 2861,
+        etalpiaDeFusao: 13.8, // kJ/mol
+        etalpiaDeVaporizacao: 347, // kJ/mol
+        calorEspecifico: 0.449, // J/g·K
+        abundanciaNaCrostaTerrestre: 6.3,
+        abundanciaNoUniverso: 0.11,
+        raioAtomico: 126,
+        raioCovalente: 132,
+        eletronegatividade: 1.83, // Escala de Pauling
+        volumeAtomico: 7.1, // cm3/mol
+        condutividadeTermica: 0.802, // W/cm·K
+        aplicacoesComuns: ["Indústria metalúrgica", "Construção", "Produção de aço"],
+        historia: `O primeiro ferro usado pelos seres humanos provavelmente veio de meteoritos. Os objetos de ferro mais velhos usados por humanos foram algumas contas ( de colares ou pulseiras ) feitas de ferro meteorico no Egito a cerca de 4000 A.C. Sua fundição foi descoberta por volta de 3000 A.C e levou ao inicio da idade do ferro por volta de 1200 A.C, iniciando o seu uso para ferramentas e armas.`,
+        endereçoImagemElemento: 'https://images-of-elements.com/s/iron.jpg',
+        curiosidade: 'O cor do sangue deve-se à hemoglobina, uma proteína que contém Ferro'
     },
     {
         nome: "Cobalto",
-        sigla: "Co",
-        numeroAtomico: 27,
-        massaAtomica: 58.933194,
-        configuracaoEletronica: "[Ar] 3d⁷ 4s²",
         grupo: 9,
         periodo: 4,
-        raioAtomico: 125, // Valor aproximado em pm
-        estadoNatural: "Sólido",
-        pontoDeFusao: 1495, // Em °C
-        pontoDeEbulicao: 2870, // Em °C
-        densidade: 8.86, // Em g/cm³
-        eletronegatividade: 1.88, // Valor aproximado
-        aplicacoesComuns: ["Magnetos", "Baterias recarregáveis", "Produção de ligas metálicas"],
+        sigla: "Co",
         decomposicao: {
             protons: 27,
             eletrons: 27,
-            neutrons: 32 // O número de nêutrons pode variar, mas geralmente é próximo ao número de prótons
+            neutrons: 32
         },
-        categoria: "metal-de-transicao"
+        numeroAtomico: 27,
+        massaAtomica: 58.933195,
+        categoria: "metal-de-transicao",
+        configuracaoEletronica: "[Ar] 3d⁷ 4s²",
+        cor: 'Cinza',
+        radioativo: false,
+        estadoNatural: "Sólido",
+        densidade: 8.86,
+        pontoDeFusao: 1495,
+        pontoDeEbulicao: 2927,
+        etalpiaDeFusao: 16.2, // kJ/mol
+        etalpiaDeVaporizacao: 375, // kJ/mol
+        calorEspecifico: 0.421, // J/g·K
+        abundanciaNaCrostaTerrestre: 0.003,
+        abundanciaNoUniverso: 0.0003,
+        raioAtomico: 125,
+        raioCovalente: 126,
+        eletronegatividade: 1.88, // Escala de Pauling
+        volumeAtomico: 6.7, // cm3/mol
+        condutividadeTermica: 1, // W/cm·K
+        aplicacoesComuns: ["Magnetos", "Baterias recarregáveis", "Produção de ligas metálicas"],
+        historia: `Compostos de cobalto são usados a gerações para dar uma rica cor azul ao vidro ou cerâmica. O elemento foi isolado pelo quimico suéco George Brandit em 1735. Segundo ele, a cor azulada no vidro era causada pelo cobalto, e não pelo bizmuto.`,
+        endereçoImagemElemento: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Kobalt_electrolytic_and_1cm3_cube.jpg/800px-Kobalt_electrolytic_and_1cm3_cube.jpg?20100919003247',
+        curiosidade: 'O cor do sangue deve-se à hemoglobina, uma proteína que contém Ferro'
     },
     {
         nome: "Níquel",
-        sigla: "Ni",
-        numeroAtomico: 28,
-        massaAtomica: 58.6934,
-        configuracaoEletronica: "[Ar] 3d⁸ 4s²",
         grupo: 10,
         periodo: 4,
-        raioAtomico: 124, // Valor aproximado em pm
-        estadoNatural: "Sólido",
-        pontoDeFusao: 1455, // Em °C
-        pontoDeEbulicao: 2913, // Em °C
-        densidade: 8.91, // Em g/cm³
-        eletronegatividade: 1.91, // Valor aproximado
-        aplicacoesComuns: ["Revestimento metálico", "Baterias recarregáveis", "Produção de ligas de aço"],
+        sigla: "Ni",
         decomposicao: {
             protons: 28,
             eletrons: 28,
-            neutrons: 31 // O número de nêutrons pode variar, mas geralmente é próximo ao número de prótons
+            neutrons: 31
         },
-        categoria: "metal-de-transicao"
+        numeroAtomico: 28,
+        massaAtomica: 58.6934,
+        categoria: "metal-de-transicao",
+        configuracaoEletronica: "[Ar] 3d⁸ 4s²",
+        cor: 'Cinza',
+        radioativo: false,
+        estadoNatural: "Sólido",
+        densidade: 8.912,
+        pontoDeFusao: 1455,
+        pontoDeEbulicao: 2913,
+        etalpiaDeFusao: 17.2, // kJ/mol
+        etalpiaDeVaporizacao: 378, // kJ/mol
+        calorEspecifico: 0.444, // J/g·K
+        abundanciaNaCrostaTerrestre: 0.0089,
+        abundanciaNoUniverso: 0.006,
+        raioAtomico: 124,
+        raioCovalente: 124,
+        eletronegatividade: 1.91, // Escala de Pauling
+        volumeAtomico: 6.59, // cm3/mol
+        condutividadeTermica: 0.907, // W/cm·K
+        aplicacoesComuns: ["Revestimento metálico", "Baterias recarregáveis", "Produção de ligas de aço"],
+        historia: `Artefatos feitos de meteoritos metalicos foram encontrados datando até antes de 5000 A.C. Em 1751, Baron Axel Fredrik Cronstedt tentava estrair cobre do mineral kupfernickel e acabou produzindo o metal branco. No inicio do séc XX, Ludwig Mond patenteou um processo utilizando carbinilo de nikel para purificar o metal.`,
+        endereçoImagemElemento: 'https://images-of-elements.com/s/nickel.jpg',
+        curiosidade: 'A concentração de Níquel é 100 vezes superior, abaixo da crosta terrestre, do que nela'
     },
     {
         nome: "Cobre",
-        sigla: "Cu",
-        numeroAtomico: 29,
-        massaAtomica: 63.546,
-        configuracaoEletronica: "[Ar] 3d¹⁰ 4s¹",
         grupo: 11,
         periodo: 4,
-        raioAtomico: 128, // Valor aproximado em pm
-        estadoNatural: "Sólido",
-        pontoDeFusao: 1084.62, // Em °C
-        pontoDeEbulicao: 2562, // Em °C
-        densidade: 8.96, // Em g/cm³
-        eletronegatividade: 1.90, // Valor aproximado
-        aplicacoesComuns: ["Condutores elétricos", "Componentes de eletrônicos", "Construção civil"],
+        sigla: "Cu",
         decomposicao: {
             protons: 29,
             eletrons: 29,
-            neutrons: 35 // O número de nêutrons pode variar, mas geralmente é próximo ao número de prótons
+            neutrons: 35
         },
-        categoria: "metal-de-transicao"
+        numeroAtomico: 29,
+        massaAtomica: 63.546,
+        categoria: "metal-de-transicao",
+        configuracaoEletronica: "[Ar] 3d¹⁰ 4s¹",
+        cor: 'Cobre',
+        radioativo: false,
+        estadoNatural: "Sólido",
+        densidade: 8.96,
+        pontoDeFusao: 1084.6,
+        pontoDeEbulicao: 2562,
+        etalpiaDeFusao: 13.1, // kJ/mol
+        etalpiaDeVaporizacao: 300, // kJ/mol
+        calorEspecifico: 0.385, // J/g·K
+        abundanciaNaCrostaTerrestre: 0.0068,
+        abundanciaNoUniverso: 0.000006,
+        raioAtomico: 128,
+        raioCovalente: 132,
+        eletronegatividade: 1.9, // Escala de Pauling
+        volumeAtomico: 7.1, // cm3/mol
+        condutividadeTermica: 4.01, // W/cm·K
+        aplicacoesComuns: ["Condutores elétricos", "Componentes de eletrônicos", "Construção civil"],
+        historia: `Cobre reside naturalmente como um mineral nativo, e era conhecido pelas mais antigas civilizações. As mais recentes estimativas da descoberta do cobre sugerem por volta de 9000 A.C no oriente medio. Era um dos materiais mais importantes para os humanos nas eras do cobre e bronze.`,
+        endereçoImagemElemento: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/NatCopper.jpg/633px-NatCopper.jpg?20170505225106',
+        curiosidade: 'O Cobre puro tem cor laranja avermelhada e adquire manchas vermelhas, quando exposto ao ar.'
     },
     {
         nome: "Zinco",
-        sigla: "Zn",
-        numeroAtomico: 30,
-        massaAtomica: 65.38,
-        configuracaoEletronica: "[Ar] 3d¹⁰ 4s²",
         grupo: 12,
         periodo: 4,
-        raioAtomico: 131, // Valor aproximado em pm
-        estadoNatural: "Sólido",
-        pontoDeFusao: 419.53, // Em °C
-        pontoDeEbulicao: 907, // Em °C
-        densidade: 7.14, // Em g/cm³
-        eletronegatividade: 1.65, // Valor aproximado
-        aplicacoesComuns: ["Galvanização", "Produção de ligas metálicas", "Pilhas e baterias"],
+        sigla: "Zn",
         decomposicao: {
             protons: 30,
             eletrons: 30,
-            neutrons: 35 // O número de nêutrons pode variar, mas geralmente é próximo ao número de prótons
+            neutrons: 35
         },
-        categoria: "metal-de-transicao"
+        numeroAtomico: 30,
+        massaAtomica: 65.38,
+        categoria: "metal-de-transicao",
+        configuracaoEletronica: "[Ar] 3d¹⁰ 4s²",
+        cor: 'Cinza',
+        radioativo: false,
+        estadoNatural: "Sólido",
+        densidade: 7.134,
+        pontoDeFusao: 419.53,
+        pontoDeEbulicao: 907,
+        etalpiaDeFusao: 7.35, // kJ/mol
+        etalpiaDeVaporizacao: 119, // kJ/mol
+        calorEspecifico: 0.388, // J/g·K
+        abundanciaNaCrostaTerrestre: 0.0078,
+        abundanciaNoUniverso: 0.00003,
+        raioAtomico: 134,
+        raioCovalente: 122,
+        eletronegatividade: 1.65, // Escala de Pauling
+        volumeAtomico: 9.2, // cm3/mol
+        condutividadeTermica: 1.16, // W/cm·K
+        aplicacoesComuns: ["Galvanização", "Produção de ligas metálicas", "Pilhas e baterias"],
+        historia: `Zinco metálico foi produzido no séc XIII, reduzindo calamina com substancias organicas, como lãn. O metal foi redescoberto na Europa por Andreas Sigimund em 1746. Ele aqueceu uma mistura de minério de calamina e carbono em um recipiente fechado, sem cobre para produzir o metal.`,
+        endereçoImagemElemento: 'https://images-of-elements.com/s/zinc.jpg',
+        curiosidade: 'Em contexto não científico, o Zinco é denominado de zinco comercial.'
     },
     {
         nome: "Gálio",

@@ -66,4 +66,6 @@ export function substituirElemento(dadosDoElemento, corElemento) {
     containerHistoria.querySelector('.container-historia-texto').innerHTML = dadosDoElemento.historia
 
     containerHistoria.querySelector('.container-historia-img').setAttribute('src', dadosDoElemento.endereçoImagemElemento)
+    document.querySelectorAll('.elementos button').forEach(btn => btn.classList.remove('btn-selecionado'))
+    document.querySelector(`[data-elemento="${nome}"]`).classList.add('btn-selecionado')
 }

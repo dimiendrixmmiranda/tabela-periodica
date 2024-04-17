@@ -86,6 +86,8 @@ body::-webkit-scrollbar-thumb {
   height: 100%;
   cursor: pointer;
   box-shadow: 0 0 2px 0.5px black;
+  border: solid 1px black;
+  outline: none;
 }
 .conteudo .elementos button .numero-atomico-elemento {
   font-size: 0.65em;
@@ -99,6 +101,9 @@ body::-webkit-scrollbar-thumb {
   left: 50%;
   transform: translate(-50%);
   font-size: 0.45em;
+}
+.conteudo .elementos .btn-selecionado {
+  border: solid 3px black;
 }
 .conteudo .elementos .seta1 {
   width: 100%;
@@ -167,6 +172,15 @@ body::-webkit-scrollbar-thumb {
   width: 100%;
   overflow-y: scroll;
   overflow-x: hidden;
+}
+.conteudo .elementos .container-historia .container-historia-texto::-webkit-scrollbar {
+  width: 3px;
+}
+.conteudo .elementos .container-historia .container-historia-texto::-webkit-scrollbar-track {
+  background: #FFC600;
+}
+.conteudo .elementos .container-historia .container-historia-texto::-webkit-scrollbar-thumb {
+  background-color: #0C7ED9;
 }
 .conteudo .elementos .container-historia .container-historia-img {
   grid-row: 2/3;
