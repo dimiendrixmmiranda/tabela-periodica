@@ -1053,289 +1053,458 @@ export const tabelaPeriodica = [
     },
     {
         nome: "Gálio",
-        sigla: "Ga",
-        numeroAtomico: 31,
-        massaAtomica: 69.723,
-        configuracaoEletronica: "[Ar] 3d¹⁰ 4s² 4p¹",
         grupo: 13,
         periodo: 4,
-        raioAtomico: 136, // Valor aproximado em pm
-        estadoNatural: "Sólido",
-        pontoDeFusao: 29.76, // Em °C
-        pontoDeEbulicao: 2204, // Em °C
-        densidade: 5.904, // Em g/cm³
-        eletronegatividade: 1.81, // Valor aproximado
-        aplicacoesComuns: ["Semicondutores", "Lasers", "Sensores ópticos"],
+        sigla: "Ga",
         decomposicao: {
             protons: 31,
             eletrons: 31,
-            neutrons: 39 // O número de nêutrons pode variar, mas geralmente é próximo ao número de prótons
+            neutrons: 39
         },
-        categoria: "outros-metais"
+        numeroAtomico: 31,
+        massaAtomica: 69.723,
+        categoria: "outros-metais",
+        configuracaoEletronica: "[Ar] 3d¹⁰ 4s² 4p¹",
+        cor: 'Prata',
+        radioativo: false,
+        estadoNatural: "Sólido",
+        densidade: 5.907,
+        pontoDeFusao: 29.76,
+        pontoDeEbulicao: 2204,
+        etalpiaDeFusao: 5.59, // kJ/mol
+        etalpiaDeVaporizacao: 256, // kJ/mol
+        calorEspecifico: 0.371, // J/g·K
+        abundanciaNaCrostaTerrestre: 0.0019,
+        abundanciaNoUniverso: 0.000001,
+        raioAtomico: 135,
+        raioCovalente: 122,
+        eletronegatividade: 1.81, // Escala de Pauling
+        volumeAtomico: 11.8, // cm3/mol
+        condutividadeTermica: 0.406, // W/cm·K
+        aplicacoesComuns: ["Semicondutores", "Lasers", "Sensores ópticos"],
+        historia: `Em 1871, a existencia do galio foi prevista pelo químico russo Dmiltri Mendeleev, que nomeou o elemento de eka-aluminio. O galio foi descoberto espectroscopcamente pelo químico frances Paul Emile Lecoq de Boisbaudran em 1875, por conta de seu espectro caracteristico durante uma analise de uma amostra de sphalerite. No mesmo ano, Lecoq obteve o metal isolado pela eletrolize de seu hidróxido, numa solução de hidróxido de potássio.`,
+        endereçoImagemElemento: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Gallium_crystals.jpg/800px-Gallium_crystals.jpg?20100716023404',
+        curiosidade: 'O gálio tem uma forte tendência a super-resfriar abaixo do seu ponto de fusão/ponto de congelamento.'
     },
     {
         nome: "Germânio",
-        sigla: "Ge",
-        numeroAtomico: 32,
-        massaAtomica: 72.63,
-        configuracaoEletronica: "[Ar] 3d¹⁰ 4s² 4p²",
         grupo: 14,
         periodo: 4,
-        raioAtomico: 125, // Valor aproximado em pm
-        estadoNatural: "Sólido",
-        pontoDeFusao: 938.25, // Em °C
-        pontoDeEbulicao: 2833, // Em °C
-        densidade: 5.323, // Em g/cm³
-        eletronegatividade: 2.01, // Valor aproximado
-        aplicacoesComuns: ["Semicondutores", "Óptica", "Células solares"],
+        sigla: "Ge",
         decomposicao: {
             protons: 32,
             eletrons: 32,
-            neutrons: 41 // O número de nêutrons pode variar, mas geralmente é próximo ao número de prótons
+            neutrons: 41
         },
-        categoria: "semimetal"
+        numeroAtomico: 32,
+        massaAtomica: 72.63,
+        categoria: "semimetal",
+        configuracaoEletronica: "[Ar] 3d¹⁰ 4s² 4p²",
+        cor: 'Cinza',
+        radioativo: false,
+        estadoNatural: "Sólido",
+        densidade: 5.323,
+        pontoDeFusao: 938.25,
+        pontoDeEbulicao: 2833,
+        etalpiaDeFusao: 31.8, // kJ/mol
+        etalpiaDeVaporizacao: 334, // kJ/mol
+        calorEspecifico: 0.32, // J/g·K
+        abundanciaNaCrostaTerrestre: 0.00014,
+        abundanciaNoUniverso: 0.00002,
+        raioAtomico: 122,
+        raioCovalente: 122,
+        eletronegatividade: 2.01, // Escala de Pauling
+        volumeAtomico: 13.6, // cm3/mol
+        condutividadeTermica: 0.599, // W/cm·K
+        aplicacoesComuns: ["Semicondutores", "Óptica", "Células solares"],
+        historia: `Em 1869, Dmitri Mendeleev previu a sua existencia e algumas de suas propriedades baseando-se na sua posição na tabela periodica, e o nomeou eka-silicio. Em 1886, Clemens Winkler encontrou o elemento junto a prata e enxofre, em um mineral raro chamado argyrodite. As primeiras ligas silicio-germanio foram feitas em 1955.`,
+        endereçoImagemElemento: 'https://images-of-elements.com/s/germanium.jpg',
+        curiosidade: 'O Germânio e o respetivo óxido são transparentes à radiação infravermelha.'
     },
     {
         nome: "Arsênio",
-        sigla: "As",
-        numeroAtomico: 33,
-        massaAtomica: 74.92160,
-        configuracaoEletronica: "[Ar] 3d¹⁰ 4s² 4p³",
         grupo: 15,
         periodo: 4,
-        raioAtomico: 114, // Valor aproximado em pm
-        estadoNatural: "Sólido",
-        pontoDeFusao: 817, // Em °C
-        pontoDeEbulicao: 613, // Em °C
-        densidade: 5.776, // Em g/cm³
-        eletronegatividade: 2.18, // Valor aproximado
-        aplicacoesComuns: ["Veneno de rato", "Indústria de semicondutores", "Tratamento de madeira"],
+        sigla: "As",
         decomposicao: {
             protons: 33,
             eletrons: 33,
-            neutrons: 42 // O número de nêutrons pode variar, mas geralmente é próximo ao número de prótons
+            neutrons: 42
         },
-        categoria: "semimetal"
+        numeroAtomico: 33,
+        massaAtomica: 74.9216,
+        categoria: "semimetal",
+        configuracaoEletronica: "[Ar] 3d¹⁰ 4s² 4p³",
+        cor: 'Prata',
+        radioativo: false,
+        estadoNatural: "Sólido",
+        densidade: 5.776,
+        pontoDeFusao: 817,
+        pontoDeEbulicao: 603,
+        etalpiaDeFusao: 27.7, // kJ/mol
+        etalpiaDeVaporizacao: 32.4, // kJ/mol
+        calorEspecifico: 0.329, // J/g·K
+        abundanciaNaCrostaTerrestre: 0.00021,
+        abundanciaNoUniverso: 0.0000008,
+        raioAtomico: 119,
+        raioCovalente: 119,
+        eletronegatividade: 2.18, // Escala de Pauling
+        volumeAtomico: 12.97, // cm3/mol
+        condutividadeTermica: 0.502, // W/cm·K
+        aplicacoesComuns: ["Veneno de rato", "Indústria de semicondutores", "Tratamento de madeira"],
+        historia: `O historiador grego Olympiodorus de Thebes queimou sulfureto de Arsénico, obtendo Arsénico branco, no século V AC. Crê-se que foi Albertus Magnus quem primeiro isolou o elemento de um composto, em 1250, aquecendo sabão, juntamente com trissulfureto de Arsénico. Em 1649, Johann Schröder publicou dois métodos de preparação de Arsénico.`,
+        endereçoImagemElemento: 'https://images-of-elements.com/s/arsenic.jpg',
+        curiosidade: 'Os camarões contêm níveis elevados de Arsénico'
     },
     {
         nome: "Selênio",
-        sigla: "Se",
-        numeroAtomico: 34,
-        massaAtomica: 78.971,
-        configuracaoEletronica: "[Ar] 3d¹⁰ 4s² 4p⁴",
         grupo: 16,
         periodo: 4,
-        raioAtomico: 120, // Valor aproximado em pm
-        estadoNatural: "Sólido",
-        pontoDeFusao: 221, // Em °C
-        pontoDeEbulicao: 685, // Em °C
-        densidade: 4.81, // Em g/cm³
-        eletronegatividade: 2.55, // Valor aproximado
-        aplicacoesComuns: ["Fotocélulas", "Indústria de vidro", "Suplementos alimentares"],
+        sigla: "Se",
         decomposicao: {
             protons: 34,
             eletrons: 34,
-            neutrons: 45 // O número de nêutrons pode variar, mas geralmente é próximo ao número de prótons
+            neutrons: 45
         },
-        categoria: "nao-metal"
+        numeroAtomico: 34,
+        massaAtomica: 78.96,
+        categoria: "nao-metal",
+        configuracaoEletronica: "[Ar] 3d¹⁰ 4s² 4p⁴",
+        cor: 'Cinza',
+        radioativo: false,
+        estadoNatural: "Sólido",
+        densidade: 4.809,
+        pontoDeFusao: 221,
+        pontoDeEbulicao: 685,
+        etalpiaDeFusao: 5.4, // kJ/mol
+        etalpiaDeVaporizacao: 26, // kJ/mol
+        calorEspecifico: 0.321, // J/g·K
+        abundanciaNaCrostaTerrestre: 0.000005,
+        abundanciaNoUniverso: 0.000003,
+        raioAtomico: 120,
+        raioCovalente: 120,
+        eletronegatividade: 2.55, // Escala de Pauling
+        volumeAtomico: 16.45, // cm3/mol
+        condutividadeTermica: 0.0204, // W/cm·K
+        aplicacoesComuns: ["Fotocélulas", "Indústria de vidro", "Suplementos alimentares"],
+        historia: `O Selénio foi observado pela primeira vez, por volta de 1300, pelo alquimista Arnold of Villanova. Em 1817 Jöns Jacob Berzelius e Johan Gottlieb Gahn descobriram o Selénio ao repararem na semelhança do novo elemento, com o já conhecido Teúrio. Em 1873, Willoughby Smith descobriu que a resistência elétrica do Selénio cinzento-metálico varia com a luz ambiente.`,
+        endereçoImagemElemento: 'https://images-of-elements.com/s/selenium.jpg',
+        curiosidade: 'A carência em Selénio poderá levar ao crescimento retardado'
     },
     {
         nome: "Bromo",
-        sigla: "Br",
-        numeroAtomico: 35,
-        massaAtomica: 79.904,
-        configuracaoEletronica: "[Ar] 3d¹⁰ 4s² 4p⁵",
         grupo: 17,
         periodo: 4,
-        raioAtomico: 114, // Valor aproximado em pm
-        estadoNatural: "Líquido",
-        pontoDeFusao: -7.2, // Em °C
-        pontoDeEbulicao: 58.8, // Em °C
-        densidade: 3.1028, // Em g/cm³
-        eletronegatividade: 2.96, // Valor aproximado
-        aplicacoesComuns: ["Desinfetantes", "Produtos farmacêuticos", "Retardadores de chama"],
+        sigla: "Br",
         decomposicao: {
             protons: 35,
             eletrons: 35,
-            neutrons: 45 // O número de nêutrons pode variar, mas geralmente é próximo ao número de prótons
+            neutrons: 45
         },
-        categoria: "halogenios"
+        numeroAtomico: 35,
+        massaAtomica: 79.904,
+        categoria: "halogenio",
+        configuracaoEletronica: "[Ar] 3d¹⁰ 4s² 4p⁵",
+        cor: 'Vermelho',
+        radioativo: false,
+        estadoNatural: "Líquido",
+        densidade: 3.122,
+        pontoDeFusao: -7.2,
+        pontoDeEbulicao: 58.8,
+        etalpiaDeFusao: 5.8, // kJ/mol
+        etalpiaDeVaporizacao: 14.8, // kJ/mol
+        calorEspecifico: 0.474, // J/g·K
+        abundanciaNaCrostaTerrestre: 0.0003,
+        abundanciaNoUniverso: 0.0000007,
+        raioAtomico: 120,
+        raioCovalente: 120,
+        eletronegatividade: 2.96, // Escala de Pauling
+        volumeAtomico: 23.5, // cm3/mol
+        condutividadeTermica: 0.00122, // W/cm·K
+        aplicacoesComuns: ["Desinfetantes", "Produtos farmacêuticos", "Retardadores de chama"],
+        historia: `Carl Jacob Löwig descobriu o Bromo, quando ainda era estudante de química na Universidade de Heidelberg, na Alemanha. Antoine Balard destilou o Bromo, a partir de uma solução de cinzas de algas marinhas, saturada com cloro, em 1824. Em 1826, publicou, finalmente, os resultados, provando que a substância que descobrira se tratava de um novo elemento.`,
+        endereçoImagemElemento: 'https://images-of-elements.com/s/bromine.jpg',
+        curiosidade: 'O Bromo é o único elemento não metálico que é líquido a temperaturas normais'
     },
     {
         nome: "Criptônio",
-        sigla: "Kr",
-        numeroAtomico: 36,
-        massaAtomica: 83.798,
-        configuracaoEletronica: "[Ar] 3d¹⁰ 4s² 4p⁶",
         grupo: 18,
         periodo: 4,
-        raioAtomico: 88, // Valor aproximado em pm
-        estadoNatural: "Gasoso",
-        pontoDeFusao: -157.36, // Em °C
-        pontoDeEbulicao: -153.22, // Em °C
-        densidade: 0.003733, // Em g/cm³
-        eletronegatividade: null, // Não disponível para gases nobres
-        aplicacoesComuns: ["Iluminação em lasers", "Iluminação em lâmpadas", "Criptografia quântica"],
+        sigla: "Kr",
         decomposicao: {
             protons: 36,
             eletrons: 36,
-            neutrons: 48 // O número de nêutrons pode variar, mas geralmente é próximo ao número de prótons
+            neutrons: 48
         },
-        categoria: "gas-nobre"
+        numeroAtomico: 36,
+        massaAtomica: 83.798,
+        categoria: "gas-nobre",
+        configuracaoEletronica: "[Ar] 3d¹⁰ 4s² 4p⁶",
+        cor: null,
+        radioativo: false,
+        estadoNatural: "Gasoso",
+        densidade: 0.003733,
+        pontoDeFusao: -157.33,
+        pontoDeEbulicao: -153.11,
+        etalpiaDeFusao: 1.64, // kJ/mol
+        etalpiaDeVaporizacao: 9.02, // kJ/mol
+        calorEspecifico: 0.248, // J/g·K
+        abundanciaNaCrostaTerrestre: 0.000000015,
+        abundanciaNoUniverso: 0.000004,
+        raioAtomico: 88,
+        raioCovalente: 116,
+        eletronegatividade: 3, // Escala de Pauling
+        volumeAtomico: 38.9, // cm3/mol
+        condutividadeTermica: 0.0000949, // W/cm·K
+        aplicacoesComuns: ["Iluminação em lasers", "Iluminação em lâmpadas", "Criptografia quântica"],
+        historia: `O químico escocês Sir William Ramsay e o seu assistente, o químico inglês Morris Travers, descobriram o Crípton em 1898, em Londres. Eles encontraram Crípton no resíduo seco da evaporação de praticamente todos os componentes do ar líquido. William Ramsay foi laureado com o prémio Nobel da Química, em 1904, pela descoberta de uma série de gases nobres, incluindo o Crípton.`,
+        endereçoImagemElemento: 'https://images-of-elements.com/s/krypton.jpg',
+        curiosidade: 'Quando ionizado, o gás Crípton emite uma luz branca brilhante.'
     },
     {
         nome: "Rubídio",
-        sigla: "Rb",
-        numeroAtomico: 37,
-        massaAtomica: 85.4678,
-        configuracaoEletronica: "[Kr] 5s¹",
         grupo: 1,
         periodo: 5,
-        raioAtomico: 265, // Valor aproximado em pm
-        estadoNatural: "Sólido",
-        pontoDeFusao: 39.31, // Em °C
-        pontoDeEbulicao: 688, // Em °C
-        densidade: 1.532, // Em g/cm³
-        eletronegatividade: 0.82, // Valor aproximado
-        aplicacoesComuns: ["Componente em relógios atômicos", "Produção de vidro especial", "Produção de ligas metálicas"],
+        sigla: "Rb",
         decomposicao: {
             protons: 37,
             eletrons: 37,
-            neutrons: 48 // O número de nêutrons pode variar, mas geralmente é próximo ao número de prótons
+            neutrons: 48
         },
-        categoria: "metal-alcalino"
+        numeroAtomico: 37,
+        massaAtomica: 85.4678,
+        categoria: "metal-alcalino",
+        configuracaoEletronica: "[Kr] 5s¹",
+        cor: 'Prata',
+        radioativo: false,
+        estadoNatural: "Sólido",
+        densidade: 1.532,
+        pontoDeFusao: 39.31,
+        pontoDeEbulicao: 688,
+        etalpiaDeFusao: 2.19, // kJ/mol
+        etalpiaDeVaporizacao: 72, // kJ/mol
+        calorEspecifico: 0.363, // J/g·K
+        abundanciaNaCrostaTerrestre: 0.006,
+        abundanciaNoUniverso: 0.000001,
+        raioAtomico: 248,
+        raioCovalente: 220,
+        eletronegatividade: 0.82, // Escala de Pauling
+        volumeAtomico: 55.9, // cm3/mol
+        condutividadeTermica: 0.582, // W/cm·K
+        aplicacoesComuns: ["Componente em relógios atômicos", "Produção de vidro especial", "Produção de ligas metálicas"],
+        historia: `Os químicos alemães Robert Bunsen e Gustav Kirchhoff descobriram o Rubídio, em 1861, através do recém desenvolvido método de espetroscopia de chama. Bunsen tentou isolar o metal, mas nunca encontrou amostras com mais de 18% de Rubídio. O metal só foi isolado por George de Hevesy, através da hidrólise de hidróxido de Rubídio dissolvido.`,
+        endereçoImagemElemento: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Rb5.JPG/800px-Rb5.JPG?20071220125430',
+        curiosidade: 'O Rubídio arde com uma chama violeta avermelhada'
     },
     {
         nome: "Estrôncio",
-        sigla: "Sr",
-        numeroAtomico: 38,
-        massaAtomica: 87.62,
-        configuracaoEletronica: "[Kr] 5s²",
         grupo: 2,
         periodo: 5,
-        raioAtomico: 219, // Valor aproximado em pm
-        estadoNatural: "Sólido",
-        pontoDeFusao: 769, // Em °C
-        pontoDeEbulicao: 1384, // Em °C
-        densidade: 2.64, // Em g/cm³
-        eletronegatividade: 0.95, // Valor aproximado
-        aplicacoesComuns: ["Pirotecnia (fogo de artifício)", "Produção de fogos luminosos", "Ligas metálicas"],
+        sigla: "Sr",
         decomposicao: {
             protons: 38,
             eletrons: 38,
-            neutrons: 50 // O número de nêutrons pode variar, mas geralmente é próximo ao número de prótons
+            neutrons: 50
         },
-        categoria: "metal-alcalino-terroso"
+        numeroAtomico: 38,
+        massaAtomica: 87.62,
+        categoria: "metal-alcalino-terroso",
+        configuracaoEletronica: "[Kr] 5s²",
+        cor: 'Prata',
+        radioativo: false,
+        estadoNatural: "Sólido",
+        densidade: 2.64,
+        pontoDeFusao: 777,
+        pontoDeEbulicao: 1382,
+        etalpiaDeFusao: 8, // kJ/mol
+        etalpiaDeVaporizacao: 137, // kJ/mol
+        calorEspecifico: 0.301, // J/g·K
+        abundanciaNaCrostaTerrestre: 0.036,
+        abundanciaNoUniverso: 0.000004,
+        raioAtomico: 215,
+        raioCovalente: 195,
+        eletronegatividade: 0.95, // Escala de Pauling
+        volumeAtomico: 33.7, // cm3/mol
+        condutividadeTermica: 0.353, // W/cm·K
+        aplicacoesComuns: ["Pirotecnia (fogo de artifício)", "Produção de fogos luminosos", "Ligas metálicas"],
+        historia: `O Estrôncio foi identificado como novo elemento, em 1790, quando Adair Crawford e o seu colega William Cruickshank analisaram uma amostra mineral de uma mina de chumbo, perto de Strontian, na Escócia. O elemento acabou por ser isolado por Sir Humphry Davy, em 1808. O isolamento foi feito, através da eletrólise de uma mistura de cloreto de Estrôncio e óxido de mercúrio.`,
+        endereçoImagemElemento: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Strontium_destilled_crystals.jpg/800px-Strontium_destilled_crystals.jpg?20160404140419',
+        curiosidade: 'O Estrôncio torna-se amarelo, quando exposto ao ar.'
     },
     {
         nome: "Ítrio",
-        sigla: "Y",
-        numeroAtomico: 39,
-        massaAtomica: 88.90584,
-        configuracaoEletronica: "[Kr] 4d¹ 5s²",
         grupo: 3,
         periodo: 5,
-        raioAtomico: 212, // Valor aproximado em pm
-        estadoNatural: "Sólido",
-        pontoDeFusao: 1523, // Em °C
-        pontoDeEbulicao: 3337, // Em °C
-        densidade: 4.472, // Em g/cm³
-        eletronegatividade: 1.22, // Valor aproximado
-        aplicacoesComuns: ["Supercondutores", "Fósforos vermelhos", "Ligas de alumínio e magnésio"],
+        sigla: "Y",
         decomposicao: {
             protons: 39,
             eletrons: 39,
-            neutrons: 50 // O número de nêutrons pode variar, mas geralmente é próximo ao número de prótons
+            neutrons: 50
         },
-        categoria: "metal-de-transicao"
+        numeroAtomico: 39,
+        massaAtomica: 88.90585,
+        categoria: "metal-de-transicao",
+        configuracaoEletronica: "[Kr] 4d¹ 5s²",
+        cor: 'Prata',
+        radioativo: false,
+        estadoNatural: "Sólido",
+        densidade: 4.469,
+        pontoDeFusao: 1526,
+        pontoDeEbulicao: 3336,
+        etalpiaDeFusao: 11.4, // kJ/mol
+        etalpiaDeVaporizacao: 380, // kJ/mol
+        calorEspecifico: 0.298, // J/g·K
+        abundanciaNaCrostaTerrestre: 0.0029,
+        abundanciaNoUniverso: 0.0000007,
+        raioAtomico: 180,
+        raioCovalente: 190,
+        eletronegatividade: 1.22, // Escala de Pauling
+        volumeAtomico: 19.8, // cm3/mol
+        condutividadeTermica: 0.172, // W/cm·K
+        aplicacoesComuns: ["Supercondutores", "Fósforos vermelhos", "Ligas de alumínio e magnésio"],
+        historia: `Em 1787, Carl Axel Arrhenius encontrou um novo mineral, perto de Ytterby, na Suécia e chamou-o de Ytterbite, em homenagem à povoação. Johan Gadolin descobriu o óxido de Ítrio na amostra de Arrhenius, em 1789, sendo designado de Gandolinite e Anders Gustaf Ekeberg denominou o novo óxido de ítria. O Ítrio foi isolado pela primeira vez, por Friedrich Wöhler, em 1828.`,
+        endereçoImagemElemento: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Yttrium_sublimed_dendritic_and_1cm3_cube.jpg/800px-Yttrium_sublimed_dendritic_and_1cm3_cube.jpg?20100705181415',
+        curiosidade: 'O ítrio finamente dividido é muito instável no ar.'
     },
     {
         nome: "Zircônio",
-        sigla: "Zr",
-        numeroAtomico: 40,
-        massaAtomica: 91.224,
-        configuracaoEletronica: "[Kr] 4d² 5s²",
         grupo: 4,
         periodo: 5,
-        raioAtomico: 206, // Valor aproximado em pm
-        estadoNatural: "Sólido",
-        pontoDeFusao: 1855, // Em °C
-        pontoDeEbulicao: 4409, // Em °C
-        densidade: 6.52, // Em g/cm³
-        eletronegatividade: 1.33, // Valor aproximado
-        aplicacoesComuns: ["Revestimentos de reatores nucleares", "Peças de aeronaves", "Fabricação de ligas metálicas"],
+        sigla: "Zr",
         decomposicao: {
             protons: 40,
             eletrons: 40,
-            neutrons: 51 // O número de nêutrons pode variar, mas geralmente é próximo ao número de prótons
+            neutrons: 51
         },
-        categoria: "metal-de-transicao"
+        numeroAtomico: 40,
+        massaAtomica: 91.224,
+        categoria: "metal-de-transicao",
+        configuracaoEletronica: "[Kr] 4d² 5s²",
+        cor: 'Prata',
+        radioativo: false,
+        estadoNatural: "Sólido",
+        densidade: 6.506,
+        pontoDeFusao: 1885,
+        pontoDeEbulicao: 4409,
+        etalpiaDeFusao: 21, // kJ/mol
+        etalpiaDeVaporizacao: 580, // kJ/mol
+        calorEspecifico: 0.278, // J/g·K
+        abundanciaNaCrostaTerrestre: 0.013,
+        abundanciaNoUniverso: 0.000005,
+        raioAtomico: 160,
+        raioCovalente: 175,
+        eletronegatividade: 1.33, // Escala de Pauling
+        volumeAtomico: 14, // cm3/mol
+        condutividadeTermica: 0.227, // W/cm·K
+        aplicacoesComuns: ["Revestimentos de reatores nucleares", "Peças de aeronaves", "Fabricação de ligas metálicas"],
+        historia: `O Zircónio foi identificado como elemento, pela primeira vez, por Martin Heinrich Klaproth, em 1789, em Berlim, numa amostra de zircão, proveniente do Sri Lanka. O metal Zircónio foi obtido, pela primeira vez, em forma impura, por Jöns Jakob Berzelius, em 1824, pelo aquecimento de uma mistura de potássio e fluoreto de potássio e zircónio, num tubo de de ferro. Os cientistas holandeses Anton Eduard van Arkel e Jan Hendrik de Boer descobriram um método para produzir Zircónio de elevado grau de pureza, em 1925.`,
+        endereçoImagemElemento: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Zirconium_crystal_bar_and_1cm3_cube.jpg/800px-Zirconium_crystal_bar_and_1cm3_cube.jpg?20110410211011',
+        curiosidade: 'O óxido mais comum é o Dióxido de Zircónio, também conhecido como Zircónio.'
     },
     {
         nome: "Nióbio",
-        sigla: "Nb",
-        numeroAtomico: 41,
-        massaAtomica: 92.90638,
-        configuracaoEletronica: "[Kr] 4d^4 5s^1",
         grupo: 5,
         periodo: 5,
-        raioAtomico: 198, // Valor aproximado em pm
-        estadoNatural: "Sólido",
-        pontoDeFusao: 2477, // Em °C
-        pontoDeEbulicao: 4744, // Em °C
-        densidade: 8.57, // Em g/cm³
-        eletronegatividade: 1.6, // Valor aproximado
-        aplicacoesComuns: ["Superligas de alta resistência", "Componentes de motores a jato", "Equipamentos de processamento químico"],
+        sigla: "Nb",
         decomposicao: {
             protons: 41,
             eletrons: 41,
-            neutrons: 52 // O número de nêutrons pode variar, mas geralmente é próximo ao número de prótons
+            neutrons: 52
         },
-        categoria: "metal-de-transicao"
+        numeroAtomico: 41,
+        massaAtomica: 92.90638,
+        categoria: "metal-de-transicao",
+        configuracaoEletronica: "[Kr] 4d⁴ 5s¹",
+        cor: 'Cinza',
+        radioativo: false,
+        estadoNatural: "Sólido",
+        densidade: 8.57,
+        pontoDeFusao: 2477,
+        pontoDeEbulicao: 4744,
+        etalpiaDeFusao: 26.8, // kJ/mol
+        etalpiaDeVaporizacao: 690, // kJ/mol
+        calorEspecifico: 0.265, // J/g·K
+        abundanciaNaCrostaTerrestre: 0.0017,
+        abundanciaNoUniverso: 0.0000002,
+        raioAtomico: 146,
+        raioCovalente: 154,
+        eletronegatividade: 1.6, // Escala de Pauling
+        volumeAtomico: 10.87, // cm3/mol
+        condutividadeTermica: 0.537, // W/cm·K
+        aplicacoesComuns: ["Superligas de alta resistência", "Componentes de motores a jato", "Equipamentos de processamento químico"],
+        historia: `O Nióbio foi descoberto pelo químico Inglês Charles Hatchet, em 1801 a que deu o nome de Columbium. Em 1846, o químico alemão Henrich Rose descobriu, por seu lado, o elemento e batizou-o de Nióbio. O metal foi isolado pela primeira vez pelo cientista sueco Christian Wilhelm Blomstran, em 1864, que reduziu o cloreto Nióbio, aquecendo-o numa atmosfera de hidrogénio.`,
+        endereçoImagemElemento: 'https://images-of-elements.com/s/niobium.jpg',
+        curiosidade: 'O Brasil é o principal produtor de Nióbio.'
     },
     {
         nome: "Molibdênio",
-        sigla: "Mo",
-        numeroAtomico: 42,
-        massaAtomica: 95.95,
-        configuracaoEletronica: "[Kr] 4d⁵ 5s¹",
         grupo: 6,
         periodo: 5,
-        raioAtomico: 190, // Valor aproximado em pm
-        estadoNatural: "Sólido",
-        pontoDeFusao: 2623, // Em °C
-        pontoDeEbulicao: 4639, // Em °C
-        densidade: 10.28, // Em g/cm³
-        eletronegatividade: 2.16, // Valor aproximado
-        aplicacoesComuns: ["Aço inoxidável", "Catalisadores", "Eletrônicos"],
+        sigla: "Mo",
         decomposicao: {
             protons: 42,
             eletrons: 42,
-            neutrons: 54 // O número de nêutrons pode variar, mas geralmente é próximo ao número de prótons
+            neutrons: 54
         },
-        categoria: "metal-de-transicao"
+        numeroAtomico: 42,
+        massaAtomica: 95.96,
+        categoria: "metal-de-transicao",
+        configuracaoEletronica: "[Kr] 4d⁴ 5s¹",
+        cor: 'Cinza',
+        radioativo: false,
+        estadoNatural: "Sólido",
+        densidade: 10.22,
+        pontoDeFusao: 2623,
+        pontoDeEbulicao: 4639,
+        etalpiaDeFusao: 36, // kJ/mol
+        etalpiaDeVaporizacao: 600, // kJ/mol
+        calorEspecifico: 0.251, // J/g·K
+        abundanciaNaCrostaTerrestre: 0.00011,
+        abundanciaNoUniverso: 0.0000005,
+        raioAtomico: 139,
+        raioCovalente: 154,
+        eletronegatividade: 2.16, // Escala de Pauling
+        volumeAtomico: 9.4, // cm3/mol
+        condutividadeTermica: 0.138, // W/cm·K
+        aplicacoesComuns: ["Aço inoxidável", "Catalisadores", "Eletrônicos"],
+        historia: `O Molibdénio era frequentemente confundido com grafite e pensava-se conter chumbo. Em 1778, o cientista sueco Carl Wilhelm Scheele provou que o Molibdénio não só não era grafite, como também não continha chumbo. Em 1781, Peter J. Hjelm, amigo e compatriota de Scheele, isolou o metal, com recurso ao carbono e ao óleo de linhaça.`,
+        endereçoImagemElemento: 'https://images-of-elements.com/s/molybdenum.jpg',
+        curiosidade: 'O Molbidénio é essencial para a saúde da folhagem das plantas'
     },
     {
         nome: "Tecnécio",
-        sigla: "Tc",
-        numeroAtomico: 43,
-        massaAtomica: "Variável",
-        configuracaoEletronica: "[Kr] 4d⁵ 5s²",
         grupo: 7,
         periodo: 5,
-        raioAtomico: "Desconhecido",
-        estadoNatural: "Artificial",
-        pontoDeFusao: "Desconhecido",
-        pontoDeEbulicao: "Desconhecido",
-        densidade: "Desconhecido",
-        eletronegatividade: "Desconhecido",
-        aplicacoesComuns: ["Medicina nuclear", "Marcadores radioativos"],
+        sigla: "Tc",
         decomposicao: {
             protons: 43,
             eletrons: 43,
-            neutrons: "Variável" // Não possui isótopos estáveis
+            neutrons: 55
         },
-        categoria: "metal-de-transicao"
+        numeroAtomico: 43,
+        massaAtomica: 98,
+        categoria: "metal-de-transicao",
+        configuracaoEletronica: "[Kr] 4d⁵ 5s²",
+        cor: 'Prata',
+        radioativo: true,
+        estadoNatural: "Sólido",
+        densidade: 11.5,
+        pontoDeFusao: 2157,
+        pontoDeEbulicao: 4265,
+        etalpiaDeFusao: 23, // kJ/mol
+        etalpiaDeVaporizacao: 550, // kJ/mol
+        calorEspecifico: null, // J/g·K
+        abundanciaNaCrostaTerrestre: null,
+        abundanciaNoUniverso: null,
+        raioAtomico: 136,
+        raioCovalente: 147,
+        eletronegatividade: 1.9, // Escala de Pauling
+        volumeAtomico: 8.5, // cm3/mol
+        condutividadeTermica: 0.506, // W/cm·K
+        aplicacoesComuns: ["Medicina nuclear", "Marcadores radioativos"],
+        historia: `O elemento 43 foi previsto com base na tabela periódica. Foi erroneamente dado como descoberto em 1925, tendo sido designado por Masúrio. O elemento foi realmente descoberto por Carlo Perrier e Emílio Segré em 1937. Foi também encontrado numa amostra de Molibdénio enviada por Ernst Lawrence que foi bombardeada por deuterões, no ciclotrão de Berkeley.`,
+        endereçoImagemElemento: 'https://s5.static.brasilescola.uol.com.br/be/2022/02/uranio.jpg',
+        curiosidade: 'O tecnécio foi o primeiro elemento a ser produzido artificialmente.'
     },
     {
         nome: "Rutênio",

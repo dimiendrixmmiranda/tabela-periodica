@@ -102,6 +102,17 @@ body::-webkit-scrollbar-thumb {
   transform: translate(-50%);
   font-size: 0.45em;
 }
+.conteudo .elementos button .radioativo {
+  width: 10px;
+  height: 10px;
+  background-image: url("../../assets/imgs/radioativo.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  z-index: 2;
+  position: absolute;
+  top: 3px;
+  right: 3px;
+}
 .conteudo .elementos .btn-selecionado {
   border: solid 3px black;
 }
@@ -199,6 +210,10 @@ body::-webkit-scrollbar-thumb {
   .conteudo .elementos button {
     width: 100%;
     height: 100%;
+  }
+  .conteudo .elementos button .radioativo {
+    width: 14px;
+    height: 14px;
   }
   .conteudo .elementos .seta1 {
     background-size: 41.5px;
