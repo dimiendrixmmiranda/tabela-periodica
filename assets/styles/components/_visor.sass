@@ -65,9 +65,9 @@
                 align-items: center
                 margin-left: .2em
                 max-width: 95%
-        li
-            &:nth-child(5), &:nth-child(6), &:nth-child(7), &:nth-child(8)
+            &:nth-child(5), &:nth-child(6), &:nth-child(7), &:nth-child(8), &:nth-child(9), &:nth-child(10), &:nth-child(11), &:nth-child(12)
                 display: none
+
     button
         grid-column: 1/3
         font-weight: bold
@@ -85,7 +85,7 @@
         display: flex
         flex-direction: column
         display: none
-        .visor-mais-informacoes
+        .visor-mais-informacoes-item
             display: grid
             grid-template-columns: repeat(2, 50%)
             font-size: .8em
@@ -102,13 +102,6 @@
                 padding: .3em
                 display: block
                 word-break: break-word
-                img
-                    width: 50%
-                    padding: .5em
-                    justify-self: center
-                    margin: 0 auto
-                    display: block
-                    max-width: 80px
 
 @media screen and ( min-width: 425px )
     .visor
@@ -127,10 +120,42 @@
         .visor-informacoes-elemento
             display: grid
             grid-template-columns: repeat(2, 50%)
-            li
+            .visor-informacoes-elemento-item
                 &:nth-child(5), &:nth-child(6), &:nth-child(7), &:nth-child(8)
                     display: grid
         .visor-mais-informacoes
+            display: none
+            grid-template-columns: repeat(2, 50%)
             li
-                &:nth-child(1), &:nth-child(2), &:nth-child(3), &:nth-child(4)
+                display: grid
+                grid-template-columns: repeat(2, 50%)
+                width: 100%
+                &:nth-child(1), &:nth-child(2), &:nth-child(3), &:nth-child(4), &:nth-child(5)
                     display: none
+                &:last-child
+                    grid-column: 1/3
+
+@media screen and ( min-width: 1024px )
+    .visor
+        grid-template-rows: 1fr 9rem 1fr
+        grid-template-columns: 9rem 1fr
+        .visor-simbolo-elemento
+            width: 9rem
+            height: 9rem
+        .visor-informacoes-elemento
+            display: grid
+            grid-template-columns: repeat(3, 1fr)
+            .visor-informacoes-elemento-item
+                &:nth-child(9), &:nth-child(10), &:nth-child(11), &:nth-child(12)
+                    display: grid
+        .visor-mais-informacoes
+            li
+                display: grid
+                grid-template-columns: repeat(2, 50%)
+                width: 100%
+                &:nth-child(1), &:nth-child(2), &:nth-child(3), &:nth-child(4), &:nth-child(5), &:nth-child(6), &:nth-child(7), &:nth-child(8), &:nth-child(9)
+                    display: none
+                &:last-child
+                    grid-column: 1/3
+                    display: grid
+                    grid-template-columns: 25% 1fr

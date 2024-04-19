@@ -1,13 +1,17 @@
+import { definirElementoSelecionado, selecionarElementoDom } from "./selecionarPrimeiroElemento.js"
 import { tabelaPeriodica } from "./tabelaPeriodica.js"
 const dadosDoVisor = document.querySelector('.visor')
 
 export function selecionarElemento(btn) {
     btn.addEventListener('click', (e) => {
         e.preventDefault()
-        console.log(btn)
         const corElemento = e.target.style.backgroundColor
         const nomeElemento = btn.dataset.elemento
+        
         const dadosDoElemento = tabelaPeriodica.filter(elemento => elemento.nome == nomeElemento)
+        console.log(nomeElemento)
+        console.log(dadosDoElemento[0])
+        console.log(dadosDoElemento)
         substituirElemento(dadosDoElemento[0], corElemento)
     })
 }
@@ -16,56 +20,32 @@ export function substituirElemento(dadosDoElemento, corElemento) {
     // parte da cor
     const cor = document.querySelectorAll('.cor').forEach(elemento => elemento.style.backgroundColor = corElemento)
 
-    const nome = dadosDoVisor.querySelector('#nomeElemento').innerHTML = dadosDoElemento.nome
-    const simbolo = dadosDoVisor.querySelectorAll('.simboloElemento').forEach(elemento => elemento.innerHTML = dadosDoElemento.sigla)
-    const numeroAtomico = dadosDoVisor.querySelector('.numeroAtomico').innerHTML = dadosDoElemento.numeroAtomico
-    const massaAtomica = dadosDoVisor.querySelectorAll('.massaAtomicaElemento').forEach(elemento => {
-        if (typeof dadosDoElemento.massaAtomica == 'string') {
-            elemento.innerHTML = dadosDoElemento.massaAtomica
-        } else {
-            elemento.innerHTML = (dadosDoElemento.massaAtomica).toFixed(3)
-        }
-    })
-    const configuracaoEletronica = dadosDoVisor.querySelector('.configuracaoEletronica').innerHTML = dadosDoElemento.configuracaoEletronica
-
-    const grupoPeriodo = document.querySelectorAll('.grupoPeriodo').forEach(elemento => elemento.innerHTML = `Grupo ${dadosDoElemento.grupo}, Período ${dadosDoElemento.periodo}`)
-    const raioAtomico = document.querySelectorAll('.raioAtomico').forEach(elemento => {
-        if(dadosDoElemento.raioAtomico === null){
-            elemento.innerHTML = 'Desconhecido'
-        }else{
-            elemento.innerHTML = `${dadosDoElemento.raioAtomico} pm`
-        }
-    })
-    const estadoNatural = document.querySelectorAll('.estadoNatural').forEach(elemento => elemento.innerHTML = dadosDoElemento.estadoNatural)
-    const pontoDeFusao = document.querySelectorAll('.pontoDeFusao').forEach(elemento => {
-        if(dadosDoElemento.pontoDeFusao === null){
-            elemento.innerHTML = `Desconhecido`
-        }else{
-            elemento.innerHTML = `${dadosDoElemento.pontoDeFusao} ºC`
-        }
-    })
-    const pontoDeEbulicao = document.querySelectorAll('.pontoDeEbulicao').forEach(elemento => {
-        if(dadosDoElemento.pontoDeEbulicao == null){
-            elemento.innerHTML = `Desconhecido`
-        }else{
-            elemento.innerHTML = `${dadosDoElemento.pontoDeEbulicao} ºC`
-        }
-    })
-    const densidade = document.querySelectorAll('.densidade').forEach(elemento => elemento.innerHTML = `${dadosDoElemento.densidade} g/cm³`)
-    const eletronegatividade = document.querySelectorAll('.eletronegatividade').forEach(elemento => {
-        if (dadosDoElemento.eletronegatividade === null) {
-            elemento.innerHTML = 'Não disponivel'
-        } else {
-            elemento.innerHTML = `${dadosDoElemento.eletronegatividade}`
-        }
-    })
-    const aplicacoesComuns = document.querySelectorAll('.aplicacoesComuns').forEach(elemento => elemento.innerHTML = dadosDoElemento.aplicacoesComuns)
-
+    selecionarElementoDom('#nomeElemento', dadosDoElemento.nome)
+    selecionarElementoDom('.simboloElemento', dadosDoElemento.sigla)
+    selecionarElementoDom('.numeroAtomico', dadosDoElemento.numeroAtomico)
+    selecionarElementoDom('.massaAtomicaElemento', parseFloat(dadosDoElemento.massaAtomica).toFixed(3))
+    selecionarElementoDom('.configuracaoEletronica', dadosDoElemento.configuracaoEletronica)
+    selecionarElementoDom('.grupo', dadosDoElemento.grupo)
+    selecionarElementoDom('.periodo', dadosDoElemento.periodo)
+    selecionarElementoDom('.raioAtomico', dadosDoElemento.raioAtomico, 'pm')
+    selecionarElementoDom('.estadoNatural', dadosDoElemento.estadoNatural)
+    selecionarElementoDom('.pontoDeFusao', dadosDoElemento.pontoDeFusao, 'ºC')
+    selecionarElementoDom('.pontoDeEbulicao', dadosDoElemento.pontoDeEbulicao, 'ºC')
+    selecionarElementoDom('.densidade', dadosDoElemento.densidade, 'g/cm³')
+    selecionarElementoDom('.eletronegatividade', dadosDoElemento.eletronegatividade, '(escala de Pauling)')
+    selecionarElementoDom('.aplicacoesComuns', dadosDoElemento.aplicacoesComuns)
+    selecionarElementoDom('.abundanciaTerra', dadosDoElemento.abundanciaNaCrostaTerrestre, '%')
+    selecionarElementoDom('.abundanciaUniverso', dadosDoElemento.abundanciaNoUniverso, '%')
+    selecionarElementoDom('.raioAtomico', dadosDoElemento.raioAtomico, 'pm')
+    selecionarElementoDom('.raioCovalente', dadosDoElemento.raioCovalente, 'pm')
+    selecionarElementoDom('.etalpiaDeFusao', dadosDoElemento.etalpiaDeFusao, 'kJ/mol')
+    selecionarElementoDom('.etalpiaDeVaporizacao', dadosDoElemento.etalpiaDeVaporizacao, 'kJ/mol')
+    selecionarElementoDom('.calorEspecifico', dadosDoElemento.calorEspecifico, 'J/g·K')
+    selecionarElementoDom('.volumeAtomico', dadosDoElemento.volumeAtomico, 'cm³/mol')
+    selecionarElementoDom('.condutividadeTermica', dadosDoElemento.condutividadeTermica, 'W/cm·K')
+    selecionarElementoDom('.container-historia-texto', dadosDoElemento.historia)
+    
     const containerHistoria = document.querySelector('.container-historia')
-    // MOCADO
-    containerHistoria.querySelector('.container-historia-texto').innerHTML = dadosDoElemento.historia
-
     containerHistoria.querySelector('.container-historia-img').setAttribute('src', dadosDoElemento.endereçoImagemElemento)
-    document.querySelectorAll('.elementos button').forEach(btn => btn.classList.remove('btn-selecionado'))
-    document.querySelector(`[data-elemento="${nome}"]`).classList.add('btn-selecionado')
+    definirElementoSelecionado(dadosDoElemento.nome)
 }

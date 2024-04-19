@@ -31,7 +31,8 @@
     <div class="banner">
         <h2>Navegue pelo Reino dos Elementos! <strong>Uma Tabela Periódica Digital Inovadora!</strong></h2>
         <img src="./assets/imgs/post.svg" alt="">
-        <p>Utilize nossa Tabela Periódica para obter informações como densidade, eletronegatividade, configuração eletrônica entre muitos outros dados dos elementos</p>
+        <p>Utilize nossa Tabela Periódica para obter informações como densidade, eletronegatividade, configuração
+            eletrônica entre muitos outros dados dos elementos</p>
         <a href="#visor"><img src="./assets/imgs/seta-para-baixo.png" alt=""></a>
     </div>
 
@@ -83,40 +84,92 @@
                     <span></span>
                     <p class="densidade">0.08988 g/L</p>
                 </li>
+                <li class="cor visor-informacoes-elemento-item">
+                    <h4>Abundância na Terra</h4>
+                    <span></span>
+                    <p class="abundanciaTerra"></p>
+                </li>
+                <li class="cor visor-informacoes-elemento-item">
+                    <h4>Abundância no Universo</h4>
+                    <span></span>
+                    <p class="abundanciaUniverso"></p>
+                </li>
+                <li class="cor visor-informacoes-elemento-item">
+                    <h4>Raio Atômico</h4>
+                    <span></span>
+                    <p class="raioAtomico"></p>
+                </li>
+                <li class="cor visor-informacoes-elemento-item">
+                    <h4>Raio Covalente</h4>
+                    <span></span>
+                    <p class="raioCovalente"></p>
+                </li>
             </ul>
             <button class="cor" id="btnVerDetalhes">Ver mais detalhes <i class="fa-solid fa-turn-down"></i></button>
             <ul class="visor-mais-informacoes">
-                <li class="cor visor-mais-informacoes">
-                    <h4>Estado Natural</h4>
-                    <p class="estadoNatural">Gasoso</p>
-                </li>
-                <li class="cor visor-mais-informacoes">
-                    <h4>Ponto de fusão</h4>
+                <li class="cor visor-mais-informacoes-item">
+                    <h4>Ponto de Fusão</h4>
                     <p class="pontoDeFusao">14.01 K (-259.14°C, -434.45°F)</p>
                 </li>
-                <li class="cor visor-mais-informacoes">
+                <li class="cor visor-mais-informacoes-item">
                     <h4>Ponto de Ebulição</h4>
                     <p class="pontoDeEbulicao">14.01 K (-259.14°C, -434.45°F)</p>
                 </li>
-                <li class="cor visor-mais-informacoes">
-                    <h4>Densidade</h4>
-                    <p class="densidade">0.08988 g/L</p>
-                </li>
-                <li class="cor visor-mais-informacoes">
+                <li class="cor visor-mais-informacoes-item">
                     <h4>Grupo e Período:</h4>
                     <p>Grupo <strong class="grupo"></strong>, Período <strong class="periodo"></strong></p>
                 </li>
-                <li class="cor visor-mais-informacoes">
+                <li class="cor visor-mais-informacoes-item">
+                    <h4>Estado Natural</h4>
+                    <p class="estadoNatural">Gasoso</p>
+                </li>
+                <li class="cor visor-mais-informacoes-item">
+                    <h4>Densidade</h4>
+                    <p class="densidade">0.08988 g/L</p>
+                </li>
+                <li class="cor visor-mais-informacoes-item">
+                    <h4>Abundância na Terra</h4>
+                    <p class="abundanciaTerra"></p>
+                </li>
+                <li class="cor visor-mais-informacoes-item">
+                    <h4>Abundância no Universo</h4>
+                    <p class="abundanciaUniverso"></p>
+                </li>
+                <li class="cor visor-mais-informacoes-item">
                     <h4>Raio Atômico</h4>
-                    <p class="raioAtomico">25 pm (covalente), 120 pm (Van der Waals)</p>
+                    <p class="raioAtomico"></p>
                 </li>
-                <li class="cor visor-mais-informacoes">
+                <li class="cor visor-mais-informacoes-item">
+                    <h4>Raio Covalente</h4>
+                    <p class="raioCovalente"></p>
+                </li>
+                <li class="cor visor-mais-informacoes-item">
+                    <h4>Etalpia de Fusão</h4>
+                    <p class="etalpiaDeFusao"></p>
+                </li>
+                <li class="cor visor-mais-informacoes-item">
+                    <h4>Etalpia de Vaporização</h4>
+                    <p class="etalpiaDeVaporizacao"></p>
+                </li>
+                <li class="cor visor-mais-informacoes-item">
+                    <h4>Calor Específico</h4>
+                    <p class="calorEspecifico"></p>
+                </li>
+                <li class="cor visor-mais-informacoes-item">
                     <h4>Eletronegatividade</h4>
-                    <p class="eletronegatividade">2.20 (escala de Pauling)</p>
+                    <p class="eletronegatividade"></p>
                 </li>
-                <li class="cor visor-mais-informacoes">
+                <li class="cor visor-mais-informacoes-item">
+                    <h4>Volume Atômico</h4>
+                    <p class="volumeAtomico"></p>
+                </li>
+                <li class="cor visor-mais-informacoes-item">
+                    <h4>Condutividade Térmica</h4>
+                    <p class="condutividadeTermica"></p>
+                </li>
+                <li class="cor visor-mais-informacoes-item">
                     <h4>Aplicações Comuns</h4>
-                    <p class="aplicacoesComuns">Produção de Amônia, refino de petróleo, armazenamento de energia, propulsão de foguete</p>
+                    <p class="aplicacoesComuns"></p>
                 </li>
             </ul>
         </div>
@@ -169,7 +222,9 @@
     </div>
 
     <footer>
-        Projeto criado e idealizado por <strong>Dimi Endrix Martins Miranda</strong>, utilizando HTML, CSS(SASS) e JavaScript. <strong>Projeto sem fins lucrativos!</strong>
+        Projeto criado e idealizado por <strong>Dimi Endrix Martins Miranda</strong>, utilizando HTML, CSS(SASS) e
+        JavaScript. <strong>Projeto sem fins lucrativos!</strong>
     </footer>
 </body>
+
 </html>

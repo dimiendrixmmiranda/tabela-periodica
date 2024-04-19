@@ -16,12 +16,10 @@ export function criarBotao(elemento) {
     button.dataset.categoria = elemento.categoria
     button.dataset.elemento = elemento.nome
 
-    console.log(elemento.radioativo)
     if(elemento.radioativo === true){
         const divRadioativo = document.createElement('div')
         divRadioativo.classList.add('radioativo')
         button.appendChild(divRadioativo)
-        console.log(button)
     }
 
     button.appendChild(numeroAtomico)

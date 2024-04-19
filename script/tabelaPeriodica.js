@@ -1203,7 +1203,7 @@ export const tabelaPeriodica = [
         },
         numeroAtomico: 35,
         massaAtomica: 79.904,
-        categoria: "halogenio",
+        categoria: "halogenios",
         configuracaoEletronica: "[Ar] 3d¹⁰ 4s² 4p⁵",
         cor: 'Vermelho',
         radioativo: false,
