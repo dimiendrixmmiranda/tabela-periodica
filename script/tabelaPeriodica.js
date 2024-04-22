@@ -1508,619 +1508,1011 @@ export const tabelaPeriodica = [
     },
     {
         nome: "Rutênio",
-        sigla: "Ru",
-        numeroAtomico: 44,
-        massaAtomica: 101.07,
-        configuracaoEletronica: "[Kr] 4d^7 5s^1",
         grupo: 8,
         periodo: 5,
-        raioAtomico: 207, // Valor aproximado em pm
-        estadoNatural: "Sólido",
-        pontoDeFusao: 2334, // Em °C
-        pontoDeEbulicao: 4147, // Em °C
-        densidade: 12.1, // Em g/cm³
-        eletronegatividade: 2.2, // Valor aproximado
-        aplicacoesComuns: ["Catalisador", "Eletrônicos", "Jóias"],
+        sigla: "Ru",
         decomposicao: {
             protons: 44,
             eletrons: 44,
-            neutrons: 57 // O número de nêutrons pode variar, mas geralmente é próximo ao número de prótons
+            neutrons: 57
         },
-        categoria: "metal-de-transicao"
+        numeroAtomico: 44,
+        massaAtomica: 101.07,
+        categoria: "metal-de-transicao",
+        configuracaoEletronica: "[Kr] 4d⁷ 5s¹",
+        cor: 'Prata',
+        radioativo: false,
+        estadoNatural: "Sólido",
+        densidade: 12.37,
+        pontoDeFusao: 2334,
+        pontoDeEbulicao: 4150,
+        etalpiaDeFusao: 25.7, // kJ/mol
+        etalpiaDeVaporizacao: 580, // kJ/mol
+        calorEspecifico: 0.238, // J/g·K
+        abundanciaNaCrostaTerrestre: 0.000000099,
+        abundanciaNoUniverso: 0.0000004,
+        raioAtomico: 134,
+        raioCovalente: 146,
+        eletronegatividade: 2.2, // Escala de Pauling
+        volumeAtomico: 8.3, // cm3/mol
+        condutividadeTermica: 1.17, // W/cm·K
+        aplicacoesComuns: ["Catalisador", "Eletrônicos", "Jóias"],
+        historia: `
+        Jędrzej Śniadecki isolou o elemento, em 1807, mas o seu trabalho não foi ratificado.Jöns Berzelius e Gottfried Osann estiveram perto de descobrir o Ruténio, em 1827. Em 1844, Karl Ernst Claus confirmou a existência de um novo elemento e isolou o Ruténio de resíduos de platina, da produção de rublos, quando trabalhava na Universidade de Kazan, em Kazan.`,
+        endereçoImagemElemento: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Ruthenium_crystals.jpg/689px-Ruthenium_crystals.jpg?20200410064943',
+        curiosidade: 'O Ruténio não é afetado pelo ar, pela água, nem por ácidos'
     },
     {
         nome: "Ródio",
-        sigla: "Rh",
-        numeroAtomico: 45,
-        massaAtomica: 102.90550,
-        configuracaoEletronica: "[Kr] 4d^8 5s^1",
         grupo: 9,
         periodo: 5,
-        raioAtomico: 195, // Valor aproximado em pm
-        estadoNatural: "Sólido",
-        pontoDeFusao: 1966, // Em °C
-        pontoDeEbulicao: 3727, // Em °C
-        densidade: 12.41, // Em g/cm³
-        eletronegatividade: 2.28, // Valor aproximado
-        aplicacoesComuns: ["Conversores catalíticos", "Jóias", "Eletrônicos"],
+        sigla: "Rh",
         decomposicao: {
             protons: 45,
             eletrons: 45,
-            neutrons: 58 // O número de nêutrons pode variar, mas geralmente é próximo ao número de prótons
+            neutrons: 58
         },
-        categoria: "metal-de-transicao"
+        numeroAtomico: 45,
+        massaAtomica: 102.9055,
+        categoria: "metal-de-transicao",
+        configuracaoEletronica: "[Kr] 4d₈ 5s¹",
+        cor: 'Prata',
+        radioativo: false,
+        estadoNatural: "Sólido",
+        densidade: 12.41,
+        pontoDeFusao: 1964,
+        pontoDeEbulicao: 3695,
+        etalpiaDeFusao: 21.7, // kJ/mol
+        etalpiaDeVaporizacao: 495, // kJ/mol
+        calorEspecifico: 0.243, // J/g·K
+        abundanciaNaCrostaTerrestre: 0.00000007,
+        abundanciaNoUniverso: 0.00000006,
+        raioAtomico: 134,
+        raioCovalente: 142,
+        eletronegatividade: 2.28, // Escala de Pauling
+        volumeAtomico: 8.3, // cm3/mol
+        condutividadeTermica: 1.5, // W/cm·K
+        aplicacoesComuns: ["Conversores catalíticos", "Jóias", "Eletrônicos"],
+        historia: `
+        O Ródio foi descoberto em 1803, por William Hyde Wollaston, em Londres. Ele usou minério de platina em bruto, possivelmente, provindo da América do Sul. A introdução do catalisador de três vias, pela Volvo, em 1976, aumentou a procura do Ródio.`,
+        endereçoImagemElemento: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Rhodium_powder_pressed_melted.jpg/800px-Rhodium_powder_pressed_melted.jpg?20101011180342',
+        curiosidade: 'O metal ródio normalmente não forma óxido, mesmo quando aquecido'
     },
     {
         nome: "Paládio",
-        sigla: "Pd",
-        numeroAtomico: 46,
-        massaAtomica: 106.42,
-        configuracaoEletronica: "[Kr] 4d^10",
         grupo: 10,
         periodo: 5,
-        raioAtomico: 202, // Valor aproximado em pm
-        estadoNatural: "Sólido",
-        pontoDeFusao: 1554.9, // Em °C
-        pontoDeEbulicao: 2963, // Em °C
-        densidade: 12.02, // Em g/cm³
-        eletronegatividade: 2.20, // Valor aproximado
-        aplicacoesComuns: ["Catalisadores", "Jóias", "Odontologia"],
+        sigla: "Pd",
         decomposicao: {
             protons: 46,
             eletrons: 46,
-            neutrons: 60 // O número de nêutrons pode variar, mas geralmente é próximo ao número de prótons
+            neutrons: 60
         },
-        categoria: "metal-de-transicao"
+        numeroAtomico: 46,
+        massaAtomica: 106.42,
+        categoria: "metal-de-transicao",
+        configuracaoEletronica: "[Kr] 4d¹⁰",
+        cor: 'Prata',
+        radioativo: false,
+        estadoNatural: "Sólido",
+        densidade: 12.02,
+        pontoDeFusao: 1554.9,
+        pontoDeEbulicao: 2963,
+        etalpiaDeFusao: 16.7, // kJ/mol
+        etalpiaDeVaporizacao: 380, // kJ/mol
+        calorEspecifico: 0.244, // J/g·K
+        abundanciaNaCrostaTerrestre: 0.00000063,
+        abundanciaNoUniverso: 0.0000002,
+        raioAtomico: 137,
+        raioCovalente: 139,
+        eletronegatividade: 2.2, // Escala de Pauling
+        volumeAtomico: 8.9, // cm3/mol
+        condutividadeTermica: 0.718, // W/cm·K
+        aplicacoesComuns: ["Catalisadores", "Jóias", "Odontologia"],
+        historia: `
+        O Paládio foi descoberto pelo químico inglês William Hyde Wollaston, em 1803, em Londres. Após dissolver a platina em água-régia - uma solução concentrada de ácido nítrico, com cloreto de hidrogénio - ele examinou os resíduos. Posteriormente, isolou o Paládio, através de uma série de reações químicas.`,
+        endereçoImagemElemento: 'https://images-of-elements.com/s/palladium.jpg',
+        curiosidade: 'Nos finais de 1800, o Paládio era mais caro que a platina'
     },
     {
         nome: "Prata",
-        sigla: "Ag",
-        numeroAtomico: 47,
-        massaAtomica: 107.8682,
-        configuracaoEletronica: "[Kr] 4d^10 5s^1",
         grupo: 11,
         periodo: 5,
-        raioAtomico: 172, // Valor aproximado em pm
-        estadoNatural: "Sólido",
-        pontoDeFusao: 961.8, // Em °C
-        pontoDeEbulicao: 2162, // Em °C
-        densidade: 10.49, // Em g/cm³
-        eletronegatividade: 1.93, // Valor aproximado
-        aplicacoesComuns: ["Jóias", "Moedas", "Eletrônicos"],
+        sigla: "Ag",
         decomposicao: {
             protons: 47,
             eletrons: 47,
-            neutrons: 61 // O número de nêutrons pode variar, mas geralmente é próximo ao número de prótons
+            neutrons: 61
         },
-        categoria: "metal-de-transicao"
+        numeroAtomico: 47,
+        massaAtomica: 107.8682,
+        categoria: "metal-de-transicao",
+        configuracaoEletronica: "[Kr] 4d¹⁰ 5s¹",
+        cor: 'Prata',
+        radioativo: false,
+        estadoNatural: "Sólido",
+        densidade: 10.49,
+        pontoDeFusao: 961.78,
+        pontoDeEbulicao: 2162,
+        etalpiaDeFusao: 11.3, // kJ/mol
+        etalpiaDeVaporizacao: 255, // kJ/mol
+        calorEspecifico: 0.235, // J/g·K
+        abundanciaNaCrostaTerrestre: 0.0000079,
+        abundanciaNoUniverso: 0.00000006,
+        raioAtomico: 144,
+        raioCovalente: 145,
+        eletronegatividade: 1.93, // Escala de Pauling
+        volumeAtomico: 10.3, // cm3/mol
+        condutividadeTermica: 4.29, // W/cm·K
+        aplicacoesComuns: ["Jóias", "Moedas", "Eletrônicos"],
+        historia: `
+        A prata tem sido usada durante milhares de anos em ornamentos e utensílios, com fins comerciais, tendo estado na base de muitos sistemas monetários. O seu valor como metal precioso foi, desde há muito, considerado apenas inferior ao do ouro. Depósitos de cinzas vulcânicas na Ásia Menor e em ilhas do Mar Egeu indicam que o Home aprendeu a separar a prata do chumbo, por volta de 3000 AC.`,
+        endereçoImagemElemento: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Silver_crystal.jpg/765px-Silver_crystal.jpg?20090726191728',
+        curiosidade: 'No antigo Egito e na Europa medieval, a Prata era frequentemente, mais cara que o ouro'
     },
     {
         nome: "Cádmio",
-        sigla: "Cd",
-        numeroAtomico: 48,
-        massaAtomica: 112.414,
-        configuracaoEletronica: "[Kr] 4d¹⁰ 5s²",
         grupo: 12,
         periodo: 5,
-        raioAtomico: 158, // Valor aproximado em pm
-        estadoNatural: "Sólido",
-        pontoDeFusao: 321.07, // Em °C
-        pontoDeEbulicao: 767, // Em °C
-        densidade: 8.65, // Em g/cm³
-        eletronegatividade: 1.69, // Valor aproximado
-        aplicacoesComuns: ["Baterias recarregáveis", "Pigmentos", "Eletrodeposição"],
+        sigla: "Cd",
         decomposicao: {
             protons: 48,
             eletrons: 48,
-            neutrons: 64 // O número de nêutrons pode variar, mas geralmente é próximo ao número de prótons
+            neutrons: 64
         },
-        categoria: "metal-de-transicao"
+        numeroAtomico: 48,
+        massaAtomica: 112.411,
+        categoria: "metal-de-transicao",
+        configuracaoEletronica: "[Kr] 4d¹⁰ 5s²",
+        cor: 'Prata',
+        radioativo: false,
+        estadoNatural: "Sólido",
+        densidade: 8.69,
+        pontoDeFusao: 321.07,
+        pontoDeEbulicao: 767,
+        etalpiaDeFusao: 6.3, // kJ/mol
+        etalpiaDeVaporizacao: 100, // kJ/mol
+        calorEspecifico: 0.232, // J/g·K
+        abundanciaNaCrostaTerrestre: 0.000015,
+        abundanciaNoUniverso: 0.0000002,
+        raioAtomico: 151,
+        raioCovalente: 144,
+        eletronegatividade: 1.69, // Escala de Pauling
+        volumeAtomico: 13.1, // cm3/mol
+        condutividadeTermica: 0.968, // W/cm·K
+        aplicacoesComuns: ["Baterias recarregáveis", "Pigmentos", "Eletrodeposição"],
+        historia: `
+        O cádmio foi descoberto pelo químico alemão Friedrich Stromeyer, em 1817, como uma impureza do carbonato de zinco. Stromeyer observou que algumas impurezas da calamina (carbonato de zinco), mudavam de cor quando aquecidas, ao contrário da calamina pura. Karl Hermann, outro químico alemão, descobriu também o cádmio, em 1818, independentemente de Friedrich Stromeyer.`,
+        endereçoImagemElemento: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Cadmium-crystal_bar.jpg/800px-Cadmium-crystal_bar.jpg?20101104021800',
+        curiosidade: 'O Cádmio é um metal macio que pode ser cortado facilmente, com uma faca'
     },
     {
         nome: "Índio",
-        sigla: "In",
-        numeroAtomico: 49,
-        massaAtomica: 114.818,
-        configuracaoEletronica: "[Kr] 4d¹⁰ 5s² 5p¹",
         grupo: 13,
         periodo: 5,
-        raioAtomico: 193, // Valor aproximado em pm
-        estadoNatural: "Sólido",
-        pontoDeFusao: 156.6, // Em °C
-        pontoDeEbulicao: 2072, // Em °C
-        densidade: 7.31, // Em g/cm³
-        eletronegatividade: 1.78, // Valor aproximado
-        aplicacoesComuns: ["Telas sensíveis ao toque", "Soldas", "Semicondutores"],
+        sigla: "In",
         decomposicao: {
             protons: 49,
             eletrons: 49,
-            neutrons: 66 // O número de nêutrons pode variar, mas geralmente é próximo ao número de prótons
+            neutrons: 66
         },
-        categoria: "outros-metais"
+        numeroAtomico: 49,
+        massaAtomica: 114.818,
+        categoria: "outros-metais",
+        configuracaoEletronica: "[Kr] 4d¹⁰ 5s² 5p¹",
+        cor: 'Prata',
+        radioativo: false,
+        estadoNatural: "Sólido",
+        densidade: 7.31,
+        pontoDeFusao: 156.6,
+        pontoDeEbulicao: 2072,
+        etalpiaDeFusao: 3.26, // kJ/mol
+        etalpiaDeVaporizacao: 230, // kJ/mol
+        calorEspecifico: 0.233, // J/g·K
+        abundanciaNaCrostaTerrestre: 0.000016,
+        abundanciaNoUniverso: 0.00000003,
+        raioAtomico: 167,
+        raioCovalente: 142,
+        eletronegatividade: 1.78, // Escala de Pauling
+        volumeAtomico: 15.7, // cm3/mol
+        condutividadeTermica: 0.816, // W/cm·K
+        aplicacoesComuns: ["Telas sensíveis ao toque", "Soldas", "Semicondutores"],
+        historia: `
+        Ferdinand Reich e Hieronymous Theodor Richter identificaram o Irídio na esfalerite, pela sua linha espetral azulada e brilhante. Como não era conhecido qualquer elemento que emitisse essa luz azul brilhante, concluiu-se existir um novo elemento nos minerais.Richter isolou o metal, em 1864.`,
+        endereçoImagemElemento: 'https://images-of-elements.com/s/indium.jpg',
+        curiosidade: 'Quando é dobrado, o índio emite um "grito" estridente'
     },
     {
         nome: "Estanho",
-        sigla: "Sn",
-        numeroAtomico: 50,
-        massaAtomica: 118.710,
-        configuracaoEletronica: "[Kr] 4d¹⁰ 5s² 5p²",
         grupo: 14,
         periodo: 5,
-        raioAtomico: 216, // Valor aproximado em pm
-        estadoNatural: "Sólido",
-        pontoDeFusao: 231.93, // Em °C
-        pontoDeEbulicao: 2602, // Em °C
-        densidade: 7.31, // Em g/cm³
-        eletronegatividade: 1.96, // Valor aproximado
-        aplicacoesComuns: ["Embalagens de alimentos", "Soldas", "Revestimentos"],
+        sigla: "Sn",
         decomposicao: {
             protons: 50,
             eletrons: 50,
-            neutrons: 69 // O número de nêutrons pode variar, mas geralmente é próximo ao número de prótons
+            neutrons: 69
         },
-        categoria: "outros-metais"
+        numeroAtomico: 50,
+        massaAtomica: 118.71,
+        categoria: "outros-metais",
+        configuracaoEletronica: "[Kr] 4d¹⁰ 5s² 5p²",
+        cor: 'Prata',
+        radioativo: false,
+        estadoNatural: "Sólido",
+        densidade: 7.287,
+        pontoDeFusao: 231.93,
+        pontoDeEbulicao: 2602,
+        etalpiaDeFusao: 7, // kJ/mol
+        etalpiaDeVaporizacao: 290, // kJ/mol
+        calorEspecifico: 0.228, // J/g·K
+        abundanciaNaCrostaTerrestre: 0.00022,
+        abundanciaNoUniverso: 0.0000007,
+        raioAtomico: 140,
+        raioCovalente: 139,
+        eletronegatividade: 1.96, // Escala de Pauling
+        volumeAtomico: 16.3, // cm3/mol
+        condutividadeTermica: 0.666, // W/cm·K
+        aplicacoesComuns: ["Embalagens de alimentos", "Soldas", "Revestimentos"],
+        historia: `
+        O estanho foi extraído pela primeira vez, por volta do ano 3500 AC, juntamente com o cobre, para a produção de bromze. Os artefactos mais antigos remontam a 2000 AC. A cassiterite, a forma oxidada do estanho, foi, provavelmente, a primeira fonte de estanho na antiguidade. O cientista britânico, Robert Boyle, publicou uma descrição das suas experiências sobre a oxidação do estanho, em 1673.`,
+        endereçoImagemElemento: 'https://images-of-elements.com/s/tin.jpg',
+        curiosidade: 'Quando uma barra de estanho é dobrada, um som crepitante conhecido como grito de estanho pode ser ouvido'
     },
     {
         nome: "Antimônio",
-        sigla: "Sb",
-        numeroAtomico: 51,
-        massaAtomica: 121.760,
-        configuracaoEletronica: "[Kr] 4d¹⁰ 5s² 5p³",
         grupo: 15,
         periodo: 5,
-        raioAtomico: 159, // Valor aproximado em pm
-        estadoNatural: "Sólido",
-        pontoDeFusao: 630.63, // Em °C
-        pontoDeEbulicao: 1587, // Em °C
-        densidade: 6.68, // Em g/cm³
-        eletronegatividade: 2.05, // Valor aproximado
-        aplicacoesComuns: ["Baterias", "Pigmentos", "Semicondutores"],
+        sigla: "Sb",
         decomposicao: {
             protons: 51,
             eletrons: 51,
-            neutrons: 71 // O número de nêutrons pode variar, mas geralmente é próximo ao número de prótons
+            neutrons: 71
         },
-        categoria: "semimetal"
+        numeroAtomico: 51,
+        massaAtomica: 121.76,
+        categoria: "semimetal",
+        configuracaoEletronica: "[Kr] 4d¹⁰ 5s² 5p³",
+        cor: 'Prata',
+        radioativo: false,
+        estadoNatural: "Sólido",
+        densidade: 6.685,
+        pontoDeFusao: 630.63,
+        pontoDeEbulicao: 1587,
+        etalpiaDeFusao: 19.7, // kJ/mol
+        etalpiaDeVaporizacao: 68, // kJ/mol
+        calorEspecifico: 0.228, // J/g·K
+        abundanciaNaCrostaTerrestre: 0.00002,
+        abundanciaNoUniverso: 0.00000004,
+        raioAtomico: 140,
+        raioCovalente: 139,
+        eletronegatividade: 2.05, // Escala de Pauling
+        volumeAtomico: 18.22, // cm3/mol
+        condutividadeTermica: 0.243, // W/cm·K
+        aplicacoesComuns: ["Baterias", "Pigmentos", "Semicondutores"],
+        historia: `
+        Um dos minerais do Antimónio, a estibina foi identificada no Egito pré-dinástico e utilizada como cosmético para os olhos, por volta de 3100 AC. A Primeira descrição europeia de um procedimento para isolar o Antimónio encontra-se no livro De La Pirotechnia, de Vannoccio Biringuccio. A primeira presença natural de Antimónio puro, na crosta terrestre foi descrita pelo cientista sueco e engenheiro de minas da região, Anton von Swab, em 1783.`,
+        endereçoImagemElemento: 'https://images-of-elements.com/s/antimony.jpg',
+        curiosidade: 'O Antimónio é um mau condutor de calor e eletricidade'
     },
     {
         nome: "Telúrio",
-        sigla: "Te",
-        numeroAtomico: 52,
-        massaAtomica: 127.60,
-        configuracaoEletronica: "[Kr] 4d¹⁰ 5s² 5p⁴",
         grupo: 16,
         periodo: 5,
-        raioAtomico: 206, // Valor aproximado em pm
-        estadoNatural: "Sólido",
-        pontoDeFusao: 449.51, // Em °C
-        pontoDeEbulicao: 990, // Em °C
-        densidade: 6.24, // Em g/cm³
-        eletronegatividade: 2.1, // Valor aproximado
-        aplicacoesComuns: ["Semicondutores", "Células solares", "Catalisadores"],
+        sigla: "Te",
         decomposicao: {
             protons: 52,
             eletrons: 52,
-            neutrons: 76 // O número de nêutrons pode variar, mas geralmente é próximo ao número de prótons
+            neutrons: 76
         },
-        categoria: "semimetal"
+        numeroAtomico: 52,
+        massaAtomica: 127.6,
+        categoria: "semimetal",
+        configuracaoEletronica: "[Kr] 4d¹⁰ 5s² 5p⁴",
+        cor: 'Prata',
+        radioativo: false,
+        estadoNatural: "Sólido",
+        densidade: 6.232,
+        pontoDeFusao: 449.51,
+        pontoDeEbulicao: 988,
+        etalpiaDeFusao: 17.5, // kJ/mol
+        etalpiaDeVaporizacao: 48, // kJ/mol
+        calorEspecifico: 0.202, // J/g·K
+        abundanciaNaCrostaTerrestre: 0.0000000099,
+        abundanciaNoUniverso: 0.0000009,
+        raioAtomico: 140,
+        raioCovalente: 138,
+        eletronegatividade: 2.1, // Escala de Pauling
+        volumeAtomico: 20.5, // cm3/mol
+        condutividadeTermica: 0.0235, // W/cm·K
+        aplicacoesComuns: ["Semicondutores", "Células solares", "Catalisadores"],
+        historia: `
+        O Telúrio foi descoberto foi descoberto por Franz-Joseph Müller von Reichenstein, num mineral contendo Telúrio e ouro, em 1782, na Transilvânia, então Hungria. Em 1789, outro cientista húngaro, Pál Kitaibel, descobriu o elemento de forma independente, num minério oriundo de Deutsch-Pilsen, tido como molibdenite argentífero. Em 1798, Martin Heinrich Klaproth deu-lhe o nome, depois de isolá-lo, a partir da calaverite.`,
+        endereçoImagemElemento: 'https://images-of-elements.com/s/tellurium.jpg',
+        curiosidade: 'No ar, o telúrio queima com chamas azul-esverdeadas, formando o dióxido'
     },
     {
         nome: "Iodo",
-        sigla: "I",
-        numeroAtomico: 53,
-        massaAtomica: 126.90447,
-        configuracaoEletronica: "[Kr] 4d¹⁰ 5s² 5p⁵",
         grupo: 17,
         periodo: 5,
-        raioAtomico: 198, // Valor aproximado em pm
-        estadoNatural: "Sólido",
-        pontoDeFusao: 113.7, // Em °C
-        pontoDeEbulicao: 184.3, // Em °C
-        densidade: 4.93, // Em g/cm³
-        eletronegatividade: 2.66, // Valor aproximado
-        aplicacoesComuns: ["Tratamento de água", "Antissépticos", "Corantes"],
+        sigla: "I",
         decomposicao: {
             protons: 53,
             eletrons: 53,
-            neutrons: 74 // O número de nêutrons pode variar, mas geralmente é próximo ao número de prótons
+            neutrons: 74
         },
-        categoria: "halogenios"
+        numeroAtomico: 53,
+        massaAtomica: 126.90447,
+        categoria: "halogenios",
+        configuracaoEletronica: "[Kr] 4d¹⁰ 5s² 5p⁵",
+        cor: 'Cinza',
+        radioativo: false,
+        estadoNatural: "Sólido",
+        densidade: 4.93,
+        pontoDeFusao: 113.7,
+        pontoDeEbulicao: 184.25,
+        etalpiaDeFusao: 7.76, // kJ/mol
+        etalpiaDeVaporizacao: 20.9, // kJ/mol
+        calorEspecifico: 0.214, // J/g·K
+        abundanciaNaCrostaTerrestre: 0.000049,
+        abundanciaNoUniverso: 0.0000001,
+        raioAtomico: 140,
+        raioCovalente: 139,
+        eletronegatividade: 2.66, // Escala de Pauling
+        volumeAtomico: 25.74, // cm3/mol
+        condutividadeTermica: 0.00449, // W/cm·K
+        aplicacoesComuns: ["Tratamento de água", "Antissépticos", "Corantes"],
+        historia: `
+        O Iodo foi descoberto pelo químico francês Bernard Courtois, em 1811. Ele tratou o licor obtido da extração de algas, com ácido sulfúrico, produzindo um vapor de cor violeta. Em 1812, Joseph Louis Gay-Lussac demonstrou que o Iodo era um elemento e a sua relação com o cloro.`,
+        endereçoImagemElemento: 'https://images-of-elements.com/s/iodine.jpg',
+        curiosidade: 'A soda era a principal fonte natural de Iodo, nos séculos XVIII e XIX'
     },
     {
         nome: "Xenônio",
-        sigla: "Xe",
-        numeroAtomico: 54,
-        massaAtomica: 131.293,
-        configuracaoEletronica: "[Kr] 4d¹⁰ 5s² 5p⁶",
         grupo: 18,
         periodo: 5,
-        raioAtomico: 108,
-        estadoNatural: "Gás",
-        pontoDeFusao: -111.74,
-        pontoDeEbulicao: -108.09,
-        densidade: 0.005887, // Em g/cm³ (a 0 °C, 1 atm)
-        eletronegatividade: null, // O xenônio é um gás nobre e tem uma eletronegatividade muito baixa
-        aplicacoesComuns: ["Iluminação", "Imagem médica", "Propulsão de satélites"],
+        sigla: "Xe",
         decomposicao: {
             protons: 54,
             eletrons: 54,
-            neutrons: 77 // O número de nêutrons pode variar, mas geralmente é próximo ao número de prótons
+            neutrons: 77
         },
-        categoria: "gas-nobre"
+        numeroAtomico: 54,
+        massaAtomica: 131.293,
+        categoria: "gas-nobre",
+        configuracaoEletronica: "[Kr] 4d¹⁰ 5s² 5p⁶",
+        cor: null,
+        radioativo: false,
+        estadoNatural: "Gasoso",
+        densidade: 0.005887,
+        pontoDeFusao: -111.7,
+        pontoDeEbulicao: -108.12,
+        etalpiaDeFusao: 2.3, // kJ/mol
+        etalpiaDeVaporizacao: 12.64, // kJ/mol
+        calorEspecifico: 0.158, // J/g·K
+        abundanciaNaCrostaTerrestre: 0.000000002,
+        abundanciaNoUniverso: 0.000001,
+        raioAtomico: 108,
+        raioCovalente: 140,
+        eletronegatividade: 2.6, // Escala de Pauling
+        volumeAtomico: 37.3, // cm3/mol
+        condutividadeTermica: 0.0000569, // W/cm·K
+        aplicacoesComuns: ["Iluminação", "Imagem médica", "Propulsão de satélites"],
+        historia: `
+        O Xênonio foi descoberto em Inglaterra, pelo químico escocês William Ramsay e o químico inglês Morris Travers, em 1898. Eles encontraram Xénon no resíduo seco, resultante da evaporação dos componentes de ar líquido. A análise espetroscópica mostrou as belas linhas azuis, nunca antes vista, indicadoras da presença de um novo elemento.`,
+        endereçoImagemElemento: 'https://images-of-elements.com/s/xenon.jpg',
+        curiosidade: 'Quando inalado, o Xénon pode tornar a voz mais grave.'
     },
     {
         nome: "Césio",
-        sigla: "Cs",
-        numeroAtomico: 55,
-        massaAtomica: 132.90545,
-        configuracaoEletronica: "[Xe] 6s¹",
         grupo: 1,
         periodo: 6,
-        raioAtomico: 298, // Valor aproximado em pm
-        estadoNatural: "Sólido",
-        pontoDeFusao: 28.5, // Em °C
-        pontoDeEbulicao: 671, // Em °C
-        densidade: 1.93, // Em g/cm³
-        eletronegatividade: 0.79, // Valor aproximado
-        aplicacoesComuns: ["Relógios atômicos", "Produção de vidro especial", "Propulsão espacial"],
+        sigla: "Cs",
         decomposicao: {
             protons: 55,
             eletrons: 55,
-            neutrons: 78 // O número de nêutrons pode variar, mas geralmente é próximo ao número de prótons
+            neutrons: 78
         },
-        categoria: "metal-alcalino"
+        numeroAtomico: 55,
+        massaAtomica: 132.9054519,
+        categoria: "metal-alcalino",
+        configuracaoEletronica: "[Xe] 6s¹",
+        cor: 'Prata',
+        radioativo: true,
+        estadoNatural: "Sólido",
+        densidade: 1.873 ,
+        pontoDeFusao: 28.44,
+        pontoDeEbulicao: 671,
+        etalpiaDeFusao: 2.09, // kJ/mol
+        etalpiaDeVaporizacao: 65, // kJ/mol
+        calorEspecifico: 0.242, // J/g·K
+        abundanciaNaCrostaTerrestre: 0.00019,
+        abundanciaNoUniverso: 0.00000008,
+        raioAtomico: 265,
+        raioCovalente: 244,
+        eletronegatividade: 0.79, // Escala de Pauling
+        volumeAtomico: 71.07, // cm3/mol
+        condutividadeTermica: 0.359, // W/cm·K
+        aplicacoesComuns: ["Relógios atômicos", "Produção de vidro especial", "Propulsão espacial"],
+        historia: `
+        Robert Bunsen e Gustav Kirchhoff foram os primeiros a sugerir a descoberta do Césio, em 1860, através de análise espetral. Descobriram o Césio graças às suas duas linhas azuis, numa amostra de água mineral de Dürkheim. O metal puro acabou por ser isolado pelo químico alemão Carl Setterberg, durante o seu trabalho de doutoramento com Kekulé and Bunsen.`,
+        endereçoImagemElemento: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Cesium.jpg/800px-Cesium.jpg?20080310205753',
+        curiosidade: 'O Césio foi o primeiro elemento a ser descoberto, com recurso ao espetroscópio'
     },
     {
         nome: "Bário",
-        sigla: "Ba",
-        numeroAtomico: 56,
-        massaAtomica: 137.327,
-        configuracaoEletronica: "[Xe] 6s²",
         grupo: 2,
         periodo: 6,
-        raioAtomico: 253, // Valor aproximado em pm
-        estadoNatural: "Sólido",
-        pontoDeFusao: 727, // Em °C
-        pontoDeEbulicao: 1897, // Em °C
-        densidade: 3.51, // Em g/cm³
-        eletronegatividade: 0.89, // Valor aproximado
-        aplicacoesComuns: ["Produção de materiais para radiologia", "Vidros especiais", "Emissores de radiação em TV"],
+        sigla: "Ba",
         decomposicao: {
             protons: 56,
             eletrons: 56,
-            neutrons: 81 // O número de nêutrons pode variar, mas geralmente é próximo ao número de prótons
+            neutrons: 81
         },
-        categoria: "metal-alcalino-terroso"
+        numeroAtomico: 56,
+        massaAtomica: 137.327,
+        categoria: "metal-alcalino-terroso",
+        configuracaoEletronica: "[Xe] 6s²",
+        cor: 'Prata',
+        radioativo: false,
+        estadoNatural: "Sólido",
+        densidade: 3.594 ,
+        pontoDeFusao: 727,
+        pontoDeEbulicao: 1897,
+        etalpiaDeFusao: 8, // kJ/mol
+        etalpiaDeVaporizacao: 140, // kJ/mol
+        calorEspecifico: 0.204, // J/g·K
+        abundanciaNaCrostaTerrestre: 0.034,
+        abundanciaNoUniverso: 0.000001,
+        raioAtomico: 222,
+        raioCovalente: 215,
+        eletronegatividade: 0.89, // Escala de Pauling
+        volumeAtomico: 39.24, // cm3/mol
+        condutividadeTermica: 0.184, // W/cm·K
+        aplicacoesComuns: ["Produção de materiais para radiologia", "Vidros especiais", "Emissores de radiação em TV"],
+        historia: `
+        O Bário foi identificado como novo elemento, por Carl Wilhelm Scheele, em 1774. O Bário foi isolado, pela eletrólise de sais de Bário dissolvidos, em 1808, por Sir Humphry Davy, na Inglaterra. Robert Bunsen e Augustus Matthiessen obtiveram Bário puro, através da eletrólise de uma solução de cloreto de Bário e cloreto de amónio.`,
+        endereçoImagemElemento: 'https://images-of-elements.com/s/barium.jpg',
+        curiosidade: 'Em doses baixas, o Bário atua como um estimulante muscular.'
     },
     {
         nome: "Lantânio",
-        sigla: "La",
-        numeroAtomico: 57,
-        massaAtomica: 138.90547,
-        configuracaoEletronica: "[Xe] 5d¹ 6s²",
-        grupo: 3,
+        grupo: null,
         periodo: 6,
-        raioAtomico: 195, // Valor aproximado em pm
-        estadoNatural: "Sólido",
-        pontoDeFusao: 920, // Em °C
-        pontoDeEbulicao: 3464, // Em °C
-        densidade: 6.15, // Em g/cm³
-        eletronegatividade: 1.10, // Valor aproximado
-        aplicacoesComuns: ["Catalisadores", "Lâmpadas de arco de carboneto", "Híbridos de níquel-metal-hidreto"],
+        sigla: "Ba",
         decomposicao: {
             protons: 57,
             eletrons: 57,
-            neutrons: 82 // O número de nêutrons pode variar, mas geralmente é próximo ao número de prótons
+            neutrons: 82
         },
-        categoria: "lantanideos"
+        numeroAtomico: 57,
+        massaAtomica: 138.90547,
+        categoria: "lantanideos",
+        configuracaoEletronica: "[Xe] 5d¹ 6s²",
+        cor: 'Prata',
+        radioativo: false,
+        estadoNatural: "Sólido",
+        densidade: 6.145 ,
+        pontoDeFusao: 920,
+        pontoDeEbulicao: 3464,
+        etalpiaDeFusao: 6.2, // kJ/mol
+        etalpiaDeVaporizacao: 400, // kJ/mol
+        calorEspecifico: 0.195, // J/g·K
+        abundanciaNaCrostaTerrestre: 0.034,
+        abundanciaNoUniverso: 0.0000002,
+        raioAtomico: 187,
+        raioCovalente: 207,
+        eletronegatividade: 1.1, // Escala de Pauling
+        volumeAtomico: 22.5, // cm3/mol
+        condutividadeTermica: 0.135, // W/cm·K
+        aplicacoesComuns: ["Catalisadores", "Lâmpadas de arco de carboneto", "Híbridos de níquel-metal-hidreto"],
+        historia: `
+        O Lantâneo foi descoberto em 1839 pelo químico sueco Carl Gustav Mosander. Ele decompôs parcialmente uma amostra de Nitrato de Cério, aquecendo-o e tratando o sal resultante com Ácido Nítrico diluído. Da solução resultante, obteve um bloco colorido esbranquiçado de óxido, da nova terra rara. O Lantâneo foi isolado na sua forma relativamente pura, em 1923.`,
+        endereçoImagemElemento: 'https://images-of-elements.com/s/lanthanum.jpg',
+        curiosidade: 'O Lantânio é o metal raro mais reativo.'
     },
     {
         nome: "Cério",
-        sigla: "Ce",
-        numeroAtomico: 58,
-        massaAtomica: 140.116,
-        configuracaoEletronica: "[Xe] 4f¹ 5d¹ 6s²",
-        grupo: 3,
+        grupo: null,
         periodo: 6,
-        raioAtomico: 185, // Valor aproximado em pm
-        estadoNatural: "Sólido",
-        pontoDeFusao: 798, // Em °C
-        pontoDeEbulicao: 3443, // Em °C
-        densidade: 6.77, // Em g/cm³
-        eletronegatividade: 1.12, // Valor aproximado
-        aplicacoesComuns: ["Polimento de vidro", "Catalisadores", "Materiais cerâmicos"],
+        sigla: "Ce",
         decomposicao: {
             protons: 58,
             eletrons: 58,
-            neutrons: 82 // O número de nêutrons pode variar, mas geralmente é próximo ao número de prótons
+            neutrons: 82
         },
-        categoria: "lantanideos"
+        numeroAtomico: 58,
+        massaAtomica: 140.116,
+        categoria: "lantanideos",
+        configuracaoEletronica: "[Xe] 4f¹ 5d¹ 6s²",
+        cor: 'Prata',
+        radioativo: false,
+        estadoNatural: "Sólido",
+        densidade: 6.77 ,
+        pontoDeFusao: 795,
+        pontoDeEbulicao: 3443,
+        etalpiaDeFusao: 5.5, // kJ/mol
+        etalpiaDeVaporizacao: 350, // kJ/mol
+        calorEspecifico: 0.192, // J/g·K
+        abundanciaNaCrostaTerrestre: 0.006,
+        abundanciaNoUniverso: 0.000001,
+        raioAtomico: 182,
+        raioCovalente: 204,
+        eletronegatividade: 1.12, // Escala de Pauling
+        volumeAtomico: 22.5, // cm3/mol
+        condutividadeTermica: 0.114, // W/cm·K
+        aplicacoesComuns: ["Polimento de vidro", "Catalisadores", "Materiais cerâmicos"],
+        historia: `
+        Jöns Jakob Berzelius e Wilhelm Hisinger descobriram o Cério na cerite, em 1803, na Suécia. Klaproth descobriu-o em simultâneo, mas independentemente, em amostras de tâsntalo, na Alemanha. Carl Gustaf Mosander que colaborara extensamente, com Berzelius, preparou Cério metálico, em 1825.`,
+        endereçoImagemElemento: 'https://images-of-elements.com/s/cerium.jpg',
+        curiosidade: 'A água doce contém 1,5 partes por bilião, de Cério'
     },
     {
         nome: "Praseodímio",
-        sigla: "Pr",
-        numeroAtomico: 59,
-        massaAtomica: 140.90766,
-        configuracaoEletronica: "[Xe] 4f³ 6s²",
-        grupo: 3,
+        grupo: null,
         periodo: 6,
-        raioAtomico: 247, // Valor aproximado em pm
-        estadoNatural: "Sólido",
-        pontoDeFusao: 935, // Em °C
-        pontoDeEbulicao: 3130, // Em °C
-        densidade: 6.77, // Em g/cm³
-        eletronegatividade: 1.13, // Valor aproximado
-        aplicacoesComuns: ["Ímãs permanentes", "Lâmpadas de arco de carboneto", "Materiais cerâmicos"],
+        sigla: "Pr",
         decomposicao: {
             protons: 59,
             eletrons: 59,
-            neutrons: 82 // O número de nêutrons pode variar, mas geralmente é próximo ao número de prótons
+            neutrons: 82
         },
-        categoria: "lantanideos"
+        numeroAtomico: 59,
+        massaAtomica: 140.90765,
+        categoria: "lantanideos",
+        configuracaoEletronica: "[Xe] 4f³ 6s²",
+        cor: 'Prata',
+        radioativo: false,
+        estadoNatural: "Sólido",
+        densidade: 6.773 ,
+        pontoDeFusao: 935,
+        pontoDeEbulicao: 3520,
+        etalpiaDeFusao: 6.9, // kJ/mol
+        etalpiaDeVaporizacao: 330, // kJ/mol
+        calorEspecifico: 0.193, // J/g·K
+        abundanciaNaCrostaTerrestre: 0.00086,
+        abundanciaNoUniverso: 0.0000002,
+        raioAtomico: 182,
+        raioCovalente: 203,
+        eletronegatividade: 1.13, // Escala de Pauling
+        volumeAtomico: 20.8, // cm3/mol
+        condutividadeTermica: 0.125, // W/cm·K
+        aplicacoesComuns: ["Ímãs permanentes", "Lâmpadas de arco de carboneto", "Materiais cerâmicos"],
+        historia: `
+        O Praseodímio foi identificado pela primeira vez, em 1885, em Viena, pelo químico austríaco Carl Auer von Welsbach. Foi descoberto no Didímio, uma substância que Carl Gustav Mosander julgou erradamente tratar-se de um novo elemento, em 1841. O Praseodímio metálico puro foi produzido pela primeira vez, em 1931.`,
+        endereçoImagemElemento: 'https://images-of-elements.com/s/praseodymium.jpg',
+        curiosidade: 'O praseodímio é geralmente armazenado sob um óleo mineral leve ou selado em vidro'
     },
     {
         nome: "Neodímio",
-        sigla: "Nd",
-        numeroAtomico: 60,
-        massaAtomica: 144.242,
-        configuracaoEletronica: "[Xe] 4f^4 6s^2",
-        grupo: 3,
+        grupo: null,
         periodo: 6,
-        raioAtomico: 206, // Valor aproximado em pm
-        estadoNatural: "Sólido",
-        pontoDeFusao: 1016, // Em °C
-        pontoDeEbulicao: 3074, // Em °C
-        densidade: 7.01, // Em g/cm³
-        eletronegatividade: 1.14, // Valor aproximado
-        aplicacoesComuns: ["Ímãs de neodímio-ferro-boro", "Laser de estado sólido", "Motores elétricos"],
+        sigla: "Nd",
         decomposicao: {
             protons: 60,
             eletrons: 60,
-            neutrons: 84 // O número de nêutrons pode variar, mas geralmente é próximo ao número de prótons
+            neutrons: 84
         },
-        categoria: "lantanideos"
+        numeroAtomico: 60,
+        massaAtomica: 144.242,
+        categoria: "lantanideos",
+        configuracaoEletronica: "[Xe] 4f⁴ 6s²",
+        cor: 'Prata',
+        radioativo: false,
+        estadoNatural: "Sólido",
+        densidade: 7.007 ,
+        pontoDeFusao: 1024,
+        pontoDeEbulicao: 3074,
+        etalpiaDeFusao: 7.1, // kJ/mol
+        etalpiaDeVaporizacao: 285, // kJ/mol
+        calorEspecifico: 0.19, // J/g·K
+        abundanciaNaCrostaTerrestre: 0.0033,
+        abundanciaNoUniverso: 0.000001,
+        raioAtomico: 181,
+        raioCovalente: 201,
+        eletronegatividade: 1.14, // Escala de Pauling
+        volumeAtomico: 20.6, // cm3/mol
+        condutividadeTermica: 0.165, // W/cm·K
+        aplicacoesComuns: ["Ímãs de neodímio-ferro-boro", "Laser de estado sólido", "Motores elétricos"],
+        historia: `
+        O Neodímio foi identificado pela primeira vez, em 1885, em Viena, pelo químico austríaco Carl Auer von Welsbach. Foi descoberto no Didímio, uma substância que Carl Gustav Mosander julgou erradamente tratar-se de um novo elemento, em 1841. O Neodímio metálico puro foi isolado pela primeira vez, em 1925.`,
+        endereçoImagemElemento: 'https://images-of-elements.com/s/neodymium.jpg',
+        curiosidade: 'A maioria do Neodímio mundial é extraído na China.'
     },
     {
         nome: "Promécio",
-        sigla: "Pm",
-        numeroAtomico: 61,
-        massaAtomica: 145,
-        configuracaoEletronica: "[Xe] 4f^5 6s^2",
-        grupo: 3,
+        grupo: null,
         periodo: 6,
-        raioAtomico: 185,
-        estadoNatural: "Sintético",
-        pontoDeFusao: 1042,
-        pontoDeEbulicao: 3000,
-        densidade: null, // Não aplicável para o promécio sintético
-        eletronegatividade: null, // Não aplicável para o promécio sintético
-        aplicacoesComuns: ["Usado como fonte de radiação em marcadores de raios-X industriais", "Pesquisas científicas"],
+        sigla: "Pm",
         decomposicao: {
             protons: 61,
             eletrons: 61,
-            neutrons: null // Depende do isótopo específico do promécio
+            neutrons: 84
         },
-        categoria: "lantanideos"
+        numeroAtomico: 61,
+        massaAtomica: 145,
+        categoria: "lantanideos",
+        configuracaoEletronica: "[Xe] 4f⁵ 6s²",
+        cor: 'Prata',
+        radioativo: true,
+        estadoNatural: "Sólido",
+        densidade: 7.26 ,
+        pontoDeFusao: 1042,
+        pontoDeEbulicao: 3000,
+        etalpiaDeFusao: 7.7, // kJ/mol
+        etalpiaDeVaporizacao: 290, // kJ/mol
+        calorEspecifico: null, // J/g·K
+        abundanciaNaCrostaTerrestre: null,
+        abundanciaNoUniverso: null,
+        raioAtomico: 183,
+        raioCovalente: 199,
+        eletronegatividade: null, // Escala de Pauling
+        volumeAtomico: 22.39, // cm3/mol
+        condutividadeTermica: 0.179, // W/cm·K
+        aplicacoesComuns: ["Usado como fonte de radiação em marcadores de raios-X industriais", "Pesquisas científicas"],
+        historia: `
+        A existência de um elemento entre o Neodímio e o Samário foi prevista pela primeira vez pelo químico checo Czech chemist Bohuslav Brauner, em 1902. O Prométio foi produzido caracterizado no Laboratório Nacional de Oak Ridge, em 1945 por Jacob A.Marinsky, Lawrence E.Glendenin e Charles D.Coryell.O Prométio foi produzido através da separação e análise dos produtos da fissão do combustível de Urânio num reator de Grafite.`,
+        endereçoImagemElemento: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Pitchblende_schlema-alberoda.JPG/800px-Pitchblende_schlema-alberoda.JPG?20130906173125',
+        curiosidade: 'O Promécio é o único lantanídeo que não possui isótopos estáveis.'
     },
     {
-        nome: "Samário",
-        sigla: "Sm",
-        numeroAtomico: 62,
-        massaAtomica: 150.36,
-        configuracaoEletronica: "[Xe] 4f^6 6s^2",
-        grupo: 3,
+        nome: "Sumário",
+        grupo: null,
         periodo: 6,
-        raioAtomico: 238, // Valor aproximado em pm
-        estadoNatural: "Sólido",
-        pontoDeFusao: 1072, // Em °C
-        pontoDeEbulicao: 1794, // Em °C
-        densidade: 7.52, // Em g/cm³
-        eletronegatividade: 1.17, // Valor aproximado
-        aplicacoesComuns: ["Catalisadores", "Materiais magnéticos", "Vidros especiais"],
+        sigla: "Sm",
         decomposicao: {
             protons: 62,
             eletrons: 62,
-            neutrons: 88 // O número de nêutrons pode variar, mas geralmente é próximo ao número de prótons
+            neutrons: 88
         },
-        categoria: "lantanideos"
+        numeroAtomico: 62,
+        massaAtomica: 150.36,
+        categoria: "lantanideos",
+        configuracaoEletronica: "[Xe] 4f⁵ 6s²",
+        cor: 'Prata',
+        radioativo: false,
+        estadoNatural: "Sólido",
+        densidade: 7.52 ,
+        pontoDeFusao: 1072,
+        pontoDeEbulicao: 1794,
+        etalpiaDeFusao: 8.6, // kJ/mol
+        etalpiaDeVaporizacao: 175, // kJ/mol
+        calorEspecifico: 0.197, // J/g·K
+        abundanciaNaCrostaTerrestre: 0.0006,
+        abundanciaNoUniverso: 0.0000005,
+        raioAtomico: 180,
+        raioCovalente: 198,
+        eletronegatividade: 1.17, // Escala de Pauling
+        volumeAtomico: 20, // cm3/mol
+        condutividadeTermica: 0.133, // W/cm·K
+        aplicacoesComuns: ["Catalisadores", "Materiais magnéticos", "Vidros especiais"],
+        historia: `
+        Em 1853, Charles Galissard de Marignac descobriu o Samário, quando encontrou linhas no espetro mineral. Paul Émile Lecoq de Boisbaudran isolou um sal de Samário, em Paris, em 1879 a partir da Samarskite e nela identificou um novo elemento, através de linhas nítidas na espetroscopia de absorção. O elemento puro foi produzido apenas em 1901 por Eugène-Anatole Demarçay.`,
+        endereçoImagemElemento: 'https://images-of-elements.com/s/samarium.jpg',
+        curiosidade: 'O Promécio é o único lantanídeo que não possui isótopos estáveis.'
     },
     {
         nome: "Európio",
-        sigla: "Eu",
-        numeroAtomico: 63,
-        massaAtomica: 151.964,
-        configuracaoEletronica: "[Xe] 4f^7 6s^2",
-        grupo: 3,
+        grupo: null,
         periodo: 6,
-        raioAtomico: 112,
-        estadoNatural: "Sólido",
-        pontoDeFusao: 822,
-        pontoDeEbulicao: 1597,
-        densidade: 5.243, // Em g/cm³ (aproximado)
-        eletronegatividade: 1.2, // Valor aproximado
-        aplicacoesComuns: ["Fósforos em tubo de TV", "Materiais luminescentes", "Reatores nucleares"],
+        sigla: "Eu",
         decomposicao: {
             protons: 63,
             eletrons: 63,
-            neutrons: 89 // O número de nêutrons pode variar, mas geralmente é próximo ao número de prótons
+            neutrons: 89
         },
-        categoria: "lantanideos"
+        numeroAtomico: 63,
+        massaAtomica: 151.964,
+        categoria: "lantanideos",
+        configuracaoEletronica: "[Xe] 4f⁷ 6s²",
+        cor: 'Prata',
+        radioativo: false,
+        estadoNatural: "Sólido",
+        densidade: 5.243 ,
+        pontoDeFusao: 826,
+        pontoDeEbulicao: 1529,
+        etalpiaDeFusao: 9.2, // kJ/mol
+        etalpiaDeVaporizacao: 175, // kJ/mol
+        calorEspecifico: 0.182, // J/g·K
+        abundanciaNaCrostaTerrestre: 0.00018,
+        abundanciaNoUniverso: 0.00000005,
+        raioAtomico: 180,
+        raioCovalente: 198,
+        eletronegatividade: 1.2, // Escala de Pauling
+        volumeAtomico: 20.8, // cm3/mol
+        condutividadeTermica: 0.139, // W/cm·K
+        aplicacoesComuns: ["Fósforos em tubo de TV", "Materiais luminescentes", "Reatores nucleares"],
+        historia: `
+        O Európio foi descoberto pela primeira vez por Paul Émile Lecoq de Boisbaudran, em 1890. Em 1896, o químico francês Eugène-Antole Demarçay identificou linhas espetroscópicas, no Samário, devidas ao Európio.Ele isolou o Európio em 1901, através da destilação fracionada do Nitrato de Magnésio e Samário`,
+        endereçoImagemElemento: 'https://images-of-elements.com/s/europium.jpg',
+        curiosidade: 'Európio é o elemento de terras raras mais reativo'
     },
     {
-        nome: "Gadolínio",
-        sigla: "Gd",
-        numeroAtomico: 64,
-        massaAtomica: 157.25,
-        configuracaoEletronica: "[Xe] 4f^7 5d^1 6s^2",
-        grupo: 3,
+        nome: "Gadolíneo",
+        grupo: null,
         periodo: 6,
-        raioAtomico: 180,
-        estadoNatural: "Sólido",
-        pontoDeFusao: 1312,
-        pontoDeEbulicao: 3250,
-        densidade: 7.9, // Em g/cm³ (aproximado)
-        eletronegatividade: 1.2, // Valor aproximado
-        aplicacoesComuns: ["Materiais para reatores nucleares", "Agentes de contraste em ressonância magnética", "Filmes de fósforo"],
+        sigla: "Gd",
         decomposicao: {
             protons: 64,
             eletrons: 64,
-            neutrons: 93 // O número de nêutrons pode variar, mas geralmente é próximo ao número de prótons
+            neutrons: 93
         },
-        categoria: "lantanideos"
+        numeroAtomico: 64,
+        massaAtomica: 157.25,
+        categoria: "lantanideos",
+        configuracaoEletronica: "[Xe] 4f⁷ 5d¹ 6s²",
+        cor: 'Prata',
+        radioativo: false,
+        estadoNatural: "Sólido",
+        densidade: 7.895 ,
+        pontoDeFusao: 1312,
+        pontoDeEbulicao: 3273,
+        etalpiaDeFusao: 10, // kJ/mol
+        etalpiaDeVaporizacao: 305, // kJ/mol
+        calorEspecifico: 0.236, // J/g·K
+        abundanciaNaCrostaTerrestre: 0.00052,
+        abundanciaNoUniverso: 0.0000002,
+        raioAtomico: 180,
+        raioCovalente: 196,
+        eletronegatividade: 1.2, // Escala de Pauling
+        volumeAtomico: 19.9, // cm3/mol
+        condutividadeTermica: 0.106, // W/cm·K
+        aplicacoesComuns: ["Materiais para reatores nucleares", "Agentes de contraste em ressonância magnética", "Filmes de fósforo"],
+        historia: `
+        O Gadolínio foi detetado espetroscopicamente, em 1880, pelo químico suíço Jean Charles Galissard de Marignac que separou o seu óxido. Ele observou linhas espetroscópicas devidas ao Gadolínio em amostras de Gadolinite no mineral separados Cerite. O metal foi isolado por Paul Emile Lecoq de Boisbaudran, em 1886.`,
+        endereçoImagemElemento: 'https://images-of-elements.com/s/gadolinium.jpg',
+        curiosidade: 'O gadolínio tem a maior seção transversal de nêutrons entre quaisquer nuclídeos estáveis'
     },
     {
         nome: "Térbio",
-        sigla: "Tb",
-        numeroAtomico: 65,
-        massaAtomica: 158.92535,
-        configuracaoEletronica: "[Xe] 4f^9 6s^2",
-        grupo: 3,
+        grupo: null,
         periodo: 6,
-        raioAtomico: 175,
-        estadoNatural: "Sólido",
-        pontoDeFusao: 1356,
-        pontoDeEbulicao: 3230,
-        densidade: 8.23, // Em g/cm³ (aproximado)
-        eletronegatividade: 1.2, // Valor aproximado
-        aplicacoesComuns: ["Fósforos em tubos de TV", "Filmes magneto-ópticos", "Materiais luminescentes"],
+        sigla: "Tb",
         decomposicao: {
             protons: 65,
             eletrons: 65,
-            neutrons: 94 // O número de nêutrons pode variar, mas geralmente é próximo ao número de prótons
+            neutrons: 94
         },
-        categoria: "lantanideos"
+        numeroAtomico: 65,
+        massaAtomica: 158.92535,
+        categoria: "lantanideos",
+        configuracaoEletronica: "[Xe] 4f⁹ 6s²",
+        cor: 'Prata',
+        radioativo: false,
+        estadoNatural: "Sólido",
+        densidade: 8.229 ,
+        pontoDeFusao: 1356,
+        pontoDeEbulicao: 3230,
+        etalpiaDeFusao: 10.8, // kJ/mol
+        etalpiaDeVaporizacao: 295, // kJ/mol
+        calorEspecifico: 0.182, // J/g·K
+        abundanciaNaCrostaTerrestre: 0.000093,
+        abundanciaNoUniverso: 0.00000005,
+        raioAtomico: 177,
+        raioCovalente: 194,
+        eletronegatividade: 1.2, // Escala de Pauling
+        volumeAtomico: 19.2, // cm3/mol
+        condutividadeTermica: 0.111, // W/cm·K
+        aplicacoesComuns: ["Fósforos em tubos de TV", "Filmes magneto-ópticos", "Materiais luminescentes"],
+        historia: `
+        O Térbio foi descoberto em 1843, pelo químico sueco Carl Gustaf Mosander que o detetou como uma impureza do Ítrio. Ele precipitou no Ítrio, partes de Hidróxido de Amónio de diferente basicidade. Ele observou que estas partes eram essencialmente incolores na solução, mas davam origem a um óxido acastanhado que era o Térbio.`,
+        endereçoImagemElemento: 'https://images-of-elements.com/s/terbium.jpg',
+        curiosidade: 'O Térbio é suficientemente mole para ser cortado com uma faca.'
     },
     {
-        nome: "Disprósio",
-        sigla: "Dy",
-        numeroAtomico: 66,
-        massaAtomica: 162.500,
-        configuracaoEletronica: "[Xe] 4f^10 6s^2",
-        grupo: 3,
+        nome: "Diprósio",
+        grupo: null,
         periodo: 6,
-        raioAtomico: 178,
-        estadoNatural: "Sólido",
-        pontoDeFusao: 1412,
-        pontoDeEbulicao: 2562,
-        densidade: 8.56, // Em g/cm³ (aproximado)
-        eletronegatividade: 1.22, // Valor aproximado
-        aplicacoesComuns: ["Materiais para reatores nucleares", "Ímãs de alta resistência", "Lasers"],
+        sigla: "Dy",
         decomposicao: {
             protons: 66,
             eletrons: 66,
-            neutrons: 97 // O número de nêutrons pode variar, mas geralmente é próximo ao número de prótons
+            neutrons: 97
         },
-        categoria: "lantanideos"
+        numeroAtomico: 66,
+        massaAtomica: 162.5,
+        categoria: "lantanideos",
+        configuracaoEletronica: "[Xe] 4f¹⁰ 6s²",
+        cor: 'Prata',
+        radioativo: false,
+        estadoNatural: "Sólido",
+        densidade: 8.55 ,
+        pontoDeFusao: 1407,
+        pontoDeEbulicao: 2567,
+        etalpiaDeFusao: 11.1, // kJ/mol
+        etalpiaDeVaporizacao: 280, // kJ/mol
+        calorEspecifico: 0.17, // J/g·K
+        abundanciaNaCrostaTerrestre: 0.00062,
+        abundanciaNoUniverso: 0.0000002,
+        raioAtomico: 178,
+        raioCovalente: 192,
+        eletronegatividade: 1.22, // Escala de Pauling
+        volumeAtomico: 19, // cm3/mol
+        condutividadeTermica: 0.107, // W/cm·K
+        aplicacoesComuns: ["Materiais para reatores nucleares", "Ímãs de alta resistência", "Lasers"],
+        historia: `
+        O químico francês Paul Émile Lecoq de Boisbaudran separou o Óxido de Disprósio, enquanto trabalhava com o Óxido de Hólmio, em París, em 1886. Este processo consistia em dissolver o Óxido de Disprósio em ácido, acrescentando Amónia para precipitar o hidróxido. O elemento só foi isolado na sua forma pura, com o desenvolvimento de técnicas de permuta iónica na década de 1950.`,
+        endereçoImagemElemento: 'https://images-of-elements.com/s/dysprosium-2.jpg',
+        curiosidade: 'O disprósio que ocorre naturalmente é composto por 7 isótopos.'
     },
     {
         nome: "Hólmio",
-        sigla: "Ho",
-        numeroAtomico: 67,
-        massaAtomica: 164.93033,
-        configuracaoEletronica: "[Xe] 4f^11 6s^2",
-        grupo: 3,
+        grupo: null,
         periodo: 6,
-        raioAtomico: 175,
-        estadoNatural: "Sólido",
-        pontoDeFusao: 1461,
-        pontoDeEbulicao: 2720,
-        densidade: 8.80, // Em g/cm³ (aproximado)
-        eletronegatividade: 1.23, // Valor aproximado
-        aplicacoesComuns: ["Lasers", "Materiais para reatores nucleares", "Dopagem em dispositivos magneto-ópticos"],
+        sigla: "Ho",
         decomposicao: {
             protons: 67,
             eletrons: 67,
-            neutrons: 98 // O número de nêutrons pode variar, mas geralmente é próximo ao número de prótons
+            neutrons: 98
         },
-        categoria: "lantanideos"
+        numeroAtomico: 67,
+        massaAtomica: 164.93032,
+        categoria: "lantanideos",
+        configuracaoEletronica: "[Xe] 4f¹¹ 6s²",
+        cor: 'Prata',
+        radioativo: false,
+        estadoNatural: "Sólido",
+        densidade: 8.795 ,
+        pontoDeFusao: 1461,
+        pontoDeEbulicao: 2720,
+        etalpiaDeFusao: 17, // kJ/mol
+        etalpiaDeVaporizacao: 265, // kJ/mol
+        calorEspecifico: 0.165, // J/g·K
+        abundanciaNaCrostaTerrestre: 0.00012,
+        abundanciaNoUniverso: 0.00000005,
+        raioAtomico: 176,
+        raioCovalente: 192,
+        eletronegatividade: 1.23, // Escala de Pauling
+        volumeAtomico: 18.7, // cm3/mol
+        condutividadeTermica: 0.162, // W/cm·K
+        aplicacoesComuns: ["Lasers", "Materiais para reatores nucleares", "Dopagem em dispositivos magneto-ópticos"],
+        historia: `
+        O Hólmio foi descoberto pelo químicos suíços Marc Delafontaine e Jacques-Louis Soret, em 1878. Eles observaram as bandas aberrantes na espetroscopia de absorção do elemento, então desconhecido. Mais tarde, nesse mesmo ano, Per Teodor Cleve desobriu o elemento, enquanto trabalhava com o Érbio.`,
+        endereçoImagemElemento: 'https://images-of-elements.com/s/holmium.jpg',
+        curiosidade: 'Hólmio tem a maior força magnética de qualquer elemento natural.'
     },
     {
         nome: "Érbio",
-        sigla: "Er",
-        numeroAtomico: 68,
-        massaAtomica: 167.259,
-        configuracaoEletronica: "[Xe] 4f^12 6s^2",
-        grupo: 3,
+        grupo: null,
         periodo: 6,
-        raioAtomico: 175,
-        estadoNatural: "Sólido",
-        pontoDeFusao: 1529,
-        pontoDeEbulicao: 2868,
-        densidade: 9.07, // Em g/cm³ (aproximado)
-        eletronegatividade: 1.24, // Valor aproximado
-        aplicacoesComuns: ["Lasers", "Materiais para reatores nucleares", "Dopagem em dispositivos magneto-ópticos"],
+        sigla: "Er",
         decomposicao: {
             protons: 68,
             eletrons: 68,
-            neutrons: 99 // O número de nêutrons pode variar, mas geralmente é próximo ao número de prótons
+            neutrons: 99
         },
-        categoria: "lantanideos"
+        numeroAtomico: 68,
+        massaAtomica: 167.259,
+        categoria: "lantanideos",
+        configuracaoEletronica: "[Xe] 4f¹² 6s²",
+        cor: 'Prata',
+        radioativo: false,
+        estadoNatural: "Sólido",
+        densidade: 9.066 ,
+        pontoDeFusao: 1529,
+        pontoDeEbulicao: 2868,
+        etalpiaDeFusao: 19.9, // kJ/mol
+        etalpiaDeVaporizacao: 285, // kJ/mol
+        calorEspecifico: 0.168, // J/g·K
+        abundanciaNaCrostaTerrestre: 0.0003,
+        abundanciaNoUniverso: 0.0000002,
+        raioAtomico: 176,
+        raioCovalente: 189,
+        eletronegatividade: 1.24, // Escala de Pauling
+        volumeAtomico: 18.4, // cm3/mol
+        condutividadeTermica: 0.143, // W/cm·K
+        aplicacoesComuns: ["Lasers", "Materiais para reatores nucleares", "Dopagem em dispositivos magneto-ópticos"],
+        historia: `
+        O Érbio foi descoberto em 1843 pelo químico suíço Carl Gustaf Mosander que o detetou como uma impureza do Ítrio. Ele precipitou no Ítrio, partes de Hidróxido de Amónio de diferente basicidade. Ele observou que a parte com cor rosa era o Érbio.`,
+        endereçoImagemElemento: 'https://images-of-elements.com/s/erbium.jpg',
+        curiosidade: 'A concentração mais alta de Érbio no ser humano, encontra-se nos ossos.'
     },
     {
         nome: "Túlio",
-        sigla: "Tm",
-        numeroAtomico: 69,
-        massaAtomica: 168.93422,
-        configuracaoEletronica: "[Xe] 4f^13 6s^2",
-        grupo: 3,
+        grupo: null,
         periodo: 6,
-        raioAtomico: 'Desconhecido',
-        estadoNatural: "Sólido",
-        pontoDeFusao: 1545,
-        pontoDeEbulicao: 1950,
-        densidade: 9.32, // Em g/cm³ (aproximado)
-        eletronegatividade: 1.25, // Valor aproximado
-        aplicacoesComuns: ["Lasers de estado sólido", "Dispositivos optoeletrônicos", "Pesquisas científicas"],
+        sigla: "Tm",
         decomposicao: {
             protons: 69,
             eletrons: 69,
-            neutrons: 100 // O número de nêutrons pode variar, mas geralmente é próximo ao número de prótons
+            neutrons: 100
         },
-        categoria: "lantanideos"
+        numeroAtomico: 69,
+        massaAtomica: 168.93421,
+        categoria: "lantanideos",
+        configuracaoEletronica: "[Xe] 4f¹³ 6s²",
+        cor: 'Prata',
+        radioativo: false,
+        estadoNatural: "Sólido",
+        densidade: 9.321 ,
+        pontoDeFusao: 1545,
+        pontoDeEbulicao: 1950,
+        etalpiaDeFusao: 16.8, // kJ/mol
+        etalpiaDeVaporizacao: 250, // kJ/mol
+        calorEspecifico: 0.16, // J/g·K
+        abundanciaNaCrostaTerrestre: 0.000045,
+        abundanciaNoUniverso: 0.00000001,
+        raioAtomico: 176,
+        raioCovalente: 190,
+        eletronegatividade: 1.25, // Escala de Pauling
+        volumeAtomico: 18.1, // cm3/mol
+        condutividadeTermica: 0.168, // W/cm·K
+        aplicacoesComuns: ["Lasers de estado sólido", "Dispositivos optoeletrônicos", "Pesquisas científicas"],
+        historia: `
+        O Túlio foi descoberto pelo químico sueco Per Teodor Cleve, em 1879, ao observar impurezas dos óxido de outros Lantanídeos. O primeiro investigador a obter o Túlio quase puro foi Charles James, um expatriado britânico, a trabalhar em larga escala, no colégio de New Hampshire em Durham. O Óxido de Túlio de alto grau de pureza foi comercializado pela primeira vez, na década de 1950.`,
+        endereçoImagemElemento: 'https://images-of-elements.com/s/thulium.jpg',
+        curiosidade: 'O minério de Túlio encontra-se mais frequentemente na China.'
     },
     {
         nome: "Itérbio",
-        sigla: "Yb",
-        numeroAtomico: 70,
-        massaAtomica: 173.045,
-        configuracaoEletronica: "[Xe] 4f^14 6s^2",
-        grupo: 3,
+        grupo: null,
         periodo: 6,
-        raioAtomico: 176,
-        estadoNatural: "Sólido",
-        pontoDeFusao: 1530,
-        pontoDeEbulicao: 3264,
-        densidade: 6.90, // Em g/cm³ (aproximado)
-        eletronegatividade: 1.1, // Valor aproximado
-        aplicacoesComuns: ["Lasers", "Relógios atômicos", "Estudos sobre cristalografia"],
+        sigla: "Yb",
         decomposicao: {
             protons: 70,
             eletrons: 70,
-            neutrons: 103 // O número de nêutrons pode variar, mas geralmente é próximo ao número de prótons
+            neutrons: 103
         },
-        categoria: "lantanideos"
+        numeroAtomico: 70,
+        massaAtomica: 173.054,
+        categoria: "lantanideos",
+        configuracaoEletronica: "[Xe] 4f¹⁴ 6s²",
+        cor: 'Prata',
+        radioativo: false,
+        estadoNatural: "Sólido",
+        densidade: 6.965 ,
+        pontoDeFusao: 824,
+        pontoDeEbulicao: 1196,
+        etalpiaDeFusao: 7.7, // kJ/mol
+        etalpiaDeVaporizacao: 160, // kJ/mol
+        calorEspecifico: 0.155, // J/g·K
+        abundanciaNaCrostaTerrestre: 0.00028,
+        abundanciaNoUniverso: 0.0000002,
+        raioAtomico: 176,
+        raioCovalente: 187,
+        eletronegatividade: 1.1, // Escala de Pauling
+        volumeAtomico: 24.79, // cm3/mol
+        condutividadeTermica: 0.349, // W/cm·K
+        aplicacoesComuns: ["Lasers", "Relógios atômicos", "Estudos sobre cristalografia"],
+        historia: `
+        O Itérbio foi descoberto pelo químico suíço Jean Charles Galissard de Marignac, no ano de 1878. Em 1907, George Urbain separou a Itérbia em dois constituintes: a neoitérbia e a lutécia. O metal Itérbio foi preparado pela primeira vez, em 1937, por Klemm e Bonner, aquecendo o Cloreto de Itérbio, juntamente com Potássio. Uma amostra relativamente pura do metal foi obtida, apenas em 1953.`,
+        endereçoImagemElemento: 'https://images-of-elements.com/s/ytterbium.jpg',
+        curiosidade: 'O itérbio é recuperado comercialmente da areia monazita.'
     },
     {
         nome: "Lutécio",
-        sigla: "Lu",
-        numeroAtomico: 71,
-        massaAtomica: 174.9668,
-        configuracaoEletronica: "[Xe] 4f^14 5d^1 6s^2",
-        grupo: 3,
+        grupo: null,
         periodo: 6,
-        raioAtomico: 174,
-        estadoNatural: "Sólido",
-        pontoDeFusao: 1663,
-        pontoDeEbulicao: 3395,
-        densidade: 9.84, // Em g/cm³ (aproximado)
-        eletronegatividade: 1.27, // Valor aproximado
-        aplicacoesComuns: ["Catalisadores", "Propulsores em aviões", "Materiais para dispositivos eletrônicos"],
+        sigla: "Lu",
         decomposicao: {
             protons: 71,
             eletrons: 71,
-            neutrons: 104 // O número de nêutrons pode variar, mas geralmente é próximo ao número de prótons
+            neutrons: 104
         },
-        categoria: "lantanideos"
+        numeroAtomico: 71,
+        massaAtomica: 174.9668,
+        categoria: "lantanideos",
+        configuracaoEletronica: "[Xe] 4f¹⁴ 5d1 6s²",
+        cor: 'Prata',
+        radioativo: false,
+        estadoNatural: "Sólido",
+        densidade: 9.84 ,
+        pontoDeFusao: 1652,
+        pontoDeEbulicao: 3402,
+        etalpiaDeFusao: 22, // kJ/mol
+        etalpiaDeVaporizacao: 415, // kJ/mol
+        calorEspecifico: 0.154, // J/g·K
+        abundanciaNaCrostaTerrestre: 0.000056,
+        abundanciaNoUniverso: 0.00000001,
+        raioAtomico: 174,
+        raioCovalente: 187,
+        eletronegatividade: 1.27, // Escala de Pauling
+        volumeAtomico: 17.78, // cm3/mol
+        condutividadeTermica: 0.164, // W/cm·K
+        aplicacoesComuns: ["Catalisadores", "Propulsores em aviões", "Materiais para dispositivos eletrônicos"],
+        historia: `
+        O químico francês Georges Urbain conseguiu separar o Lutécio do Itérbio, em Paris, em 1907. Nesse mesmo ano, o cientista austríaco Carl Auer von Welsbach e o químico americano Charles James também foram bem sucedidos no isolamento do Lutécio, independentemente. O metal puro de Lutécio foi produzido pela primeira vez, em 1953.`,
+        endereçoImagemElemento: 'https://images-of-elements.com/s/lutetium.jpg',
+        curiosidade: 'O lutécio foi o último elemento natural de terras raras a ser descoberto.'
     },
     {
         nome: "Háfnio",
