@@ -36,6 +36,9 @@
 @media screen and ( min-width: 768px )
     .cabecalho
         grid-template-columns: auto 1fr
+        a 
+            h1
+                white-space: nowrap
         ul
             list-style: none
             display: flex
@@ -43,11 +46,17 @@
             column-gap: .5em
             margin: 0 auto
             li
-                font-size: 1.4em
+                font-size: .9em
                 font-weight: bold
                 font-family: $fonteSecundaria
+                white-space: nowrap
         button
             display: none
+@media screen and ( min-width: 1024px )
+    .cabecalho
+        ul
+            li
+                font-size: 1em
 @media screen and ( min-width: 1440px )
     .cabecalho
         padding: .7em .5em
@@ -62,3 +71,5 @@
             margin-left: auto
             margin-right: 2em
             column-gap: 2em
+            li
+                font-size: 1.2em

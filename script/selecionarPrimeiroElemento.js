@@ -1,6 +1,4 @@
 import { tabelaPeriodica } from "./tabelaPeriodica.js"
-const dadosDoVisor = document.querySelector('.visor')
-
 export function definirPrimeiroElemento(){
     selecionarElementoDom('#nomeElemento', tabelaPeriodica[0].nome)
     selecionarElementoDom('.simboloElemento', tabelaPeriodica[0].sigla)

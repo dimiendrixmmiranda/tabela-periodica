@@ -5,20 +5,18 @@ const dadosDoVisor = document.querySelector('.visor')
 export function selecionarElemento(btn) {
     btn.addEventListener('click', (e) => {
         e.preventDefault()
-        const corElemento = e.target.style.backgroundColor
         const nomeElemento = btn.dataset.elemento
-        
         const dadosDoElemento = tabelaPeriodica.filter(elemento => elemento.nome == nomeElemento)
-        console.log(nomeElemento)
-        console.log(dadosDoElemento[0])
-        console.log(dadosDoElemento)
-        substituirElemento(dadosDoElemento[0], corElemento)
+        substituirElemento(dadosDoElemento[0])
+        
+        const corElemento = e.target.style.backgroundColor
+        document.querySelectorAll('.cor').forEach(elementoCor => elementoCor.style.backgroundColor = corElemento)
     })
 }
 
-export function substituirElemento(dadosDoElemento, corElemento) {
+export function substituirElemento(dadosDoElemento) {
     // parte da cor
-    const cor = document.querySelectorAll('.cor').forEach(elemento => elemento.style.backgroundColor = corElemento)
+    // document.querySelectorAll('.cor').forEach(elemento => elemento.style.backgroundColor = corElemento)
 
     selecionarElementoDom('#nomeElemento', dadosDoElemento.nome)
     selecionarElementoDom('.simboloElemento', dadosDoElemento.sigla)

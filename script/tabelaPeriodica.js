@@ -2516,333 +2516,543 @@ export const tabelaPeriodica = [
     },
     {
         nome: "Háfnio",
-        sigla: "Hf",
-        numeroAtomico: 72,
-        massaAtomica: 178.49,
-        configuracaoEletronica: "[Xe] 4f^14 5d^2 6s^2",
         grupo: 4,
         periodo: 6,
-        raioAtomico: 159,
-        estadoNatural: "Sólido",
-        pontoDeFusao: 2233,
-        pontoDeEbulicao: 4602,
-        densidade: 13.31, // Em g/cm³ (aproximado)
-        eletronegatividade: 1.3, // Valor aproximado
-        aplicacoesComuns: ["Fabricação de barras de controle nuclear", "Revestimentos resistentes à corrosão", "Componentes de reatores nucleares"],
+        sigla: "Hf",
         decomposicao: {
             protons: 72,
             eletrons: 72,
-            neutrons: 106 // O número de nêutrons pode variar, mas geralmente é próximo ao número de prótons
+            neutrons: 106
         },
-        categoria: "metal-de-transicao"
+        numeroAtomico: 72,
+        massaAtomica: 178.49,
+        categoria: "metal-de-transicao",
+        configuracaoEletronica: "[Xe] 4f¹⁴ 5d² 6s²",
+        cor: 'Cinza',
+        radioativo: false,
+        estadoNatural: "Sólido",
+        densidade: 13.31 ,
+        pontoDeFusao: 2233,
+        pontoDeEbulicao: 4603,
+        etalpiaDeFusao: 25.5, // kJ/mol
+        etalpiaDeVaporizacao: 630, // kJ/mol
+        calorEspecifico: 0.144, // J/g·K
+        abundanciaNaCrostaTerrestre: 0.00033,
+        abundanciaNoUniverso: 0.0000007,
+        raioAtomico: 159,
+        raioCovalente: 175,
+        eletronegatividade: 1.2, // Escala de Pauling
+        volumeAtomico: 13.6, // cm3/mol
+        condutividadeTermica: 0.23, // W/cm·K
+        aplicacoesComuns: ["Fabricação de barras de controle nuclear", "Revestimentos resistentes à corrosão", "Componentes de reatores nucleares"],
+        historia: `
+        Em 1911, Georges Urbain afirmou ter descoberto um elemento em resíduos de terras raras que mais tarde se revelou ser uma mistura de Lantanídeos já descobertos. Dirk Coster e George de Hevesy descobriram-no através de análise espetroscópica de raios X do Zircão norueguês, em 1922. Anton Eduard van Arkel e Jan Hendrik de Boer foram os primeiros a preparar Háfnio metálico ao decompor o vapor de Tetraiodeto de Háfnio num filamento de Tungsténio incandescente.`,
+        endereçoImagemElemento: 'https://images-of-elements.com/s/hafnium.jpg',
+        curiosidade: 'Na forma de pó, o háfnio é pirofórico e pode inflamar-se espontaneamente no ar.'
     },
     {
         nome: "Tântalo",
-        sigla: "Ta",
-        numeroAtomico: 73,
-        massaAtomica: 180.94788,
-        configuracaoEletronica: "[Xe] 4f^14 5d^3 6s^2",
         grupo: 5,
         periodo: 6,
-        raioAtomico: 200,
-        estadoNatural: "Sólido",
-        pontoDeFusao: 2980,
-        pontoDeEbulicao: 2980,
-        densidade: 16.69, // Em g/cm³ (aproximado)
-        eletronegatividade: 1.5, // Valor aproximado
-        aplicacoesComuns: ["Capacitores eletrolíticos", "Componentes de equipamentos médicos", "Revestimentos de metais preciosos"],
+        sigla: "Hf",
         decomposicao: {
             protons: 73,
             eletrons: 73,
-            neutrons: 108 // O número de nêutrons pode variar, mas geralmente é próximo ao número de prótons
+            neutrons: 108
         },
-        categoria: "metal-de-transicao"
+        numeroAtomico: 73,
+        massaAtomica: 180.94788,
+        categoria: "metal-de-transicao",
+        configuracaoEletronica: "[Xe] 4f¹⁴ 5d³ 6s²",
+        cor: 'Cinza',
+        radioativo: false,
+        estadoNatural: "Sólido",
+        densidade: 16.654 ,
+        pontoDeFusao: 3017,
+        pontoDeEbulicao: 5458,
+        etalpiaDeFusao: 36, // kJ/mol
+        etalpiaDeVaporizacao: 735, // kJ/mol
+        calorEspecifico: 0.14, // J/g·K
+        abundanciaNaCrostaTerrestre: 0.00017,
+        abundanciaNoUniverso: 0.000000008,
+        raioAtomico: 146,
+        raioCovalente: 170,
+        eletronegatividade: 1.5, // Escala de Pauling
+        volumeAtomico: 10.90, // cm3/mol
+        condutividadeTermica: 0.575, // W/cm·K
+        aplicacoesComuns: ["Capacitores eletrolíticos", "Componentes de equipamentos médicos", "Revestimentos de metais preciosos"],
+        historia: `
+        O Tântalo foi descoberto na Suécia, por Anders Ekeberg, em 1802, em minerais de tantalite, provindos da Finlândia e de Itrotantalite, provindo da Suécia. Infelizmente, William Hyde Wollaston alegou que o elemento tratava-se, na realidade, de nióbio, também descoberto no mesmo ano. Em 1846, o químico alemão Heinrich Rose conseguiu, finalmente, provar, sem margem para dúvidas que o Tãntalo e o nióbio eram elementos distintos.`,
+        endereçoImagemElemento: 'https://images-of-elements.com/tantalum.jpg',
+        curiosidade: 'O Tãntalo exite principalmente no mineral Columbite-Tantalite.'
     },
     {
         nome: "Tungstênio",
-        sigla: "W",
-        numeroAtomico: 74,
-        massaAtomica: 183.84,
-        configuracaoEletronica: "[Xe] 4f^14 5d^4 6s^2",
         grupo: 6,
         periodo: 6,
-        raioAtomico: 193,
-        estadoNatural: "Sólido",
-        pontoDeFusao: 3550,
-        pontoDeEbulicao: 4287,
-        densidade: 19.25, // Em g/cm³ (aproximado)
-        eletronegatividade: 2.36, // Valor aproximado
-        aplicacoesComuns: ["Filamentos de lâmpadas incandescentes", "Elétrodos de soldagem", "Componentes de equipamentos de raio-X"],
+        sigla: "W",
         decomposicao: {
             protons: 74,
             eletrons: 74,
-            neutrons: 110 // O número de nêutrons pode variar, mas geralmente é próximo ao número de prótons
+            neutrons: 110
         },
-        categoria: "metal-de-transicao"
+        numeroAtomico: 74,
+        massaAtomica: 183.84,
+        categoria: "metal-de-transicao",
+        configuracaoEletronica: "[Xe] 4f¹⁴ 5d⁴ 6s²",
+        cor: 'Cinza',
+        radioativo: false,
+        estadoNatural: "Sólido",
+        densidade: 19.25 ,
+        pontoDeFusao: 3422,
+        pontoDeEbulicao: 5555,
+        etalpiaDeFusao: 35, // kJ/mol
+        etalpiaDeVaporizacao: 800, // kJ/mol
+        calorEspecifico: 0.132, // J/g·K
+        abundanciaNaCrostaTerrestre: 0.00011,
+        abundanciaNoUniverso: 0.00000005,
+        raioAtomico: 139,
+        raioCovalente: 162,
+        eletronegatividade: 2.36, // Escala de Pauling
+        volumeAtomico: 9.53, // cm3/mol
+        condutividadeTermica: 1.74, // W/cm·K
+        aplicacoesComuns: ["Filamentos de lâmpadas incandescentes", "Elétrodos de soldagem", "Componentes de equipamentos de raio-X"],
+        historia: `
+        Em 1781, Torbern Bergman obteve um óxido de um novo elemento, a partir da scheelite. Em 1783, José e Fausto Elhuyar descobriram um ácido feito a partir de volframite idêntico ao ácido túngstico. Mais tarde, nesse ano, em Espanha, os irmãos conseguiram isolar o Tungsténio pela redução do seu ácido com carvão, tendo-lhe sido atribuída a descoberta do elemento.`,
+        endereçoImagemElemento: 'https://images-of-elements.com/tungsten-rod.jpg',
+        curiosidade: 'O símbolo químico - W - advém do nome orignial do elemento: Wolfrâmio.'
     },
     {
         nome: "Rênio",
-        sigla: "Re",
-        numeroAtomico: 75,
-        massaAtomica: 186.207,
-        configuracaoEletronica: "[Xe] 4f^14 5d^5 6s^2",
         grupo: 7,
         periodo: 6,
-        raioAtomico: 137,
-        estadoNatural: "Sólido",
-        pontoDeFusao: 3185,
-        pontoDeEbulicao: 5596,
-        densidade: 21.02, // Em g/cm³ (aproximado)
-        eletronegatividade: 1.9, // Valor aproximado
-        aplicacoesComuns: ["Filamentos em lâmpadas de flash", "Catalisador em refinarias de petróleo", "Componente em superligas para turbinas de avião"],
+        sigla: "Re",
         decomposicao: {
             protons: 75,
             eletrons: 75,
-            neutrons: 111 // O número de nêutrons pode variar, mas geralmente é próximo ao número de prótons
+            neutrons: 111
         },
-        categoria: "metal-de-transicao"
+        numeroAtomico: 75,
+        massaAtomica: 186.207,
+        categoria: "metal-de-transicao",
+        configuracaoEletronica: "[Xe] 4f¹⁴ 5d⁵ 6s²",
+        cor: 'Cinza',
+        radioativo: false,
+        estadoNatural: "Sólido",
+        densidade: 21.02 ,
+        pontoDeFusao: 3186,
+        pontoDeEbulicao: 5596,
+        etalpiaDeFusao: 33, // kJ/mol
+        etalpiaDeVaporizacao: 705, // kJ/mol
+        calorEspecifico: 0.137, // J/g·K
+        abundanciaNaCrostaTerrestre: 0.00000026,
+        abundanciaNoUniverso: 0.00000002,
+        raioAtomico: 137,
+        raioCovalente: 151,
+        eletronegatividade: 1.9, // Escala de Pauling
+        volumeAtomico: 8.85, // cm3/mol
+        condutividadeTermica: 4.79, // W/cm·K
+        aplicacoesComuns: ["Filamentos em lâmpadas de flash", "Catalisador em refinarias de petróleo", "Componente em superligas para turbinas de avião"],
+        historia: `
+        Em 1908, o químico japonês Masataka Ogawa afirmou ter descoberto o 43.º elemento. Contudo, análise posterior revelou a presença do Rénio (elemento 75) e não do elemento 43. Em 1922, Walter Noddack, Ida Eva Tacke e Otto Berg anunciaram a separação do Rénio da Gandolinite e deram-lhe o nome atual.`,
+        endereçoImagemElemento: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Rhenium_single_crystal_bar_and_1cm3_cube.jpg/800px-Rhenium_single_crystal_bar_and_1cm3_cube.jpg?20100925203014',
+        curiosidade: 'O Chile possui as maiores reservas mundiais de Rénio.'
     },
     {
         nome: "Ósmio",
-        sigla: "Os",
-        numeroAtomico: 76,
-        massaAtomica: 190.23,
-        configuracaoEletronica: "[Xe] 4f^14 5d^6 6s^2",
         grupo: 8,
         periodo: 6,
-        raioAtomico: 185,
-        estadoNatural: "Sólido",
-        pontoDeFusao: 3033,
-        pontoDeEbulicao: 5012,
-        densidade: 22.59, // Em g/cm³ (aproximado)
-        eletronegatividade: 2.2, // Valor aproximado
-        aplicacoesComuns: ["Agulhas em microscópios eletrônicos", "Catalisador em processos químicos", "Componente em ligas de platina-osmio"],
+        sigla: "Os",
         decomposicao: {
             protons: 76,
             eletrons: 76,
-            neutrons: 116 // O número de nêutrons pode variar, mas geralmente é próximo ao número de prótons
+            neutrons: 114
         },
-        categoria: "metal-de-transicao"
+        numeroAtomico: 76,
+        massaAtomica: 190.23,
+        categoria: "metal-de-transicao",
+        configuracaoEletronica: "[Xe] 4f¹⁴ 5d⁶ 6s²",
+        cor: 'Cinza',
+        radioativo: false,
+        estadoNatural: "Sólido",
+        densidade: 22.31 ,
+        pontoDeFusao: 3033,
+        pontoDeEbulicao: 5012,
+        etalpiaDeFusao: 31, // kJ/mol
+        etalpiaDeVaporizacao: 630, // kJ/mol
+        calorEspecifico: 0.13, // J/g·K
+        abundanciaNaCrostaTerrestre: 0.00000018,
+        abundanciaNoUniverso: 0.0000003,
+        raioAtomico: 135,
+        raioCovalente: 144,
+        eletronegatividade: 2.2, // Escala de Pauling
+        volumeAtomico: 8.49, // cm3/mol
+        condutividadeTermica: 0.876, // W/cm·K
+        aplicacoesComuns: ["Agulhas em microscópios eletrônicos", "Catalisador em processos químicos", "Componente em ligas de platina-osmio"],
+        historia: `
+        O Ósmio foi descoberto pelo químico inglês, Smithson Tennant, em 1803, em Londres. Os químicos que estudavam a platina, dissolveram-na em água-régia, para criar sais solúveis e observaram uma pequena quantidade de resíduos escuros insolúveis. Smithson Tennant analisou esses resíduos e concluiu que deveriam conter um novo metal.`,
+        endereçoImagemElemento: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Osmium_crystals.jpg/800px-Osmium_crystals.jpg?20100216221302',
+        curiosidade: 'O Ósmio é o elemento estável menos abundante, na crosta terrestre.'
     },
     {
-        nome: "Irídio",
-        sigla: "Ir",
-        numeroAtomico: 77,
-        massaAtomica: 192.217,
-        configuracaoEletronica: "[Xe] 4f^14 5d^7 6s^2",
+        nome: "Íridio",
         grupo: 9,
         periodo: 6,
-        raioAtomico: 135,
-        estadoNatural: "Sólido",
-        pontoDeFusao: 2446,
-        pontoDeEbulicao: 4428,
-        densidade: 22.56, // Em g/cm³ (aproximado)
-        eletronegatividade: 2.2, // Valor aproximado
-        aplicacoesComuns: ["Eletrodos em velas de ignição", "Fabricação de utensílios de laboratório", "Componente em ligas de platina-irídio"],
+        sigla: "Ir",
         decomposicao: {
             protons: 77,
             eletrons: 77,
-            neutrons: 115 // O número de nêutrons pode variar, mas geralmente é próximo ao número de prótons
+            neutrons: 115
         },
-        categoria: "metal-de-transicao"
+        numeroAtomico: 77,
+        massaAtomica: 192.217,
+        categoria: "metal-de-transicao",
+        configuracaoEletronica: "[Xe] 4f¹⁴ 5d⁷ 6s²",
+        cor: 'Prata',
+        radioativo: false,
+        estadoNatural: "Sólido",
+        densidade: 22.56 ,
+        pontoDeFusao: 2466,
+        pontoDeEbulicao: 4428,
+        etalpiaDeFusao: 26, // kJ/mol
+        etalpiaDeVaporizacao: 560, // kJ/mol
+        calorEspecifico: 0.131, // J/g·K
+        abundanciaNaCrostaTerrestre: 0.00000004,
+        abundanciaNoUniverso: 0.0000002,
+        raioAtomico: 136,
+        raioCovalente: 141,
+        eletronegatividade: 2.2, // Escala de Pauling
+        volumeAtomico: 8.54, // cm3/mol
+        condutividadeTermica: 1.47, // W/cm·K
+        aplicacoesComuns: ["Eletrodos em velas de ignição", "Fabricação de utensílios de laboratório", "Componente em ligas de platina-irídio"],
+        historia: `
+        O Irídio foi descoberto, juntamente com o Ósmio e através do mesmo processo, pelo químico inglês, Smithson Tennant, em 1803, em Londres. Os químicos que estudavam a platina, dissolveram-na em água-régia, para criar sais solúveis e observaram uma pequena quantidade de resíduos escuros insolúveis. Smithson Tennant analisou esses resíduos e concluiu que deveriam conter um novo metal.`,
+        endereçoImagemElemento: 'https://images-of-elements.com/s/iridium.jpg',
+        curiosidade: 'O Irídio é o metal mais resistente à corrosão conhecido.'
     },
     {
         nome: "Platina",
-        numeroAtomico: 78,
-        sigla: "Pt",
-        massaAtomica: 195.084,
-        configuracaoEletronica: "[Xe] 4f^14 5d^9 6s^1",
         grupo: 10,
         periodo: 6,
-        raioAtomico: 139,
-        estadoNatural: "Sólido",
-        pontoDeFusao: 1768.2,
-        pontoDeEbulicao: 3825,
-        densidade: 21.45, // Em g/cm³ (aproximado)
-        eletronegatividade: 2.28, // Valor aproximado
-        aplicacoesComuns: ["Joalheria", "Catalisadores em reações químicas", "Eletrodos em dispositivos médicos"],
+        sigla: "Pt",
         decomposicao: {
             protons: 78,
             eletrons: 78,
-            neutrons: 117 // O número de nêutrons pode variar, mas geralmente é próximo ao número de prótons
+            neutrons: 117
         },
-        categoria: "metal-de-transicao"
+        numeroAtomico: 78,
+        massaAtomica: 195.084,
+        categoria: "metal-de-transicao",
+        configuracaoEletronica: "[Xe] 4f¹⁴ 5d⁹ 6s¹",
+        cor: 'Cinza',
+        radioativo: false,
+        estadoNatural: "Sólido",
+        densidade: 21.45 ,
+        pontoDeFusao: 1768.3,
+        pontoDeEbulicao: 3825,
+        etalpiaDeFusao: 20, // kJ/mol
+        etalpiaDeVaporizacao: 490, // kJ/mol
+        calorEspecifico: 0.133, // J/g·K
+        abundanciaNaCrostaTerrestre: 0.0000037,
+        abundanciaNoUniverso: 0.0000005,
+        raioAtomico: 139,
+        raioCovalente: 136,
+        eletronegatividade: 2.28, // Escala de Pauling
+        volumeAtomico: 9.10, // cm3/mol
+        condutividadeTermica: 0.716, // W/cm·K
+        aplicacoesComuns: ["Joalheria", "Catalisadores em reações químicas", "Eletrodos em dispositivos médicos"],
+        historia: `
+        A platina foi utilizada pela primeira vez, por nativos da America do Sul, na era pré-colombiana, na produção de artefactos. Antonio de Ulloa publicou as suas descobertas sobre a platina, em 1749, embora Sir Charles Wood também tivesse estudado o metal em 1741. A primeira referência à platina, como um novo metal, foi feita por William Brownrigg, em 1750.`,
+        endereçoImagemElemento: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Platinum-nugget.jpg/800px-Platinum-nugget.jpg?20100303221510',
+        curiosidade: 'A Platina existe em grande abundância, na Lua e nos meteoritos'
     },
     {
         nome: "Ouro",
-        sigla: "Au",
-        numeroAtomico: 79,
-        massaAtomica: 196.96657,
-        configuracaoEletronica: "[Xe] 4f^14 5d^10 6s^1",
         grupo: 11,
         periodo: 6,
-        raioAtomico: 174,
-        estadoNatural: "Sólido",
-        pontoDeFusao: 1064,
-        pontoDeEbulicao: 2856,
-        densidade: 19.32, // Em g/cm³ (aproximado)
-        eletronegatividade: 2.54, // Valor aproximado
-        aplicacoesComuns: ["Joalheria", "Eletrônicos", "Componentes em dispositivos médicos"],
+        sigla: "Au",
         decomposicao: {
             protons: 79,
             eletrons: 79,
-            neutrons: 118 // O número de nêutrons pode variar, mas geralmente é próximo ao número de prótons
+            neutrons: 118
         },
-        categoria: "metal-de-transicao"
+        numeroAtomico: 79,
+        massaAtomica: 196.966569,
+        categoria: "metal-de-transicao",
+        configuracaoEletronica: "[Xe] 4f¹⁴ 5d¹⁰ 6s¹",
+        cor: 'Dourado',
+        radioativo: false,
+        estadoNatural: "Sólido",
+        densidade: 19.282,
+        pontoDeFusao: 1064.2,
+        pontoDeEbulicao: 2856,
+        etalpiaDeFusao: 12.5, // kJ/mol
+        etalpiaDeVaporizacao: 330, // kJ/mol
+        calorEspecifico: 0.129, // J/g·K
+        abundanciaNaCrostaTerrestre: 0.00000031,
+        abundanciaNoUniverso: 0.00000006,
+        raioAtomico: 144,
+        raioCovalente: 136,
+        eletronegatividade: 2.54, // Escala de Pauling
+        volumeAtomico: 10.2, // cm3/mol
+        condutividadeTermica: 3.17, // W/cm·K
+        aplicacoesComuns: ["Joalheria", "Eletrônicos", "Componentes em dispositivos médicos"],
+        historia: `
+        O ouro é conhecido desde a pré-história e foi o primeiro metal usado pelo ser humano. Foram encontrados artefactos de ouro que remontam a 5000 anos atrás, em túmulos egípcios. Cerca de 6000 anos atrás, foi descoberto ouro com 98% de pureza foi descoberto em Natal Qunah, no antigo reino de Israel.`,
+        endereçoImagemElemento: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Gold-crystals.jpg/800px-Gold-crystals.jpg?20090820211617',
+        curiosidade: 'A Índia é o maior consumidor mundial de Ouro'
     },
     {
         nome: "Mercúrio",
-        sigla: "Hg",
-        numeroAtomico: 80,
-        massaAtomica: 200.592,
-        configuracaoEletronica: "[Xe] 4f^14 5d^10 6s^2",
         grupo: 12,
         periodo: 6,
-        raioAtomico: 150,
-        estadoNatural: "Líquido",
-        pontoDeFusao: -38.8,
-        pontoDeEbulicao: 356.7,
-        densidade: 13.5336, // Em g/cm³ (aproximado)
-        eletronegatividade: 2.00, // Valor aproximado
-        aplicacoesComuns: ["Instrumentos de medição", "Lâmpadas fluorescentes", "Processos industriais"],
+        sigla: "Hg",
         decomposicao: {
             protons: 80,
             eletrons: 80,
-            neutrons: 121 // O número de nêutrons pode variar, mas geralmente é próximo ao número de prótons
+            neutrons: 121
         },
-        categoria: "metal-de-transicao"
+        numeroAtomico: 80,
+        massaAtomica: 200.59,
+        categoria: "metal-de-transicao",
+        configuracaoEletronica: "[Xe] 4f¹⁴ 5d¹⁰ 6s²",
+        cor: 'Prata',
+        radioativo: false,
+        estadoNatural: "Líquido",
+        densidade: 13.5336,
+        pontoDeFusao: -38.83,
+        pontoDeEbulicao: 357,
+        etalpiaDeFusao: 2.29, // kJ/mol
+        etalpiaDeVaporizacao: 59.2, // kJ/mol
+        calorEspecifico: 0.14, // J/g·K
+        abundanciaNaCrostaTerrestre: 0.0000067,
+        abundanciaNoUniverso: 0.0000001,
+        raioAtomico: 151,
+        raioCovalente: 132,
+        eletronegatividade: 2.00, // Escala de Pauling
+        volumeAtomico: 14.82, // cm3/mol
+        condutividadeTermica: 0.0834, // W/cm·K
+        aplicacoesComuns: ["Instrumentos de medição", "Lâmpadas fluorescentes", "Processos industriais"],
+        historia: `
+        O mercúrio era conhecido dos chineses e indianos. Foi encontrando em túmulos egípcios, datados de 1500 BC. Os alquimistas consideravam o mercúrio como a matéria prima a parir da qual todos os metais eram feitos. Estes, acreditavam que diferentes metais poderiam ser obtidos, variando a qualidade e a quantidade de enxofre, contida no mercúrio.`,
+        endereçoImagemElemento: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Pouring_liquid_mercury_bionerd.jpg/553px-Pouring_liquid_mercury_bionerd.jpg?20120513070648',
+        curiosidade: 'O Mercúrio é o único metal líquido, à temperatura ambiente.'
     },
     {
         nome: "Tálio",
-        sigla: "Tl",
-        numeroAtomico: 81,
-        massaAtomica: 204.38,
-        configuracaoEletronica: "[Xe] 4f^14 5d^10 6s^2 6p^1",
         grupo: 13,
         periodo: 6,
-        raioAtomico: 156,
-        estadoNatural: "Sólido",
-        pontoDeFusao: 303.5,
-        pontoDeEbulicao: 174,
-        densidade: 11.85, // Em g/cm³ (aproximado)
-        eletronegatividade: 1.62, // Valor aproximado
-        aplicacoesComuns: ["Dopante em semicondutores", "Produção de vidros especiais", "Em medicina nuclear"],
+        sigla: "Tl",
         decomposicao: {
             protons: 81,
             eletrons: 81,
-            neutrons: 123 // O número de nêutrons pode variar, mas geralmente é próximo ao número de prótons
+            neutrons: 123
         },
-        categoria: "outros-metais"
+        numeroAtomico: 81,
+        massaAtomica: 204.3833,
+        categoria: "outros-metais",
+        configuracaoEletronica: "[Xe] 4f¹⁴ 5d¹⁰ 6s² 6p¹",
+        cor: 'Prata',
+        radioativo: false,
+        estadoNatural: "Sólido",
+        densidade: 11.85,
+        pontoDeFusao: 304,
+        pontoDeEbulicao: 1473,
+        etalpiaDeFusao: 4.2, // kJ/mol
+        etalpiaDeVaporizacao: 165, // kJ/mol
+        calorEspecifico: 0.129, // J/g·K
+        abundanciaNaCrostaTerrestre: 0.000053,
+        abundanciaNoUniverso: 0.00000005,
+        raioAtomico: 170,
+        raioCovalente: 145,
+        eletronegatividade: 1.62, // Escala de Pauling
+        volumeAtomico: 17.2, // cm3/mol
+        condutividadeTermica: 0.461, // W/cm·K
+        aplicacoesComuns: ["Dopante em semicondutores", "Produção de vidros especiais", "Em medicina nuclear"],
+        historia: `
+        O Tálio foi descoberto através de espetroscopia por Sir William Crookes, em 1861, em Londres. Em 1862, Claude-Auguste Lamy utilizou um espetrómetro para determinar a composição de uma substância, contendo Selénio que se depositara, durante a produção de Ácido Sulfúrico a partir da Pirite. Ele observou a nova linha verde no espetro e concluiu tratar-se de um novo elemento.`,
+        endereçoImagemElemento: 'https://images-of-elements.com/s/thallium.jpg',
+        curiosidade: 'Agatha Christie empregou as propriedades tóxicas do Tálio, no seu romance: O Cavalo Amarelo.'
     },
     {
         nome: "Chumbo",
-        sigla: "Pb",
-        numeroAtomico: 82,
-        massaAtomica: 207.2,
-        configuracaoEletronica: "[Xe] 4f^14 5d^10 6s^2 6p^2",
         grupo: 14,
         periodo: 6,
-        raioAtomico: 180,
-        estadoNatural: "Sólido",
-        pontoDeFusao: 327,
-        pontoDeEbulicao: 1740,
-        densidade: 11.34, // Em g/cm³ (aproximado)
-        eletronegatividade: 2.33, // Valor aproximado
-        aplicacoesComuns: ["Baterias de chumbo-ácido", "Proteção contra radiação", "Munição e projéteis"],
+        sigla: "Pb",
         decomposicao: {
             protons: 82,
             eletrons: 82,
-            neutrons: 125 // O número de nêutrons pode variar, mas geralmente é próximo ao número de prótons
+            neutrons: 125
         },
-        categoria: "outros-metais"
+        numeroAtomico: 82,
+        massaAtomica: 207.2,
+        categoria: "outros-metais",
+        configuracaoEletronica: "[Xe] 4f¹⁴ 5d¹⁰ 6s² 6p²",
+        cor: 'Cinza',
+        radioativo: false,
+        estadoNatural: "Sólido",
+        densidade: 11.342,
+        pontoDeFusao: 327.46,
+        pontoDeEbulicao: 1749,
+        etalpiaDeFusao: 4.77, // kJ/mol
+        etalpiaDeVaporizacao: 178, // kJ/mol
+        calorEspecifico: 0.129, // J/g·K
+        abundanciaNaCrostaTerrestre: 0.00099,
+        abundanciaNoUniverso: 0.000001,
+        raioAtomico: 175,
+        raioCovalente: 146,
+        eletronegatividade: 2.33, // Escala de Pauling
+        volumeAtomico: 18.17, // cm3/mol
+        condutividadeTermica: 0.353, // W/cm·K
+        aplicacoesComuns: ["Baterias de chumbo-ácido", "Proteção contra radiação", "Munição e projéteis"],
+        historia: `
+        Contas metálicas de chumbo, datadas de 6400 AC, foram encontradas em Çatal Huyuk, na atual Turquia. Os romanos também utilizaram o chumbo, na sua forma fundida, para fixar cavilhas de ferro que sustentavam grandes blocos de calcário, em certos monumentos. Na alquimia, acreditava-se que o chumbo era o metal mais antigo e que estava associado ao planeta Saturno.`,
+        endereçoImagemElemento: 'https://images-of-elements.com/s/lead.jpg',
+        curiosidade: 'As grafites dos lápis de madeira nunca foram feitas de grafite.'
     },
     {
         nome: "Bismuto",
-        sigla: "Bi",
-        numeroAtomico: 83,
-        massaAtomica: 208.98040,
-        configuracaoEletronica: "[Xe] 4f^14 5d^10 6s^2 6p^3",
         grupo: 15,
         periodo: 6,
-        raioAtomico: 148,
-        estadoNatural: "Sólido",
-        pontoDeFusao: 271,
-        pontoDeEbulicao: 1564,
-        densidade: 9.78, // Em g/cm³ (aproximado)
-        eletronegatividade: 2.02, // Valor aproximado
-        aplicacoesComuns: ["Ligas metálicas", "Pigmentos em cosméticos", "Medicina nuclear"],
+        sigla: "Bi",
         decomposicao: {
             protons: 83,
             eletrons: 83,
-            neutrons: 126 // O número de nêutrons pode variar, mas geralmente é próximo ao número de prótons
+            neutrons: 126
         },
-        categoria: "outros-metais"
+        numeroAtomico: 83,
+        massaAtomica: 208.9804,
+        categoria: "outros-metais",
+        configuracaoEletronica: "[Xe] 4f¹⁴ 5d¹⁰ 6s² 6p³",
+        cor: 'Cinza',
+        radioativo: false,
+        estadoNatural: "Sólido",
+        densidade: 9.78,
+        pontoDeFusao: 271.5,
+        pontoDeEbulicao: 1564,
+        etalpiaDeFusao: 10.9, // kJ/mol
+        etalpiaDeVaporizacao: 160, // kJ/mol
+        calorEspecifico: 0.122, // J/g·K
+        abundanciaNaCrostaTerrestre: 0.0000025,
+        abundanciaNoUniverso: 0.00000007,
+        raioAtomico: 156,
+        raioCovalente: 148,
+        eletronegatividade: 2.02, // Escala de Pauling
+        volumeAtomico: 21.3, // cm3/mol
+        condutividadeTermica: 0.0797, // W/cm·K
+        aplicacoesComuns: ["Ligas metálicas", "Pigmentos em cosméticos", "Medicina nuclear"],
+        historia: `
+        O Bismuto é conhecido desde a antiguidade, portanto ninguém é creditado pela sua descoberta. Em tempos antigos, o elemento foi confundido com o estanho e com o chumbo, devido à sua semelhança com estes. Em 1753, o químico francês Claude François Geoffroy demonstrou que este metal é diferente do chumbo e do estanho.`,
+        endereçoImagemElemento: 'https://images-of-elements.com/s/bismuth.jpg',
+        curiosidade: 'O Bismuto tem uma resistência elétrica invulgarmente elevada, para um metal.'
     },
     {
         nome: "Polônio",
-        sigla: "Po",
-        numeroAtomico: 84,
-        massaAtomica: 209,
-        configuracaoEletronica: "[Xe] 4f^14 5d^10 6s^2 6p^4",
         grupo: 16,
         periodo: 6,
-        raioAtomico: 190,
-        estadoNatural: "Sólido",
-        pontoDeFusao: 254,
-        pontoDeEbulicao: 962,
-        densidade: 9.20, // Em g/cm³ (aproximado)
-        eletronegatividade: 2.0, // Valor aproximado
-        aplicacoesComuns: ["Fonte de calor em dispositivos termoelétricos", "Pesquisas em física nuclear", "Como fonte de radiação alfa"],
+        sigla: "Po",
         decomposicao: {
             protons: 84,
             eletrons: 84,
-            neutrons: 125 // O número de nêutrons pode variar, mas geralmente é próximo ao número de prótons
+            neutrons: 126
         },
-        categoria: "semimetal"
+        numeroAtomico: 84,
+        massaAtomica: 210,
+        categoria: "semimetal",
+        configuracaoEletronica: "[Xe] 4f¹⁴ 5d¹⁰ 6s² 6p⁴",
+        cor: 'Prata',
+        radioativo: true,
+        estadoNatural: "Sólido",
+        densidade: 9.196,
+        pontoDeFusao: 254,
+        pontoDeEbulicao: 962,
+        etalpiaDeFusao: 13, // kJ/mol
+        etalpiaDeVaporizacao: 100, // kJ/mol
+        calorEspecifico: null, // J/g·K
+        abundanciaNaCrostaTerrestre: null,
+        abundanciaNoUniverso: null,
+        raioAtomico: 168,
+        raioCovalente: 140,
+        eletronegatividade: 2, // Escala de Pauling
+        volumeAtomico: 22.23, // cm3/mol
+        condutividadeTermica: 0.2, // W/cm·K
+        aplicacoesComuns: ["Fonte de calor em dispositivos termoelétricos", "Pesquisas em física nuclear", "Como fonte de radiação alfa"],
+        historia: `
+        O Polónio foi descoberto por Marie e Pierre Curie, em 1898. Este foi o primeiro elemento a ser descoberto pelos Curie, enquanto investigavam a causa da radioatividade da pecheblenda. Os riscos do trabalho com elementos radioativos eram desconhecidos, quando os Curie fizeram as suas descobertas.`,
+        endereçoImagemElemento: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Pierre_and_Marie_Curie.jpg/745px-Pierre_and_Marie_Curie.jpg?20140514080109',
+        curiosidade: 'O Polónio obtém-se, irradiando Bismuto, com neutrões, ou protões, de alta energia.'
     },
     {
-        nome: "Astato",
-        sigla: "At",
-        numeroAtomico: 85,
-        massaAtomica: 210,
-        configuracaoEletronica: "[Xe] 4f^14 5d^10 6s^2 6p^5",
+        nome: "Ástato",
         grupo: 17,
         periodo: 6,
-        raioAtomico: 200,
-        estadoNatural: "Sólido",
-        pontoDeFusao: 300,
-        pontoDeEbulicao: 340,
-        densidade: "Desconhecida", // A densidade do astato não é bem estabelecida
-        eletronegatividade: 2.2, // Valor aproximado
-        aplicacoesComuns: ["Pesquisas científicas", "Fonte de partículas alfa em experimentos nucleares", "Como traçador radioativo"],
+        sigla: "At",
         decomposicao: {
             protons: 85,
             eletrons: 85,
-            neutrons: "Desconhecido" // O número de nêutrons não é bem estabelecido
+            neutrons: 125
         },
-        categoria: "halogenios"
+        numeroAtomico: 85,
+        massaAtomica: 210,
+        categoria: "halogenios",
+        configuracaoEletronica: "[Xe] 4f¹⁴ 5d¹⁰ 6s² 6p⁵",
+        cor: 'Prata',
+        radioativo: true,
+        estadoNatural: "Sólido",
+        densidade: 7,
+        pontoDeFusao: 302,
+        pontoDeEbulicao: 337,
+        etalpiaDeFusao: 6, // kJ/mol
+        etalpiaDeVaporizacao: 40, // kJ/mol
+        calorEspecifico: null, // J/g·K
+        abundanciaNaCrostaTerrestre: null,
+        abundanciaNoUniverso: null,
+        raioAtomico: null,
+        raioCovalente: 150,
+        eletronegatividade: 2.2, // Escala de Pauling
+        volumeAtomico: 30, // cm3/mol
+        condutividadeTermica: 0.017, // W/cm·K
+        aplicacoesComuns: ["Pesquisas científicas", "Fonte de partículas alfa em experimentos nucleares", "Como traçador radioativo"],
+        historia: `
+        Em 1869, a existência do astato foi prevista pela primeira vez pelo químico russo Dmitri Mendeleev e chamou o elemento de eka-iodo. Em 1940, Dale R. Corson, Kenneth Ross MacKenzie e Emilio Segrè isolaram o elemento na Universidade da Califórnia, Berkeley. Em vez de procurar o elemento na natureza, os cientistas o criaram bombardeando o bismuto-209 com partículas alfa.`,
+        endereçoImagemElemento: 'https://static.wixstatic.com/media/d0b07d_ae3f7c6d38214c35a7395c71df6a450c.jpg/v1/fill/w_420,h_315,al_c,lg_1,q_80,enc_auto/d0b07d_ae3f7c6d38214c35a7395c71df6a450c.jpg',
+        curiosidade: 'o Ástato concentra-se sobretudo, na glândula Tiroide.'
     },
     {
         nome: "Radônio",
-        sigla: "Rn",
-        numeroAtomico: 86,
-        massaAtomica: 222,
-        configuracaoEletronica: "[Xe] 4f^14 5d^10 6s^2 6p^6",
         grupo: 18,
         periodo: 6,
-        raioAtomico: 134,
-        estadoNatural: "Gasoso",
-        pontoDeFusao: -71,
-        pontoDeEbulicao: -61.7,
-        densidade: "Desconhecida", // A densidade do radônio varia de acordo com a temperatura e pressão
-        eletronegatividade: "Desconhecida", // Não tem uma eletronegatividade bem definida
-        aplicacoesComuns: ["Usado em terapias contra o câncer", "Como traçador em estudos de vazamento de gás", "Em técnicas de radiografia industrial"],
+        sigla: "Rn",
         decomposicao: {
             protons: 86,
             eletrons: 86,
-            neutrons: "Desconhecido" // O número de nêutrons não é bem estabelecido
+            neutrons: 136
         },
-        categoria: "gas-nobre"
+        numeroAtomico: 86,
+        massaAtomica: 222,
+        categoria: "gas-nobre",
+        configuracaoEletronica: "[Xe] 4f¹⁴ 5d¹⁰ 6s² 6p⁶",
+        cor: null,
+        radioativo: true,
+        estadoNatural: "Gasoso",
+        densidade: 0.00973,
+        pontoDeFusao: -71.15,
+        pontoDeEbulicao: -61.85,
+        etalpiaDeFusao: 3, // kJ/mol
+        etalpiaDeVaporizacao: 17, // kJ/mol
+        calorEspecifico: 0.094  , // J/g·K
+        abundanciaNaCrostaTerrestre: null,
+        abundanciaNoUniverso: null,
+        raioAtomico: 120,
+        raioCovalente: 150,
+        eletronegatividade: null, // Escala de Pauling
+        volumeAtomico: 50.5, // cm3/mol
+        condutividadeTermica: 0.0000364, // W/cm·K
+        aplicacoesComuns: ["Usado em terapias contra o câncer", "Como traçador em estudos de vazamento de gás", "Em técnicas de radiografia industrial"],
+        historia: `
+        O Radônio foi descoberto por Friedrich Ernst Dorn, em 1900, em Halle, na Alemanha. Ele relatou algumas experiências em que observou que alguns compostos de rádio emanavam um gás radioativo. Em 1910, Sir William Ramsay e Robert Whytlaw-Gray isolaram o Rádon, determinaram a sua densidade e que era o gás mais pesado, então conhecido.`,
+        endereçoImagemElemento: 'https://images-of-elements.com/s/radon.jpg',
+        curiosidade: 'Ao condensar, o Rádon brilha, devido à intensa radiação produzida'
     },
     {
         nome: "Frâncio",

@@ -6,11 +6,10 @@ export function criarBotao(elemento) {
     numeroAtomico.innerHTML = elemento.numeroAtomico
     numeroAtomico.classList.add('numero-atomico-elemento')
 
-    
-
     const nomeElemento = document.createElement('span')
     nomeElemento.innerHTML = elemento.nome
     nomeElemento.classList.add('nome-elemento')
+    nomeElemento.classList.add('cor')
 
     button.innerHTML = elemento.sigla
     button.dataset.categoria = elemento.categoria

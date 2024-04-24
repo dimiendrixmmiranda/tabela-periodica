@@ -101,6 +101,7 @@ body::-webkit-scrollbar-thumb {
   left: 50%;
   transform: translate(-50%);
   font-size: 0.45em;
+  background: transparent !important;
 }
 .conteudo .elementos button .radioativo {
   width: 10px;
@@ -183,6 +184,7 @@ body::-webkit-scrollbar-thumb {
   width: 100%;
   overflow-y: scroll;
   overflow-x: hidden;
+  padding-right: 0.4em;
 }
 .conteudo .elementos .container-historia .container-historia-texto::-webkit-scrollbar {
   width: 3px;
@@ -698,6 +700,9 @@ footer strong {
   .cabecalho {
     grid-template-columns: auto 1fr;
   }
+  .cabecalho a h1 {
+    white-space: nowrap;
+  }
   .cabecalho ul {
     list-style: none;
     display: flex;
@@ -707,12 +712,18 @@ footer strong {
     margin: 0 auto;
   }
   .cabecalho ul li {
-    font-size: 1.4em;
+    font-size: 0.9em;
     font-weight: bold;
     font-family: "Ubuntu", sans-serif;
+    white-space: nowrap;
   }
   .cabecalho button {
     display: none;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .cabecalho ul li {
+    font-size: 1em;
   }
 }
 @media screen and (min-width: 1440px) {
@@ -736,4 +747,14 @@ footer strong {
     -moz-column-gap: 2em;
          column-gap: 2em;
   }
+  .cabecalho ul li {
+    font-size: 1.2em;
+  }
+}
+.compararElementos {
+  width: 90%;
+  height: 400px;
+  background-color: #F2F1F1;
+  opacity: 0.8;
+  margin: 0 auto;
 }/*# sourceMappingURL=style.css.map */

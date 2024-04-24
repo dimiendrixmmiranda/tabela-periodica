@@ -43,6 +43,7 @@
                 left: 50%
                 transform: translate(-50%)
                 font-size: .45em
+                background: transparent!important
             .radioativo
                 width: 10px
                 height: 10px
@@ -51,7 +52,7 @@
                 background-repeat: no-repeat
                 z-index: 2
                 position: absolute
-                top: 3px 
+                top: 3px
                 right: 3px
         .btn-selecionado
             border: solid 3px black
@@ -103,7 +104,7 @@
             .container-historia-titulo
                 background-color: #0C7ED9
                 padding: .2em 1em .2em .5em
-                border-radius: 0 10px 10px 0 
+                border-radius: 0 10px 10px 0
                 color: $branco
             .container-historia-texto
                 grid-row: 2/3
@@ -117,6 +118,7 @@
                 width: 100%
                 overflow-y: scroll
                 overflow-x: hidden
+                padding-right: .4em
                 &::-webkit-scrollbar
                     width: 3px
                 &::-webkit-scrollbar-track
@@ -156,6 +158,6 @@
     .conteudo
         .elementos
             overflow-x: hidden
-            button 
+            button
                 .nome-elemento
                     font-size: .55em
