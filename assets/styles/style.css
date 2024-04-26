@@ -14,6 +14,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Anton&family=Raleway:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Raleway:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -702,22 +704,75 @@ footer strong {
   .cabecalho {
     grid-template-columns: auto 1fr;
   }
+  .cabecalho a img {
+    width: 40px;
+  }
   .cabecalho a h1 {
     white-space: nowrap;
+    font-size: 2em;
   }
   .cabecalho ul {
     list-style: none;
     display: flex;
     grid-column: 2/3;
-    -moz-column-gap: 0.5em;
-         column-gap: 0.5em;
-    margin: 0 auto;
+    -moz-column-gap: 0.8em;
+         column-gap: 0.8em;
+    width: 100%;
   }
   .cabecalho ul li {
-    font-size: 0.9em;
+    font-size: 0.8em;
     font-weight: bold;
     font-family: "Ubuntu", sans-serif;
     white-space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .cabecalho ul li:first-child {
+    margin-left: auto;
+  }
+  .cabecalho ul li:last-child {
+    margin-right: 1em;
+  }
+  .cabecalho ul #alterarModo {
+    width: 30px;
+    height: 15px;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    border-radius: 100px;
+    box-shadow: 0 0 2px 2px #000;
+    display: flex;
+    transition: 0.6s ease;
+    position: relative;
+    background-color: #fff;
+    cursor: pointer;
+  }
+  .cabecalho ul #alterarModo:checked {
+    background-color: #FFC600;
+    transition: 0.6s ease;
+  }
+  .cabecalho ul #alterarModo::before {
+    content: "";
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    background-color: #FFC600;
+    box-shadow: 0 0 2px 1px black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.6s ease;
+    background-image: url("../imgs/sol.png");
+    background-size: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 2;
+  }
+  .cabecalho ul #alterarModo:checked::before {
+    transform: translate(100%);
+    transition: 0.6s ease;
+    background-color: #fff;
   }
   .cabecalho button {
     display: none;
@@ -725,7 +780,15 @@ footer strong {
 }
 @media screen and (min-width: 1024px) {
   .cabecalho ul li {
-    font-size: 1em;
+    font-size: 1.2em;
+  }
+  .cabecalho ul #alterarModo {
+    width: 40px;
+    height: 20px;
+  }
+  .cabecalho ul #alterarModo::before {
+    width: 20px;
+    height: 20px;
   }
 }
 @media screen and (min-width: 1440px) {
@@ -757,6 +820,7 @@ footer strong {
   width: 90%;
   margin: 1.2em auto;
   font-family: "Ubuntu", sans-serif;
+  display: grid;
 }
 .comparar-elementos li {
   background-color: #FDFDFD;
@@ -782,7 +846,7 @@ footer strong {
 }
 .comparar-elementos .propriedades .propriedades-titulo {
   background-color: #001E36;
-  width: 60%;
+  width: 11rem;
   display: block;
   padding: 0.3em 0.4em;
   font-size: 1.4em;
@@ -821,10 +885,10 @@ footer strong {
 }
 .comparar-elementos .propriedades-gerais .propriedades-titulo {
   background-color: #001E36;
-  width: 60%;
+  width: 12rem;
   display: block;
   padding: 0.3em 0.4em;
-  font-size: 1.4em;
+  font-size: 1.1em;
   font-weight: bold;
   color: #fff;
   border-radius: 0 10px 10px 0;
@@ -860,10 +924,10 @@ footer strong {
 }
 .comparar-elementos .propriedades-fisicas .propriedades-titulo {
   background-color: #001E36;
-  width: 60%;
+  width: 12rem;
   display: block;
   padding: 0.3em 0.4em;
-  font-size: 1.4em;
+  font-size: 1.1em;
   font-weight: bold;
   color: #fff;
   border-radius: 0 10px 10px 0;
@@ -899,10 +963,10 @@ footer strong {
 }
 .comparar-elementos .propriedades-atomicas .propriedades-titulo {
   background-color: #001E36;
-  width: 60%;
+  width: 12rem;
   display: block;
   padding: 0.3em 0.4em;
-  font-size: 1.4em;
+  font-size: 1em;
   font-weight: bold;
   color: #fff;
   border-radius: 0 10px 10px 0;
@@ -938,4 +1002,125 @@ footer strong {
 }
 .comparar-elementos .propriedades-atomicas li:nth-child(6) h3, .comparar-elementos .propriedades-atomicas li:nth-child(7) h3 {
   font-size: 0.8em;
+}
+
+@media screen and (min-width: 768px) {
+  .comparar-elementos {
+    grid-template-columns: 33% 1fr;
+  }
+  .comparar-elementos .comparar-elementos-selecionar {
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+  .comparar-elementos .propriedades {
+    grid-row: 2/3;
+    grid-column: 1/3;
+  }
+  .comparar-elementos .propriedades-gerais {
+    grid-row: 3/4;
+    grid-column: 1/3;
+  }
+  .comparar-elementos .propriedades-gerais .propriedades-titulo {
+    background-color: #001E36;
+    width: 15.5rem;
+    display: block;
+    padding: 0.3em 0.4em;
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 0 10px 10px 0;
+    margin-bottom: 0.8em;
+  }
+  .comparar-elementos .propriedades-fisicas {
+    grid-row: 4/5;
+    grid-column: 1/3;
+  }
+  .comparar-elementos .propriedades-fisicas .propriedades-titulo {
+    background-color: #001E36;
+    width: 15.5rem;
+    display: block;
+    padding: 0.3em 0.4em;
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 0 10px 10px 0;
+    margin-bottom: 0.8em;
+  }
+  .comparar-elementos .propriedades-atomicas {
+    grid-row: 5/6;
+    grid-column: 1/3;
+  }
+  .comparar-elementos .propriedades-atomicas .propriedades-titulo {
+    background-color: #001E36;
+    width: 17.5rem;
+    display: block;
+    padding: 0.3em 0.4em;
+    font-size: 1.4em;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 0 10px 10px 0;
+    margin-bottom: 0.8em;
+  }
+  .comparar-elementos .propriedades-atomicas li:nth-child(4) h3, .comparar-elementos .propriedades-atomicas li:nth-child(6) h3, .comparar-elementos .propriedades-atomicas li:nth-child(7) h3 {
+    font-size: 0.9em;
+  }
+}
+.ancora {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  font-family: "Ubuntu", sans-serif;
+}
+.ancora a {
+  font-size: 1em;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  width: -moz-fit-content;
+  width: fit-content;
+  align-self: center;
+  justify-self: center;
+}
+.ancora a:hover {
+  color: #FFC600;
+  transition: 0.4s ease;
+  border-bottom: solid 1px #FFC600;
+}
+
+@media screen and (min-width: 768px) {
+  .ancora {
+    display: flex;
+  }
+  .ancora a:nth-child(1) {
+    margin-left: auto;
+    margin-right: 1.5em;
+  }
+  .ancora a:nth-child(2) {
+    margin-right: 2.5em;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .ancora {
+    display: flex;
+  }
+  .ancora a:nth-child(1) {
+    margin-left: auto;
+    margin-right: 1.5em;
+  }
+  .ancora a:nth-child(2) {
+    margin-right: 4em;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .ancora {
+    display: flex;
+  }
+  .ancora a:nth-child(1) {
+    margin-left: auto;
+    margin-right: 1.5em;
+  }
+  .ancora a:nth-child(2) {
+    margin-right: 5em;
+  }
 }/*# sourceMappingURL=style.css.map */

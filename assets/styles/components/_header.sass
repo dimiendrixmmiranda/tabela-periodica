@@ -36,27 +36,79 @@
 @media screen and ( min-width: 768px )
     .cabecalho
         grid-template-columns: auto 1fr
-        a 
+        a
+            img
+                width: 40px
             h1
                 white-space: nowrap
+                font-size: 2em
         ul
             list-style: none
             display: flex
             grid-column: 2/3
-            column-gap: .5em
-            margin: 0 auto
+            column-gap: .8em
+            width: 100%
             li
-                font-size: .9em
+                font-size: .8em
                 font-weight: bold
                 font-family: $fonteSecundaria
                 white-space: nowrap
+                display: flex
+                align-items: center
+                justify-content: center
+                &:first-child
+                    margin-left: auto
+                &:last-child
+                    margin-right: 1em
+            #alterarModo
+                width: 30px
+                height: 15px
+                appearance: none
+                border-radius: 100px
+                box-shadow: 0 0 2px 2px $preto
+                display: flex
+                transition: .6s ease
+                position: relative
+                background-color: $branco
+                cursor: pointer
+                &:checked
+                    background-color: $amarelo
+                    transition: .6s ease
+                &::before
+                    content: ''
+                    width: 15px
+                    height: 15px
+                    border-radius: 100%
+                    background-color: $amarelo
+                    box-shadow: 0 0 2px 1px black
+                    position: absolute
+                    top: 0
+                    left: 0
+                    transition: .6s ease
+                    background-image: url('../imgs/sol.png')
+                    background-size: 10px
+                    background-repeat: no-repeat
+                    background-position: center
+                    z-index: 2
+                &:checked
+                    &::before
+                        transform: translate(100%)
+                        transition: .6s ease
+                        background-color: $branco
+
         button
             display: none
 @media screen and ( min-width: 1024px )
     .cabecalho
         ul
             li
-                font-size: 1em
+                font-size: 1.2em
+            #alterarModo
+                width: 40px
+                height: 20px
+                &::before
+                    width: 20px
+                    height: 20px
 @media screen and ( min-width: 1440px )
     .cabecalho
         padding: .7em .5em
