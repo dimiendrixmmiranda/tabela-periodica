@@ -1919,7 +1919,7 @@ export const tabelaPeriodica = [
         cor: 'Prata',
         radioativo: true,
         estadoNatural: "Sólido",
-        densidade: 1.873 ,
+        densidade: 1.873,
         pontoDeFusao: 28.44,
         pontoDeEbulicao: 671,
         etalpiaDeFusao: 2.09, // kJ/mol
@@ -1955,7 +1955,7 @@ export const tabelaPeriodica = [
         cor: 'Prata',
         radioativo: false,
         estadoNatural: "Sólido",
-        densidade: 3.594 ,
+        densidade: 3.594,
         pontoDeFusao: 727,
         pontoDeEbulicao: 1897,
         etalpiaDeFusao: 8, // kJ/mol
@@ -1991,7 +1991,7 @@ export const tabelaPeriodica = [
         cor: 'Prata',
         radioativo: false,
         estadoNatural: "Sólido",
-        densidade: 6.145 ,
+        densidade: 6.145,
         pontoDeFusao: 920,
         pontoDeEbulicao: 3464,
         etalpiaDeFusao: 6.2, // kJ/mol
@@ -2027,7 +2027,7 @@ export const tabelaPeriodica = [
         cor: 'Prata',
         radioativo: false,
         estadoNatural: "Sólido",
-        densidade: 6.77 ,
+        densidade: 6.77,
         pontoDeFusao: 795,
         pontoDeEbulicao: 3443,
         etalpiaDeFusao: 5.5, // kJ/mol
@@ -2063,7 +2063,7 @@ export const tabelaPeriodica = [
         cor: 'Prata',
         radioativo: false,
         estadoNatural: "Sólido",
-        densidade: 6.773 ,
+        densidade: 6.773,
         pontoDeFusao: 935,
         pontoDeEbulicao: 3520,
         etalpiaDeFusao: 6.9, // kJ/mol
@@ -2099,7 +2099,7 @@ export const tabelaPeriodica = [
         cor: 'Prata',
         radioativo: false,
         estadoNatural: "Sólido",
-        densidade: 7.007 ,
+        densidade: 7.007,
         pontoDeFusao: 1024,
         pontoDeEbulicao: 3074,
         etalpiaDeFusao: 7.1, // kJ/mol
@@ -2135,7 +2135,7 @@ export const tabelaPeriodica = [
         cor: 'Prata',
         radioativo: true,
         estadoNatural: "Sólido",
-        densidade: 7.26 ,
+        densidade: 7.26,
         pontoDeFusao: 1042,
         pontoDeEbulicao: 3000,
         etalpiaDeFusao: 7.7, // kJ/mol
@@ -2171,7 +2171,7 @@ export const tabelaPeriodica = [
         cor: 'Prata',
         radioativo: false,
         estadoNatural: "Sólido",
-        densidade: 7.52 ,
+        densidade: 7.52,
         pontoDeFusao: 1072,
         pontoDeEbulicao: 1794,
         etalpiaDeFusao: 8.6, // kJ/mol
@@ -2207,7 +2207,7 @@ export const tabelaPeriodica = [
         cor: 'Prata',
         radioativo: false,
         estadoNatural: "Sólido",
-        densidade: 5.243 ,
+        densidade: 5.243,
         pontoDeFusao: 826,
         pontoDeEbulicao: 1529,
         etalpiaDeFusao: 9.2, // kJ/mol
@@ -2243,7 +2243,7 @@ export const tabelaPeriodica = [
         cor: 'Prata',
         radioativo: false,
         estadoNatural: "Sólido",
-        densidade: 7.895 ,
+        densidade: 7.895,
         pontoDeFusao: 1312,
         pontoDeEbulicao: 3273,
         etalpiaDeFusao: 10, // kJ/mol
@@ -2279,7 +2279,7 @@ export const tabelaPeriodica = [
         cor: 'Prata',
         radioativo: false,
         estadoNatural: "Sólido",
-        densidade: 8.229 ,
+        densidade: 8.229,
         pontoDeFusao: 1356,
         pontoDeEbulicao: 3230,
         etalpiaDeFusao: 10.8, // kJ/mol
@@ -2315,7 +2315,7 @@ export const tabelaPeriodica = [
         cor: 'Prata',
         radioativo: false,
         estadoNatural: "Sólido",
-        densidade: 8.55 ,
+        densidade: 8.55,
         pontoDeFusao: 1407,
         pontoDeEbulicao: 2567,
         etalpiaDeFusao: 11.1, // kJ/mol
@@ -2351,7 +2351,7 @@ export const tabelaPeriodica = [
         cor: 'Prata',
         radioativo: false,
         estadoNatural: "Sólido",
-        densidade: 8.795 ,
+        densidade: 8.795,
         pontoDeFusao: 1461,
         pontoDeEbulicao: 2720,
         etalpiaDeFusao: 17, // kJ/mol
@@ -2387,7 +2387,7 @@ export const tabelaPeriodica = [
         cor: 'Prata',
         radioativo: false,
         estadoNatural: "Sólido",
-        densidade: 9.066 ,
+        densidade: 9.066,
         pontoDeFusao: 1529,
         pontoDeEbulicao: 2868,
         etalpiaDeFusao: 19.9, // kJ/mol
@@ -2423,7 +2423,7 @@ export const tabelaPeriodica = [
         cor: 'Prata',
         radioativo: false,
         estadoNatural: "Sólido",
-        densidade: 9.321 ,
+        densidade: 9.321,
         pontoDeFusao: 1545,
         pontoDeEbulicao: 1950,
         etalpiaDeFusao: 16.8, // kJ/mol
@@ -2459,7 +2459,7 @@ export const tabelaPeriodica = [
         cor: 'Prata',
         radioativo: false,
         estadoNatural: "Sólido",
-        densidade: 6.965 ,
+        densidade: 6.965,
         pontoDeFusao: 824,
         pontoDeEbulicao: 1196,
         etalpiaDeFusao: 7.7, // kJ/mol
@@ -2495,7 +2495,7 @@ export const tabelaPeriodica = [
         cor: 'Prata',
         radioativo: false,
         estadoNatural: "Sólido",
-        densidade: 9.84 ,
+        densidade: 9.84,
         pontoDeFusao: 1652,
         pontoDeEbulicao: 3402,
         etalpiaDeFusao: 22, // kJ/mol
@@ -2531,7 +2531,7 @@ export const tabelaPeriodica = [
         cor: 'Cinza',
         radioativo: false,
         estadoNatural: "Sólido",
-        densidade: 13.31 ,
+        densidade: 13.31,
         pontoDeFusao: 2233,
         pontoDeEbulicao: 4603,
         etalpiaDeFusao: 25.5, // kJ/mol
@@ -2567,7 +2567,7 @@ export const tabelaPeriodica = [
         cor: 'Cinza',
         radioativo: false,
         estadoNatural: "Sólido",
-        densidade: 16.654 ,
+        densidade: 16.654,
         pontoDeFusao: 3017,
         pontoDeEbulicao: 5458,
         etalpiaDeFusao: 36, // kJ/mol
@@ -2603,7 +2603,7 @@ export const tabelaPeriodica = [
         cor: 'Cinza',
         radioativo: false,
         estadoNatural: "Sólido",
-        densidade: 19.25 ,
+        densidade: 19.25,
         pontoDeFusao: 3422,
         pontoDeEbulicao: 5555,
         etalpiaDeFusao: 35, // kJ/mol
@@ -2639,7 +2639,7 @@ export const tabelaPeriodica = [
         cor: 'Cinza',
         radioativo: false,
         estadoNatural: "Sólido",
-        densidade: 21.02 ,
+        densidade: 21.02,
         pontoDeFusao: 3186,
         pontoDeEbulicao: 5596,
         etalpiaDeFusao: 33, // kJ/mol
@@ -2675,7 +2675,7 @@ export const tabelaPeriodica = [
         cor: 'Cinza',
         radioativo: false,
         estadoNatural: "Sólido",
-        densidade: 22.31 ,
+        densidade: 22.31,
         pontoDeFusao: 3033,
         pontoDeEbulicao: 5012,
         etalpiaDeFusao: 31, // kJ/mol
@@ -2711,7 +2711,7 @@ export const tabelaPeriodica = [
         cor: 'Prata',
         radioativo: false,
         estadoNatural: "Sólido",
-        densidade: 22.56 ,
+        densidade: 22.56,
         pontoDeFusao: 2466,
         pontoDeEbulicao: 4428,
         etalpiaDeFusao: 26, // kJ/mol
@@ -2747,7 +2747,7 @@ export const tabelaPeriodica = [
         cor: 'Cinza',
         radioativo: false,
         estadoNatural: "Sólido",
-        densidade: 21.45 ,
+        densidade: 21.45,
         pontoDeFusao: 1768.3,
         pontoDeEbulicao: 3825,
         etalpiaDeFusao: 20, // kJ/mol
@@ -3040,7 +3040,7 @@ export const tabelaPeriodica = [
         pontoDeEbulicao: -61.85,
         etalpiaDeFusao: 3, // kJ/mol
         etalpiaDeVaporizacao: 17, // kJ/mol
-        calorEspecifico: 0.094  , // J/g·K
+        calorEspecifico: 0.094, // J/g·K
         abundanciaNaCrostaTerrestre: null,
         abundanciaNoUniverso: null,
         raioAtomico: 120,
@@ -3056,706 +3056,1154 @@ export const tabelaPeriodica = [
     },
     {
         nome: "Frâncio",
-        sigla: "Fr",
-        numeroAtomico: 87,
-        massaAtomica: 223,
-        configuracaoEletronica: "[Rn] 7s^1",
         grupo: 1,
         periodo: 7,
-        raioAtomico: 260,
-        estadoNatural: "Sólido", // Aparência metálica brilhante (predito)
-        pontoDeFusao: 22,
-        pontoDeEbulicao: 665,
-        densidade: "Desconhecida", // A densidade do frâncio não é bem estabelecida
-        eletronegatividade: 0.7, // Valor aproximado
-        aplicacoesComuns: ["Não possui aplicações comerciais devido à sua raridade e radioatividade"],
+        sigla: "Fr",
         decomposicao: {
             protons: 87,
             eletrons: 87,
-            neutrons: "Desconhecido" // O número de nêutrons não é bem estabelecido
+            neutrons: 136
         },
-        categoria: "metal-alcalino"
+        numeroAtomico: 87,
+        massaAtomica: 223,
+        categoria: "metal-alcalino",
+        configuracaoEletronica: "[Rn] 7s¹",
+        cor: 'Prata',
+        radioativo: true,
+        estadoNatural: "Sólido",
+        densidade: 1.87,
+        pontoDeFusao: 23,
+        pontoDeEbulicao: 677,
+        etalpiaDeFusao: 2, // kJ/mol
+        etalpiaDeVaporizacao: 65, // kJ/mol
+        calorEspecifico: null, // J/g·K
+        abundanciaNaCrostaTerrestre: null,
+        abundanciaNoUniverso: null,
+        raioAtomico: 260,
+        raioCovalente: 348,
+        eletronegatividade: 0.7, // Escala de Pauling
+        volumeAtomico: 71.07, // cm3/mol
+        condutividadeTermica: 0.15, // W/cm·K
+        aplicacoesComuns: ["Não possui aplicações comerciais devido à sua raridade e radioatividade"],
+        historia: `
+        Francium foi descoberto em 1939 por Marguerite Perey do Instituto Curie em Paris, França. Foi descoberto quando ela pesquisava o decaimento radioativo do actínio-227. Marguerite Perey descobriu que o frâncio-223 é produzido naturalmente quando o actínio-227 emite uma partícula alfa.`,
+        endereçoImagemElemento: 'https://images-of-elements.com/s/francium.jpg',
+        curiosidade: 'O Frâncio foi último elemento a ser descoberto na natureza, sem recurso à síntese'
     },
     {
         nome: "Rádio",
-        sigla: "Ra",
-        numeroAtomico: 88,
-        massaAtomica: 226,
-        configuracaoEletronica: "[Rn] 7s^2",
         grupo: 2,
         periodo: 7,
-        raioAtomico: 215,
-        estadoNatural: "Sólido",
-        pontoDeFusao: 700,
-        pontoDeEbulicao: 1140,
-        densidade: 5,
-        eletronegatividade: 0.9,
-        aplicacoesComuns: ["Utilizado em radioterapia para tratamento de câncer", "Em dispositivos de detecção de radiação", "Produção de relógios e instrumentos de medição de precisão"],
+        sigla: "Ra",
         decomposicao: {
             protons: 88,
             eletrons: 88,
-            neutrons: "Desconhecido"
+            neutrons: 138
         },
-        categoria: "metal-alcalino-terroso"
+        numeroAtomico: 88,
+        massaAtomica: 226,
+        categoria: "metal-alcalino-terroso",
+        configuracaoEletronica: "[Rn] 7s²",
+        cor: 'Prata',
+        radioativo: true,
+        estadoNatural: "Sólido",
+        densidade: 5.5,
+        pontoDeFusao: 700,
+        pontoDeEbulicao: 1737,
+        etalpiaDeFusao: 8, // kJ/mol
+        etalpiaDeVaporizacao: 125, // kJ/mol
+        calorEspecifico: null, // J/g·K
+        abundanciaNaCrostaTerrestre: 0.0000000000099,
+        abundanciaNoUniverso: null,
+        raioAtomico: null,
+        raioCovalente: 221,
+        eletronegatividade: 0.9, // Escala de Pauling
+        volumeAtomico: 45.20, // cm3/mol
+        condutividadeTermica: 0.186, // W/cm·K
+        aplicacoesComuns: ["Utilizado em radioterapia para tratamento de câncer", "Em dispositivos de detecção de radiação", "Produção de relógios e instrumentos de medição de precisão"],
+        historia: `
+        O Rádio foi descoberto por Marie Curie e Pierre Curie e 1898. Ambos extraíram um composto de rádio, duma amostra de uraninite. O rádio foi isolado no seu estado metálico por Marie Curie e André-Louis Debierne, em 1910, através da eletrólise do cloreto de rádio, empregando um cátodo de mercúrio e destilando numa atmosfera de gás hidrogénio.`,
+        endereçoImagemElemento: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Pierre_and_Marie_Curie.jpg/745px-Pierre_and_Marie_Curie.jpg?20140514080109',
+        curiosidade: 'O Rádio confere uma cor carmim às chamas'
     },
     {
         nome: "Actínio",
-        sigla: "Ac",
-        numeroAtomico: 89,
-        massaAtomica: 227,
-        configuracaoEletronica: "[Rn] 6d^1 7s^2",
-        grupo: 3,
+        grupo: null,
         periodo: 7,
-        raioAtomico: 195,
-        estadoNatural: "Sólido",
-        pontoDeFusao: 1050,
-        pontoDeEbulicao: 3200,
-        densidade: 10.07, // Em g/cm³ (aproximado)
-        eletronegatividade: 1.1, // Valor aproximado
-        aplicacoesComuns: ["Utilizado em terapia de radioterapia", "Em fontes de nêutrons para pesquisas nucleares", "Na produção de isótopos radioativos para pesquisa científica"],
+        sigla: "Ac",
         decomposicao: {
             protons: 89,
             eletrons: 89,
-            neutrons: "Desconhecido" // O número de nêutrons pode variar
+            neutrons: 138
         },
-        categoria: "actinidios"
+        numeroAtomico: 89,
+        massaAtomica: 227,
+        categoria: "actinidios",
+        configuracaoEletronica: "[Rn] 6d¹ 7s²",
+        cor: 'Prata',
+        radioativo: true,
+        estadoNatural: "Sólido",
+        densidade: 10.07,
+        pontoDeFusao: 1050,
+        pontoDeEbulicao: 3198,
+        etalpiaDeFusao: 14, // kJ/mol
+        etalpiaDeVaporizacao: 400, // kJ/mol
+        calorEspecifico: 0.12, // J/g·K
+        abundanciaNaCrostaTerrestre: null,
+        abundanciaNoUniverso: null,
+        raioAtomico: null,
+        raioCovalente: 215,
+        eletronegatividade: 1.1, // Escala de Pauling
+        volumeAtomico: 22.54, // cm3/mol
+        condutividadeTermica: 0.12, // W/cm·K
+        aplicacoesComuns: ["Utilizado em terapia de radioterapia", "Em fontes de nêutrons para pesquisas nucleares", "Na produção de isótopos radioativos para pesquisa científica"],
+        historia: `
+        André-Louis Debierne, um químico francês, descobriu o Actínio, em 1899. Ele separou-o de resíduos de pecheblenda, deixados por Marie e Pierre Curie, após a extração de rádio. Friedrich Oskar Giesel descobriu, por seu lado, o Actínio em 1902, como uma substância similar ao Lantânio.`,
+        endereçoImagemElemento: 'https://images-of-elements.com/s/actinium-225.jpg',
+        curiosidade: 'O Actínio brilha no escuro, com uma luz azul pálida'
     },
     {
         nome: "Tório",
-        sigla: "Th",
-        numeroAtomico: 90,
-        massaAtomica: 232.03806,
-        configuracaoEletronica: "[Rn] 6d^2 7s^2",
-        grupo: 4,
+        grupo: null,
         periodo: 7,
-        raioAtomico: 206,
-        estadoNatural: "Sólido",
-        pontoDeFusao: 1750,
-        pontoDeEbulicao: 4788,
-        densidade: 11.72, // Em g/cm³ (aproximado)
-        eletronegatividade: 1.3, // Valor aproximado
-        aplicacoesComuns: ["Utilizado em reatores nucleares como combustível", "Na produção de lentes ópticas de alta qualidade", "Em ligas metálicas devido à sua resistência à corrosão"],
+        sigla: "Th",
         decomposicao: {
             protons: 90,
             eletrons: 90,
-            neutrons: "Desconhecido" // O número de nêutrons pode variar
+            neutrons: 142
         },
-        categoria: "actinidios"
+        numeroAtomico: 90,
+        massaAtomica: 232.03806,
+        categoria: "actinidios",
+        configuracaoEletronica: "[Rn] 6d² 7s²",
+        cor: 'Prata',
+        radioativo: true,
+        estadoNatural: "Sólido",
+        densidade: 11.7,
+        pontoDeFusao: 1842,
+        pontoDeEbulicao: 4788,
+        etalpiaDeFusao: 16, // kJ/mol
+        etalpiaDeVaporizacao: 530, // kJ/mol
+        calorEspecifico: 0.113, // J/g·K
+        abundanciaNaCrostaTerrestre: 0.0006,
+        abundanciaNoUniverso: 0.00000004,
+        raioAtomico: 179,
+        raioCovalente: 206,
+        eletronegatividade: 1.3, // Escala de Pauling
+        volumeAtomico: 19.9, // cm3/mol
+        condutividadeTermica: 0.54, // W/cm·K
+        aplicacoesComuns: ["Utilizado em reatores nucleares como combustível", "Na produção de lentes ópticas de alta qualidade", "Em ligas metálicas devido à sua resistência à corrosão"],
+        historia: `
+        O tório foi descoberto por Jöns Jacob Berzelius em 1828, em Estocolmo, Suécia. O tório foi observado pela primeira vez como radioativo em 1898, de forma independente, pela física polonesa-francesa Marie Curie e pelo químico alemão Gerhard Carl Schmidt. O processo da barra de cristal foi descoberto por Anton Eduard van Arkel e Jan Hendrik de Boer em 1925 para produzir tório metálico de alta pureza.`,
+        endereçoImagemElemento: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Keplers_supernova.jpg/600px-Keplers_supernova.jpg?20200109204325',
+        curiosidade: 'A investigação de combustíveis à base de Tório prossegue, em diversos países, incluindo os EUA e a Índia'
     },
     {
         nome: "Protactínio",
-        sigla: "Pa",
-        numeroAtomico: 91,
-        massaAtomica: 231.03588,
-        configuracaoEletronica: "[Rn] 5f^2 6d^1 7s^2",
-        grupo: 3,
+        grupo: null,
         periodo: 7,
-        raioAtomico: 163,
-        estadoNatural: "Sólido",
-        pontoDeFusao: 1572,
-        pontoDeEbulicao: 4000,
-        densidade: 15.37, // Em g/cm³ (aproximado)
-        eletronegatividade: 1.5, // Valor aproximado
-        aplicacoesComuns: ["Utilizado em reatores nucleares como combustível e em bombas de nêutrons", "Na datação de rochas e minerais por técnicas radiométricas", "Em pesquisa científica para produção de isótopos radioativos"],
+        sigla: "Pa",
         decomposicao: {
             protons: 91,
             eletrons: 91,
-            neutrons: "Desconhecido" // O número de nêutrons pode variar
+            neutrons: 140
         },
-        categoria: "actinidios"
+        numeroAtomico: 91,
+        massaAtomica: 231.03588,
+        categoria: "actinidios",
+        configuracaoEletronica: "[Rn] 5f² 6d¹ 7s²",
+        cor: 'Prata',
+        radioativo: true,
+        estadoNatural: "Sólido",
+        densidade: 15.37,
+        pontoDeFusao: 1568,
+        pontoDeEbulicao: 4027,
+        etalpiaDeFusao: 15, // kJ/mol
+        etalpiaDeVaporizacao: 470, // kJ/mol
+        calorEspecifico: null, // J/g·K
+        abundanciaNaCrostaTerrestre: 0.00000000000099,
+        abundanciaNoUniverso: null,
+        raioAtomico: 163,
+        raioCovalente: 200,
+        eletronegatividade: 1.5, // Escala de Pauling
+        volumeAtomico: 15, // cm3/mol
+        condutividadeTermica: 0.47, // W/cm·K
+        aplicacoesComuns: ["Utilizado em reatores nucleares como combustível e em bombas de nêutrons", "Na datação de rochas e minerais por técnicas radiométricas", "Em pesquisa científica para produção de isótopos radioativos"],
+        historia: `
+        Em 1900, William Crookes isolou o protactínio como um material intensamente radioativo do urânio. O protactínio foi identificado pela primeira vez em 1913 por Kasimir Fajans e Oswald Helmuth Göhring na Alemanha. Um isótopo mais estável do protactínio foi descoberto em 1917 por Otto Hahn e Lise Meitner no Instituto Kaiser Wilhelm em Berlim.`,
+        endereçoImagemElemento: 'https://images-of-elements.com/s/protactinium-231.jpg',
+        curiosidade: 'O Protactínio é um dos elementos naturais mais raros e caros'
     },
     {
         nome: "Urânio",
-        sigla: "U",
-        numeroAtomico: 92,
-        massaAtomica: 238.02891,
-        configuracaoEletronica: "[Rn] 5f^3 6d^1 7s^2",
-        grupo: 3,
+        grupo: null,
         periodo: 7,
-        raioAtomico: 175,
-        estadoNatural: "Sólido",
-        pontoDeFusao: 1135,
-        pontoDeEbulicao: 1135,
-        densidade: 19.05, // Em g/cm³ (aproximado)
-        eletronegatividade: 1.38, // Valor aproximado
-        aplicacoesComuns: ["Utilizado em reatores nucleares para produção de energia elétrica", "Na fabricação de armas nucleares", "Em dispositivos de medição de idade como datação por urânio"],
+        sigla: "U",
         decomposicao: {
             protons: 92,
             eletrons: 92,
-            neutrons: "Desconhecido" // O número de nêutrons pode variar
+            neutrons: 146
         },
-        categoria: "actinidios"
+        numeroAtomico: 92,
+        massaAtomica: 238.02891,
+        categoria: "actinidios",
+        configuracaoEletronica: "[Rn] 5f³ 6d¹ 7s²",
+        cor: 'Prata',
+        radioativo: true,
+        estadoNatural: "Sólido",
+        densidade: 18.85,
+        pontoDeFusao: 1132.2,
+        pontoDeEbulicao: 4131,
+        etalpiaDeFusao: 14, // kJ/mol
+        etalpiaDeVaporizacao: 420, // kJ/mol
+        calorEspecifico: 0.116, // J/g·K
+        abundanciaNaCrostaTerrestre: 0.00018,
+        abundanciaNoUniverso: 0.00000002,
+        raioAtomico: 156,
+        raioCovalente: 196,
+        eletronegatividade: 1.38, // Escala de Pauling
+        volumeAtomico: 12.59, // cm3/mol
+        condutividadeTermica: 0.276, // W/cm·K
+        aplicacoesComuns: ["Utilizado em reatores nucleares para produção de energia elétrica", "Na fabricação de armas nucleares", "Em dispositivos de medição de idade como datação por urânio"],
+        historia: `
+        O Urânio foi descoberto em 1789 pelo químico alemão Martin Heinrich Klaproth. Em 1841, Eugène-Melchior Péligot isolou a primeira amostra de metal Urânio, aquecendo tetracloreto de urânio, com pote. Em 1896, Antoine Henri Becquerel descobriu uma radioatividade, com recurso ao Urânio.`,
+        endereçoImagemElemento: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/HEUraniumC.jpg/750px-HEUraniumC.jpg?20070623161753',
+        curiosidade: 'O Urânio-235 foi o primeiro isótopo que foi descoberto ser físsil'
     },
     {
-        nome: "Netúnio",
-        sigla: "Np",
-        numeroAtomico: 93,
-        massaAtomica: 237,
-        configuracaoEletronica: "[Rn] 5f^4 6d^1 7s^2",
-        grupo: 3,
+        nome: "Neptúnio",
+        grupo: null,
         periodo: 7,
-        raioAtomico: 155,
-        estadoNatural: "Sólido",
-        pontoDeFusao: 644,
-        pontoDeEbulicao: 3902,
-        densidade: "Desconhecida", // A densidade do netúnio não é bem estabelecida
-        eletronegatividade: 1.36, // Valor aproximado
-        aplicacoesComuns: ["Utilizado em pesquisas nucleares e na produção de isótopos radioativos", "Em fontes de nêutrons para pesquisa científica", "Na fabricação de armas nucleares"],
+        sigla: "Np",
         decomposicao: {
             protons: 93,
             eletrons: 93,
-            neutrons: "Desconhecido" // O número de nêutrons pode variar
+            neutrons: 144
         },
-        categoria: "actinidios"
+        numeroAtomico: 93,
+        massaAtomica: 237,
+        categoria: "actinidios",
+        configuracaoEletronica: "[Rn] 5f⁴ 6d¹ 7s²",
+        cor: 'Prata',
+        radioativo: true,
+        estadoNatural: "Sólido",
+        densidade: 20.45,
+        pontoDeFusao: 637,
+        pontoDeEbulicao: 4000,
+        etalpiaDeFusao: 10, // kJ/mol
+        etalpiaDeVaporizacao: 335, // kJ/mol
+        calorEspecifico: null, // J/g·K
+        abundanciaNaCrostaTerrestre: null,
+        abundanciaNoUniverso: null,
+        raioAtomico: 155,
+        raioCovalente: 190,
+        eletronegatividade: 1.36, // Escala de Pauling
+        volumeAtomico: 11.62, // cm3/mol
+        condutividadeTermica: 0.063, // W/cm·K
+        aplicacoesComuns: ["Utilizado em pesquisas nucleares e na produção de isótopos radioativos", "Em fontes de nêutrons para pesquisa científica", "Na fabricação de armas nucleares"],
+        historia: `
+        O Neptúnio foi o primeiro elemento transuraniano sintético, do grupo dos actinídeos, a ser descoberto. O Neptúnio foi produzido pela primeira vez, por Edwin McMillan e Philip H. Abelson, em 1940, no então, Laboratório de Radiação de Berkeley, da Universidade da Califórnia. A equipa produziu o isótopo Neptúnio 239Np, através do bombardeamento de urânio, com neutrões lentos.`,
+        endereçoImagemElemento: 'https://upload.wikimedia.org/wikipedia/commons/e/e5/Neptunium2.jpg',
+        curiosidade: 'Netúnio é obtido como subproduto de reatores nucleares'
     },
     {
         nome: "Plutônio",
-        sigla: "Pu",
-        numeroAtomico: 94,
-        massaAtomica: 244,
-        configuracaoEletronica: "[Rn] 5f^6 7s^2",
-        grupo: 3,
+        grupo: null,
         periodo: 7,
-        raioAtomico: 175,
-        estadoNatural: "Sólido",
-        pontoDeFusao: 640,
-        pontoDeEbulicao: 3228,
-        densidade: 19.86, // Em g/cm³ (aproximado)
-        eletronegatividade: 1.28, // Valor aproximado
-        aplicacoesComuns: ["Utilizado em reatores nucleares para produção de energia", "Na fabricação de armas nucleares", "Em dispositivos de marcação e alimentação de fontes de energia"],
+        sigla: "Pu",
         decomposicao: {
             protons: 94,
             eletrons: 94,
-            neutrons: "Desconhecido" // O número de nêutrons pode variar
+            neutrons: 150
         },
-        categoria: "actinidios"
+        numeroAtomico: 94,
+        massaAtomica: 244,
+        categoria: "actinidios",
+        configuracaoEletronica: "[Rn] 5f⁶ 7s²",
+        cor: 'Prata',
+        radioativo: true,
+        estadoNatural: "Sólido",
+        densidade: 19.816,
+        pontoDeFusao: 639.4,
+        pontoDeEbulicao: 3228,
+        etalpiaDeFusao: null, // kJ/mol
+        etalpiaDeVaporizacao: 325, // kJ/mol
+        calorEspecifico: null, // J/g·K
+        abundanciaNaCrostaTerrestre: null,
+        abundanciaNoUniverso: null,
+        raioAtomico: 159,
+        raioCovalente: 187,
+        eletronegatividade: 1.28, // Escala de Pauling
+        volumeAtomico: 12.32, // cm3/mol
+        condutividadeTermica: 0.0674, // W/cm·K
+        aplicacoesComuns: ["Utilizado em reatores nucleares para produção de energia", "Na fabricação de armas nucleares", "Em dispositivos de marcação e alimentação de fontes de energia"],
+        historia: `
+        O Plutónio foi produzido pela primeira vez em 1940, por Glenn T. Seaborg, Edwin M. McMillan, Joseph W. Kennedy e Arthur Wahl. O Pultónio-238 foi produzido, através do bombardeamento do deuterão de urânio-238 no ciclotrão de 152 cm, da Univerisdade da Califórnia, em Berkeley. A equipa de Berkley produziu neptúnio-238 que decaiu para Pultónio-238.`,
+        endereçoImagemElemento: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Plutonium_ring.jpg/631px-Plutonium_ring.jpg?20160214221938',
+        curiosidade: 'A bomba atómica largada em Nagasaki, no Japão, em 1945, tinha um núcleo de plutónio'
     },
     {
         nome: "Amerício",
-        sigla: "Am",
-        numeroAtomico: 95,
-        massaAtomica: 243,
-        configuracaoEletronica: "[Rn] 5f^7 7s^2",
-        grupo: 3,
+        grupo: null,
         periodo: 7,
-        raioAtomico: 173,
-        estadoNatural: "Sólido",
-        pontoDeFusao: 1176,
-        pontoDeEbulicao: 2011,
-        densidade: 13.67, // Em g/cm³ (aproximado)
-        eletronegatividade: 1.3, // Valor aproximado
-        aplicacoesComuns: ["Utilizado em dispositivos de detecção de fumaça em detectores de incêndio", "Em fontes de nêutrons para pesquisa e em terapia de radioterapia", "Na fabricação de dispositivos médicos para tratamento de câncer"],
+        sigla: "Am",
         decomposicao: {
             protons: 95,
             eletrons: 95,
-            neutrons: "Desconhecido" // O número de nêutrons pode variar
+            neutrons: 148
         },
-        categoria: "actinidios"
+        numeroAtomico: 95,
+        massaAtomica: 243,
+        categoria: "actinidios",
+        configuracaoEletronica: "[Rn] 5f⁷ 7s²",
+        cor: 'Prata',
+        radioativo: true,
+        estadoNatural: "Sólido",
+        densidade: 13.69,
+        pontoDeFusao: 1176,
+        pontoDeEbulicao: 2148.8,
+        etalpiaDeFusao: null, // kJ/mol
+        etalpiaDeVaporizacao: null, // kJ/mol
+        calorEspecifico: null, // J/g·K
+        abundanciaNaCrostaTerrestre: null,
+        abundanciaNoUniverso: null,
+        raioAtomico: 173,
+        raioCovalente: 180,
+        eletronegatividade: 1.3, // Escala de Pauling
+        volumeAtomico: 17.78, // cm3/mol
+        condutividadeTermica: 0.1   , // W/cm·K
+        aplicacoesComuns: ["Utilizado em dispositivos de detecção de fumaça em detectores de incêndio", "Em fontes de nêutrons para pesquisa e em terapia de radioterapia", "Na fabricação de dispositivos médicos para tratamento de câncer"],
+        historia: `
+        O Amerício-241 foi identificado pela primeira vez, em 1944 por Glenn T. Seaborg, Ralph A. James, Leon O. Morgan e Albert Ghiorso no laboratório metalúrgico da Universidade de Chicago. Foi obtido, submetendo o Plutónio a radiação de Neutrões, durante o Projeto Manhattan! O Amerício foi isolado pela primeira vez, como composto puro por Burris Cunningham, em 1945, na Universidade de Chicago.`,
+        endereçoImagemElemento: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Americium_microscope.jpg/626px-Americium_microscope.jpg?20100828190212',
+        curiosidade: 'O amerício frequentemente entra em aterros sanitários a partir de detectores de fumaça descartados.'
     },
     {
         nome: "Cúrio",
-        sigla: "Cm",
-        numeroAtomico: 96,
-        massaAtomica: 247,
-        configuracaoEletronica: "[Rn] 5f^7 6d^1 7s^2",
-        grupo: 3,
+        grupo: null,
         periodo: 7,
-        raioAtomico: 174,
-        estadoNatural: "Sólido",
-        pontoDeFusao: 1345,
-        pontoDeEbulicao: 1345,
-        densidade: 13.51, // Em g/cm³ (aproximado)
-        eletronegatividade: 1.3, // Valor aproximado
-        aplicacoesComuns: ["Utilizado em fontes de energia para dispositivos espaciais e pacemakers", "Em detectores de umidade e sensores de temperatura", "Na produção de isótopos radioativos para pesquisa científica"],
+        sigla: "Cm",
         decomposicao: {
             protons: 96,
             eletrons: 96,
-            neutrons: "Desconhecido" // O número de nêutrons pode variar
+            neutrons: 151
         },
-        categoria: "actinidios"
+        numeroAtomico: 96,
+        massaAtomica: 247,
+        categoria: "actinidios",
+        configuracaoEletronica: "[Rn] 5f⁷ 6d¹ 7s²",
+        cor: 'Prata',
+        radioativo: true,
+        estadoNatural: "Sólido",
+        densidade: 13.51,
+        pontoDeFusao: 1340,
+        pontoDeEbulicao: 3110,
+        etalpiaDeFusao: null, // kJ/mol
+        etalpiaDeVaporizacao: null, // kJ/mol
+        calorEspecifico: null, // J/g·K
+        abundanciaNaCrostaTerrestre: null,
+        abundanciaNoUniverso: null,
+        raioAtomico: 174,
+        raioCovalente: 169,
+        eletronegatividade: 1.3, // Escala de Pauling
+        volumeAtomico: 18.28, // cm3/mol
+        condutividadeTermica: 0.1, // W/cm·K
+        aplicacoesComuns: ["Utilizado em fontes de energia para dispositivos espaciais e pacemakers", "Em detectores de umidade e sensores de temperatura", "Na produção de isótopos radioativos para pesquisa científica"],
+        historia: `
+        O Cúrio foi descoberto por Glenn T. Seaborg, Ralph A. James and Albert Ghiorso, em 1944, na Universidade de Califórnia, em Berkeley. Foi produzido, através do bombardeamento de plutónio com partículas alfa, durante o Projeto Manhattan. O metal Cúrio apenas foi produzido em 1951, pela redução de fluoreto de Cúrio, com bário.`,
+        endereçoImagemElemento: 'https://images-of-elements.com/s/curium-glow.jpg',
+        curiosidade: 'O Cúrio deposita-se nos ossos, nos pulmões e no fígado, podendo provocar cancro.'
     },
     {
         nome: "Berquélio",
-        sigla: "Bk",
-        numeroAtomico: 97,
-        massaAtomica: 247,
-        configuracaoEletronica: "[Rn] 5f^9 7s^2",
-        grupo: 3,
+        grupo: null,
         periodo: 7,
-        raioAtomico: 170,
-        estadoNatural: "Sólido",
-        pontoDeFusao: 986,
-        pontoDeEbulicao: null,
-        densidade: "Desconhecida", // A densidade do berquélio não é bem estabelecida
-        eletronegatividade: "Desconhecida", // Não há dados confiáveis sobre a eletronegatividade do berquélio
-        aplicacoesComuns: ["Utilizado em pesquisas nucleares e em experimentos científicos", "Na produção de isótopos radioativos para estudos biológicos e químicos", "Em sistemas de detecção de radiação"],
+        sigla: "Bk",
         decomposicao: {
             protons: 97,
             eletrons: 97,
-            neutrons: "Desconhecido" // O número de nêutrons pode variar
+            neutrons: 150
         },
-        categoria: "actinidios"
+        numeroAtomico: 97,
+        massaAtomica: 247,
+        categoria: "actinidios",
+        configuracaoEletronica: "[Rn] 5f⁹ 7s²",
+        cor: null,
+        radioativo: true,
+        estadoNatural: "Sólido",
+        densidade: 14.78,
+        pontoDeFusao: 986,
+        pontoDeEbulicao: 2900,
+        etalpiaDeFusao: null, // kJ/mol
+        etalpiaDeVaporizacao: null, // kJ/mol
+        calorEspecifico: null, // J/g·K
+        abundanciaNaCrostaTerrestre: null,
+        abundanciaNoUniverso: null,
+        raioAtomico: 170,
+        raioCovalente: null,
+        eletronegatividade: 1.3, // Escala de Pauling
+        volumeAtomico: 16.7, // cm3/mol
+        condutividadeTermica: 0.1, // W/cm·K
+        aplicacoesComuns: ["Utilizado em pesquisas nucleares e em experimentos científicos", "Na produção de isótopos radioativos para estudos biológicos e químicos", "Em sistemas de detecção de radiação"],
+        historia: `
+        O berquélio foi descoberto por Glenn T. Seaborg, Albert Ghiorso e Stanley G. Thompson em 1949 na Universidade da Califórnia, Berkeley. Foi produzido pelo bombardeio de amerício com partículas alfa. O berquélio foi isolado em maiores quantidades pela primeira vez por Burris Cunningham e Stanley Thompson em 1958.`,
+        endereçoImagemElemento: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Berkeley_60-inch_cyclotron.jpg/747px-Berkeley_60-inch_cyclotron.jpg?20091020182723   ',
+        curiosidade: 'Foi produzido pouco mais de um grama de Berkélio, nos Estados Unidos, desde 1967.'
     },
     {
         nome: "Califórnio",
-        sigla: "Cf",
-        numeroAtomico: 98,
-        massaAtomica: 251,
-        configuracaoEletronica: "[Rn] 5f^10 7s^2",
-        grupo: 3,
+        grupo: null,
         periodo: 7,
-        raioAtomico: null,
-        estadoNatural: "Sólido",
-        pontoDeFusao: 900,
-        pontoDeEbulicao: 1470,
-        densidade: "Desconhecida", // A densidade do califórnio não é bem estabelecida
-        eletronegatividade: "Desconhecida", // Não há dados confiáveis sobre a eletronegatividade do califórnio
-        aplicacoesComuns: ["Utilizado em pesquisas nucleares e experimentos científicos avançados", "Na produção de isótopos radioativos para estudos médicos e industriais", "Em sistemas de detecção de partículas nucleares"],
+        sigla: "Cf",
         decomposicao: {
             protons: 98,
             eletrons: 98,
-            neutrons: "Desconhecido" // O número de nêutrons pode variar
+            neutrons: 153
         },
-        categoria: "actinidios"
+        numeroAtomico: 98,
+        massaAtomica: 251,
+        categoria: "actinidios",
+        configuracaoEletronica: "[Rn] 5f¹⁰ 7s²",
+        cor: null,
+        radioativo: true,
+        estadoNatural: "Sólido",
+        densidade: 15.1,
+        pontoDeFusao: 900,
+        pontoDeEbulicao: null,
+        etalpiaDeFusao: null, // kJ/mol
+        etalpiaDeVaporizacao: null, // kJ/mol
+        calorEspecifico: null, // J/g·K
+        abundanciaNaCrostaTerrestre: null,
+        abundanciaNoUniverso: null,
+        raioAtomico: null,
+        raioCovalente: null,
+        eletronegatividade: 1.3, // Escala de Pauling
+        volumeAtomico: 18.4, // cm3/mol
+        condutividadeTermica: 0.1, // W/cm·K
+        aplicacoesComuns: ["Utilizado em pesquisas nucleares e experimentos científicos avançados", "Na produção de isótopos radioativos para estudos médicos e industriais", "Em sistemas de detecção de partículas nucleares"],
+        historia: `
+        O Californium foi descoberto por Stanley G. Thompson, Kenneth Street, Jr., Albert Ghiorso e Glenn T. Seaborg em 1950 na Universidade da Califórnia, Berkeley. Foi produzido pelo bombardeio de cúrio com partículas alfa. Californium foi isolado em macroquantidades pela primeira vez por Burris Cunningham e Stanley Thompson em 1958.`,
+        endereçoImagemElemento: 'https://images-of-elements.com/s/californium-disc.jpg',
+        curiosidade: 'O Califórnio é produzido em reatores nucleares e aceleradores de partículas'
     },
     {
         nome: "Einstênio",
-        sigla: "Es",
-        numeroAtomico: 99,
-        massaAtomica: 252,
-        configuracaoEletronica: "[Rn] 5f^11 7s^2",
-        grupo: 3,
+        grupo: null,
         periodo: 7,
-        raioAtomico: null,
-        estadoNatural: "Sólido",
-        pontoDeFusao: 860,
-        pontoDeEbulicao: null,
-        densidade: "Desconhecida", // A densidade do einstênio não é bem estabelecida
-        eletronegatividade: "Desconhecida", // Não há dados confiáveis sobre a eletronegatividade do einstênio
-        aplicacoesComuns: ["Utilizado em pesquisas nucleares e experimentos científicos avançados", "Na produção de isótopos radioativos para estudos médicos e industriais", "Em pesquisas sobre a estrutura do núcleo atômico"],
+        sigla: "Es",
         decomposicao: {
             protons: 99,
             eletrons: 99,
-            neutrons: "Desconhecido" // O número de nêutrons pode variar
+            neutrons: 153
         },
-        categoria: "actinidios"
+        numeroAtomico: 99,
+        massaAtomica: 252,
+        categoria: "actinidios",
+        configuracaoEletronica: "[Rn] 5f¹¹ 7s²",
+        cor: null,
+        radioativo: true,
+        estadoNatural: "Sólido",
+        densidade: 8.84,
+        pontoDeFusao: 860,
+        pontoDeEbulicao: null,
+        etalpiaDeFusao: null, // kJ/mol
+        etalpiaDeVaporizacao: null, // kJ/mol
+        calorEspecifico: null, // J/g·K
+        abundanciaNaCrostaTerrestre: null,
+        abundanciaNoUniverso: null,
+        raioAtomico: null,
+        raioCovalente: null,
+        eletronegatividade: 1.3, // Escala de Pauling
+        volumeAtomico: 28.5, // cm3/mol
+        condutividadeTermica: 0.1, // W/cm·K
+        aplicacoesComuns: ["Utilizado em pesquisas nucleares e experimentos científicos avançados", "Na produção de isótopos radioativos para estudos médicos e industriais", "Em pesquisas sobre a estrutura do núcleo atômico"],
+        historia: `
+        O Einstênio foi descoberto como um componente dos destroços da primeira explosão da bomba de hidrogênio em 1952. Foi identificado por Albert Ghiorso e colegas de trabalho da Universidade da Califórnia, Berkeley, em colaboração com os Laboratórios Nacionais de Argonne e Los Alamos, nas consequências do teste nuclear Ivy Mike. O novo elemento foi produzido pela explosão nuclear em quantidades minúsculas pela adição de 15 nêutrons ao urânio-238.`,
+        endereçoImagemElemento: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Ivy_Mike_-_mushroom_cloud.jpg/753px-Ivy_Mike_-_mushroom_cloud.jpg?20051202051541',
+        curiosidade: 'O Einsténio é o primeiro metal bivalente, do grupo dos actinídeos.'
     },
     {
         nome: "Férmio",
-        sigla: "Fm",
-        numeroAtomico: 100,
-        massaAtomica: 257,
-        configuracaoEletronica: "[Rn] 5f^12 7s^2",
-        grupo: "Grupo 3",
+        grupo: null,
         periodo: 7,
-        raioAtomico: null,
-        estadoNatural: "Sólido",
-        pontoDeFusao: 1527,
-        pontoDeEbulicao: null,
-        densidade: "Desconhecida", // A densidade do férmio não é bem estabelecida
-        eletronegatividade: "Desconhecida", // Não há dados confiáveis sobre a eletronegatividade do férmio
-        aplicacoesComuns: ["Utilizado em pesquisas nucleares e experimentos científicos avançados", "Na produção de isótopos radioativos para estudos médicos e industriais", "Em estudos sobre a estrutura do núcleo atômico"],
+        sigla: "Fm",
         decomposicao: {
             protons: 100,
             eletrons: 100,
-            neutrons: "Desconhecido" // O número de nêutrons pode variar
+            neutrons: 157
         },
-        categoria: "actinidios"
+        numeroAtomico: 100,
+        massaAtomica: 257,
+        categoria: "actinidios",
+        configuracaoEletronica: "[Rn] 5f¹² 7s²",
+        cor: null,
+        radioativo: true,
+        estadoNatural: "Sólido",
+        densidade: null,
+        pontoDeFusao: 1527,
+        pontoDeEbulicao: null,
+        etalpiaDeFusao: null, // kJ/mol
+        etalpiaDeVaporizacao: null, // kJ/mol
+        calorEspecifico: null, // J/g·K
+        abundanciaNaCrostaTerrestre: null,
+        abundanciaNoUniverso: null,
+        raioAtomico: null,
+        raioCovalente: null,
+        eletronegatividade: 1.3, // Escala de Pauling
+        volumeAtomico: 29.1, // cm3/mol
+        condutividadeTermica: 0.1, // W/cm·K
+        aplicacoesComuns: ["Utilizado em pesquisas nucleares e experimentos científicos avançados", "Na produção de isótopos radioativos para estudos médicos e industriais", "Em estudos sobre a estrutura do núcleo atômico"],
+        historia: `
+        O férmio foi descoberto como um componente dos destroços da primeira explosão da bomba de hidrogênio em 1952. Foi identificado por Albert Ghiorso e colegas de trabalho da Universidade da Califórnia, Berkeley, em colaboração com os Laboratórios Nacionais de Argonne e Los Alamos, nas consequências do teste nuclear Ivy Mike. O novo elemento foi produzido pela fissão nuclear de 17 nêutrons com urânio-238.`,
+        endereçoImagemElemento: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Ivy_Mike_-_mushroom_cloud.jpg/753px-Ivy_Mike_-_mushroom_cloud.jpg?20051202051541',
+        curiosidade: 'São conhecidos dezasseis isótopos do Férmio'
     },
     {
         nome: "Mendelévio",
-        sigla: "Md",
-        numeroAtomico: 101,
-        massaAtomica: 258,
-        configuracaoEletronica: "[Rn] 5f^13 7s^2",
-        grupo: "Grupo 3",
+        grupo: null,
         periodo: 7,
-        raioAtomico: null,
-        estadoNatural: "Sólido",
-        pontoDeFusao: 827,
-        pontoDeEbulicao: null,
-        densidade: "Desconhecida", // A densidade do mendelévio não é bem estabelecida
-        eletronegatividade: "Desconhecida", // Não há dados confiáveis sobre a eletronegatividade do mendelévio
-        aplicacoesComuns: ["Utilizado em pesquisas nucleares e experimentos científicos avançados", "Na produção de isótopos radioativos para estudos médicos e industriais", "Em estudos sobre a estrutura do núcleo atômico"],
+        sigla: "Md",
         decomposicao: {
             protons: 101,
             eletrons: 101,
-            neutrons: "Desconhecido" // O número de nêutrons pode variar
+            neutrons: 157
         },
-        categoria: "actinidios"
+        numeroAtomico: 101,
+        massaAtomica: 258,
+        categoria: "actinidios",
+        configuracaoEletronica: "[Rn] 5f¹³ 7s²",
+        cor: null,
+        radioativo: true,
+        estadoNatural: "Sólido",
+        densidade: null,
+        pontoDeFusao: 826.85,
+        pontoDeEbulicao: null,
+        etalpiaDeFusao: null, // kJ/mol
+        etalpiaDeVaporizacao: null, // kJ/mol
+        calorEspecifico: null, // J/g·K
+        abundanciaNaCrostaTerrestre: null,
+        abundanciaNoUniverso: null,
+        raioAtomico: null,
+        raioCovalente: null,
+        eletronegatividade: 1.3, // Escala de Pauling
+        volumeAtomico: null, // cm3/mol
+        condutividadeTermica: 0.1, // W/cm·K
+        aplicacoesComuns: ["Utilizado em pesquisas nucleares e experimentos científicos avançados", "Na produção de isótopos radioativos para estudos médicos e industriais", "Em estudos sobre a estrutura do núcleo atômico"],
+        historia: `
+        O mendelévio foi descoberto por Albert Ghiorso, Glenn T. Seaborg, Gregory R. Choppin, Bernard G. Harvey e Stanley G. Thompson em 1955 na Universidade da Califórnia, Berkeley. Foi produzido pelo bombardeio de einstênio com hélio. O mendelévio foi identificado por análise química em um experimento de troca iônica.`,
+        endereçoImagemElemento: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/DIMendeleevCab.jpg/427px-DIMendeleevCab.jpg?20190301024649',
+        curiosidade: 'O Mendelévio foi o primeiro elemento a ser produzido átomo a átomo'
     },
     {
         nome: "Nobélio",
-        sigla: "No",
-        numeroAtomico: 102,
-        massaAtomica: 259,
-        configuracaoEletronica: "[Rn] 5f^14 7s^2",
-        grupo: "Grupo 3",
+        grupo: null,
         periodo: 7,
-        raioAtomico: null,
-        estadoNatural: "Sólido",
-        pontoDeFusao: 644,
-        pontoDeEbulicao: 3902,
-        densidade: "Desconhecida", // A densidade do nóbelio não é bem estabelecida
-        eletronegatividade: "Desconhecida", // Não há dados confiáveis sobre a eletronegatividade do nóbelio
-        aplicacoesComuns: ["Utilizado em pesquisas nucleares e experimentos científicos avançados", "Na produção de isótopos radioativos para estudos médicos e industriais", "Em estudos sobre a estrutura do núcleo atômico"],
+        sigla: "No",
         decomposicao: {
             protons: 102,
             eletrons: 102,
-            neutrons: "Desconhecido" // O número de nêutrons pode variar
+            neutrons: 157
         },
-        categoria: "actinidios"
+        numeroAtomico: 102,
+        massaAtomica: 259,
+        categoria: "actinidios",
+        configuracaoEletronica: "[Rn] 5f¹⁴ 7s²",
+        cor: null,
+        radioativo: true,
+        estadoNatural: "Sólido",
+        densidade: null,
+        pontoDeFusao: 827,
+        pontoDeEbulicao: null,
+        etalpiaDeFusao: null, // kJ/mol
+        etalpiaDeVaporizacao: null, // kJ/mol
+        calorEspecifico: null, // J/g·K
+        abundanciaNaCrostaTerrestre: null,
+        abundanciaNoUniverso: null,
+        raioAtomico: null,
+        raioCovalente: null,
+        eletronegatividade: 1.3, // Escala de Pauling
+        volumeAtomico: null, // cm3/mol
+        condutividadeTermica: 0.1, // W/cm·K
+        aplicacoesComuns: ["Utilizado em pesquisas nucleares e experimentos científicos avançados", "Na produção de isótopos radioativos para estudos médicos e industriais", "Em estudos sobre a estrutura do núcleo atômico"],
+        historia: `
+        O Nobelium foi descoberto por Albert Ghiorso, Glenn T. Seaborg, John R. Walton e Torbjørn Sikkeland em 1958 na Universidade da Califórnia, Berkeley. Foi produzido pelo bombardeio de cúrio com átomos de carbono. Foi corretamente identificado em 1966 por cientistas do Laboratório Flerov de Reações Nucleares em Dubna, União Soviética.`,
+        endereçoImagemElemento: 'https://images-of-elements.com/s/nobelium.jpg',
+        curiosidade: 'O Nobélio é um ião bivalente, em solução aquosa'
     },
     {
         nome: "Laurêncio",
-        sigla: "Lr",
-        numeroAtomico: 103,
-        massaAtomica: 266,
-        configuracaoEletronica: "[Rn] 5f^14 6d^1 7s^2",
-        grupo: "Grupo 3",
+        grupo: null,
         periodo: 7,
-        raioAtomico: null,
-        estadoNatural: "Sólido",
-        pontoDeFusao: 1626.85,
-        pontoDeEbulicao: null,
-        densidade: "Desconhecida", // A densidade do laurêncio não é bem estabelecida
-        eletronegatividade: "Desconhecida", // Não há dados confiáveis sobre a eletronegatividade do laurêncio
-        aplicacoesComuns: ["Utilizado em pesquisas nucleares e experimentos científicos avançados", "Na produção de isótopos radioativos para estudos médicos e industriais", "Em estudos sobre a estrutura do núcleo atômico"],
+        sigla: "Lr",
         decomposicao: {
             protons: 103,
             eletrons: 103,
-            neutrons: "Desconhecido" // O número de nêutrons pode variar
+            neutrons: 159
         },
-        categoria: "actinidios"
+        numeroAtomico: 103,
+        massaAtomica: 262,
+        categoria: "actinidios",
+        configuracaoEletronica: "[Rn] 5f¹⁴ 7s² 7p¹",
+        cor: null,
+        radioativo: true,
+        estadoNatural: "Sólido",
+        densidade: null,
+        pontoDeFusao: 1626.85,
+        pontoDeEbulicao: null,
+        etalpiaDeFusao: null, // kJ/mol
+        etalpiaDeVaporizacao: null, // kJ/mol
+        calorEspecifico: null, // J/g·K
+        abundanciaNaCrostaTerrestre: null,
+        abundanciaNoUniverso: null,
+        raioAtomico: null,
+        raioCovalente: null,
+        eletronegatividade: 1.3, // Escala de Pauling
+        volumeAtomico: null, // cm3/mol
+        condutividadeTermica: 0.1, // W/cm·K
+        aplicacoesComuns: ["Utilizado em pesquisas nucleares e experimentos científicos avançados", "Na produção de isótopos radioativos para estudos médicos e industriais", "Em estudos sobre a estrutura do núcleo atômico"],
+        historia: `
+        Laurêncio foi descoberto por Albert Ghiorso, Torbjørn Sikkeland, Almon Larsh e Robert M. Latimer em 1961 na Universidade da Califórnia, Berkeley. Foi produzido pelo bombardeio da Califórnia com átomos de boro. Laurêncio foi o último membro da série dos actinídeos a ser descoberto.`,
+        endereçoImagemElemento: 'https://images-of-elements.com/s/lawrencium.jpg',
+        curiosidade: 'O Laurêncio é um ião trivalente, em solução aquosa.'
     },
     {
         nome: "Rutherfórdio",
-        sigla: "Rf",
-        numeroAtomico: 104,
-        massaAtomica: 267,
-        configuracaoEletronica: "[Rn] 5f^14 6d^2 7s^2",
-        grupo: "Grupo 4",
+        grupo: 4,
         periodo: 7,
-        raioAtomico: null,
-        estadoNatural: "Sintético",
-        pontoDeFusao: 2100,
-        pontoDeEbulicao: 5500,
-        densidade: "Desconhecida", // A densidade do rutherfórdio não é bem estabelecida
-        eletronegatividade: "Desconhecida", // Não há dados confiáveis sobre a eletronegatividade do rutherfórdio
-        aplicacoesComuns: ["Utilizado em pesquisas nucleares e experimentos científicos avançados", "Em estudos sobre a estrutura do núcleo atômico"],
+        sigla: "Rf",
         decomposicao: {
             protons: 104,
             eletrons: 104,
-            neutrons: "Desconhecido" // O número de nêutrons pode variar
+            neutrons: 157
         },
-        categoria: "metal-de-transicao"
+        numeroAtomico: 104,
+        massaAtomica: 267,
+        categoria: "metal-de-transicao",
+        configuracaoEletronica: "[Rn] 5f¹⁴ 6d² 7s²",
+        cor: null,
+        radioativo: true,
+        estadoNatural: "Sólido",
+        densidade: 23,
+        pontoDeFusao: 2100,
+        pontoDeEbulicao: 5500,
+        etalpiaDeFusao: null, // kJ/mol
+        etalpiaDeVaporizacao: null, // kJ/mol
+        calorEspecifico: null, // J/g·K
+        abundanciaNaCrostaTerrestre: null,
+        abundanciaNoUniverso: null,
+        raioAtomico: null,
+        raioCovalente: 157,
+        eletronegatividade: null, // Escala de Pauling
+        volumeAtomico: null, // cm3/mol
+        condutividadeTermica: 0.23, // W/cm·K
+        aplicacoesComuns: ["Utilizado em pesquisas nucleares e experimentos científicos avançados", "Em estudos sobre a estrutura do núcleo atômico"],
+        historia: `
+        O Rutherfórdio foi detectado pela primeira vez em 1964 no Instituto Conjunto de Pesquisa Nuclear em Dubna. O elemento foi sintetizado por Albert Ghiorso, Matti Nurmia, James Andrew Harris, Kari Eskola e Pirkko Eskola em 1968 na Universidade da Califórnia, Berkeley. Foi produzido pelo bombardeio da Califórnia com átomos de carbono.`,
+        endereçoImagemElemento: 'https://live.staticflickr.com/7017/6414995177_1671c93fc9.jpg',
+        curiosidade: 'O Rutherfórdio é o primeiro elemento transactinídeo.'
     },
     {
         nome: "Dúbnio",
-        sigla: "Db",
-        numeroAtomico: 105,
-        massaAtomica: 268,
-        configuracaoEletronica: "[Rn] 5f^14 6d^3 7s^2",
-        grupo: "Grupo 5",
+        grupo: 5,
         periodo: 7,
-        raioAtomico: null,
-        estadoNatural: "Sintético",
-        pontoDeFusao: null,
-        pontoDeEbulicao: null,
-        densidade: "Desconhecida", // A densidade do dúbnio não é bem estabelecida
-        eletronegatividade: "Desconhecida", // Não há dados confiáveis sobre a eletronegatividade do dúbnio
-        aplicacoesComuns: ["Utilizado em pesquisas nucleares e experimentos científicos avançados", "Em estudos sobre a estrutura do núcleo atômico"],
+        sigla: "Db",
         decomposicao: {
             protons: 105,
             eletrons: 105,
-            neutrons: "Desconhecido" // O número de nêutrons pode variar
+            neutrons: 157
         },
-        categoria: "metal-de-transicao"
+        numeroAtomico: 105,
+        massaAtomica: 268,
+        categoria: "metal-de-transicao",
+        configuracaoEletronica: "[Rn] 5f¹⁴ 6d² 7s²",
+        cor: null,
+        radioativo: true,
+        estadoNatural: "Sólido",
+        densidade: 39,
+        pontoDeFusao: null,
+        pontoDeEbulicao: null,
+        etalpiaDeFusao: null, // kJ/mol
+        etalpiaDeVaporizacao: null, // kJ/mol
+        calorEspecifico: null, // J/g·K
+        abundanciaNaCrostaTerrestre: null,
+        abundanciaNoUniverso: null,
+        raioAtomico: null,
+        raioCovalente: 149,
+        eletronegatividade: null, // Escala de Pauling
+        volumeAtomico: null, // cm3/mol
+        condutividadeTermica: 0.58, // W/cm·K
+        aplicacoesComuns: ["Utilizado em pesquisas nucleares e experimentos científicos avançados", "Em estudos sobre a estrutura do núcleo atômico"],
+        historia: `
+        O Dubnium foi descoberto pela primeira vez em 1968 no Instituto Conjunto de Pesquisa Nuclear em Dubna. Os pesquisadores bombardearam um alvo de amerício-243 com íons neon-22. No mesmo ano, uma equipe liderada por Albert Ghiorso trabalhando na Universidade da Califórnia, Berkeley sintetizou conclusivamente o elemento bombardeando um alvo californium-249 com íons nitrogênio-15.`,
+        endereçoImagemElemento: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Dubna.house_of_scientiests.jpg/450px-Dubna.house_of_scientiests.jpg?20071227175325   ',
+        curiosidade: 'A equipa de Berkeley propôs o nome Hâhnio, para o elemento.'
     },
     {
         nome: "Seabórgio",
-        sigla: "Sg",
-        numeroAtomico: 106,
-        massaAtomica: 269,
-        configuracaoEletronica: "[Rn] 5f^14 6d^4 7s^2",
-        grupo: "Grupo 6",
+        grupo: 6,
         periodo: 7,
-        raioAtomico: null,
-        estadoNatural: "Sintético",
-        pontoDeFusao: null,
-        pontoDeEbulicao: null,
-        densidade: "Desconhecida", // A densidade do seabórgio não é bem estabelecida
-        eletronegatividade: "Desconhecida", // Não há dados confiáveis sobre a eletronegatividade do seabórgio
-        aplicacoesComuns: ["Utilizado em pesquisas nucleares e experimentos científicos avançados", "Em estudos sobre a estrutura do núcleo atômico"],
+        sigla: "Sg",
         decomposicao: {
             protons: 106,
             eletrons: 106,
-            neutrons: "Desconhecido" // O número de nêutrons pode variar
+            neutrons: 156
         },
-        categoria: "metal-de-transicao"
+        numeroAtomico: 106,
+        massaAtomica: 269,
+        categoria: "metal-de-transicao",
+        configuracaoEletronica: "[Rn] 5f¹⁴ 6d² 7s²",
+        cor: null,
+        radioativo: true,
+        estadoNatural: "Sólido",
+        densidade: 35,
+        pontoDeFusao: null,
+        pontoDeEbulicao: null,
+        etalpiaDeFusao: null, // kJ/mol
+        etalpiaDeVaporizacao: null, // kJ/mol
+        calorEspecifico: null, // J/g·K
+        abundanciaNaCrostaTerrestre: null,
+        abundanciaNoUniverso: null,
+        raioAtomico: null,
+        raioCovalente: 143,
+        eletronegatividade: null, // Escala de Pauling
+        volumeAtomico: null, // cm3/mol
+        condutividadeTermica: null, // W/cm·K
+        aplicacoesComuns: ["Utilizado em pesquisas nucleares e experimentos científicos avançados", "Em estudos sobre a estrutura do núcleo atômico"],
+        historia: `
+        Cientistas que trabalham no Instituto Conjunto de Pesquisa Nuclear em Dubna, na URSS, relataram a descoberta do elemento 106 em junho de 1974. A síntese também foi relatada em setembro de 1974 no Laboratório Lawrence Berkeley pelos trabalhadores dos Laboratórios Lawrence Berkeley e Livermore liderados por Albert Ghiorso e E. Kenneth Hulet. Foi produzido por colisões do califórnio-249 com átomos de oxigênio.`,
+        endereçoImagemElemento: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Glenn_Seaborg_-_1964.jpg/485px-Glenn_Seaborg_-_1964.jpg?20091019221842',
+        curiosidade: 'Existem doze isótopos conhecidos de Seabórgio.'
     },
     {
         nome: "Bóhrio",
-        sigla: "Bh",
-        numeroAtomico: 107,
-        massaAtomica: 270,
-        configuracaoEletronica: "[Rn] 5f^14 6d^5 7s^2",
-        grupo: "Grupo 7",
+        grupo: 7,
         periodo: 7,
-        raioAtomico: null,
-        estadoNatural: "Sintético",
-        pontoDeFusao: null,
-        pontoDeEbulicao: null,
-        densidade: "Desconhecida", // A densidade do bóhrio não é bem estabelecida
-        eletronegatividade: "Desconhecida", // Não há dados confiáveis sobre a eletronegatividade do bóhrio
-        aplicacoesComuns: ["Utilizado em pesquisas nucleares e experimentos científicos avançados", "Em estudos sobre a estrutura do núcleo atômico"],
+        sigla: "Bh",
         decomposicao: {
             protons: 107,
             eletrons: 107,
-            neutrons: "Desconhecido" // O número de nêutrons pode variar
+            neutrons: 157
         },
-        categoria: "metal-de-transicao"
+        numeroAtomico: 107,
+        massaAtomica: 270,
+        categoria: "metal-de-transicao",
+        configuracaoEletronica: "[Rn] 5f¹⁴ 6d⁵ 7s²",
+        cor: null,
+        radioativo: true,
+        estadoNatural: "Sólido",
+        densidade: 37,
+        pontoDeFusao: null,
+        pontoDeEbulicao: null,
+        etalpiaDeFusao: null, // kJ/mol
+        etalpiaDeVaporizacao: null, // kJ/mol
+        calorEspecifico: null, // J/g·K
+        abundanciaNaCrostaTerrestre: null,
+        abundanciaNoUniverso: null,
+        raioAtomico: null,
+        raioCovalente: 141,
+        eletronegatividade: null, // Escala de Pauling
+        volumeAtomico: null, // cm3/mol
+        condutividadeTermica: null, // W/cm·K
+        aplicacoesComuns: ["Utilizado em pesquisas nucleares e experimentos científicos avançados", "Em estudos sobre a estrutura do núcleo atômico"],
+        historia: `
+        O Bohrium foi sintetizado de forma convincente pela primeira vez em 1981 por uma equipe de pesquisa alemã liderada por Peter Armbruster e Gottfried Münzenberg no Instituto de Pesquisa de Íons Pesados (Gesellschaft für Schwerionenforschung) em Darmstadt. A equipe bombardeou um alvo de bismuto-209 com núcleos acelerados de cromo-54 para produzir 5 átomos do isótopo bohrium-262.`,
+        endereçoImagemElemento: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiRaqnLrv9Bxo4ysmYla7eh6qfDpE8gP7YZfk9heeevJ4lFyfq',
+        curiosidade: 'O único exemplo confirmado de isomerismo no bohrium está no isótopo Bh262.'
     },
     {
         nome: "Hássio",
-        sigla: "Hs",
-        numeroAtomico: 108,
-        massaAtomica: 269,
-        configuracaoEletronica: "[Rn] 5f^14 6d^6 7s^2",
-        grupo: "Grupo 8",
+        grupo: 8,
         periodo: 7,
-        estadoNatural: "Sintético",
-        raioAtomico: null,
-        pontoDeFusao: null,
-        pontoDeEbulicao: null,
-        densidade: "Desconhecida", // A densidade do hássio não é bem estabelecida
-        eletronegatividade: "Desconhecida", // Não há dados confiáveis sobre a eletronegatividade do hássio
-        aplicacoesComuns: ["Utilizado em pesquisas nucleares e experimentos científicos avançados", "Em estudos sobre a estrutura do núcleo atômico"],
+        sigla: "Hs",
         decomposicao: {
             protons: 108,
             eletrons: 108,
-            neutrons: "Desconhecido" // O número de nêutrons pode variar
+            neutrons: 161
         },
-        categoria: "metal-de-transicao"
+        numeroAtomico: 108,
+        massaAtomica: 269,
+        categoria: "metal-de-transicao",
+        configuracaoEletronica: "[Rn] 5f¹⁴ 6d⁶ 7s²",
+        cor: null,
+        radioativo: true,
+        estadoNatural: "Sólido",
+        densidade: 41,
+        pontoDeFusao: null,
+        pontoDeEbulicao: null,
+        etalpiaDeFusao: null, // kJ/mol
+        etalpiaDeVaporizacao: null, // kJ/mol
+        calorEspecifico: null, // J/g·K
+        abundanciaNaCrostaTerrestre: null,
+        abundanciaNoUniverso: null,
+        raioAtomico: null,
+        raioCovalente: 134,
+        eletronegatividade: null, // Escala de Pauling
+        volumeAtomico: null, // cm3/mol
+        condutividadeTermica: null, // W/cm·K
+        aplicacoesComuns: ["Utilizado em pesquisas nucleares e experimentos científicos avançados", "Em estudos sobre a estrutura do núcleo atômico"],
+        historia: `
+        O Hássio foi sintetizado pela primeira vez em 1984 por uma equipe de pesquisa alemã liderada por Peter Armbruster e Gottfried Münzenberg no Instituto de Pesquisa de Íons Pesados (Gesellschaft für Schwerionenforschung) em Darmstadt. A equipe bombardeou um alvo de chumbo-208 com núcleos acelerados de ferro-58 para produzir 3 átomos do isótopo hássio-265.`,
+        endereçoImagemElemento: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/GSI-Darmstadt-S%C3%BCdbau.jpg/800px-GSI-Darmstadt-S%C3%BCdbau.jpg?20111125093846',
+        curiosidade: 'Até à data, foram sintetizados mais de cem átomos de Hássio'
     },
     {
         nome: "Meitnério",
-        sigla: "Mt",
-        numeroAtomico: 109,
-        massaAtomica: 278,
-        configuracaoEletronica: "[Rn] 5f^14 6d^7 7s^2",
-        grupo: "Grupo 9",
+        grupo: 9,
         periodo: 7,
-        estadoNatural: "Sintético",
-        raioAtomico: null,
-        pontoDeFusao: null,
-        pontoDeEbulicao: null,
-        densidade: "Desconhecida", // A densidade do meitnério não é bem estabelecida
-        eletronegatividade: "Desconhecida", // Não há dados confiáveis sobre a eletronegatividade do meitnério
-        aplicacoesComuns: ["Utilizado em pesquisas nucleares e experimentos científicos avançados", "Em estudos sobre a estrutura do núcleo atômico"],
+        sigla: "Mt",
         decomposicao: {
             protons: 109,
             eletrons: 109,
-            neutrons: "Desconhecido" // O número de nêutrons pode variar
+            neutrons: 159
         },
-        categoria: "metal-de-transicao"
-    },
-    {
-        nome: "Darmstádio",
-        sigla: "Ds",
-        numeroAtomico: 110,
-        massaAtomica: 281,
-        configuracaoEletronica: "[Rn] 5f^14 6d^9 7s^1",
-        grupo: "Grupo 10",
-        periodo: 7,
-        estadoNatural: "Sintético",
-        raioAtomico: null,
+        numeroAtomico: 109,
+        massaAtomica: 278,
+        categoria: "metal-de-transicao",
+        configuracaoEletronica: "[Rn] 5f¹⁴ 6d⁷ 7s²",
+        cor: null,
+        radioativo: true,
+        estadoNatural: "Sólido",
+        densidade: 35,
         pontoDeFusao: null,
         pontoDeEbulicao: null,
-        densidade: "Desconhecida", // A densidade do darmstádio não é bem estabelecida
-        eletronegatividade: "Desconhecida", // Não há dados confiáveis sobre a eletronegatividade do darmstádio
+        etalpiaDeFusao: null, // kJ/mol
+        etalpiaDeVaporizacao: null, // kJ/mol
+        calorEspecifico: null, // J/g·K
+        abundanciaNaCrostaTerrestre: null,
+        abundanciaNoUniverso: null,
+        raioAtomico: null,
+        raioCovalente: 129,
+        eletronegatividade: null, // Escala de Pauling
+        volumeAtomico: null, // cm3/mol
+        condutividadeTermica: null, // W/cm·K
         aplicacoesComuns: ["Utilizado em pesquisas nucleares e experimentos científicos avançados", "Em estudos sobre a estrutura do núcleo atômico"],
+        historia: `
+        O meitnério foi sintetizado pela primeira vez em 1982 por uma equipe de pesquisa alemã liderada por Peter Armbruster e Gottfried Münzenberg no Instituto de Pesquisa de Íons Pesados (Gesellschaft für Schwerionenforschung) em Darmstadt. A equipe bombardeou um alvo de bismuto-209 com núcleos acelerados de ferro-58 e detectou um único átomo do isótopo meitnério-266.`,
+        endereçoImagemElemento: 'https://tabelaperiodicaifspcatanduva.files.wordpress.com/2018/04/meitnc3a9rio-2.jpg?w=344&h=342',
+        curiosidade: 'Meitnério possui 7 isótopos cujas meias-vidas são conhecidas'
+    },
+    {
+        nome: "Darmstácio",
+        grupo: 10,
+        periodo: 7,
+        sigla: "Mt",
         decomposicao: {
             protons: 110,
             eletrons: 110,
-            neutrons: "Desconhecido" // O número de nêutrons pode variar
+            neutrons: 171
         },
-        categoria: "metal-de-transicao"
+        numeroAtomico: 110,
+        massaAtomica: 281,
+        categoria: "metal-de-transicao",
+        configuracaoEletronica: "[Rn] 5f¹⁴ 6d⁸ 7s²",
+        cor: null,
+        radioativo: true,
+        estadoNatural: null,
+        densidade: null,
+        pontoDeFusao: null,
+        pontoDeEbulicao: null,
+        etalpiaDeFusao: null, // kJ/mol
+        etalpiaDeVaporizacao: null, // kJ/mol
+        calorEspecifico: null, // J/g·K
+        abundanciaNaCrostaTerrestre: null,
+        abundanciaNoUniverso: null,
+        raioAtomico: null,
+        raioCovalente: 128,
+        eletronegatividade: null, // Escala de Pauling
+        volumeAtomico: null, // cm3/mol
+        condutividadeTermica: null, // W/cm·K
+        aplicacoesComuns: ["Utilizado em pesquisas nucleares e experimentos científicos avançados", "Em estudos sobre a estrutura do núcleo atômico"],
+        historia: `
+        O Darmstácio foi criado pela primeira vez em 1994, no Instituto de Pesquisa de Íons Pesados (Gesellschaft für Schwerionenforschung) em Darmstadt, Alemanha, por Peter Armbruster e Gottfried Münzenberg, sob a direção de Sigurd Hofmann. A equipe bombardeou um alvo de chumbo-208 com núcleos acelerados de níquel-62 e detectou um único átomo do isótopo darmstadtium-269.`,
+        endereçoImagemElemento: 'https://tabelaperiodicaifspcatanduva.files.wordpress.com/2018/04/meitnc3a9rio-2.jpg?w=344&h=342',
+        curiosidade: 'Não existem isótopos naturais, nem estáveis, de Darmstádio'
     },
     {
         nome: "Roentgênio",
-        sigla: "Rg",
-        numeroAtomico: 111,
-        massaAtomica: "Desconhecida",
-        configuracaoEletronica: "Desconhecida",
-        grupo: "Grupo 11",
+        grupo: 11,
         periodo: 7,
-        estadoNatural: "Hipotético",
-        raioAtomico: null,
-        pontoDeFusao: null,
-        pontoDeEbulicao: null,
-        densidade: "Desconhecida",
-        eletronegatividade: "Desconhecida",
-        aplicacoesComuns: ["Não aplicável (ainda não foi isolado na natureza)"],
+        sigla: "Rg",
         decomposicao: {
             protons: 111,
             eletrons: 111,
-            neutrons: "Desconhecido"
+            neutrons: 170
         },
-        categoria: "metal-de-transicao"
+        numeroAtomico: 111,
+        massaAtomica: 281,
+        categoria: "metal-de-transicao",
+        configuracaoEletronica: "[Rn] 5f¹⁴ 6d⁹ 7s²",
+        cor: null,
+        radioativo: true,
+        estadoNatural: "Sólido",
+        densidade: null,
+        pontoDeFusao: null,
+        pontoDeEbulicao: null,
+        etalpiaDeFusao: null, // kJ/mol
+        etalpiaDeVaporizacao: null, // kJ/mol
+        calorEspecifico: null, // J/g·K
+        abundanciaNaCrostaTerrestre: null,
+        abundanciaNoUniverso: null,
+        raioAtomico: null,
+        raioCovalente: 121,
+        eletronegatividade: null, // Escala de Pauling
+        volumeAtomico: null, // cm3/mol
+        condutividadeTermica: null, // W/cm·K
+        aplicacoesComuns: ["Não aplicável (ainda não foi isolado na natureza)"],
+        historia: `
+        O Roentgênio foi sintetizado pela primeira vez por uma equipe internacional liderada por Sigurd Hofmann no Instituto de Pesquisa de Íons Pesados (Gesellschaft für Schwerionenforschung) em Darmstadt, Alemanha, em 1994. A equipe bombardeou um alvo de bismuto-209 com núcleos acelerados de níquel-64 e detectou um único átomo do isótopo roentgênio-272.`,
+        endereçoImagemElemento: 'https://clubedaquimica.com/wp-content/uploads/2021/09/roentgenio.jpg',
+        curiosidade: 'Não existem isótopos naturais, nem estáveis, de Roentgénio.'
     },
     {
         nome: "Copernício",
-        sigla: "Cn",
-        numeroAtomico: 112,
-        massaAtomica: 285,
-        configuracaoEletronica: "[Rn] 5f^14 6d^10 7s^2",
-        grupo: "Grupo 12",
+        grupo: 12,
         periodo: 7,
-        estadoNatural: "Sintético",
-        raioAtomico: null,
-        pontoDeFusao: null,
-        pontoDeEbulicao: null,
-        densidade: "Desconhecida", // A densidade do copernício não é bem estabelecida
-        eletronegatividade: "Desconhecida", // Não há dados confiáveis sobre a eletronegatividade do copernício
-        aplicacoesComuns: ["Utilizado em pesquisas nucleares e experimentos científicos avançados", "Em estudos sobre a estrutura do núcleo atômico"],
+        sigla: "Cn",
         decomposicao: {
             protons: 112,
             eletrons: 112,
-            neutrons: "Desconhecido" // O número de nêutrons pode variar
+            neutrons: 173
         },
-        categoria: "metal-de-transicao"
+        numeroAtomico: 112,
+        massaAtomica: 285,
+        categoria: "metal-de-transicao",
+        configuracaoEletronica: "[Rn] 5f¹⁴ 6d¹⁰ 7s²",
+        cor: null,
+        radioativo: true,
+        estadoNatural: "Líquido",
+        densidade: null,
+        pontoDeFusao: null,
+        pontoDeEbulicao: null,
+        etalpiaDeFusao: null, // kJ/mol
+        etalpiaDeVaporizacao: null, // kJ/mol
+        calorEspecifico: null, // J/g·K
+        abundanciaNaCrostaTerrestre: null,
+        abundanciaNoUniverso: null,
+        raioAtomico: null,
+        raioCovalente: 122,
+        eletronegatividade: null, // Escala de Pauling
+        volumeAtomico: null, // cm3/mol
+        condutividadeTermica: null, // W/cm·K
+        aplicacoesComuns: ["Utilizado em pesquisas nucleares e experimentos científicos avançados", "Em estudos sobre a estrutura do núcleo atômico"],
+        historia: `
+        O Copernício foi criado pela primeira vez em 9 de fevereiro de 1996, no Instituto de Pesquisa de Íons Pesados (Gesellschaft für Schwerionenforschung) em Darmstadt, Alemanha, por Sigurd Hofmann, Victor Ninov et al. Este elemento foi criado disparando núcleos acelerados de zinco-70 contra um alvo feito de núcleos de chumbo-208 em um acelerador de íons pesados. Um único átomo de copernicium foi produzido com um número de massa de 277.`,
+        endereçoImagemElemento: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR42hD8GpEfnpEQt3O0-ANAGf85d2xWXEm95NgBkQ7AVQ&s',
+        curiosidade: 'Não existem isótopos naturais, nem estáveis, de Copernício.'
     },
     {
         nome: "Nihônio",
-        sigla: "Nh",
-        numeroAtomico: 113,
-        massaAtomica: 286,
-        configuracaoEletronica: "[Rn] 5f^14 6d^10 7s^2 7p^1",
-        grupo: "Grupo 13",
+        grupo: 13,
         periodo: 7,
-        estadoNatural: "Sintético",
-        raioAtomico: null,
-        pontoDeFusao: 430,
-        pontoDeEbulicao: 1100,
-        densidade: "Desconhecida", // A densidade do nihônio não é bem estabelecida
-        eletronegatividade: "Desconhecida", // Não há dados confiáveis sobre a eletronegatividade do nihônio
-        aplicacoesComuns: ["Utilizado em pesquisas nucleares e experimentos científicos avançados", "Em estudos sobre a estrutura do núcleo atômico"],
+        sigla: "Nh",
         decomposicao: {
             protons: 113,
             eletrons: 113,
-            neutrons: "Desconhecido" // O número de nêutrons pode variar
+            neutrons: 173
         },
-        categoria: "outros-metais"
+        numeroAtomico: 113,
+        massaAtomica: 286,
+        categoria: "outros-metais",
+        configuracaoEletronica: "[Rn] 5f¹⁴ 6d¹⁰ 7s² 7p¹",
+        cor: null,
+        radioativo: true,
+        estadoNatural: "Sólido",
+        densidade: 16,
+        pontoDeFusao: 430,
+        pontoDeEbulicao: 1100,
+        etalpiaDeFusao: null, // kJ/mol
+        etalpiaDeVaporizacao: null, // kJ/mol
+        calorEspecifico: null, // J/g·K
+        abundanciaNaCrostaTerrestre: null,
+        abundanciaNoUniverso: null,
+        raioAtomico: null,
+        raioCovalente: 136,
+        eletronegatividade: null, // Escala de Pauling
+        volumeAtomico: null, // cm3/mol
+        condutividadeTermica: null, // W/cm·K
+        aplicacoesComuns: ["Utilizado em pesquisas nucleares e experimentos científicos avançados", "Em estudos sobre a estrutura do núcleo atômico"],
+        historia: `
+        O nicônio foi identificado em 2003 como um produto do decaimento alfa do elemento 115, moscovium, por uma equipe composta por cientistas russos do Instituto Conjunto de Pesquisa Nuclear, Dubna e cientistas americanos do Laboratório Nacional Lawrence Livermore. A colaboração Dubna-Livermore reforçou a sua reivindicação pela descoberta do niónio através da realização de experiências químicas no produto final de decaimento Db268.`,
+        endereçoImagemElemento: 'https://images.uncyc.org/pt/thumb/3/32/Nihonium.jpg/1200px-Nihonium.jpg',
+        curiosidade: 'O Nihônio é historicamente conhecido como Ela-Thallium.'
     },
     {
         nome: "Fleróvio",
-        sigla: "Fl",
-        numeroAtomico: 114,
-        massaAtomica: 289,
-        configuracaoEletronica: "[Rn] 5f^14 6d^10 7s^2 7p^2",
-        grupo: "Grupo 14",
+        grupo: 14,
         periodo: 7,
-        estadoNatural: "Sintético",
-        raioAtomico: null,
-        pontoDeFusao: 70,
-        pontoDeEbulicao: 150,
-        densidade: "Desconhecida", // A densidade do fleróvio não é bem estabelecida
-        eletronegatividade: "Desconhecida", // Não há dados confiáveis sobre a eletronegatividade do fleróvio
-        aplicacoesComuns: ["Utilizado em pesquisas nucleares e experimentos científicos avançados", "Em estudos sobre a estrutura do núcleo atômico"],
+        sigla: "Fl",
         decomposicao: {
             protons: 114,
             eletrons: 114,
-            neutrons: "Desconhecido" // O número de nêutrons pode variar
+            neutrons: 173
         },
-        categoria: "outros-metais"
+        numeroAtomico: 114,
+        massaAtomica: 289,
+        categoria: "outros-metais",
+        configuracaoEletronica: "[Rn] 5f¹⁴ 6d¹⁰ 7s² 7p²",
+        cor: null,
+        radioativo: true,
+        estadoNatural: "Sólido",
+        densidade: 14,
+        pontoDeFusao: 70,
+        pontoDeEbulicao: 150,
+        etalpiaDeFusao: null, // kJ/mol
+        etalpiaDeVaporizacao: null, // kJ/mol
+        calorEspecifico: null, // J/g·K
+        abundanciaNaCrostaTerrestre: null,
+        abundanciaNoUniverso: null,
+        raioAtomico: null,
+        raioCovalente: 143,
+        eletronegatividade: null, // Escala de Pauling
+        volumeAtomico: null, // cm3/mol
+        condutividadeTermica: null, // W/cm·K
+        aplicacoesComuns: ["Utilizado em pesquisas nucleares e experimentos científicos avançados", "Em estudos sobre a estrutura do núcleo atômico"],
+        historia: `
+        Ununquadium (Uuq) era o nome temporário do elemento sistemático da IUPAC. Em 1998, uma equipe liderada por Yuri Oganessian e Vladimir Utyonkov do Instituto Conjunto de Pesquisa Nuclear de Dubna produziu fleróvio bombardeando plutônio com cálcio. Em um experimento que durou 40 dias, 5 x 1018 átomos de cálcio foram disparados contra o plutônio para produzir um único átomo de fleróvio.`,
+        endereçoImagemElemento: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwGPp4lIIiz9_TTk7OfhMXky55rPNetG3UL4v1MwpIQw&s',
+        curiosidade: 'O isótopo de vida mais longa conhecido atualmente é Fl289'
     },
     {
         nome: "Moscóvio",
-        sigla: "Mc",
-        numeroAtomico: 115,
-        massaAtomica: 290,
-        configuracaoEletronica: "[Rn] 5f^14 6d^10 7s^2 7p^3",
-        grupo: "Grupo 15",
+        grupo: 15,
         periodo: 7,
-        estadoNatural: "Sintético",
-        raioAtomico: null,
-        pontoDeFusao: null,
-        pontoDeEbulicao: null,
-        densidade: "Desconhecida", // A densidade do moscóvio não é bem estabelecida
-        eletronegatividade: "Desconhecida", // Não há dados confiáveis sobre a eletronegatividade do moscóvio
-        aplicacoesComuns: ["Utilizado em pesquisas nucleares e experimentos científicos avançados", "Em estudos sobre a estrutura do núcleo atômico"],
+        sigla: "Mc",
         decomposicao: {
             protons: 115,
             eletrons: 115,
-            neutrons: "Desconhecido" // O número de nêutrons pode variar
+            neutrons: 173
         },
-        categoria: "outros-metais"
+        numeroAtomico: 115,
+        massaAtomica: 288,
+        categoria: "outros-metais",
+        configuracaoEletronica: "[Rn] 5f¹⁴ 6d¹⁰ 7s² 7p³",
+        cor: null,
+        radioativo: true,
+        estadoNatural: "Sólido",
+        densidade: null,
+        pontoDeFusao: null,
+        pontoDeEbulicao: null,
+        etalpiaDeFusao: null, // kJ/mol
+        etalpiaDeVaporizacao: null, // kJ/mol
+        calorEspecifico: null, // J/g·K
+        abundanciaNaCrostaTerrestre: null,
+        abundanciaNoUniverso: null,
+        raioAtomico: null,
+        raioCovalente: 162,
+        eletronegatividade: null, // Escala de Pauling
+        volumeAtomico: null, // cm3/mol
+        condutividadeTermica: null, // W/cm·K
+        aplicacoesComuns: ["Utilizado em pesquisas nucleares e experimentos científicos avançados", "Em estudos sobre a estrutura do núcleo atômico"],
+        historia: `
+        O Moscovium foi identificado em 2004 por uma equipe composta por cientistas russos do Instituto Conjunto de Pesquisa Nuclear em Dubna e cientistas americanos do Laboratório Nacional Lawrence Livermore. A equipe relatou que bombardearam o amerício-243 com íons cálcio-48 para produzir quatro átomos de moscóvio Esses átomos decaíram pela emissão de partículas alfa em niônio em aproximadamente 100 milissegundos.`,
+        endereçoImagemElemento: 'https://escolaeducacao.com.br/wp-content/uploads/2019/08/Mosc%C3%B3vio-Elemento-Qu%C3%ADmico-Mc.jpg',
+        curiosidade: 'O Moscóvio é historicamente conhecido como Eka-Bismuto.'
     },
     {
         nome: "Livermório",
-        sigla: "Lv",
-        numeroAtomico: 116,
-        massaAtomica: 293,
-        configuracaoEletronica: "[Rn] 5f^14 6d^10 7s^2 7p^4",
-        grupo: "Grupo 16",
+        grupo: 16,
         periodo: 7,
-        estadoNatural: "Sintético",
-        raioAtomico: null,
-        pontoDeFusao: null,
-        pontoDeEbulicao: null,
-        densidade: "Desconhecida", // A densidade do livermório não é bem estabelecida
-        eletronegatividade: "Desconhecida", // Não há dados confiáveis sobre a eletronegatividade do livermório
-        aplicacoesComuns: ["Utilizado em pesquisas nucleares e experimentos científicos avançados", "Em estudos sobre a estrutura do núcleo atômico"],
+        sigla: "Lv",
         decomposicao: {
             protons: 116,
             eletrons: 116,
-            neutrons: "Desconhecido" // O número de nêutrons pode variar
+            neutrons: 175
         },
-        categoria: "outros-metais"
-    },
-    {
-        nome: "Tenesso",
-        sigla: "Ts",
-        numeroAtomico: 117,
-        massaAtomica: 294,
-        configuracaoEletronica: "[Rn] 5f^14 6d^10 7s^2 7p^5",
-        grupo: "Grupo 17",
-        periodo: 7,
-        estadoNatural: "Sintético",
-        raioAtomico: null,
+        numeroAtomico: 116,
+        massaAtomica: 293,
+        categoria: "outros-metais",
+        configuracaoEletronica: "[Rn] 5f¹⁴ 6d¹⁰ 7s² 7p⁴",
+        cor: null,
+        radioativo: true,
+        estadoNatural: "Sólido",
+        densidade: null,
         pontoDeFusao: null,
         pontoDeEbulicao: null,
-        densidade: "Desconhecida", // A densidade do tenesso não é bem estabelecida
-        eletronegatividade: "Desconhecida", // Não há dados confiáveis sobre a eletronegatividade do tenesso
+        etalpiaDeFusao: null, // kJ/mol
+        etalpiaDeVaporizacao: null, // kJ/mol
+        calorEspecifico: null, // J/g·K
+        abundanciaNaCrostaTerrestre: null,
+        abundanciaNoUniverso: null,
+        raioAtomico: null,
+        raioCovalente: 175,
+        eletronegatividade: null, // Escala de Pauling
+        volumeAtomico: null, // cm3/mol
+        condutividadeTermica: null, // W/cm·K
         aplicacoesComuns: ["Utilizado em pesquisas nucleares e experimentos científicos avançados", "Em estudos sobre a estrutura do núcleo atômico"],
+        historia: `
+        Ununhexium (Uuh) era o nome temporário do elemento sistemático da IUPAC. Livermório foi identificado em 2000 por uma equipe composta por cientistas russos do Instituto Conjunto de Pesquisa Nuclear, Dubna e cientistas americanos do Laboratório Nacional Lawrence Livermore liderados por Yuri Oganessian e Ken Moody.`,
+        endereçoImagemElemento: 'https://escolhttps://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQc305HJrIidVHUdLulIeIrYqIs5cH2DXuHSpbP3GbqdA&saeducacao.com.br/wp-content/uploads/2019/08/Mosc%C3%B3vio-Elemento-Qu%C3%ADmico-Mc.jpg',
+        curiosidade: 'O Livermório é historicamente conhecido como Eka-Polónio'
+    },
+    {
+        nome: "Tenessínio",
+        grupo: 17,
+        periodo: 7,
+        sigla: "Ts",
         decomposicao: {
             protons: 117,
             eletrons: 117,
-            neutrons: "Desconhecido" // O número de nêutrons pode variar
+            neutrons: 177
         },
-        categoria: "halogenios"
-    },
-    {
-        nome: "Oganessônio",
-        sigla: "Og",
-        numeroAtomico: 118,
+        numeroAtomico: 117,
         massaAtomica: 294,
-        configuracaoEletronica: "[Rn] 5f^14 6d^10 7s^2 7p^6",
-        grupo: "Grupo 18",
-        periodo: 7,
-        estadoNatural: "Sintético",
-        raioAtomico: null,
+        categoria: "halogenios",
+        configuracaoEletronica: "[Rn] 5f¹⁴ 6d¹⁰ 7s² 7p⁵",
+        cor: null,
+        radioativo: true,
+        estadoNatural: "Sólido",
+        densidade: null,
         pontoDeFusao: null,
         pontoDeEbulicao: null,
-        densidade: "Desconhecida", // A densidade do oganessônio não é bem estabelecida
-        eletronegatividade: "Desconhecida", // Não há dados confiáveis sobre a eletronegatividade do oganessônio
+        etalpiaDeFusao: null, // kJ/mol
+        etalpiaDeVaporizacao: null, // kJ/mol
+        calorEspecifico: null, // J/g·K
+        abundanciaNaCrostaTerrestre: null,
+        abundanciaNoUniverso: null,
+        raioAtomico: null,
+        raioCovalente: 165,
+        eletronegatividade: null, // Escala de Pauling
+        volumeAtomico: null, // cm3/mol
+        condutividadeTermica: null, // W/cm·K
         aplicacoesComuns: ["Utilizado em pesquisas nucleares e experimentos científicos avançados", "Em estudos sobre a estrutura do núcleo atômico"],
+        historia: `
+        Tennessine foi identificado em 2010 por uma equipe composta por cientistas russos do Instituto Conjunto de Pesquisa Nuclear, Dubna e cientistas americanos do Laboratório Nacional Lawrence Livermore. Foi produzido pelo bombardeio de berquélio com cálcio. Ununseptium era o nome temporário do elemento sistemático da IUPAC.`,
+        endereçoImagemElemento: 'https://s1.static.brasilescola.uol.com.br/be/2022/04/tenesso.jpg',
+        curiosidade: 'O Tenesso é historicamente conhecido como Eka-Ástato'
+    },
+    {
+        nome: "Organessônio",
+        grupo: 18,
+        periodo: 7,
+        sigla: "Og",
         decomposicao: {
             protons: 118,
             eletrons: 118,
-            neutrons: "Desconhecido" // O número de nêutrons pode variar
+            neutrons: 176
         },
-        categoria: "gas-nobre"
+        numeroAtomico: 118  ,
+        massaAtomica: 294,
+        categoria: "gas-nobre",
+        configuracaoEletronica: "[Rn] 5f¹⁴ 6d¹⁰ 7s² 7p⁶",
+        cor: null,
+        radioativo: true,
+        estadoNatural: "Sólido",
+        densidade: 13.65,
+        pontoDeFusao: null,
+        pontoDeEbulicao: null,
+        etalpiaDeFusao: null, // kJ/mol
+        etalpiaDeVaporizacao: null, // kJ/mol
+        calorEspecifico: null, // J/g·K
+        abundanciaNaCrostaTerrestre: null,
+        abundanciaNoUniverso: null,
+        raioAtomico: 152,
+        raioCovalente: 157,
+        eletronegatividade: null, // Escala de Pauling
+        volumeAtomico: null, // cm3/mol
+        condutividadeTermica: null, // W/cm·K
+        aplicacoesComuns: ["Utilizado em pesquisas nucleares e experimentos científicos avançados", "Em estudos sobre a estrutura do núcleo atômico"],
+        historia: `
+        Organessônio foi identificado em 2002 por uma equipe composta por cientistas russos do Instituto Conjunto de Pesquisa Nuclear, Dubna e cientistas americanos do Laboratório Nacional Lawrence Livermore. Foi produzido pelo bombardeio do califórnio com cálcio. Ununoctium era o nome temporário do elemento sistemático da IUPAC.`,
+        endereçoImagemElemento: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP_WX4X5TdofQ2seAQ6zr1UcOYC3NRTOdmFh1VPav0_g&s',
+        curiosidade: 'O Organossônio é historicamente conhecido como Eka-Rádon.'
     }
 ];

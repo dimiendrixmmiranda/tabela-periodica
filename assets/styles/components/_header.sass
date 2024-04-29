@@ -3,6 +3,7 @@
     display: grid
     grid-template-columns: 1fr 40px
     padding: .5em .2em
+    overflow: hidden
     a
         display: flex
         width: 100%
@@ -38,15 +39,15 @@
         grid-template-columns: auto 1fr
         a
             img
-                width: 40px
+                width: 30px
             h1
                 white-space: nowrap
-                font-size: 2em
+                font-size: 1.5em
         ul
             list-style: none
             display: flex
             grid-column: 2/3
-            column-gap: .8em
+            column-gap: .5em
             width: 100%
             li
                 font-size: .8em
@@ -56,6 +57,12 @@
                 display: flex
                 align-items: center
                 justify-content: center
+                a
+                    display: grid
+                    grid-template-columns: 20px 1fr
+                    column-gap: 2px
+                    img
+                        width: 20px
                 &:first-child
                     margin-left: auto
                 &:last-child
@@ -100,9 +107,16 @@
             display: none
 @media screen and ( min-width: 1024px )
     .cabecalho
+        a
+            img
+                width: 40px
+            h1
+                font-size: 2em
         ul
             li
                 font-size: 1.2em
+                img
+                    width: 25px
             #alterarModo
                 width: 40px
                 height: 20px
@@ -125,3 +139,7 @@
             column-gap: 2em
             li
                 font-size: 1.2em
+                a
+                    column-gap: .8em
+                    img
+                        width: 30px

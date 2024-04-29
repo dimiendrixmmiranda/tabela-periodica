@@ -16,6 +16,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Anton&family=Raleway:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Raleway:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -660,6 +662,7 @@ footer strong {
   display: grid;
   grid-template-columns: 1fr 40px;
   padding: 0.5em 0.2em;
+  overflow: hidden;
 }
 .cabecalho a {
   display: flex;
@@ -705,18 +708,18 @@ footer strong {
     grid-template-columns: auto 1fr;
   }
   .cabecalho a img {
-    width: 40px;
+    width: 30px;
   }
   .cabecalho a h1 {
     white-space: nowrap;
-    font-size: 2em;
+    font-size: 1.5em;
   }
   .cabecalho ul {
     list-style: none;
     display: flex;
     grid-column: 2/3;
-    -moz-column-gap: 0.8em;
-         column-gap: 0.8em;
+    -moz-column-gap: 0.5em;
+         column-gap: 0.5em;
     width: 100%;
   }
   .cabecalho ul li {
@@ -727,6 +730,15 @@ footer strong {
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  .cabecalho ul li a {
+    display: grid;
+    grid-template-columns: 20px 1fr;
+    -moz-column-gap: 2px;
+         column-gap: 2px;
+  }
+  .cabecalho ul li a img {
+    width: 20px;
   }
   .cabecalho ul li:first-child {
     margin-left: auto;
@@ -779,8 +791,17 @@ footer strong {
   }
 }
 @media screen and (min-width: 1024px) {
+  .cabecalho a img {
+    width: 40px;
+  }
+  .cabecalho a h1 {
+    font-size: 2em;
+  }
   .cabecalho ul li {
     font-size: 1.2em;
+  }
+  .cabecalho ul li img {
+    width: 25px;
   }
   .cabecalho ul #alterarModo {
     width: 40px;
@@ -814,6 +835,13 @@ footer strong {
   }
   .cabecalho ul li {
     font-size: 1.2em;
+  }
+  .cabecalho ul li a {
+    -moz-column-gap: 0.8em;
+         column-gap: 0.8em;
+  }
+  .cabecalho ul li a img {
+    width: 30px;
   }
 }
 .comparar-elementos {
@@ -1123,4 +1151,14 @@ footer strong {
   .ancora a:nth-child(2) {
     margin-right: 5em;
   }
+}
+.btn-bars-offcanvas {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 80%;
+  height: 100%;
+  background-color: red;
+  display: block;
+  z-index: 5;
 }/*# sourceMappingURL=style.css.map */

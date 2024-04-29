@@ -1,3 +1,4 @@
+import { btnBars } from "./script/btnBars.js";
 import { toggleBtnVerDetalhes } from "./script/btnVerDetalhes.js";
 import { criarBotao } from "./script/criarBotao.js";
 import { determinarCoresDosElementos } from "./script/determinarCoresBtns.js";
@@ -13,6 +14,8 @@ formatarBotoes()
 determinarCoresDosElementos()
 validacaoFiltroCategoria()
 toggleBtnVerDetalhes()
+
+btnBars()
 
 const listaDeBotoes = document.querySelectorAll('.elementos button').forEach(btn => selecionarElemento(btn))
 
