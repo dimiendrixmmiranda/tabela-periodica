@@ -1,3 +1,4 @@
+import { btnBars } from "./btnBars.js"
 import { tabelaPeriodica } from "./tabelaPeriodica.js"
 
 function criarSelectCompararElemento() {
@@ -79,3 +80,4 @@ function criarOption(nomeElemento) {
 }
 
 criarSelectCompararElemento()
+btnBars()

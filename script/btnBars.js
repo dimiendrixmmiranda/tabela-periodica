@@ -10,9 +10,14 @@ function criarOffCanvas() {
     const offcanvas = document.createElement('div')
     offcanvas.classList.add('btn-bars-offcanvas')
 
-    const btnExcluir = document.createElement('button')
-    btnExcluir.innerHTML = 'x'
-    btnExcluir.addEventListener('click', (e) => {
+    const titulo = document.createElement('h3')
+    titulo.innerHTML = 'Menu'
+    titulo.classList.add('btn-bars-offcanvas-titulo')
+
+    const btnFechar = document.createElement('button')
+    btnFechar.innerHTML = '<i class="fa-solid fa-xmark"></i>'
+    btnFechar.classList.add('btn-bars-offcanvas-fechar')
+    btnFechar.addEventListener('click', (e) => {
         e.preventDefault()
         e.target.closest('.btn-bars-offcanvas').remove()
     })
@@ -20,18 +25,44 @@ function criarOffCanvas() {
     const menu = document.createElement('ul')
     menu.classList.add('btn-bars-offcanvas-lista')
 
-    const historia = criarItemMenu('../assets/imgs/icone-historia.png', 'Historia')
+    const historia = criarItemMenu('../assets/imgs/icone-historia.png', 'Historia', './pages/historiaTabelaPeriodica.html')
+    const exercicios = criarItemMenu('../assets/imgs/icone-exercicios.png', 'Exercícios', '#')
+    const imprimirTabela = criarItemMenu('../assets/imgs/icone-imprimir.png', 'Imprimir Tabela', '#')
+    const compararElementos = criarItemMenu('../assets/imgs/icone-comparar.png', 'Comparar Elementos', './pages/compararElementos.html')
+
+    const containerToggleMudarModo = document.createElement('div')
+    containerToggleMudarModo.classList.add('btn-bars-offcanvas-toggle')
+
+    const toggleMudarModo = document.createElement('input')
+    toggleMudarModo.type = 'checkbox'
+    toggleMudarModo.name = 'alterarModo'
+    toggleMudarModo.id = 'alterarModo'
+
+    const tituloToggleMudarModo = document.createElement('h3')
+    tituloToggleMudarModo.innerHTML = 'Alterar Modo'
+
+    containerToggleMudarModo.appendChild(toggleMudarModo)
+    containerToggleMudarModo.appendChild(tituloToggleMudarModo)
+
+    menu.appendChild(historia)
+    menu.appendChild(exercicios)
+    menu.appendChild(imprimirTabela)
+    menu.appendChild(compararElementos)
     
-    offcanvas.appendChild(btnExcluir)
+    offcanvas.appendChild(btnFechar)
+    offcanvas.appendChild(titulo)
     offcanvas.appendChild(menu)
-    offcanvas.appendChild(historia)
+    offcanvas.appendChild(containerToggleMudarModo)
 
     return offcanvas
 }
 
-function criarItemMenu(url, nomeItemMenu){
+function criarItemMenu(url, nomeItemMenu, linkDaPagina){
     const itemMenu = document.createElement('li')
-    itemMenu.classList.add('btn-bars-offcanvas-lista')
+    itemMenu.classList.add('btn-bars-offcanvas-lista-item')
+
+    const link = document.createElement('a')
+    link.setAttribute('href', linkDaPagina)
 
     const img = document.createElement('img')
     img.setAttribute('src', url)
@@ -39,7 +70,9 @@ function criarItemMenu(url, nomeItemMenu){
     const p = document.createElement('p')
     p.innerHTML = nomeItemMenu
 
-    itemMenu.appendChild(img)
-    itemMenu.appendChild(p)
+    link.appendChild(img)
+    link.appendChild(p)
+
+    itemMenu.appendChild(link)
     return itemMenu
 }

@@ -1100,7 +1100,6 @@ footer strong {
   font-family: "Ubuntu", sans-serif;
 }
 .ancora a {
-  font-size: 1em;
   text-align: center;
   text-decoration: none;
   color: #fff;
@@ -1109,6 +1108,18 @@ footer strong {
   width: fit-content;
   align-self: center;
   justify-self: center;
+  display: flex;
+  -moz-column-gap: 0.3em;
+       column-gap: 0.3em;
+  justify-content: center;
+  align-items: center;
+}
+.ancora a p {
+  font-size: 0.8em;
+}
+.ancora a i {
+  font-size: 0.6em;
+  margin-top: 0.3em;
 }
 .ancora a:hover {
   color: #FFC600;
@@ -1116,6 +1127,14 @@ footer strong {
   border-bottom: solid 1px #FFC600;
 }
 
+@media screen and (min-width: 425px) {
+  .ancora a p {
+    font-size: 1em;
+  }
+  .ancora a i {
+    font-size: 0.8em;
+  }
+}
 @media screen and (min-width: 768px) {
   .ancora {
     display: flex;
@@ -1144,6 +1163,13 @@ footer strong {
   .ancora {
     display: flex;
   }
+  .ancora a p {
+    font-size: 1.2em;
+  }
+  .ancora a i {
+    font-size: 1.1em;
+    margin-top: 0;
+  }
   .ancora a:nth-child(1) {
     margin-left: auto;
     margin-right: 1.5em;
@@ -1153,12 +1179,108 @@ footer strong {
   }
 }
 .btn-bars-offcanvas {
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   width: 80%;
+  max-width: 330px;
   height: 100%;
-  background-color: red;
-  display: block;
+  background-color: #0E185F;
   z-index: 5;
+  display: flex;
+  flex-direction: column;
+  font-family: "Lato", sans-serif;
+  grid-template-rows: auto 1fr;
+  color: #fff;
+}
+.btn-bars-offcanvas .btn-bars-offcanvas-titulo {
+  font-size: 1.8em;
+  text-align: center;
+  padding: 0.5em 0 0.3em 0;
+}
+.btn-bars-offcanvas .btn-bars-offcanvas-fechar {
+  position: absolute;
+  top: 1%;
+  left: 5%;
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 1.6em;
+}
+.btn-bars-offcanvas .btn-bars-offcanvas-lista {
+  display: grid;
+  grid-template-rows: repeat(4, 50px);
+  list-style: none;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.btn-bars-offcanvas .btn-bars-offcanvas-lista .btn-bars-offcanvas-lista-item {
+  padding: 0 1em;
+}
+.btn-bars-offcanvas .btn-bars-offcanvas-lista .btn-bars-offcanvas-lista-item a {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-self: center;
+  align-items: center;
+  -moz-column-gap: 0.5em;
+       column-gap: 0.5em;
+  color: #fff;
+  text-decoration: none;
+}
+.btn-bars-offcanvas .btn-bars-offcanvas-lista .btn-bars-offcanvas-lista-item a img {
+  height: 50%;
+}
+.btn-bars-offcanvas .btn-bars-offcanvas-lista .btn-bars-offcanvas-lista-item a p {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.btn-bars-offcanvas .btn-bars-offcanvas-toggle {
+  display: flex;
+  align-items: center;
+  height: 40px;
+}
+.btn-bars-offcanvas .btn-bars-offcanvas-toggle #alterarModo {
+  width: 30px;
+  height: 15px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border-radius: 100px;
+  box-shadow: 0 0 2px 2px #000;
+  display: flex;
+  transition: 0.6s ease;
+  position: relative;
+  background-color: #fff;
+  cursor: pointer;
+  margin: 0 0.6em 0 0.9em;
+}
+.btn-bars-offcanvas .btn-bars-offcanvas-toggle #alterarModo:checked {
+  background-color: #FFC600;
+  transition: 0.6s ease;
+}
+.btn-bars-offcanvas .btn-bars-offcanvas-toggle #alterarModo::before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  background-color: #FFC600;
+  box-shadow: 0 0 2px 1px black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 0.6s ease;
+  background-image: url("../imgs/sol.png");
+  background-size: 10px;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 2;
+}
+.btn-bars-offcanvas .btn-bars-offcanvas-toggle #alterarModo:checked::before {
+  background-color: #fff;
+  transform: translate(100%);
+}
+
+.historia {
+  background-color: blue;
 }/*# sourceMappingURL=style.css.map */
