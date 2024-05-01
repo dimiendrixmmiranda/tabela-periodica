@@ -1,2 +1,55 @@
+@import '../abstract/_variaveis'
 .historia
-    background-color: blue
+    // background-color: blue
+    font-family: $fonteLato
+    color: $branco
+    h2
+        text-align: center
+        font-size: 1.4em
+        font-weight: 700
+        margin-bottom: .7em
+    p
+        text-indent: 3ch
+        max-width: 95%
+        margin: 1em auto
+        font-size: 1.1em
+    .historia-container
+        box-sizing: border-box
+        width: 95%
+        margin: 0 auto
+        display: grid
+        grid-template-columns: repeat(2, 1fr)
+        column-gap: .5em
+        overflow: hidden
+        .card
+            width: 100%
+            height: 95%
+            overflow: hidden
+            display: flex
+            border-radius: 5px
+            position: relative
+            &:hover
+                .card-texto
+                    top: 0
+                    .card-texto-paragrafo
+                        display: block
+                        font-size: .52em
+                        text-indent: 0
+                        margin: 0
+                        padding: 0 .5em
+            img
+                width: 100%
+            .card-texto
+                position: absolute
+                top: 85%
+                transition: .6s ease
+                background-color: #333030
+                height: 100%
+                width: 100%
+                .card-texto-titulo
+                    text-align: center
+                    font-size: .9em
+                    padding: .2em 0
+                .card-texto-paragrafo
+                    display: none
+                    overflow-y: scroll

@@ -18,6 +18,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Anton&family=Raleway:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Raleway:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -858,7 +860,7 @@ footer strong {
 .comparar-elementos .comparar-elementos-selecionar {
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(2, 50%);
+  grid-template-columns: repeat(2, 1fr);
   -moz-column-gap: 0.5em;
        column-gap: 0.5em;
 }
@@ -1032,67 +1034,6 @@ footer strong {
   font-size: 0.8em;
 }
 
-@media screen and (min-width: 768px) {
-  .comparar-elementos {
-    grid-template-columns: 33% 1fr;
-  }
-  .comparar-elementos .comparar-elementos-selecionar {
-    grid-column: 2/3;
-    grid-row: 1/2;
-  }
-  .comparar-elementos .propriedades {
-    grid-row: 2/3;
-    grid-column: 1/3;
-  }
-  .comparar-elementos .propriedades-gerais {
-    grid-row: 3/4;
-    grid-column: 1/3;
-  }
-  .comparar-elementos .propriedades-gerais .propriedades-titulo {
-    background-color: #001E36;
-    width: 15.5rem;
-    display: block;
-    padding: 0.3em 0.4em;
-    font-size: 1.4em;
-    font-weight: bold;
-    color: #fff;
-    border-radius: 0 10px 10px 0;
-    margin-bottom: 0.8em;
-  }
-  .comparar-elementos .propriedades-fisicas {
-    grid-row: 4/5;
-    grid-column: 1/3;
-  }
-  .comparar-elementos .propriedades-fisicas .propriedades-titulo {
-    background-color: #001E36;
-    width: 15.5rem;
-    display: block;
-    padding: 0.3em 0.4em;
-    font-size: 1.4em;
-    font-weight: bold;
-    color: #fff;
-    border-radius: 0 10px 10px 0;
-    margin-bottom: 0.8em;
-  }
-  .comparar-elementos .propriedades-atomicas {
-    grid-row: 5/6;
-    grid-column: 1/3;
-  }
-  .comparar-elementos .propriedades-atomicas .propriedades-titulo {
-    background-color: #001E36;
-    width: 17.5rem;
-    display: block;
-    padding: 0.3em 0.4em;
-    font-size: 1.4em;
-    font-weight: bold;
-    color: #fff;
-    border-radius: 0 10px 10px 0;
-    margin-bottom: 0.8em;
-  }
-  .comparar-elementos .propriedades-atomicas li:nth-child(4) h3, .comparar-elementos .propriedades-atomicas li:nth-child(6) h3, .comparar-elementos .propriedades-atomicas li:nth-child(7) h3 {
-    font-size: 0.9em;
-  }
-}
 .ancora {
   width: 100%;
   display: grid;
@@ -1206,6 +1147,7 @@ footer strong {
   border: none;
   color: #fff;
   font-size: 1.6em;
+  cursor: pointer;
 }
 .btn-bars-offcanvas .btn-bars-offcanvas-lista {
   display: grid;
@@ -1280,7 +1222,76 @@ footer strong {
   background-color: #fff;
   transform: translate(100%);
 }
+.btn-bars-offcanvas .btn-bars-offcanvas-erro {
+  position: absolute;
+  bottom: 2%;
+  right: 5%;
+  font-size: 1.2em;
+  text-decoration: none;
+  color: #fff;
+}
 
 .historia {
-  background-color: blue;
+  font-family: "Lato", sans-serif;
+  color: #fff;
+}
+.historia h2 {
+  text-align: center;
+  font-size: 1.4em;
+  font-weight: 700;
+  margin-bottom: 0.7em;
+}
+.historia p {
+  text-indent: 3ch;
+  max-width: 95%;
+  margin: 1em auto;
+  font-size: 1.1em;
+}
+.historia .historia-container {
+  box-sizing: border-box;
+  width: 95%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  -moz-column-gap: 0.5em;
+       column-gap: 0.5em;
+  overflow: hidden;
+}
+.historia .historia-container .card {
+  width: 100%;
+  height: 95%;
+  overflow: hidden;
+  display: flex;
+  border-radius: 5px;
+  position: relative;
+}
+.historia .historia-container .card:hover .card-texto {
+  top: 0;
+}
+.historia .historia-container .card:hover .card-texto .card-texto-paragrafo {
+  display: block;
+  font-size: 0.52em;
+  text-indent: 0;
+  margin: 0;
+  padding: 0 0.5em;
+}
+.historia .historia-container .card img {
+  width: 100%;
+}
+.historia .historia-container .card .card-texto {
+  position: absolute;
+  top: 85%;
+  transition: 0.6s ease;
+  background-color: #333030;
+  height: 100%;
+  width: 100%;
+}
+.historia .historia-container .card .card-texto .card-texto-titulo {
+  text-align: center;
+  font-size: 0.9em;
+  padding: 0.2em 0;
+}
+.historia .historia-container .card .card-texto .card-texto-paragrafo {
+  display: none;
+  overflow-y: scroll;
 }/*# sourceMappingURL=style.css.map */

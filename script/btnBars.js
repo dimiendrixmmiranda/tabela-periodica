@@ -41,6 +41,11 @@ function criarOffCanvas() {
     const tituloToggleMudarModo = document.createElement('h3')
     tituloToggleMudarModo.innerHTML = 'Alterar Modo'
 
+    const reportarErro = document.createElement('a')
+    reportarErro.classList.add('btn-bars-offcanvas-erro')
+    reportarErro.href = 'https://wa.me/5543988252886?text=Reportar+erro+no+projeto+Tabela+Peri%C3%B3dica'
+    reportarErro.innerHTML = `Reportar erro! <i class="fa-solid fa-triangle-exclamation"></i>`
+
     containerToggleMudarModo.appendChild(toggleMudarModo)
     containerToggleMudarModo.appendChild(tituloToggleMudarModo)
 
@@ -53,6 +58,7 @@ function criarOffCanvas() {
     offcanvas.appendChild(titulo)
     offcanvas.appendChild(menu)
     offcanvas.appendChild(containerToggleMudarModo)
+    offcanvas.appendChild(reportarErro)
 
     return offcanvas
 }
