@@ -1,12 +1,12 @@
-export function btnBars() {
+export function btnBars(linkHistoria, linkExercicios, linkImprimirTabela, linkCompararElementos) {
     const btnBars = document.querySelector('#btn-bars')
-    const offcanvas = criarOffCanvas()
+    const offcanvas = criarOffCanvas(linkHistoria, linkExercicios, linkImprimirTabela, linkCompararElementos)
     btnBars.addEventListener('click', (e) => {
         document.body.appendChild(offcanvas)
     })
 }
 
-function criarOffCanvas() {
+function criarOffCanvas(linkHistoria, linkExercicios, linkImprimirTabela, linkCompararElementos) {
     const offcanvas = document.createElement('div')
     offcanvas.classList.add('btn-bars-offcanvas')
 
@@ -24,11 +24,11 @@ function criarOffCanvas() {
 
     const menu = document.createElement('ul')
     menu.classList.add('btn-bars-offcanvas-lista')
-
-    const historia = criarItemMenu('../assets/imgs/icone-historia.png', 'Historia', './pages/historiaTabelaPeriodica.html')
-    const exercicios = criarItemMenu('../assets/imgs/icone-exercicios.png', 'Exercícios', '#')
-    const imprimirTabela = criarItemMenu('../assets/imgs/icone-imprimir.png', 'Imprimir Tabela', '#')
-    const compararElementos = criarItemMenu('../assets/imgs/icone-comparar.png', 'Comparar Elementos', './pages/compararElementos.html')
+    // ./pages/historiaTabelaPeriodica.html
+    const historia = criarItemMenu('../assets/imgs/icone-historia.png', 'Historia', linkHistoria)
+    const exercicios = criarItemMenu('../assets/imgs/icone-exercicios.png', 'Exercícios', linkExercicios)
+    const imprimirTabela = criarItemMenu('../assets/imgs/icone-imprimir.png', 'Imprimir Tabela', linkImprimirTabela)
+    const compararElementos = criarItemMenu('../assets/imgs/icone-comparar.png', 'Comparar Elementos', linkCompararElementos)
 
     const containerToggleMudarModo = document.createElement('div')
     containerToggleMudarModo.classList.add('btn-bars-offcanvas-toggle')

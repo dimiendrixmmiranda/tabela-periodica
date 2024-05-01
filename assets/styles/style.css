@@ -1294,4 +1294,27 @@ footer strong {
 .historia .historia-container .card .card-texto .card-texto-paragrafo {
   display: none;
   overflow-y: scroll;
+}
+.historia .descobertas-quimica {
+  display: flex;
+  flex-direction: column;
+}
+.historia .descobertas-quimica .descobertas-quimica-item {
+  width: 95%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 45% 1fr;
+  background-color: red;
+  border-radius: 4px;
+}
+.historia .descobertas-quimica .descobertas-quimica-item img {
+  grid-column: 1/2;
+  width: 95%;
+  align-self: center;
+  justify-self: center;
+}
+.historia .descobertas-quimica .descobertas-quimica-item p {
+  font-size: 0.55em;
+  margin: 0.8em;
+  text-indent: 0;
 }/*# sourceMappingURL=style.css.map */

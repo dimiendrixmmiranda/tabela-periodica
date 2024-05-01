@@ -15,7 +15,7 @@ determinarCoresDosElementos()
 validacaoFiltroCategoria()
 toggleBtnVerDetalhes()
 
-btnBars()
+btnBars('./pages/historiaTabelaPeriodica.html', '#', '#', './pages/compararElementos.html')
 
 const listaDeBotoes = document.querySelectorAll('.elementos button').forEach(btn => selecionarElemento(btn))
 

@@ -216,4 +216,4 @@ function criarOption(nomeElemento) {
 
 
 criarSelectCompararElemento()
-btnBars()
+btnBars('./historiaTabelaPeriodica.html', "#", '#', './compararElementos.html')
