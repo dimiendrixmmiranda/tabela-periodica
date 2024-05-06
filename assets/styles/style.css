@@ -1235,19 +1235,19 @@ footer strong {
   font-family: "Lato", sans-serif;
   color: #fff;
 }
-.historia h2 {
+.historia .historia-titulo {
   text-align: center;
   font-size: 1.4em;
   font-weight: 700;
   margin-bottom: 0.7em;
 }
-.historia p {
+.historia .historia-paragrafo {
   text-indent: 3ch;
   max-width: 95%;
   margin: 1em auto;
-  font-size: 1.1em;
+  font-size: 1em;
 }
-.historia .historia-container {
+.historia .historia-container-card {
   box-sizing: border-box;
   width: 95%;
   margin: 0 auto;
@@ -1257,28 +1257,33 @@ footer strong {
        column-gap: 0.5em;
   overflow: hidden;
 }
-.historia .historia-container .card {
+.historia .historia-container-card .card {
   width: 100%;
   height: 95%;
   overflow: hidden;
   display: flex;
   border-radius: 5px;
   position: relative;
+  justify-self: center;
+  max-width: 210px;
 }
-.historia .historia-container .card:hover .card-texto {
+.historia .historia-container-card .card:hover .card-texto {
   top: 0;
 }
-.historia .historia-container .card:hover .card-texto .card-texto-paragrafo {
+.historia .historia-container-card .card:hover .card-texto .card-texto-paragrafo {
   display: block;
   font-size: 0.52em;
   text-indent: 0;
   margin: 0;
   padding: 0 0.5em;
 }
-.historia .historia-container .card img {
+.historia .historia-container-card .card .card-image {
   width: 100%;
 }
-.historia .historia-container .card .card-texto {
+.historia .historia-container-card .card .card-image img {
+  width: 100%;
+}
+.historia .historia-container-card .card .card-texto {
   position: absolute;
   top: 85%;
   transition: 0.6s ease;
@@ -1286,35 +1291,182 @@ footer strong {
   height: 100%;
   width: 100%;
 }
-.historia .historia-container .card .card-texto .card-texto-titulo {
+.historia .historia-container-card .card .card-texto .card-texto-titulo {
   text-align: center;
   font-size: 0.9em;
   padding: 0.2em 0;
 }
-.historia .historia-container .card .card-texto .card-texto-paragrafo {
+.historia .historia-container-card .card .card-texto .card-texto-paragrafo {
   display: none;
-  overflow-y: scroll;
 }
-.historia .descobertas-quimica {
-  display: flex;
-  flex-direction: column;
+
+@media screen and (min-width: 375px) {
+  .historia .historia-container-card .card .card-texto .card-texto-titulo {
+    font-size: 1.1em;
+  }
+  .historia .historia-container-card .card:hover .card-texto .card-texto-paragrafo {
+    font-size: 0.65em;
+  }
 }
-.historia .descobertas-quimica .descobertas-quimica-item {
-  width: 95%;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: 45% 1fr;
-  background-color: red;
-  border-radius: 4px;
+@media screen and (min-width: 425px) {
+  .historia .historia-container-card .card .card-texto .card-texto-titulo {
+    font-size: 1.2em;
+  }
+  .historia .historia-container-card .card:hover .card-texto .card-texto-paragrafo {
+    font-size: 0.73em;
+  }
 }
-.historia .descobertas-quimica .descobertas-quimica-item img {
-  grid-column: 1/2;
-  width: 95%;
-  align-self: center;
-  justify-self: center;
+@media screen and (min-width: 768px) {
+  .historia .historia-paragrafo {
+    font-size: 1.1em;
+  }
+  .historia .historia-container-card .card {
+    display: grid;
+    grid-template-columns: 40% 1fr;
+    max-width: 400px;
+    max-height: 150px;
+  }
+  .historia .historia-container-card .card .card-image {
+    grid-column: 1/2;
+  }
+  .historia .historia-container-card .card .card-texto {
+    grid-column: 2/3;
+    top: 0;
+  }
+  .historia .historia-container-card .card .card-texto .card-texto-paragrafo {
+    display: block;
+    padding: 0.5em;
+    font-size: 0.56em;
+  }
+  .historia .historia-container-card .card:hover .card-texto .card-texto-paragrafo {
+    font-size: 0.56em;
+    padding: 0.5em;
+  }
 }
-.historia .descobertas-quimica .descobertas-quimica-item p {
-  font-size: 0.55em;
-  margin: 0.8em;
-  text-indent: 0;
+@media screen and (min-width: 1024px) {
+  .historia {
+    display: grid;
+    grid-template-columns: 60% 1fr;
+  }
+  .historia .historia-titulo {
+    grid-column: 1/3;
+    font-size: 2em;
+  }
+  .historia .historia-paragrafo {
+    font-size: 1.2em;
+    grid-column: 1/2;
+    height: -moz-fit-content;
+    height: fit-content;
+    margin: 0 1em;
+  }
+  .historia .historia-container-card {
+    grid-column: 2/3;
+    grid-row: 2/4;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1em;
+  }
+  .historia .historia-container-card .card {
+    display: grid;
+    grid-template-columns: 40% 1fr;
+    max-width: 600px;
+    max-height: 160px;
+  }
+  .historia .historia-container-card .card .card-image {
+    grid-column: 1/2;
+  }
+  .historia .historia-container-card .card .card-texto {
+    grid-column: 2/3;
+    top: 0;
+  }
+  .historia .historia-container-card .card .card-texto .card-texto-paragrafo {
+    display: block;
+    padding: 0.5em;
+    font-size: 0.65em;
+  }
+  .historia .historia-container-card .card:hover .card-texto .card-texto-paragrafo {
+    font-size: 0.65em;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .historia {
+    display: grid;
+    grid-template-columns: 60% 1fr;
+  }
+  .historia .historia-paragrafo {
+    font-size: 1.3em;
+    grid-column: 1/2;
+    height: -moz-fit-content;
+    height: fit-content;
+    margin: 0 1em;
+  }
+  .historia .historia-container-card {
+    grid-column: 2/3;
+    grid-row: 2/4;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1em;
+  }
+  .historia .historia-container-card .card {
+    display: grid;
+    grid-template-columns: 40% 1fr;
+    max-width: 600px;
+    max-height: 180px;
+  }
+  .historia .historia-container-card .card .card-image {
+    grid-column: 1/2;
+  }
+  .historia .historia-container-card .card .card-texto {
+    grid-column: 2/3;
+    top: 0;
+  }
+  .historia .historia-container-card .card .card-texto .card-texto-paragrafo {
+    display: block;
+    padding: 0.5em;
+    font-size: 0.725em;
+  }
+  .historia .historia-container-card .card:hover .card-texto .card-texto-paragrafo {
+    font-size: 0.725em;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .historia {
+    display: grid;
+    grid-template-columns: 60% 1fr;
+  }
+  .historia .historia-paragrafo {
+    font-size: 1.5em;
+    grid-column: 1/2;
+    height: -moz-fit-content;
+    height: fit-content;
+    margin: 0 1em;
+  }
+  .historia .historia-container-card {
+    grid-column: 2/3;
+    grid-row: 2/4;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1em;
+  }
+  .historia .historia-container-card .card {
+    display: grid;
+    grid-template-columns: 40% 1fr;
+    max-width: 600px;
+    max-height: 180px;
+  }
+  .historia .historia-container-card .card .card-image {
+    grid-column: 1/2;
+  }
+  .historia .historia-container-card .card .card-texto {
+    grid-column: 2/3;
+    top: 0;
+  }
+  .historia .historia-container-card .card .card-texto .card-texto-paragrafo {
+    display: block;
+    padding: 0.5em;
+    font-size: 0.79em;
+  }
+  .historia .historia-container-card .card:hover .card-texto .card-texto-paragrafo {
+    font-size: 0.79em;
+  }
 }/*# sourceMappingURL=style.css.map */

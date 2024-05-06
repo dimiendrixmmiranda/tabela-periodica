@@ -1,19 +1,18 @@
 @import '../abstract/_variaveis'
 .historia
-    // background-color: blue
     font-family: $fonteLato
     color: $branco
-    h2
+    .historia-titulo
         text-align: center
         font-size: 1.4em
         font-weight: 700
         margin-bottom: .7em
-    p
+    .historia-paragrafo
         text-indent: 3ch
         max-width: 95%
         margin: 1em auto
-        font-size: 1.1em
-    .historia-container
+        font-size: 1em
+    .historia-container-card
         box-sizing: border-box
         width: 95%
         margin: 0 auto
@@ -28,6 +27,8 @@
             display: flex
             border-radius: 5px
             position: relative
+            justify-self: center
+            max-width: 210px
             &:hover
                 .card-texto
                     top: 0
@@ -37,8 +38,10 @@
                         text-indent: 0
                         margin: 0
                         padding: 0 .5em
-            img
+            .card-image
                 width: 100%
+                img
+                    width: 100%
             .card-texto
                 position: absolute
                 top: 85%
@@ -52,23 +55,159 @@
                     padding: .2em 0
                 .card-texto-paragrafo
                     display: none
-                    overflow-y: scroll
-    .descobertas-quimica
-        display: flex
-        flex-direction: column
-        .descobertas-quimica-item
-            width: 95%
-            margin: 0 auto
-            display: grid
-            grid-template-columns: 45% 1fr
-            background-color: red
-            border-radius: 4px
-            img
-                grid-column: 1/2
-                width: 95%
-                align-self: center
-                justify-self: center
-            p
-                font-size: .55em
-                margin: .8em
-                text-indent: 0
+
+@media screen and ( min-width: 375px )
+    .historia
+        .historia-container-card
+            .card
+                .card-texto
+                    .card-texto-titulo
+                        font-size: 1.1em
+            .card
+                &:hover
+                    .card-texto
+                        .card-texto-paragrafo
+                            font-size: .65em
+@media screen and ( min-width: 425px )
+    .historia
+        .historia-container-card
+            .card
+                .card-texto
+                    .card-texto-titulo
+                        font-size: 1.2em
+            .card
+                &:hover
+                    .card-texto
+                        .card-texto-paragrafo
+                            font-size: .73em
+
+@media screen and ( min-width: 768px )
+    .historia
+        .historia-paragrafo
+            font-size: 1.1em
+        .historia-container-card
+            .card
+                display: grid
+                grid-template-columns: 40% 1fr
+                max-width: 400px
+                max-height: 150px
+                .card-image
+                    grid-column: 1/2
+                .card-texto
+                    grid-column: 2/3
+                    top: 0
+                    .card-texto-paragrafo
+                        display: block
+                        padding: .5em
+                        font-size: .56em
+            .card
+                &:hover
+                    .card-texto
+                        .card-texto-paragrafo
+                            font-size: .56em
+                            padding: .5em
+@media screen and ( min-width: 1024px )
+    .historia
+        display: grid
+        grid-template-columns: 60% 1fr
+        .historia-titulo
+            grid-column: 1/3
+            font-size: 2em
+        .historia-paragrafo
+            font-size: 1.2em
+            grid-column: 1/2
+            height: fit-content
+            margin: 0 1em
+        .historia-container-card
+            grid-column: 2/3
+            grid-row: 2/4
+            display: flex
+            flex-direction: column
+            row-gap: 1em
+            .card
+                display: grid
+                grid-template-columns: 40% 1fr
+                max-width: 600px
+                max-height: 160px
+                .card-image
+                    grid-column: 1/2
+                .card-texto
+                    grid-column: 2/3
+                    top: 0
+                    .card-texto-paragrafo
+                        display: block
+                        padding: .5em
+                        font-size: .65em
+            .card
+                &:hover
+                    .card-texto
+                        .card-texto-paragrafo
+                            font-size: .65em
+@media screen and ( min-width: 1200px )
+    .historia
+        display: grid
+        grid-template-columns: 60% 1fr
+        .historia-paragrafo
+            font-size: 1.3em
+            grid-column: 1/2
+            height: fit-content
+            margin: 0 1em
+        .historia-container-card
+            grid-column: 2/3
+            grid-row: 2/4
+            display: flex
+            flex-direction: column
+            row-gap: 1em
+            .card
+                display: grid
+                grid-template-columns: 40% 1fr
+                max-width: 600px
+                max-height: 180px
+                .card-image
+                    grid-column: 1/2
+                .card-texto
+                    grid-column: 2/3
+                    top: 0
+                    .card-texto-paragrafo
+                        display: block
+                        padding: .5em
+                        font-size: .725em
+            .card
+                &:hover
+                    .card-texto
+                        .card-texto-paragrafo
+                            font-size: .725em
+@media screen and ( min-width: 1440px )
+    .historia
+        display: grid
+        grid-template-columns: 60% 1fr
+        .historia-paragrafo
+            font-size: 1.5em
+            grid-column: 1/2
+            height: fit-content
+            margin: 0 1em
+        .historia-container-card
+            grid-column: 2/3
+            grid-row: 2/4
+            display: flex
+            flex-direction: column
+            row-gap: 1em
+            .card
+                display: grid
+                grid-template-columns: 40% 1fr
+                max-width: 600px
+                max-height: 180px
+                .card-image
+                    grid-column: 1/2
+                .card-texto
+                    grid-column: 2/3
+                    top: 0
+                    .card-texto-paragrafo
+                        display: block
+                        padding: .5em
+                        font-size: .79em
+            .card
+                &:hover
+                    .card-texto
+                        .card-texto-paragrafo
+                            font-size: .79em
