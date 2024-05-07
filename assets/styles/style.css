@@ -1247,7 +1247,7 @@ footer strong {
   margin: 1em auto;
   font-size: 1em;
 }
-.historia .historia-container-card {
+.historia .historia-container-card, .historia .card-secundario {
   box-sizing: border-box;
   width: 95%;
   margin: 0 auto;
@@ -1257,7 +1257,7 @@ footer strong {
        column-gap: 0.5em;
   overflow: hidden;
 }
-.historia .historia-container-card .card {
+.historia .historia-container-card .card, .historia .card-secundario .card {
   width: 100%;
   height: 95%;
   overflow: hidden;
@@ -1267,23 +1267,23 @@ footer strong {
   justify-self: center;
   max-width: 210px;
 }
-.historia .historia-container-card .card:hover .card-texto {
+.historia .historia-container-card .card:hover .card-texto, .historia .card-secundario .card:hover .card-texto {
   top: 0;
 }
-.historia .historia-container-card .card:hover .card-texto .card-texto-paragrafo {
+.historia .historia-container-card .card:hover .card-texto .card-texto-paragrafo, .historia .card-secundario .card:hover .card-texto .card-texto-paragrafo {
   display: block;
   font-size: 0.52em;
   text-indent: 0;
   margin: 0;
   padding: 0 0.5em;
 }
-.historia .historia-container-card .card .card-image {
+.historia .historia-container-card .card .card-image, .historia .card-secundario .card .card-image {
   width: 100%;
 }
-.historia .historia-container-card .card .card-image img {
+.historia .historia-container-card .card .card-image img, .historia .card-secundario .card .card-image img {
   width: 100%;
 }
-.historia .historia-container-card .card .card-texto {
+.historia .historia-container-card .card .card-texto, .historia .card-secundario .card .card-texto {
   position: absolute;
   top: 85%;
   transition: 0.6s ease;
@@ -1291,13 +1291,75 @@ footer strong {
   height: 100%;
   width: 100%;
 }
-.historia .historia-container-card .card .card-texto .card-texto-titulo {
+.historia .historia-container-card .card .card-texto .card-texto-titulo, .historia .card-secundario .card .card-texto .card-texto-titulo {
   text-align: center;
   font-size: 0.9em;
   padding: 0.2em 0;
 }
-.historia .historia-container-card .card .card-texto .card-texto-paragrafo {
+.historia .historia-container-card .card .card-texto .card-texto-paragrafo, .historia .card-secundario .card .card-texto .card-texto-paragrafo {
   display: none;
+}
+.historia .historia-descobertas-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1em;
+}
+.historia .historia-descobertas-container .descobertas-quimica-item {
+  width: 95%;
+  display: grid;
+  grid-template-columns: 40% 1fr;
+  margin: 0 auto;
+  height: 100px;
+  overflow: hidden;
+  box-shadow: 0 0 4px 2px black;
+  border-radius: 8px;
+  padding: 0.2em;
+  background-color: #333030;
+}
+.historia .historia-descobertas-container .descobertas-quimica-item .descobertas-quimica-item-image {
+  grid-column: 1/2;
+}
+.historia .historia-descobertas-container .descobertas-quimica-item .descobertas-quimica-item-image img {
+  width: 100%;
+}
+.historia .historia-descobertas-container .descobertas-quimica-item .descobertas-quimica-item-texto {
+  grid-column: 2/3;
+  padding: 0 0.5em;
+  overflow-y: scroll;
+}
+.historia .historia-descobertas-container .descobertas-quimica-item .descobertas-quimica-item-texto .descobertas-quimica-item-texto-titulo {
+  font-size: 0.8em;
+  line-height: 1;
+  font-weight: 800;
+  margin-bottom: 0.5em;
+}
+.historia .historia-descobertas-container .descobertas-quimica-item .descobertas-quimica-item-texto .descobertas-quimica-item-texto-descricao {
+  display: flex;
+  font-size: 0.6em;
+}
+.historia .estrutura-atomica {
+  display: flex;
+  flex-direction: column;
+}
+.historia .estrutura-atomica .estrutura-atomica-item {
+  display: grid;
+  grid-template-columns: 40% 1fr;
+  grid-template-rows: auto 1fr;
+}
+.historia .estrutura-atomica .estrutura-atomica-item .estrutura-atomica-item-titulo {
+  grid-row: 1/2;
+  grid-column: 1/3;
+}
+.historia .estrutura-atomica .estrutura-atomica-item .estrutura-atomica-item-img {
+  grid-row: 2/3;
+  grid-column: 1/2;
+}
+.historia .estrutura-atomica .estrutura-atomica-item .estrutura-atomica-item-img img {
+  width: 100%;
+}
+.historia .estrutura-atomica .estrutura-atomica-item .estrutura-atomica-item-descricao {
+  grid-row: 2/3;
+  grid-column: 2/3;
 }
 
 @media screen and (min-width: 375px) {
@@ -1320,6 +1382,13 @@ footer strong {
   .historia .historia-paragrafo {
     font-size: 1.1em;
   }
+  .historia .card-secundario {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .historia .card-secundario .card .card-image img {
+    height: 100%;
+  }
   .historia .historia-container-card .card {
     display: grid;
     grid-template-columns: 40% 1fr;
@@ -1328,6 +1397,7 @@ footer strong {
   }
   .historia .historia-container-card .card .card-image {
     grid-column: 1/2;
+    height: 100%;
   }
   .historia .historia-container-card .card .card-texto {
     grid-column: 2/3;
@@ -1359,9 +1429,16 @@ footer strong {
     height: fit-content;
     margin: 0 1em;
   }
+  .historia .card-secundario {
+    grid-column: 1/3;
+    grid-row: 5/6;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 1.5em;
+  }
   .historia .historia-container-card {
     grid-column: 2/3;
-    grid-row: 2/4;
+    grid-row: 2/5;
     display: flex;
     flex-direction: column;
     row-gap: 1em;
@@ -1374,6 +1451,10 @@ footer strong {
   }
   .historia .historia-container-card .card .card-image {
     grid-column: 1/2;
+    width: 100%;
+  }
+  .historia .historia-container-card .card .card-image img {
+    width: 100%;
   }
   .historia .historia-container-card .card .card-texto {
     grid-column: 2/3;
@@ -1440,6 +1521,30 @@ footer strong {
     height: -moz-fit-content;
     height: fit-content;
     margin: 0 1em;
+  }
+  .historia .card-secundario .card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 340px;
+  }
+  .historia .card-secundario .card .card-image {
+    grid-column: 1/2;
+  }
+  .historia .card-secundario .card .card-texto {
+    grid-column: 2/3;
+    top: 0;
+  }
+  .historia .card-secundario .card .card-texto .card-texto-titulo {
+    font-size: 1.1em;
+  }
+  .historia .card-secundario .card .card-texto .card-texto-paragrafo {
+    display: block;
+    padding: 0.5em;
+    font-size: 0.73em;
+  }
+  .historia .card-secundario .card:hover .card-texto .card-texto-paragrafo {
+    padding: 0.5em;
+    font-size: 0.73em;
   }
   .historia .historia-container-card {
     grid-column: 2/3;
