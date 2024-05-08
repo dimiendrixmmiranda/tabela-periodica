@@ -1340,15 +1340,27 @@ footer strong {
 .historia .estrutura-atomica {
   display: flex;
   flex-direction: column;
+  row-gap: 1em;
 }
 .historia .estrutura-atomica .estrutura-atomica-item {
   display: grid;
   grid-template-columns: 40% 1fr;
   grid-template-rows: auto 1fr;
+  max-height: 140px;
+  max-width: 95%;
+  margin: 0 auto;
+  background-color: #333030;
+  overflow-y: hidden;
+  padding: 0 0.5em 0.5em 0.5em;
+}
+.historia .estrutura-atomica .estrutura-atomica-item:nth-child(4) .estrutura-atomica-item-titulo {
+  font-size: 0.8em;
 }
 .historia .estrutura-atomica .estrutura-atomica-item .estrutura-atomica-item-titulo {
   grid-row: 1/2;
   grid-column: 1/3;
+  text-align: center;
+  padding: 0.5em 0;
 }
 .historia .estrutura-atomica .estrutura-atomica-item .estrutura-atomica-item-img {
   grid-row: 2/3;
@@ -1360,6 +1372,47 @@ footer strong {
 .historia .estrutura-atomica .estrutura-atomica-item .estrutura-atomica-item-descricao {
   grid-row: 2/3;
   grid-column: 2/3;
+  overflow-y: scroll;
+  padding: 0 0.5em;
+  font-size: 0.7em;
+}
+.historia .historia-paragrafo-image {
+  width: 95%;
+  margin: 0 auto;
+}
+.historia .historia-paragrafo-image img {
+  width: 100%;
+}
+.historia .versoes-tabela {
+  display: flex;
+  flex-direction: column;
+}
+.historia .versoes-tabela .versoes-tabela-item {
+  display: grid;
+  grid-template-columns: 40% 1fr;
+  width: 95%;
+  margin: 0 auto;
+  height: 110px;
+  overflow: hidden;
+}
+.historia .versoes-tabela .versoes-tabela-item .versoes-tabela-imagem {
+  grid-column: 1/2;
+  justify-self: center;
+  align-self: center;
+}
+.historia .versoes-tabela .versoes-tabela-item .versoes-tabela-imagem img {
+  width: 100%;
+}
+.historia .versoes-tabela .versoes-tabela-item .versoes-tabela-item-texto {
+  grid-column: 2/3;
+  padding: 0 0.5em;
+  overflow-y: scroll;
+}
+.historia .versoes-tabela .versoes-tabela-item .versoes-tabela-item-texto .versoes-tabela-item-texto-titulo {
+  font-size: 0.9em;
+}
+.historia .versoes-tabela .versoes-tabela-item .versoes-tabela-item-texto .versoes-tabela-item-texto-descricao {
+  font-size: 0.6em;
 }
 
 @media screen and (min-width: 375px) {
