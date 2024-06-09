@@ -4,16 +4,26 @@
     grid-template-columns: 1fr 40px
     padding: .5em .2em
     overflow: hidden
+    background-color: $azul
+    box-shadow: 2px 2px 4px 2px $preto
+    position: fixed
+    top: 0
+    left: 0
+    width: 100%
+    z-index: 20
     a
         display: flex
         width: 100%
         height: 100%
         text-decoration: none
-        color: white
+        color: $branco
         column-gap: .5em
         align-items: center
+        position: relative
+
         img
             width: 40px
+            padding: .25em
         h1
             font-family: $fonteSecundaria
             font-size: 1.75em
@@ -24,6 +34,27 @@
         color: white
     ul
         display: none
+        li
+            a
+                position: relative
+                border-radius: 6px
+                padding: .5em
+                font-size: .9em
+                &::before
+                    content: ''
+                    width: 90%
+                    height: 3px
+                    position: absolute
+                    bottom: 2px
+                    background-color: $azul
+                    left: 5px
+                    display: none
+                &:hover
+                    background-color: $vermelho
+                    &::before
+                        display: block
+                        animation: $animarBorda
+
 @media screen and ( min-width: 425px )
     .cabecalho
         grid-template-columns: 1fr 50px
@@ -133,12 +164,13 @@
                 font-size: 3em
         ul
             margin: 0
-            margin-left: auto
-            margin-right: 2em
-            column-gap: 2em
+            column-gap: .5em
             li
-                font-size: 1.2em
+                font-size: 1.4em
                 a
                     column-gap: .8em
+                    font-size: 1em
+                    &::before
+                        bottom: 10px
                     img
                         width: 30px

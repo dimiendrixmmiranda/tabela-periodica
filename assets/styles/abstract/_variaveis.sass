@@ -5,7 +5,8 @@ $preto: #000
 $branco: #fff
 $bege: #F8F6E3
 $amarelo: #FFC600
-$azul-escuro: #001E36
+$azul: #070841
+$vermelho: #C40C0C
 
 // cores elemento
 $nao-metal: #90D26D
@@ -24,3 +25,21 @@ $fontePrimaria: "Anton", sans-serif
 $fonteSecundaria: "Ubuntu", sans-serif
 $fonteTerciaria: "Raleway", sans-serif
 $fonteLato: "Lato", sans-serif
+
+// animações
+$flutuarAncora: flutuar 1.2s ease infinite
+$animarBorda: animarBorda .6s ease
+
+
+@keyframes animarBorda
+    0%
+        width: 0
+    100%
+        width: 90%
+@keyframes flutuar
+    0%
+        top: 0
+    50%
+        top: 20px
+    100%
+        top: 0

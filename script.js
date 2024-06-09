@@ -17,7 +17,8 @@ toggleBtnVerDetalhes()
 
 btnBars('./pages/historiaTabelaPeriodica.html', '#', '#', './pages/compararElementos.html')
 
-const listaDeBotoes = document.querySelectorAll('.elementos button').forEach(btn => selecionarElemento(btn))
+// Selecionando o elemento
+document.querySelectorAll('.elementos button').forEach(btn => selecionarElemento(btn))
 
 definirPrimeiroElemento()
 

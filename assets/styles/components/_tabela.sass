@@ -6,13 +6,15 @@
     .elementos
         width: 90%
         display: grid
-        max-width: 1140px
+        max-width: 1165px
+        padding: 1em
+        background-color: #c9c9c9
+        box-shadow: 0px 0px 4px 1px $preto
         grid-template-columns: repeat(18, 50px)
         grid-template-rows: repeat(7, 50px) 40px repeat(2, 50px)
         gap: .2em
         overflow-x: scroll
         margin: 1.5em auto
-        padding-bottom: .8em
         @media screen and ( min-width: 876px)
             overflow: hidden
         .quebra
@@ -24,12 +26,11 @@
             position: relative
             font-weight: bold
             font-size: 1em
-            color: white
-            text-shadow: 1px 1px 3px black
+            color: $branco
+            text-shadow: 1px 1px 2px $preto
             width: 100%
             height: 100%
             cursor: pointer
-            box-shadow: 0 0 2px .5px black
             border: solid 1px black
             outline: none
             .numero-atomico-elemento
@@ -37,6 +38,7 @@
                 position: absolute
                 top: 0%
                 left: 5%
+                background: transparent!important
             .nome-elemento
                 position: absolute
                 bottom: 10%
@@ -67,7 +69,7 @@
             background-repeat: no-repeat
             overflow-y: visible
             font-size: .7em
-            color: white
+            color: $preto
             font-weight: bold
             font-family: $fonteSecundaria
         .seta2
@@ -83,7 +85,7 @@
             background-repeat: no-repeat
             overflow-y: visible
             font-size: .7em
-            color: white
+            color: $preto
             font-family: $fonteSecundaria
         .elemento-checado
             opacity: 1!important
@@ -132,6 +134,10 @@
                 width: 100%
                 overflow: hidden
 
+@media screen and ( min-width: 875px )
+    .conteudo
+        .elementos
+            overflow-x: scroll
 @media screen and ( min-width: 1024px )
     .conteudo
         .elementos
@@ -154,7 +160,7 @@
                 .container-historia-texto
                     font-size: 1em
 
-@media screen and ( min-width: 1270px )
+@media screen and ( min-width: 1300px )
     .conteudo
         .elementos
             overflow-x: hidden
