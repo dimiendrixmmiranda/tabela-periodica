@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <header class="cabecalho" id="cabecalho">
+    <header class="cabecalho">
         <a href="../index.html">
             <img src="../assets/imgs/tabela-periodica.png" alt="">
             <h1>Tabela Periódica</h1>
@@ -42,7 +42,7 @@
         </button>
     </header>
 
-    <main class="historia">
+    <main class="historia" id="historia">
         <h2 class="historia-titulo">História</h2>
         <p class="historia-paragrafo">
             A história da Tabela Periódica é fascinante e remonta a séculos de descobertas científicas e avanços na
@@ -57,19 +57,20 @@
             matéria e a química. Lavoisier é especialmente conhecido por seu trabalho na identificação e nomeação dos
             elementos químicos.
         </p>
-        <div class="historia-container-card">
-            <div class="card">
+        <div class="historia-card primario">
+            <div class="card fonte-menor">
                 <div class="card-image">
                     <img src="../assets/imgs/robert-boyle.jpeg" alt="Rober Boyle">
                 </div>
                 <div class="card-texto">
                     <h3 class="card-texto-titulo">Robert Boyle</h3>
                     <p class="card-texto-paragrafo">
-                        Antoine-Laurent de Lavoisier foi um proeminente químico francês do século XVIII, conhecido por
-                        suas descobertas fundamentais sobre a conservação da massa, a composição do ar e a natureza da
-                        combustão. Ele desafiou a teoria do flogisto e introduziu o conceito de oxigênio. Seu legado na
-                        química moderna é indelével, apesar de sua vida ter sido tragicamente interrompida durante a
-                        Revolução Francesa, quando foi guilhotinado em 1794.
+                        Robert Boyle (1627-1691) foi um químico e físico anglo-irlandês, considerado um dos fundadores
+                        da química moderna. Conhecido pela lei de Boyle, que descreve a relação inversa entre pressão e
+                        volume de um gás, ele nasceu na Irlanda e estudou em Eton College. Em Oxford, Boyle se juntou a
+                        um grupo que se tornaria a Royal Society. Sua obra "The Sceptical Chymist" (1661) ajudou a
+                        separar a química da alquimia. Além de suas contribuições científicas, Boyle também escreveu
+                        sobre teologia. Ele faleceu em 1691, deixando um legado significativo na ciência.
                     </p>
                 </div>
             </div>
@@ -89,12 +90,12 @@
                 </div>
             </div>
         </div>
-        <p class="historia-paragrafo">
+        <p class="historia-paragrafo coluna-inteira">
             O século XIX marcou o início da consolidação da química moderna, com diversos cientistas dedicando-se à
             investigação das propriedades dos elementos e à busca por padrões entre eles. Entre os principais
             pesquisadores desse período, destacam-se:
         </p>
-        <ul class="card-secundario">
+        <ul class="historia-card secundario">
             <li class="card">
                 <div class="card-image">
                     <img src="../assets/imgs/john-dalton.jpeg" alt="John Dalton">
@@ -102,10 +103,11 @@
                 <div class="card-texto">
                     <h3 class="card-texto-titulo">John Dalton</h3>
                     <p class="card-texto-paragrafo">
-                        JJohn Dalton, um proeminente químico e físico britânico do século XIX, é conhecido por sua
-                        teoria atômica, que postulou os átomos como as unidades fundamentais da matéria e introduziu as
-                        Leis das Proporções Múltiplas e Definidas. Sua contribuição revolucionária solidificou seu
-                        legado na história da ciência
+                        John Dalton (1766-1844) foi um químico e físico inglês, conhecido por desenvolver a teoria
+                        atômica moderna. Nascido em Eaglesfield, ele também estudou meteorologia e daltonismo, uma
+                        condição que ele próprio tinha. Sua teoria, proposta em 1803, afirmava que a matéria é composta
+                        de átomos indivisíveis. Dalton também formulou a lei das pressões parciais. Ele faleceu em 1844,
+                        deixando um impacto duradouro na ciência.
                     </p>
                 </div>
             </li>
@@ -116,52 +118,53 @@
                 <div class="card-texto">
                     <h3 class="card-texto-titulo">Johann Döbereiner</h3>
                     <p class="card-texto-paragrafo">
-                        Johann Wolfgang Döbereiner, químico alemão do século XIX, ficou famoso por suas
-                        "tríades",
-                        agrupamentos de elementos com propriedades químicas similares. Sua Lei das Tríades
-                        ajudou a
-                        estabelecer relações entre os elementos, antecipando a tabela periódica moderna.
+                        Johann Döbereiner (1780-1849) foi um químico alemão conhecido por suas contribuições à química
+                        orgânica e inorgânica. Ele é mais famoso por suas "tríades de Döbereiner", um agrupamento de
+                        elementos químicos em grupos de três com propriedades semelhantes, precursor da tabela
+                        periódica. Döbereiner também descobriu o efeito catalítico do platina e inventou a lâmpada de
+                        Döbereiner. Ele morreu em 1849, deixando um impacto significativo na química.
                     </p>
                 </div>
             </li>
-            <li class="card">
+            <li class="card fonte-menor">
                 <div class="card-image">
                     <img src="../assets/imgs/john-newlands.jpg" alt="John Newlands">
                 </div>
                 <div class="card-texto">
                     <h3 class="card-texto-titulo">John Newlands</h3>
                     <p class="card-texto-paragrafo">
-                        John Newlands, químico inglês do século XIX, propôs a "Lei das Oitavas", relacionando as
-                        propriedades dos elementos químicos com sua posição na tabela periódica. Essa ideia,
-                        embora
-                        inicialmente não tenha sido bem recebida, influenciou o desenvolvimento futuro da tabela
-                        periódica.
+                        John Newlands (1837-1898) foi um químico inglês conhecido por sua contribuição ao
+                        desenvolvimento da tabela periódica. Em 1864, ele propôs a "Lei das Oitavas", sugerindo que os
+                        elementos, quando organizados em ordem crescente de massa atômica, exibem propriedades
+                        semelhantes a cada oitavo elemento. Embora sua ideia inicialmente tenha sido ridicularizada, ela
+                        ajudou a pavimentar o caminho para o trabalho de Dmitri Mendeleev. Newlands morreu em 1898, mas
+                        seu trabalho teve um impacto duradouro na química.
                     </p>
                 </div>
             </li>
-            <li class="card">
+            <li class="card fonte-menor">
                 <div class="card-image">
                     <img src="../assets/imgs/dmitri-mendeleev.jpg" alt="Dmitri Mendeleev">
                 </div>
                 <div class="card-texto">
                     <h3 class="card-texto-titulo">Dmitri Mendeleev</h3>
                     <p class="card-texto-paragrafo">
-                        Dmitri Mendeleev, químico russo do século XIX, é famoso por criar a tabela periódica dos
-                        elementos. Organizou os elementos por propriedades químicas e massa atômica, prevendo
-                        até
-                        elementos ainda não descobertos. Sua contribuição revolucionou a química, estabelecendo
-                        uma
-                        estrutura essencial para compreender os elementos e suas relações.
+                        Dmitri Mendeleev (1834-1907) foi um químico russo, mais conhecido por criar a tabela periódica
+                        dos elementos. Em 1869, ele organizou os elementos conhecidos em uma tabela baseada em suas
+                        propriedades e massas atômicas, prevendo a existência e propriedades de elementos ainda não
+                        descobertos. Sua tabela periódica revolucionou a química, fornecendo uma base sistemática para o
+                        estudo dos elementos. Mendeleev também fez contribuições significativas em outras áreas da
+                        química e da física. Ele faleceu em 1907, deixando um legado duradouro na ciência.
                     </p>
                 </div>
             </li>
         </ul>
-        <p class="historia-paragrafo">
+        <p class="historia-paragrafo coluna-inteira">
             Já durante o século XX, houve uma explosão de novas descobertas na química, incluindo a identificação de
             novos elementos e a compreensão mais profunda da estrutura atômica. Algumas das principais descobertas
             foram:
         </p>
-        <ul class="historia-descobertas-container">
+        <!-- <ul class="historia-descobertas-container">
             <li class="descobertas-quimica-item">
                 <div class="descobertas-quimica-item-image">
                     <img src="../assets/imgs/marie-pierre-curie.jpeg" alt="">
@@ -413,19 +416,18 @@
             prever propriedades de elementos, entender padrões de reatividade e projetar novos materiais. Ela continua a
             evoluir à medida que os cientistas descobrem novos elementos e desenvolvem uma compreensão mais profunda da
             estrutura atômica e das interações químicas.
-        </p>
+        </p> -->
+        <div class="historia-ancora">
+            <a href="../index.html">
+                <p>Voltar a página inicial</p>
+                <i class="fa-solid fa-arrow-left"></i>
+            </a>
+            <a href="#historia">
+                <p>Voltar ao topo</p>
+                <i class="fa-solid fa-arrow-up"></i>
+            </a>
+        </div>
     </main>
-
-    <div class="ancora">
-        <a href="../index.html">
-            <p>Voltar a página inicial</p>
-            <i class="fa-solid fa-arrow-left"></i>
-        </a>
-        <a href="#cabecalho">
-            <p>Voltar ao topo</p>
-            <i class="fa-solid fa-arrow-up"></i>
-        </a>
-    </div>
 
     <footer>
         Projeto criado e idealizado por <strong>Dimi Endrix Martins Miranda</strong>, utilizando HTML, CSS(SASS) e

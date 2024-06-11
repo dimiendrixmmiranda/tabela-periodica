@@ -20,6 +20,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Anton&family=Raleway:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Raleway:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 @keyframes animarBorda {
   0% {
     width: 0;
@@ -37,6 +39,14 @@
   }
   100% {
     top: 0;
+  }
+}
+@keyframes animarCardHistoria {
+  0% {
+    top: 100%;
+  }
+  100% {
+    top: 0%;
   }
 }
 * {
@@ -93,6 +103,14 @@ body::-webkit-scrollbar-thumb {
   }
   100% {
     top: 0;
+  }
+}
+@keyframes animarCardHistoria {
+  0% {
+    top: 100%;
+  }
+  100% {
+    top: 0%;
   }
 }
 .conteudo {
@@ -311,6 +329,131 @@ body::-webkit-scrollbar-thumb {
     top: 0;
   }
 }
+@keyframes animarCardHistoria {
+  0% {
+    top: 100%;
+  }
+  100% {
+    top: 0%;
+  }
+}
+.historia {
+  margin-top: 4.5em;
+  font-family: "Ubuntu", sans-serif;
+  padding: 0 1em;
+}
+.historia .historia-titulo {
+  text-align: center;
+  margin-bottom: 0.7em;
+}
+.historia .historia-paragrafo {
+  text-indent: 2em;
+}
+.historia .historia-card {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1.5em 0;
+  gap: 0.5em;
+  justify-content: space-around;
+}
+.historia .historia-card .card {
+  background-color: #A9AAAE;
+  position: relative;
+  border-radius: 0.5em;
+  overflow: hidden;
+  max-width: 280px;
+  width: 270px;
+  height: 320px;
+}
+.historia .historia-card .card .card-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.5em;
+}
+.historia .historia-card .card .card-image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.5em 0.5em 0 0;
+}
+.historia .historia-card .card .card-texto {
+  color: #fff;
+  text-shadow: 1px 1px 2px #000;
+}
+.historia .historia-card .card .card-texto .card-texto-titulo {
+  text-align: center;
+  font-size: 1.4em;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #A9AAAE;
+  padding: 0.2em 0 0.3em 0;
+}
+.historia .historia-card .card .card-texto .card-texto-paragrafo {
+  position: absolute;
+  top: 100%;
+  padding: 0.8em;
+  height: 90%;
+}
+.historia .historia-card .card:hover .card-texto .card-texto-paragrafo {
+  top: 0;
+  animation: animarCardHistoria 0.6s ease;
+  background-color: #A9AAAE;
+}
+.historia .historia-card .fonte-menor:nth-child(1) .card-texto .card-texto-paragrafo, .historia .historia-card .fonte-menor:nth-child(3) .card-texto .card-texto-paragrafo, .historia .historia-card .fonte-menor:nth-child(4) .card-texto .card-texto-paragrafo {
+  font-size: 0.9em;
+}
+.historia .historia-ancora {
+  grid-column: 1/3;
+  display: flex;
+  justify-content: space-around;
+  gap: 0.2em;
+  width: 100%;
+  margin-top: 0.5em;
+}
+.historia .historia-ancora a {
+  display: flex;
+  background-color: #070841;
+  white-space: nowrap;
+  font-size: 0.9em;
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+  padding: 0.4em 0.4em;
+  gap: 0.4em;
+  border-radius: 6px;
+}
+.historia .historia-ancora a:hover {
+  background-color: #C40C0C;
+  transition: 0.6s ease;
+}
+
+@keyframes animarBorda {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 90%;
+  }
+}
+@keyframes flutuar {
+  0% {
+    top: 0;
+  }
+  50% {
+    top: 20px;
+  }
+  100% {
+    top: 0;
+  }
+}
+@keyframes animarCardHistoria {
+  0% {
+    top: 100%;
+  }
+  100% {
+    top: 0%;
+  }
+}
 .visor {
   width: 90%;
   max-width: 1165px;
@@ -326,6 +469,7 @@ body::-webkit-scrollbar-thumb {
   font-family: "Ubuntu", sans-serif;
   background-color: #070841;
   color: #fff;
+  box-shadow: 2px 2px 4px 2px #000;
 }
 .visor h2 {
   grid-column: 1/3;
@@ -525,6 +669,14 @@ body::-webkit-scrollbar-thumb {
     top: 0;
   }
 }
+@keyframes animarCardHistoria {
+  0% {
+    top: 100%;
+  }
+  100% {
+    top: 0%;
+  }
+}
 .filtro {
   list-style: none;
   display: grid;
@@ -652,6 +804,14 @@ body::-webkit-scrollbar-thumb {
     top: 0;
   }
 }
+@keyframes animarCardHistoria {
+  0% {
+    top: 100%;
+  }
+  100% {
+    top: 0%;
+  }
+}
 footer {
   background-color: red;
   padding: 0.5em;
@@ -696,6 +856,14 @@ footer strong {
   }
   100% {
     top: 0;
+  }
+}
+@keyframes animarCardHistoria {
+  0% {
+    top: 100%;
+  }
+  100% {
+    top: 0%;
   }
 }
 .banner {
@@ -830,6 +998,14 @@ footer strong {
   }
   100% {
     top: 0;
+  }
+}
+@keyframes animarCardHistoria {
+  0% {
+    top: 100%;
+  }
+  100% {
+    top: 0%;
   }
 }
 .cabecalho {
@@ -1071,9 +1247,17 @@ footer strong {
     top: 0;
   }
 }
+@keyframes animarCardHistoria {
+  0% {
+    top: 100%;
+  }
+  100% {
+    top: 0%;
+  }
+}
 .comparar-elementos {
   width: 90%;
-  margin: 1.2em auto;
+  margin: 6em auto 0 auto;
   font-family: "Ubuntu", sans-serif;
   display: grid;
 }
@@ -1278,6 +1462,14 @@ footer strong {
     top: 0;
   }
 }
+@keyframes animarCardHistoria {
+  0% {
+    top: 100%;
+  }
+  100% {
+    top: 0%;
+  }
+}
 @keyframes animarBorda {
   0% {
     width: 0;
@@ -1295,6 +1487,14 @@ footer strong {
   }
   100% {
     top: 0;
+  }
+}
+@keyframes animarCardHistoria {
+  0% {
+    top: 100%;
+  }
+  100% {
+    top: 0%;
   }
 }
 .btn-bars-offcanvas {
@@ -1428,400 +1628,117 @@ footer strong {
     top: 0;
   }
 }
-.historia {
-  font-family: "Lato", sans-serif;
-  color: #fff;
-}
-.historia .historia-titulo {
-  text-align: center;
-  font-size: 1.4em;
-  font-weight: 700;
-  margin-bottom: 0.7em;
-}
-.historia .historia-paragrafo {
-  text-indent: 3ch;
-  max-width: 95%;
-  margin: 1em auto;
-  font-size: 1em;
-}
-.historia .historia-container-card, .historia .card-secundario {
-  box-sizing: border-box;
-  width: 95%;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  -moz-column-gap: 0.5em;
-       column-gap: 0.5em;
-  overflow: hidden;
-}
-.historia .historia-container-card .card, .historia .card-secundario .card {
-  width: 100%;
-  height: 95%;
-  overflow: hidden;
-  display: flex;
-  border-radius: 5px;
-  position: relative;
-  justify-self: center;
-  max-width: 210px;
-}
-.historia .historia-container-card .card:hover .card-texto, .historia .card-secundario .card:hover .card-texto {
-  top: 0;
-}
-.historia .historia-container-card .card:hover .card-texto .card-texto-paragrafo, .historia .card-secundario .card:hover .card-texto .card-texto-paragrafo {
-  display: block;
-  font-size: 0.52em;
-  text-indent: 0;
-  margin: 0;
-  padding: 0 0.5em;
-}
-.historia .historia-container-card .card .card-image, .historia .card-secundario .card .card-image {
-  width: 100%;
-}
-.historia .historia-container-card .card .card-image img, .historia .card-secundario .card .card-image img {
-  width: 100%;
-}
-.historia .historia-container-card .card .card-texto, .historia .card-secundario .card .card-texto {
-  position: absolute;
-  top: 85%;
-  transition: 0.6s ease;
-  background-color: #333030;
-  height: 100%;
-  width: 100%;
-}
-.historia .historia-container-card .card .card-texto .card-texto-titulo, .historia .card-secundario .card .card-texto .card-texto-titulo {
-  text-align: center;
-  font-size: 0.9em;
-  padding: 0.2em 0;
-}
-.historia .historia-container-card .card .card-texto .card-texto-paragrafo, .historia .card-secundario .card .card-texto .card-texto-paragrafo {
-  display: none;
-}
-.historia .historia-descobertas-container {
-  display: flex;
-  flex-direction: column;
-  row-gap: 1em;
-}
-.historia .historia-descobertas-container .descobertas-quimica-item {
-  width: 95%;
-  display: grid;
-  grid-template-columns: 40% 1fr;
-  margin: 0 auto;
-  height: 100px;
-  overflow: hidden;
-  box-shadow: 0 0 4px 2px black;
-  border-radius: 8px;
-  padding: 0.2em;
-  background-color: #333030;
-}
-.historia .historia-descobertas-container .descobertas-quimica-item .descobertas-quimica-item-image {
-  grid-column: 1/2;
-}
-.historia .historia-descobertas-container .descobertas-quimica-item .descobertas-quimica-item-image img {
-  width: 100%;
-}
-.historia .historia-descobertas-container .descobertas-quimica-item .descobertas-quimica-item-texto {
-  grid-column: 2/3;
-  padding: 0 0.5em;
-  overflow-y: scroll;
-}
-.historia .historia-descobertas-container .descobertas-quimica-item .descobertas-quimica-item-texto .descobertas-quimica-item-texto-titulo {
-  font-size: 0.8em;
-  line-height: 1;
-  font-weight: 800;
-  margin-bottom: 0.5em;
-}
-.historia .historia-descobertas-container .descobertas-quimica-item .descobertas-quimica-item-texto .descobertas-quimica-item-texto-descricao {
-  display: flex;
-  font-size: 0.6em;
-}
-.historia .estrutura-atomica {
-  display: flex;
-  flex-direction: column;
-  row-gap: 1em;
-}
-.historia .estrutura-atomica .estrutura-atomica-item {
-  display: grid;
-  grid-template-columns: 40% 1fr;
-  grid-template-rows: auto 1fr;
-  max-height: 140px;
-  max-width: 95%;
-  margin: 0 auto;
-  background-color: #333030;
-  overflow-y: hidden;
-  padding: 0 0.5em 0.5em 0.5em;
-}
-.historia .estrutura-atomica .estrutura-atomica-item:nth-child(4) .estrutura-atomica-item-titulo {
-  font-size: 0.8em;
-}
-.historia .estrutura-atomica .estrutura-atomica-item .estrutura-atomica-item-titulo {
-  grid-row: 1/2;
-  grid-column: 1/3;
-  text-align: center;
-  padding: 0.5em 0;
-}
-.historia .estrutura-atomica .estrutura-atomica-item .estrutura-atomica-item-img {
-  grid-row: 2/3;
-  grid-column: 1/2;
-}
-.historia .estrutura-atomica .estrutura-atomica-item .estrutura-atomica-item-img img {
-  width: 100%;
-}
-.historia .estrutura-atomica .estrutura-atomica-item .estrutura-atomica-item-descricao {
-  grid-row: 2/3;
-  grid-column: 2/3;
-  overflow-y: scroll;
-  padding: 0 0.5em;
-  font-size: 0.7em;
-}
-.historia .historia-paragrafo-image {
-  width: 95%;
-  margin: 0 auto;
-}
-.historia .historia-paragrafo-image img {
-  width: 100%;
-}
-.historia .versoes-tabela {
-  display: flex;
-  flex-direction: column;
-}
-.historia .versoes-tabela .versoes-tabela-item {
-  display: grid;
-  grid-template-columns: 40% 1fr;
-  width: 95%;
-  margin: 0 auto;
-  height: 110px;
-  overflow: hidden;
-}
-.historia .versoes-tabela .versoes-tabela-item .versoes-tabela-imagem {
-  grid-column: 1/2;
-  justify-self: center;
-  align-self: center;
-}
-.historia .versoes-tabela .versoes-tabela-item .versoes-tabela-imagem img {
-  width: 100%;
-}
-.historia .versoes-tabela .versoes-tabela-item .versoes-tabela-item-texto {
-  grid-column: 2/3;
-  padding: 0 0.5em;
-  overflow-y: scroll;
-}
-.historia .versoes-tabela .versoes-tabela-item .versoes-tabela-item-texto .versoes-tabela-item-texto-titulo {
-  font-size: 0.9em;
-}
-.historia .versoes-tabela .versoes-tabela-item .versoes-tabela-item-texto .versoes-tabela-item-texto-descricao {
-  font-size: 0.6em;
-}
-
-@media screen and (min-width: 375px) {
-  .historia .historia-container-card .card .card-texto .card-texto-titulo {
-    font-size: 1.1em;
+@keyframes animarCardHistoria {
+  0% {
+    top: 100%;
   }
-  .historia .historia-container-card .card:hover .card-texto .card-texto-paragrafo {
-    font-size: 0.65em;
+  100% {
+    top: 0%;
   }
 }
 @media screen and (min-width: 425px) {
-  .historia .historia-container-card .card .card-texto .card-texto-titulo {
-    font-size: 1.2em;
+  .historia {
+    margin-top: 6em;
   }
-  .historia .historia-container-card .card:hover .card-texto .card-texto-paragrafo {
-    font-size: 0.73em;
+  .historia .historia-ancora a {
+    font-size: 1.1em;
   }
 }
 @media screen and (min-width: 768px) {
+  .historia {
+    margin-top: 5em;
+  }
+  .historia .historia-titulo {
+    font-size: 2em;
+  }
   .historia .historia-paragrafo {
-    font-size: 1.1em;
+    font-size: 1.3em;
   }
-  .historia .card-secundario {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+  .historia .historia-ancora {
+    justify-content: start;
+    -moz-column-gap: 1em;
+         column-gap: 1em;
+    margin-top: 1.5em;
   }
-  .historia .card-secundario .card .card-image img {
-    height: 100%;
+  .historia .historia-ancora a {
+    padding: 0.5em 0.8em;
+    font-size: 1.2em;
   }
-  .historia .historia-container-card .card {
-    display: grid;
-    grid-template-columns: 40% 1fr;
-    max-width: 400px;
-    max-height: 150px;
-  }
-  .historia .historia-container-card .card .card-image {
-    grid-column: 1/2;
-    height: 100%;
-  }
-  .historia .historia-container-card .card .card-texto {
-    grid-column: 2/3;
-    top: 0;
-  }
-  .historia .historia-container-card .card .card-texto .card-texto-paragrafo {
-    display: block;
-    padding: 0.5em;
-    font-size: 0.56em;
-  }
-  .historia .historia-container-card .card:hover .card-texto .card-texto-paragrafo {
-    font-size: 0.56em;
-    padding: 0.5em;
+  .historia .historia-ancora a:first-child {
+    margin-left: auto;
   }
 }
 @media screen and (min-width: 1024px) {
   .historia {
     display: grid;
-    grid-template-columns: 60% 1fr;
+    grid-template-columns: 1fr 30%;
+    grid-template-rows: auto 320px 320px;
+    margin-top: 5.5em;
   }
   .historia .historia-titulo {
     grid-column: 1/3;
-    font-size: 2em;
   }
   .historia .historia-paragrafo {
-    font-size: 1.2em;
     grid-column: 1/2;
-    height: -moz-fit-content;
-    height: fit-content;
-    margin: 0 1em;
+    font-size: 1.6em;
   }
-  .historia .card-secundario {
+  .historia .primario {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin: 0;
+  }
+  .historia .primario .card {
+    width: 240px;
+    height: 280px;
+  }
+  .historia .primario .card .card-texto .card-texto-paragrafo {
+    font-size: 0.85em;
     grid-column: 1/3;
-    grid-row: 5/6;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    margin-top: 1.5em;
   }
-  .historia .historia-container-card {
-    grid-column: 2/3;
-    grid-row: 2/5;
-    display: flex;
-    flex-direction: column;
-    row-gap: 1em;
+  .historia .primario .card:nth-child(1) .card-texto .card-texto-paragrafo {
+    font-size: 0.8em;
   }
-  .historia .historia-container-card .card {
-    display: grid;
-    grid-template-columns: 40% 1fr;
-    max-width: 600px;
-    max-height: 160px;
+  .historia .coluna-inteira {
+    grid-column: 1/3;
   }
-  .historia .historia-container-card .card .card-image {
-    grid-column: 1/2;
-    width: 100%;
-  }
-  .historia .historia-container-card .card .card-image img {
-    width: 100%;
-  }
-  .historia .historia-container-card .card .card-texto {
-    grid-column: 2/3;
-    top: 0;
-  }
-  .historia .historia-container-card .card .card-texto .card-texto-paragrafo {
-    display: block;
-    padding: 0.5em;
-    font-size: 0.65em;
-  }
-  .historia .historia-container-card .card:hover .card-texto .card-texto-paragrafo {
-    font-size: 0.65em;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .historia {
-    display: grid;
-    grid-template-columns: 60% 1fr;
-  }
-  .historia .historia-paragrafo {
-    font-size: 1.3em;
-    grid-column: 1/2;
-    height: -moz-fit-content;
-    height: fit-content;
-    margin: 0 1em;
-  }
-  .historia .historia-container-card {
-    grid-column: 2/3;
-    grid-row: 2/4;
-    display: flex;
-    flex-direction: column;
-    row-gap: 1em;
-  }
-  .historia .historia-container-card .card {
-    display: grid;
-    grid-template-columns: 40% 1fr;
-    max-width: 600px;
-    max-height: 180px;
-  }
-  .historia .historia-container-card .card .card-image {
-    grid-column: 1/2;
-  }
-  .historia .historia-container-card .card .card-texto {
-    grid-column: 2/3;
-    top: 0;
-  }
-  .historia .historia-container-card .card .card-texto .card-texto-paragrafo {
-    display: block;
-    padding: 0.5em;
-    font-size: 0.725em;
-  }
-  .historia .historia-container-card .card:hover .card-texto .card-texto-paragrafo {
-    font-size: 0.725em;
+  .historia .secundario {
+    grid-column: 1/3;
   }
 }
 @media screen and (min-width: 1440px) {
   .historia {
     display: grid;
-    grid-template-columns: 60% 1fr;
+    grid-template-columns: 1fr 25%;
+    margin-top: 7em;
+    grid-template-rows: auto 300px 300px;
+  }
+  .historia .historia-titulo {
+    grid-column: 1/3;
   }
   .historia .historia-paragrafo {
-    font-size: 1.5em;
     grid-column: 1/2;
-    height: -moz-fit-content;
-    height: fit-content;
-    margin: 0 1em;
+    font-size: 1.8em;
   }
-  .historia .card-secundario .card {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    max-width: 340px;
-  }
-  .historia .card-secundario .card .card-image {
-    grid-column: 1/2;
-  }
-  .historia .card-secundario .card .card-texto {
+  .historia .primario {
     grid-column: 2/3;
-    top: 0;
+    grid-row: 2/3;
+    margin: 0;
   }
-  .historia .card-secundario .card .card-texto .card-texto-titulo {
-    font-size: 1.1em;
+  .historia .primario .card {
+    width: 240px;
+    height: 280px;
   }
-  .historia .card-secundario .card .card-texto .card-texto-paragrafo {
-    display: block;
-    padding: 0.5em;
-    font-size: 0.73em;
+  .historia .primario .card .card-texto .card-texto-paragrafo {
+    font-size: 0.85em;
+    grid-column: 1/3;
   }
-  .historia .card-secundario .card:hover .card-texto .card-texto-paragrafo {
-    padding: 0.5em;
-    font-size: 0.73em;
+  .historia .primario .card:nth-child(1) .card-texto .card-texto-paragrafo {
+    font-size: 0.8em;
   }
-  .historia .historia-container-card {
-    grid-column: 2/3;
-    grid-row: 2/4;
-    display: flex;
-    flex-direction: column;
-    row-gap: 1em;
+  .historia .coluna-inteira {
+    grid-column: 1/3;
   }
-  .historia .historia-container-card .card {
-    display: grid;
-    grid-template-columns: 40% 1fr;
-    max-width: 600px;
-    max-height: 180px;
-  }
-  .historia .historia-container-card .card .card-image {
-    grid-column: 1/2;
-  }
-  .historia .historia-container-card .card .card-texto {
-    grid-column: 2/3;
-    top: 0;
-  }
-  .historia .historia-container-card .card .card-texto .card-texto-paragrafo {
-    display: block;
-    padding: 0.5em;
-    font-size: 0.79em;
-  }
-  .historia .historia-container-card .card:hover .card-texto .card-texto-paragrafo {
-    font-size: 0.79em;
+  .historia .secundario {
+    grid-column: 1/3;
   }
 }/*# sourceMappingURL=style.css.map */

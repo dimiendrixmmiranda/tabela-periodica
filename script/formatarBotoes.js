@@ -5,8 +5,8 @@ export function formatarBotoes() {
     const elementoHistoria = criarElementoHistoria()
     const seta1 = criarElemento('div', 'seta1', '57-71')
     const seta2 = criarElemento('div', 'seta2', '89-103')
-
     const listaDeBtns = divElementos.querySelectorAll('button')
+
     const elemento2 = listaDeBtns[1]
     elemento2.style.gridColumn = '18/19'
 
