@@ -1,0 +1,36 @@
+@import '../abstract/_variaveis'
+.conteudo-banner
+    font-family: $fonteLato
+    line-height: 1.1
+    color: $preto
+    max-width: 90%
+    margin: 0 auto
+    display: grid
+    grid-template-rows: repeat(4, auto)
+    align-items: center
+    justify-content: center
+    margin-top: 4.5em
+    h2
+        text-align: center
+        font-size: 1.8em
+        strong
+            color: $amarelo
+            text-shadow: 1px 1px 2px $preto
+    p
+        font-size: 1.3em
+        line-height: 1.15
+        text-align: center
+        color: $preto
+        font-weight: bold
+        margin: .7em 0
+    a
+        text-decoration: none
+        color: $preto
+        font-size: 3em
+        position: relative
+        height: 80px
+        display: flex
+        justify-content: center
+        i
+            position: absolute
+            animation: $flutuarAncora

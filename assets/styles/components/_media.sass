@@ -1,0 +1,52 @@
+@import '../abstract/_variaveis'
+
+@media screen and ( min-width: 425px )
+    .conteudo
+        .conteudo-banner
+            margin-top: 6em
+            h2
+                font-size: 2.2em
+            img
+                max-width: 425px
+                margin: 0 auto
+            p
+                font-size: 1.5em
+@media screen and ( min-width: 768px )
+    .conteudo
+        .conteudo-banner
+            margin-top: 3em
+            display: grid
+            grid-template-columns: 50% 50%
+            p
+                grid-column: 1/3
+            a
+                grid-column: 1/3
+@media screen and ( min-width: 1024px )
+    .conteudo
+        .conteudo-banner
+            display: grid
+            grid-template-columns: 50% 50%
+            margin-top: 3.2em
+            h2
+                font-size: 2.6em
+            p
+                grid-column: 1/3
+            a
+                grid-column: 1/3
+@media screen and ( min-width: 1440px )
+    .conteudo
+        .conteudo-banner
+            display: grid
+            grid-template-columns: 50% 50%
+            margin-top: 4.5em
+            height: 100vh
+            max-width: 1100px
+            h2
+                font-size: 3.2em
+                max-width: 500px
+            p
+                grid-column: 1/3
+                max-width: 800px
+                margin: 0 auto
+            a
+                grid-column: 1/3

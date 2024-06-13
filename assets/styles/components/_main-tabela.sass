@@ -1,0 +1,63 @@
+@import '../abstract/_variaveis'
+.conteudo-tabela-elemento
+    background-color: $cinza-2
+    border-radius: 6px
+    width: 95%
+    margin: 0 auto 2em auto
+    padding: .5em
+    overflow-x: scroll
+    display: grid
+    grid-template-columns: repeat(19, 50px)
+    grid-template-rows: 50px repeat(7, 50px) 20px repeat(2, 50px)
+    font-family: $fonteLato
+    gap: .1em
+    max-width: 1015px
+    button
+        border-radius: 4px
+        position: relative
+        .numero-atomico-elemento
+            position: absolute
+            top: 5%
+            left: 5%
+        .nome-elemento
+            font-size: .55em
+            position: absolute
+            bottom: 10%
+            left: 50%
+            transform: translate(-50%)
+    .conteudo-tabela-elemento-historia
+        background-color: $cinza-1
+        border-radius: 6px
+        width: 96%
+        height: 96%
+        margin: 0 auto
+        .container-historia-titulo
+            font-size: 1.4em
+            width: fit-content
+            background-color: $azul
+            color: $branco
+            padding: .2em 1.2em .2em .4em
+            border-radius: 0 6px 6px 0
+            margin: .2em .4em
+    .grupo, .periodo
+        display: flex
+        justify-content: center
+        align-items: center
+        font-size: 1.2em
+        font-weight: bold
+    .grupo-periodo
+        font-size: .7em
+        padding: .2em
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+    .lantanoides, .actinoides
+        display: flex
+        justify-content: start
+        align-items: center
+        font-size: 1.2em
+        margin-left: 1em
+        font-weight: bold
+        text-transform: uppercase
+        column-gap: .5em

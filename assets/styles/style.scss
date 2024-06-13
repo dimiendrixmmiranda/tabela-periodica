@@ -1,12 +1,15 @@
 @import '../styles/abstract/reset.sass';
-@import '../styles/components/_tabela.sass';
+@import '../styles/components/_header.sass';
+@import '../styles/components/_botao-menu-mobile.sass';
+@import '../styles/components/_main.sass';
+@import '../styles/components/_main-banner.sass';
+@import '../styles/components/_main-tabela.sass';
+
 @import '../styles/components/_paginaHistoria.sass';
-@import '../styles/components/_visor.sass';
 @import '../styles/components/_filtro.sass';
 @import '../styles/components/_footer.sass';
-@import '../styles/components/_banner.sass';
-@import '../styles/components/_header.sass';
 @import '../styles/components/_compararElementos.sass';
 @import '../styles/components/_ancora.sass';
-@import '../styles/components/_offcanvas.sass';
-@import '../styles/components/_mediaPaginaHistoria.sass';
+
+@import '../styles/components/_media-pagina-historia.sass';
+@import '../styles/components/_media.sass';

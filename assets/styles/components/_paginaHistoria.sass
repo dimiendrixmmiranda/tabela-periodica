@@ -5,9 +5,14 @@
     padding: 0 1em
     .historia-titulo
         text-align: center
-        margin-bottom: .7em
+        margin: 1em 0 .7em 0
     .historia-paragrafo
         text-indent: 2em
+    .historia-imagem
+        width: 95%
+        margin: 1em auto
+        img
+            width: 100%
     .historia-card
         display: flex
         flex-wrap: wrap
@@ -41,6 +46,7 @@
                     width: 100%
                     background-color: $cinza-2
                     padding: .2em 0 .3em 0
+                    z-index: 2
                 .card-texto-paragrafo
                     position: absolute
                     top: 100%
@@ -79,3 +85,22 @@
             &:hover
                 background-color: $vermelho
                 transition: .6s ease
+    .historia-versoesTabela
+        display: flex
+        flex-direction: column
+        margin: 1em 0
+        row-gap: .7em
+        .historia-versoesTabela-item
+            display: flex
+            flex-direction: column
+            padding: .7em
+            border-radius: 6px
+            background-color: $cinza-2
+            .historia-versoesTabela-item-imagem
+                width: 100%
+                img
+                    width: 100%
+            .historia-versoesTabela-item-texto
+                h3
+                    font-size: 1.1em
+                    margin: .5em 0

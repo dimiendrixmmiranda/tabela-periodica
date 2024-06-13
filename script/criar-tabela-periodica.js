@@ -1,6 +1,19 @@
-const divElementos = document.querySelector('.elementos')
+import { criarElemento } from "./criar-elemento.js"
+import { formatarBotoes } from "./formatar-botoes-tabela.js"
+import { tabelaPeriodica } from "./tabelaPeriodica.js"
 
-export function criarBotao(elemento) {
+const conteudoElementosTabela = document.querySelector('#conteudoElementosTabela')
+
+tabelaPeriodica.forEach(elementoDaTabela => {
+    const elemento = criarBotaoElemento(elementoDaTabela)
+    conteudoElementosTabela.appendChild(elemento)
+})
+
+const listaDeBotoesElemento = conteudoElementosTabela.querySelectorAll('button') 
+formatarBotoes(listaDeBotoesElemento)
+
+
+function criarBotaoElemento(elemento) {
     const button = document.createElement('button')
     const numeroAtomico = document.createElement('span')
     numeroAtomico.innerHTML = elemento.numeroAtomico
@@ -15,7 +28,7 @@ export function criarBotao(elemento) {
     button.dataset.categoria = elemento.categoria
     button.dataset.elemento = elemento.nome
 
-    if(elemento.radioativo === true){
+    if (elemento.radioativo === true) {
         const divRadioativo = document.createElement('div')
         divRadioativo.classList.add('radioativo')
         button.appendChild(divRadioativo)
@@ -23,5 +36,5 @@ export function criarBotao(elemento) {
 
     button.appendChild(numeroAtomico)
     button.appendChild(nomeElemento)
-    divElementos.appendChild(button)
+    return button
 }

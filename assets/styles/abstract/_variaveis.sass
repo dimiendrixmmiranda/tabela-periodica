@@ -6,8 +6,11 @@ $branco: #fff
 $bege: #F8F6E3
 $amarelo: #FFC600
 $azul: #070841
+$azul-claro: #4CB9E7
 $vermelho: #C40C0C
+$cinza-1: #C2C2C2
 $cinza-2: #A9AAAE
+$cinza-3: #46474b
 
 // cores elemento
 $nao-metal: #90D26D
@@ -31,6 +34,7 @@ $fonteLato: "Lato", sans-serif
 $flutuarAncora: flutuar 1.2s ease infinite
 $animarBorda: animarBorda .6s ease
 $animarCardHistoria: animarCardHistoria .6s ease
+$animarOffcanvas: animarOffcanvas .6s ease
 
 
 @keyframes animarBorda
@@ -50,4 +54,10 @@ $animarCardHistoria: animarCardHistoria .6s ease
         top: 100%
     100%
         top: 0%
+        
+@keyframes animarOffcanvas
+    0%
+        right: 100%   
+    100%
+        right: 0%
         
