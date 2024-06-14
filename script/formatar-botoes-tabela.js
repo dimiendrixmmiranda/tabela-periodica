@@ -8,7 +8,7 @@ export function formatarBotoes() {
     const seta1 = criarElemento('div', 'seta1', '57-71')
     const seta2 = criarElemento('div', 'seta2', '89-103')
     const listaDeBtns = divElementos.querySelectorAll('button')
-    const spanGrupoPeriodo = criarElemento('span', 'grupo-periodo', 'grupo <i class="fa-solid fa-arrow-right"></i> periodo <i class="fa-solid fa-arrow-down"></i>')
+    const spanGrupoPeriodo = criarElemento('span', 'grupo-periodo', '<p>grupo <i class="fa-solid fa-arrow-right"></i></p><p>periodo <i class="fa-solid fa-arrow-down"></i></p>')
     const lantanideos = criarElemento('span', 'lantanoides', 'lantanideos <i class="fa-solid fa-arrow-right"></i>')
     const actinoides = criarElemento('span', 'actinoides', 'actinoides <i class="fa-solid fa-arrow-right"></i>')
 
@@ -30,7 +30,7 @@ export function formatarBotoes() {
 
     for (let i = 0; i < periodo.length; i++) {
         const elementoPeriodo = criarElemento('p', `periodo`, periodo[i])
-        elementoPeriodo.setAttribute('style', `grid-column: 1/2; grid-row: ${i+2}/${i+3}`)
+        elementoPeriodo.setAttribute('style', `grid-column: 1/2; grid-row: ${i + 2}/${i + 3}`)
         divElementos.appendChild(elementoPeriodo)
     }
 

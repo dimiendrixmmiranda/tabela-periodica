@@ -1,13 +1,14 @@
 const listaCheckboxFiltro = document.querySelectorAll('.filtro input')
 
-export function validacaoFiltroCategoria() {
+function validacaoFiltroCategoria() {
     verificarCheckboxChecado()
 
     listaCheckboxFiltro.forEach(elementoCheckbox => {
         elementoCheckbox.addEventListener('click', () => {
             const arrayCategorias = []
 
-            const listaDeElementos = document.querySelectorAll('.elementos button')
+            const listaDeElementos = document.querySelectorAll('.conteudo-tabela-elemento button')
+
             listaDeElementos.forEach(elemento => {
                 elemento.style.opacity = '.4'
                 elemento.classList.remove('elemento-checado')
@@ -20,7 +21,7 @@ export function validacaoFiltroCategoria() {
             })
 
             arrayCategorias.forEach(categoria => {
-                const btnsCategoria = document.querySelectorAll(`.elementos [data-categoria="${categoria}"]`)
+                const btnsCategoria = document.querySelectorAll(`.conteudo-tabela-elemento [data-categoria="${categoria}"]`)
                 btnsCategoria.forEach(btn => {
                     btn.classList.add('elemento-checado')
                 })
@@ -40,9 +41,13 @@ function verificarCheckboxChecado() {
         elementoCheckbox.addEventListener('click', () => {
             if (elementoCheckbox.parentElement.classList.contains('checado')) {
                 elementoCheckbox.parentElement.classList.remove('checado')
+                console.log(elementoCheckbox.parentElement.classList)
             } else {
                 elementoCheckbox.parentElement.classList.add('checado')
+                console.log(elementoCheckbox.parentElement.classList)
             }
         })
     })
 }
+
+validacaoFiltroCategoria()

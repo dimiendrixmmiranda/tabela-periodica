@@ -50,8 +50,13 @@
         padding: .2em
         display: flex
         flex-direction: column
-        justify-content: center
+        justify-content: space-around
         align-items: center
+        p
+            &:nth-child(2)
+                display: flex
+                flex-direction: column
+                align-items: center
     .lantanoides, .actinoides
         display: flex
         justify-content: start
@@ -61,3 +66,36 @@
         font-weight: bold
         text-transform: uppercase
         column-gap: .5em
+    [data-categoria="nao-metal"]
+        background-color: $nao-metal
+    [data-categoria="metal-alcalino"]
+        background-color: $metal-alcalino
+    [data-categoria="metal-alcalino-terroso"]
+        background-color: $metais-alcalinos-terrosos
+    [data-categoria="metal-de-transicao"]
+        background-color: $metais-de-transicao
+    [data-categoria="semimetal"]
+        background-color: $semimetal
+    [data-categoria="outros-metais"]
+        background-color: $outros-metais
+    [data-categoria="halogenios"]
+        background-color: $halogenios
+    [data-categoria="gas-nobre"]
+        background-color: $gas-nobre
+    [data-categoria="lantanideos"]
+        background-color: $lantanideos
+    [data-categoria="actinidios"]
+        background-color: $actinideos
+    .seta1
+        background-image: url('../imgs/arrow-1.svg')
+        background-repeat: no-repeat
+        background-size: 20px
+        font-size: .7em
+    .seta2
+        font-size: .7em
+        background-image: url('../imgs/arrow-2.svg')
+        background-repeat: no-repeat
+        height: 110px
+        z-index: 40
+        background-position-x: 10px
+        background-position-y: 15px
