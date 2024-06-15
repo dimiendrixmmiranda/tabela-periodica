@@ -2,7 +2,6 @@ const listaCheckboxFiltro = document.querySelectorAll('.filtro input')
 
 function validacaoFiltroCategoria() {
     verificarCheckboxChecado()
-
     listaCheckboxFiltro.forEach(elementoCheckbox => {
         elementoCheckbox.addEventListener('click', () => {
             const arrayCategorias = []
@@ -41,10 +40,8 @@ function verificarCheckboxChecado() {
         elementoCheckbox.addEventListener('click', () => {
             if (elementoCheckbox.parentElement.classList.contains('checado')) {
                 elementoCheckbox.parentElement.classList.remove('checado')
-                console.log(elementoCheckbox.parentElement.classList)
             } else {
                 elementoCheckbox.parentElement.classList.add('checado')
-                console.log(elementoCheckbox.parentElement.classList)
             }
         })
     })

@@ -17,15 +17,28 @@
             margin-top: 3em
             display: grid
             grid-template-columns: 50% 50%
+            grid-template-rows: auto auto auto
             p
                 grid-column: 1/3
             a
                 grid-column: 1/3
+        .conteudo-informacoes-elemento
+            .tabela-secundaria
+                tbody
+                    .tabela-secundaria-linha
+                        td
+                            height: 35px
+                            font-size: 1em
+                        .item
+                            font-size: 1.2em!important  
 @media screen and ( min-width: 1024px )
     .conteudo
+        .conteudo-informacoes-elemento
+            max-width: 1015px
         .conteudo-banner
             display: grid
             grid-template-columns: 50% 50%
+            grid-template-rows: auto auto auto
             margin-top: 3.2em
             h2
                 font-size: 2.6em
@@ -33,33 +46,86 @@
                 grid-column: 1/3
             a
                 grid-column: 1/3
+        .conteudo-informacoes-elemento
+            .tabela-principal
+                tbody
+                    grid-template-columns: repeat(4, 1fr)
+                    tr
+                        font-size: 1em
+                    tr
+                        &:nth-child(1)
+                            grid-column: 1/2
+                        &:nth-child(2)
+                            grid-column: 3/4
+                            display: grid
+                        &:nth-child(3)
+                            grid-column: 2/3
+                            grid-row: 1/2
+                        &:nth-child(4)
+                            display: grid
+                            grid-column: 4/5
+                            grid-row: 1/2
+            .tabela-secundaria
+                tr
+                    &:nth-child(1), &:nth-child(2)
+                        display: none
+
 @media screen and ( min-width: 1440px )
     .conteudo
         .conteudo-banner
             display: grid
             grid-template-columns: 50% 50%
-            margin-top: 4.5em
-            height: 100vh
-            max-width: 1100px
+            grid-template-rows: auto auto auto
+            margin-top: 6em
+            height: 85vh
+            max-width: 1300px
             h2
-                font-size: 3.2em
-                max-width: 500px
+                font-size: 4em
+                max-width: 600px
+                align-self: center
+                justify-self: center
             p
                 grid-column: 1/3
-                max-width: 800px
+                max-width: 1000px
                 margin: 0 auto
+                font-size: 2em
             a
                 grid-column: 1/3
+        .conteudo-informacoes-elemento
+            max-width: 1290px
         .conteudo-tabela-elemento
             grid-template-columns: repeat(19, 65px)
             grid-template-rows: 50px repeat(7, 65px) 20px repeat(2, 65px)
             max-width: 1300px
             overflow: hidden
+            .conteudo-tabela-elemento-historia
+                grid-template-columns: 130px 1fr 160px
             .lantanoides, .actinoides
                 margin-left: 3.5em
-        button
-            font-size: 1.2em
-            .numero-atomico-elemento
-                font-size: .7em
-            .nome-elemento
-                font-size: .5em
+            button
+                font-size: 1.2em
+                .numero-atomico-elemento
+                    font-size: .7em
+                .nome-elemento
+                    font-size: .5em
+            .seta1
+                background-size: 39px
+            .seta2
+                background-size: 42px
+        .conteudo-informacoes-elemento
+            table
+                tbody
+                    grid-template-columns: repeat(4, 1fr)
+                    tr
+                        font-size: 1.2em
+        .conteudo-informacoes-elemento
+            .tabela-secundaria
+                tbody
+                    .tabela-secundaria-linha
+                        td
+                            height: 35px
+                            font-size: 1.4em
+                        .item
+                            font-size: 1.6em!important  
+                            word-break: normal
+                            overflow: hidden

@@ -48,14 +48,105 @@
             <img src="./assets/imgs/post.svg" alt="">
             <p>Utilize nossa Tabela Periódica para obter informações como densidade, eletronegatividade, configuração
                 eletrônica entre muitos outros dados dos elementos</p>
-            <a href="#visor"><i class="fa-solid fa-angles-down"></i></a>
+            <a href="#tabelaPrincipal"><i class="fa-solid fa-angles-down"></i></a>
         </div>
 
-        <div class="conteudo-informacoes-elemento"></div>
-
-        <div class="conteudo-tabela-elemento" id="conteudoElementosTabela">
-
+        <div class="conteudo-informacoes-elemento">
+            <div class="container-quadrado-elemento">
+                <h5 id="sigla"></h5>
+                <p class="numero-atomico" id="numeroAtomico"></p>
+                <p class="massa" id="massaAtomica"></p>
+            </div>
+            <table class="tabela-principal" id="tabelaPrincipal">
+                <tr>
+                    <td>Nome</td>
+                    <td>Categoria</td>
+                    <td>Radioativo</td>
+                    <td>Estado Natural</td>
+                </tr>
+                <tr>
+                    <td>Ponto de fusão</td>
+                    <td>Ponto de ebulição</td>
+                    <td>Densidade</td>
+                    <td>Raio Atômico</td>
+                </tr>
+                <tr>
+                    <td id="nome"></td>
+                    <td id="categoria"></td>
+                    <td id="radioativo"></td>
+                    <td id="estadoNatural"></td>
+                </tr>
+                <tr>
+                    <td id="pontoDeFusao"></td>
+                    <td id="pontoDeEbulicao"></td>
+                    <td id="densidade"></td>
+                    <td id="raioAtomico"></td>
+                </tr>
+            </table>
+            <button class="botao-ver-detalhes" id="btnVerDetalhes">Ver mais detalhes <i class="fa-solid fa-arrow-turn-down"></i></button>
+            <table class="tabela-secundaria" id="tabelaSecundaria">
+                <tr class="tabela-secundaria-linha">
+                    <td>Ponto de fusão</td>
+                    <td>Ponto de ebulição</td>
+                    <td>Densidade</td>
+                    <td>Raio Atômico</td>
+                </tr>
+                <tr class="tabela-secundaria-linha">
+                    <td id="pontoDeFusao" class="item">12</td>
+                    <td id="pontoDeEbulicao" class="item"></td>
+                    <td id="densidade" class="item"></td>
+                    <td id="raioAtomico" class="item"></td>
+                </tr>
+                <tr class="tabela-secundaria-linha">   
+                    <td>Raio Covalente</td>
+                    <td>Grupo</td>
+                    <td>Periodo</td>
+                    <td>Decomposição</td>
+                </tr>
+                <tr class="tabela-secundaria-linha">
+                    <td id="raioCovalente" class="item">12</td>
+                    <td id="grupo" class="item"></td>
+                    <td id="periodo" class="item"></td>
+                    <td id="decomposicao" class="item"></td>
+                </tr>
+                <tr class="tabela-secundaria-linha">
+                    <td>Configuração Eletrônica</td>
+                    <td>Cor</td>
+                    <td>Entalpia de Fusão</td>
+                    <td>Entalpia de Vaporização</td>
+                </tr>
+                <tr class="tabela-secundaria-linha">
+                    <td id="configuracaoEletronica" class="item">12</td>
+                    <td id="cor" class="item"></td>
+                    <td id="entalpiaDeFusao" class="item"></td>
+                    <td id="entalpiaDeVaporizacao" class="item"></td>
+                </tr>
+                <tr class="tabela-secundaria-linha">     
+                    <td>Calor Específico</td>
+                    <td>Abundância na crosta Terrestre</td>
+                    <td>Abundância no Universo</td>
+                    <td>Eletronegatividade</td>
+                </tr>
+                <tr class="tabela-secundaria-linha">
+                    <td id="calorEspecifico" class="item">12</td>
+                    <td id="abundanciaTerra" class="item"></td>
+                    <td id="abundanciaUniverso" class="item"></td>
+                    <td id="eletronegatividade" class="item"></td>
+                </tr>
+                <tr class="tabela-secundaria-linha">
+                    <td>Volume Atômico</td>
+                    <td>Condutividade Térmica</td>
+                    <td>Aplicações Comuns</td>
+                </tr>
+                <tr class="tabela-secundaria-linha">
+                    <td id="volumeAtomico" class="item">12</td>
+                    <td id="condutividadeTermica" class="item"></td>
+                    <td id="aplicacoesComuns" class="item"></td>
+                </tr>
+            </table>
         </div>
+
+        <div class="conteudo-tabela-elemento" id="conteudoElementosTabela"></div>
         <ul class="filtro">
             <h2>Utilize o filtro para facilitar na localização do seu elemento:</h2>
             <li class="nao-metal" data-categoria="nao-metal">
@@ -155,6 +246,7 @@
     <!-- <script type="module" src="./script.js"></script>
     <script src="./script/btnVerDetalhes.js"></script> -->
     <script src="./script/filtro.js"></script>
+    <script src="./script/botao-ver-detalhes.js"></script>
     <script src="./script/botao-menu-mobile.js"></script>
     <script type="module" src="./script/criar-tabela-periodica.js"></script>
 </body>

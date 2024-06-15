@@ -12,10 +12,10 @@ export function formatarBotoes() {
     const lantanideos = criarElemento('span', 'lantanoides', 'lantanideos <i class="fa-solid fa-arrow-right"></i>')
     const actinoides = criarElemento('span', 'actinoides', 'actinoides <i class="fa-solid fa-arrow-right"></i>')
 
-    seta1.setAttribute('style', 'grid-column: 4/5; grid-row: 7/8')
-    seta2.setAttribute('style', 'grid-column: 4/5; grid-row: 8/9')
+    seta1.setAttribute('style', 'grid-column: 4/5; grid-row: 7/11')
+    seta2.setAttribute('style', 'grid-column: 4/5; grid-row: 8/12')
     spanGrupoPeriodo.setAttribute('style', 'grid-column: 1/2; grid-row: 1/2;')
-    lantanideos.setAttribute('style', 'grid-column: 1/4; grid-row: 10/11;')
+    lantanideos.setAttribute('style', 'grid-column: 1/3; grid-row: 10/11;')
     actinoides.setAttribute('style', 'grid-column: 1/4; grid-row: 11/12;')
     elementoHistoria.setAttribute('style', 'grid-column: 4/14; grid-row: 2/5;')
 
@@ -86,12 +86,15 @@ export function formatarBotoes() {
 
 function criarElementoHistoria() {
     const containerHistoria = criarElemento('div', 'conteudo-tabela-elemento-historia')
-    const titulo = criarElemento('h3', 'container-historia-titulo', 'História')
-    const texto = criarElemento('p', 'container-historia-texto')
-    const imgElemento = criarElemento('img', 'container-historia-img')
+    const titulo = criarElemento('h3', 'conteudo-tabela-elemento-historia-titulo', 'História')
+    const tituloElemento = criarElemento('h4', 'conteudo-tabela-elemento-historia-titulo-elemento')
+    const texto = criarElemento('p', 'conteudo-tabela-elemento-historia-texto')
+    const imgElemento = criarElemento('img', 'conteudo-tabela-elemento-historia-img')
+
 
     containerHistoria.appendChild(titulo)
     containerHistoria.appendChild(texto)
+    containerHistoria.appendChild(tituloElemento)
     containerHistoria.appendChild(imgElemento)
     return containerHistoria
 }
