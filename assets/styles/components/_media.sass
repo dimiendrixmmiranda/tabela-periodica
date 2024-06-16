@@ -30,7 +30,12 @@
                             height: 35px
                             font-size: 1em
                         .item
-                            font-size: 1.2em!important  
+                            font-size: 1.2em!important
+    .ancora
+        justify-content: flex-end
+        a
+            &:nth-child(2)
+                margin-right: 2.5em
 @media screen and ( min-width: 1024px )
     .conteudo
         .conteudo-informacoes-elemento
@@ -69,7 +74,11 @@
                 tr
                     &:nth-child(1), &:nth-child(2)
                         display: none
-
+    .ancora
+        justify-content: flex-end
+        a
+            &:nth-child(2)
+                margin-right: 3.5em
 @media screen and ( min-width: 1440px )
     .conteudo
         .conteudo-banner
@@ -126,6 +135,15 @@
                             height: 35px
                             font-size: 1.4em
                         .item
-                            font-size: 1.6em!important  
+                            font-size: 1.6em!important
                             word-break: normal
                             overflow: hidden
+    .ancora
+        justify-content: flex-end
+        a
+            font-size: 1em
+            padding: .5em 1em
+            i
+                margin-top: .2em
+            &:nth-child(2)
+                margin-right: 5em

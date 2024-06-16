@@ -1,10 +1,10 @@
-import { btnBars } from "./btnBars.js"
 import { tabelaPeriodica } from "./tabelaPeriodica.js"
 
 function criarSelectCompararElemento() {
     const selects = document.querySelectorAll('.comparar-elementos-selecionar select')
     selects[0].appendChild(criarOption('Selecione'))
     selects[1].appendChild(criarOption('Selecione'))
+    
     selects.forEach(select => {
         tabelaPeriodica.forEach(objetoTabela => select.appendChild(criarOption(objetoTabela.nome)))
     })
@@ -49,13 +49,15 @@ function criarSelectCompararElemento() {
         selecionarElemento("propriedades-gerais-massa-atomica-relativa-1", informacoesObjetoSelecionado.massaAtomica)
         compararElemento(document.querySelector('.propriedades-gerais-massa-atomica-relativa-1'), document.querySelector('.propriedades-gerais-massa-atomica-relativa-2'))
 
-        selecionarElemento("propriedades-gerais-categoria-1", informacoesObjetoSelecionado.categoria)
+        const categoriaFormatada = informacoesObjetoSelecionado.categoria.split('-').map(palavra => palavra.charAt(0).toUpperCase() + palavra.slice(1)).join(' ')
+
+        selecionarElemento("propriedades-gerais-categoria-1", categoriaFormatada)
         compararElemento(document.querySelector('.propriedades-gerais-categoria-1'), document.querySelector('.propriedades-gerais-categoria-2'))
 
         selecionarElemento("propriedades-cor-1", informacoesObjetoSelecionado.cor)
         compararElemento(document.querySelector('.propriedades-cor-1'), document.querySelector('.propriedades-cor-2'))
 
-        selecionarElemento("propriedades-radioativo-1", informacoesObjetoSelecionado.radioativo)
+        selecionarElemento("propriedades-radioativo-1", informacoesObjetoSelecionado.radioativo ? 'Sim': 'Não')
         compararElemento(document.querySelector('.propriedades-radioativo-1'), document.querySelector('.propriedades-radioativo-2'))
 
         selecionarElemento("propriedades-fisicas-densidade-1", informacoesObjetoSelecionado.densidade, 'kg/m³')
@@ -130,16 +132,19 @@ function criarSelectCompararElemento() {
         selecionarElemento("propriedades-gerais-massa-atomica-relativa-2", informacoesObjetoSelecionado.massaAtomica)
         compararElemento(document.querySelector('.propriedades-gerais-massa-atomica-relativa-1'), document.querySelector('.propriedades-gerais-massa-atomica-relativa-2'))
 
-        selecionarElemento("propriedades-gerais-categoria-2", informacoesObjetoSelecionado.categoria)
+        const categoriaFormatada = informacoesObjetoSelecionado.categoria.split('-').map(palavra => palavra.charAt(0).toUpperCase() + palavra.slice(1)).join(' ')
+
+        selecionarElemento("propriedades-gerais-categoria-2", categoriaFormatada)
         compararElemento(document.querySelector('.propriedades-gerais-categoria-1'), document.querySelector('.propriedades-gerais-categoria-2'))
 
         selecionarElemento("propriedades-cor-2", informacoesObjetoSelecionado.cor)
         compararElemento(document.querySelector('.propriedades-cor-1'), document.querySelector('.propriedades-cor-2'))
 
-        selecionarElemento("propriedades-radioativo-2", informacoesObjetoSelecionado.radioativo)
+        selecionarElemento("propriedades-radioativo-2", informacoesObjetoSelecionado.radioativo ? 'Sim': 'Não')
         compararElemento(document.querySelector('.propriedades-radioativo-1'), document.querySelector('.propriedades-radioativo-2'))
 
-        selecionarElemento("propriedades-fisicas-densidade-1", informacoesObjetoSelecionado.densidade, 'g/cm³')
+        console.log(informacoesObjetoSelecionado.densidade)
+        selecionarElemento("propriedades-fisicas-densidade-2", informacoesObjetoSelecionado.densidade, 'g/cm³')
         compararElemento(document.querySelector('.propriedades-fisicas-densidade-1'), document.querySelector('.propriedades-fisicas-densidade-2'))
 
         selecionarElemento("propriedades-fisicas-estado-da-materia-2", informacoesObjetoSelecionado.estadoNatural)
@@ -214,6 +219,4 @@ function criarOption(nomeElemento) {
     return option
 }
 
-
 criarSelectCompararElemento()
-btnBars('./historiaTabelaPeriodica.html', "#", '#', './compararElementos.html')
