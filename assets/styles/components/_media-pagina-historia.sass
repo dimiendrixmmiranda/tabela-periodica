@@ -9,36 +9,323 @@
     .historia
         .historia-mobile
             display: none
+        .historia-desktop
+            display: grid
+            grid-template-columns: 1fr 250px
+            .historia-mobile-titulo
+                grid-column: 1/3
+            .paragrafo
+                grid-column: 1/2
+                font-size: 1.15em
+            .coluna-inteira
+                grid-column: 1/3!important
+            .imagem
+                align-self: center
+                justify-self: center
+                margin: 1em 0
+            .atomo
+                width: 14em
+                img
+                    width: 100%
+            .subtitulo
+                margin: 1.5em 0 .5em 0
+            .historia-versoesTabela
+                grid-column: 1/3
+                list-style: none
+                display: flex
+                flex-direction: column
+                row-gap: .5em
+                margin: 1em 0
+                .historia-versoesTabela-item
+                    width: 100%
+                    padding: 1em
+                    background-color: $cinza-2
+                    border-radius: 6px
+                    .historia-versoesTabela-item-imagem
+                        margin: 1em 0
+                        img
+                            width: 100%
+            .primario
+                grid-row: 2/4
+                grid-column: 2/3
+                gap: .5em
+                margin: 0 auto
+                .card
+                    width: 160px!important
+                    height: 200px
+            .secundario
+                grid-column: 1/3
+                grid-row: 5/6
+                display: flex
+                flex-wrap: wrap
+                gap: 1.3em
+                margin: 1em 0
+                .card
+                    max-width: 230px
+                    max-height: 280px
+                    .card-texto
+                        &:hover
+                            .card-texto-paragrafo
+                                height: 88%!important
+            .lista-card
+                overflow: hidden
+                display: flex
+                flex-wrap: wrap
+                justify-content: center
+                .card
+                    width: 90%
+                    overflow: hidden
+                    border-radius: 6px
+                    position: relative
+                    .card-image
+                        width: 100%
+                        height: 100%
+                        background-color: $cinza-3
+                        display: flex
+                        justify-content: center
+                        img
+                            height: 100%
+                    .card-texto
+                        background-color: $cinza-1
+                        &:hover
+                            .card-texto-paragrafo
+                                position: absolute
+                                top: 0
+                                left: 0
+                                z-index: 2
+                                animation: $animarCardHistoria
+                                background-color: $cinza-1
+                                overflow-y: scroll
+                                height: 84%
+                                padding: .2em .4em
+                        .card-texto-titulo
+                            position: absolute
+                            bottom: 0%
+                            left: 50%
+                            transform: translate(-50%)
+                            width: 100%
+                            text-align: center
+                            font-size: 1.1em
+                            background-color: $cinza-1
+                            padding: .4em 0
 
 @media screen and ( min-width: 1024px )
     .historia
-        display: grid
-        grid-template-columns: 1fr 30%
-        margin-top: 5.5em
-        .primario, .secundario
+        .historia-mobile
             display: none
-        .historia-titulo
-            grid-column: 1/3
-        .historia-paragrafo
-            grid-column: 1/2
-            font-size: 1.6em
-        .primario
-            grid-column: 2/3
-            grid-row: 2/3
-            margin: 0
-            .card
-                width: 240px
-                height: 280px
-                .card-texto
-                    .card-texto-paragrafo
-                        font-size: .85em
-                        grid-column: 1/3
-            .card
-                &:nth-child(1)
+        .historia-desktop
+            display: grid
+            grid-template-columns: 1fr 300px
+            .historia-mobile-titulo
+                grid-column: 1/3
+            .paragrafo
+                grid-column: 1/2
+                font-size: 1.4em
+            .coluna-inteira
+                grid-column: 1/3!important
+            .imagem
+                align-self: center
+                justify-self: center
+                margin: 1em 0
+                width: 800px
+                img
+                    width: 100%
+            .atomo
+                width: 95%
+                img
+                    width: 100%
+            .subtitulo
+                margin: 1.5em 0 .5em 0
+            .historia-versoesTabela
+                grid-column: 1/3
+                list-style: none
+                display: flex
+                flex-direction: row
+                flex-wrap: wrap
+                gap: .5em
+                margin: 1em 0
+                width: 100%
+                .historia-versoesTabela-item
+                    max-width: 450px
+                    width: 100%
+                    padding: 1em
+                    background-color: $cinza-2
+                    border-radius: 6px
+                    .historia-versoesTabela-item-imagem
+                        margin: 1em 0
+                        img
+                            width: 100%
+            .primario
+                grid-row: 2/4
+                grid-column: 2/3
+                gap: .5em
+                margin: 0 auto
+                .card
+                    width: 160px!important
+                    height: 200px
+            .secundario
+                grid-column: 1/3
+                grid-row: 5/6
+                display: flex
+                flex-wrap: wrap
+                gap: 0.5em
+                margin: 1em 0
+                .card
+                    max-width: 230px
+                    max-height: 280px
                     .card-texto
-                        .card-texto-paragrafo
-                            font-size: .8em
-        .coluna-inteira
-            grid-column: 1/3
-        .secundario
-            grid-column: 1/3
+                        &:hover
+                            .card-texto-paragrafo
+                                height: 88%!important
+            .lista-card
+                overflow: hidden
+                display: flex
+                flex-wrap: wrap
+                justify-content: center
+                .card
+                    width: 90%
+                    overflow: hidden
+                    border-radius: 6px
+                    position: relative
+                    .card-image
+                        width: 100%
+                        height: 100%
+                        background-color: $cinza-3
+                        display: flex
+                        justify-content: center
+                        img
+                            height: 100%
+                    .card-texto
+                        background-color: $cinza-1
+                        &:hover
+                            .card-texto-paragrafo
+                                position: absolute
+                                top: 0
+                                left: 0
+                                z-index: 2
+                                animation: $animarCardHistoria
+                                background-color: $cinza-1
+                                overflow-y: scroll
+                                height: 84%
+                                padding: .2em .4em
+                        .card-texto-titulo
+                            position: absolute
+                            bottom: 0%
+                            left: 50%
+                            transform: translate(-50%)
+                            width: 100%
+                            text-align: center
+                            font-size: 1.1em
+                            background-color: $cinza-1
+                            padding: .4em 0
+@media screen and ( min-width: 1440px )
+    .historia
+        .historia-mobile
+            display: none
+        .historia-desktop
+            display: grid
+            grid-template-columns: 1fr 300px
+            .historia-mobile-titulo
+                grid-column: 1/3
+            .paragrafo
+                grid-column: 1/2
+                font-size: 1.4em
+            .coluna-inteira
+                grid-column: 1/3!important
+            .imagem
+                align-self: center
+                justify-self: center
+                margin: 1em 0
+                width: 800px
+                img
+                    width: 100%
+            .atomo
+                width: 95%
+                img
+                    width: 100%
+            .subtitulo
+                margin: 1.5em 0 .5em 0
+            .historia-versoesTabela
+                grid-column: 1/3
+                list-style: none
+                display: flex
+                flex-direction: row
+                flex-wrap: wrap
+                gap: .5em
+                margin: 1em 0
+                width: 100%
+                justify-content: center
+                .historia-versoesTabela-item
+                    max-width: 440px
+                    width: 100%
+                    padding: 1em
+                    background-color: $cinza-2
+                    border-radius: 6px
+                    .historia-versoesTabela-item-imagem
+                        margin: 1em 0
+                        img
+                            width: 100%
+            .primario
+                grid-row: 2/4
+                grid-column: 2/3
+                gap: .5em
+                margin: 0 auto
+                .card
+                    width: 160px!important
+                    height: 200px
+            .secundario
+                grid-column: 1/3
+                grid-row: 5/6
+                display: flex
+                flex-wrap: wrap
+                gap: 0.5em
+                margin: 1em 0
+                justify-content: space-around!important
+                .card
+                    max-width: 300px
+                    max-height: 370px
+                    .card-texto
+                        &:hover
+                            .card-texto-paragrafo
+                                height: 88%!important
+            .lista-card
+                overflow: hidden
+                display: flex
+                flex-wrap: wrap
+                justify-content: center
+                .card
+                    width: 90%
+                    overflow: hidden
+                    border-radius: 6px
+                    position: relative
+                    .card-image
+                        width: 100%
+                        height: 100%
+                        background-color: $cinza-3
+                        display: flex
+                        justify-content: center
+                        img
+                            height: 100%
+                    .card-texto
+                        background-color: $cinza-1
+                        &:hover
+                            .card-texto-paragrafo
+                                position: absolute
+                                top: 0
+                                left: 0
+                                z-index: 2
+                                animation: $animarCardHistoria
+                                background-color: $cinza-1
+                                overflow-y: scroll
+                                height: 84%
+                                padding: .2em .4em
+                        .card-texto-titulo
+                            position: absolute
+                            bottom: 0%
+                            left: 50%
+                            transform: translate(-50%)
+                            width: 100%
+                            text-align: center
+                            font-size: 1.1em
+                            background-color: $cinza-1
+                            padding: .4em 0

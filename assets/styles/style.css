@@ -1225,37 +1225,40 @@ body::-webkit-scrollbar-thumb {
   margin: 4.5em auto 0 auto;
   font-family: "Lato", sans-serif;
 }
-.historia .historia-mobile-titulo {
+.historia .historia-desktop {
+  display: none;
+}
+.historia .historia-mobile .historia-mobile-titulo {
   font-size: 1.6em;
   text-align: center;
   margin-bottom: -0.3em;
 }
-.historia .paragrafo {
+.historia .historia-mobile .paragrafo {
   text-indent: 2em;
   margin: 1em 0;
 }
-.historia .imagem {
+.historia .historia-mobile .imagem {
   display: flex;
   justify-content: center;
   margin-top: 1.2em;
   margin: 1.2em auto 0 auto;
 }
-.historia .imagem img {
+.historia .historia-mobile .imagem img {
   width: 100%;
 }
-.historia .atomo {
+.historia .historia-mobile .atomo {
   width: 300px;
 }
-.historia .atomo img {
+.historia .historia-mobile .atomo img {
   width: 100%;
 }
-.historia .historia-versoesTabela {
+.historia .historia-mobile .historia-versoesTabela {
   display: flex;
   flex-direction: column;
   row-gap: 1em;
   align-items: center;
 }
-.historia .historia-versoesTabela .historia-versoesTabela-item {
+.historia .historia-mobile .historia-versoesTabela .historia-versoesTabela-item {
   width: 100%;
   max-width: 440px;
   display: flex;
@@ -1264,13 +1267,13 @@ body::-webkit-scrollbar-thumb {
   padding: 0.5em;
   border-radius: 6px;
 }
-.historia .historia-versoesTabela .historia-versoesTabela-item .historia-versoesTabela-item-imagem img {
+.historia .historia-mobile .historia-versoesTabela .historia-versoesTabela-item .historia-versoesTabela-item-imagem img {
   width: 100%;
 }
-.historia .historia-versoesTabela .historia-versoesTabela-item h3 {
+.historia .historia-mobile .historia-versoesTabela .historia-versoesTabela-item h3 {
   margin-top: 0.5em;
 }
-.historia .lista-card {
+.historia .historia-mobile .lista-card {
   width: 100%;
   overflow: hidden;
   margin: 0 auto;
@@ -1279,7 +1282,7 @@ body::-webkit-scrollbar-thumb {
   gap: 1em;
   justify-content: center;
 }
-.historia .lista-card .card {
+.historia .historia-mobile .lista-card .card {
   width: 90%;
   max-width: 240px;
   height: 320px;
@@ -1287,20 +1290,20 @@ body::-webkit-scrollbar-thumb {
   border-radius: 6px;
   position: relative;
 }
-.historia .lista-card .card .card-image {
+.historia .historia-mobile .lista-card .card .card-image {
   width: 100%;
   height: 100%;
   background-color: #46474b;
   display: flex;
   justify-content: center;
 }
-.historia .lista-card .card .card-image img {
+.historia .historia-mobile .lista-card .card .card-image img {
   height: 100%;
 }
-.historia .lista-card .card .card-texto {
+.historia .historia-mobile .lista-card .card .card-texto {
   background-color: #C2C2C2;
 }
-.historia .lista-card .card .card-texto:hover .card-texto-paragrafo {
+.historia .historia-mobile .lista-card .card .card-texto:hover .card-texto-paragrafo {
   position: absolute;
   top: 0;
   left: 0;
@@ -1311,7 +1314,7 @@ body::-webkit-scrollbar-thumb {
   height: 86%;
   padding: 0.2em 0.4em;
 }
-.historia .lista-card .card .card-texto .card-texto-titulo {
+.historia .historia-mobile .lista-card .card .card-texto .card-texto-titulo {
   position: absolute;
   bottom: 0%;
   left: 50%;
@@ -1722,44 +1725,391 @@ footer strong {
   .historia .historia-mobile {
     display: none;
   }
+  .historia .historia-desktop {
+    display: grid;
+    grid-template-columns: 1fr 250px;
+  }
+  .historia .historia-desktop .historia-mobile-titulo {
+    grid-column: 1/3;
+  }
+  .historia .historia-desktop .paragrafo {
+    grid-column: 1/2;
+    font-size: 1.15em;
+  }
+  .historia .historia-desktop .coluna-inteira {
+    grid-column: 1/3 !important;
+  }
+  .historia .historia-desktop .imagem {
+    align-self: center;
+    justify-self: center;
+    margin: 1em 0;
+  }
+  .historia .historia-desktop .atomo {
+    width: 14em;
+  }
+  .historia .historia-desktop .atomo img {
+    width: 100%;
+  }
+  .historia .historia-desktop .subtitulo {
+    margin: 1.5em 0 0.5em 0;
+  }
+  .historia .historia-desktop .historia-versoesTabela {
+    grid-column: 1/3;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5em;
+    margin: 1em 0;
+  }
+  .historia .historia-desktop .historia-versoesTabela .historia-versoesTabela-item {
+    width: 100%;
+    padding: 1em;
+    background-color: #A9AAAE;
+    border-radius: 6px;
+  }
+  .historia .historia-desktop .historia-versoesTabela .historia-versoesTabela-item .historia-versoesTabela-item-imagem {
+    margin: 1em 0;
+  }
+  .historia .historia-desktop .historia-versoesTabela .historia-versoesTabela-item .historia-versoesTabela-item-imagem img {
+    width: 100%;
+  }
+  .historia .historia-desktop .primario {
+    grid-row: 2/4;
+    grid-column: 2/3;
+    gap: 0.5em;
+    margin: 0 auto;
+  }
+  .historia .historia-desktop .primario .card {
+    width: 160px !important;
+    height: 200px;
+  }
+  .historia .historia-desktop .secundario {
+    grid-column: 1/3;
+    grid-row: 5/6;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.3em;
+    margin: 1em 0;
+  }
+  .historia .historia-desktop .secundario .card {
+    max-width: 230px;
+    max-height: 280px;
+  }
+  .historia .historia-desktop .secundario .card .card-texto:hover .card-texto-paragrafo {
+    height: 88% !important;
+  }
+  .historia .historia-desktop .lista-card {
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .historia .historia-desktop .lista-card .card {
+    width: 90%;
+    overflow: hidden;
+    border-radius: 6px;
+    position: relative;
+  }
+  .historia .historia-desktop .lista-card .card .card-image {
+    width: 100%;
+    height: 100%;
+    background-color: #46474b;
+    display: flex;
+    justify-content: center;
+  }
+  .historia .historia-desktop .lista-card .card .card-image img {
+    height: 100%;
+  }
+  .historia .historia-desktop .lista-card .card .card-texto {
+    background-color: #C2C2C2;
+  }
+  .historia .historia-desktop .lista-card .card .card-texto:hover .card-texto-paragrafo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    animation: animarCardHistoria 0.6s ease;
+    background-color: #C2C2C2;
+    overflow-y: scroll;
+    height: 84%;
+    padding: 0.2em 0.4em;
+  }
+  .historia .historia-desktop .lista-card .card .card-texto .card-texto-titulo {
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 100%;
+    text-align: center;
+    font-size: 1.1em;
+    background-color: #C2C2C2;
+    padding: 0.4em 0;
+  }
 }
 @media screen and (min-width: 1024px) {
-  .historia {
-    display: grid;
-    grid-template-columns: 1fr 30%;
-    margin-top: 5.5em;
-  }
-  .historia .primario, .historia .secundario {
+  .historia .historia-mobile {
     display: none;
   }
-  .historia .historia-titulo {
+  .historia .historia-desktop {
+    display: grid;
+    grid-template-columns: 1fr 300px;
+  }
+  .historia .historia-desktop .historia-mobile-titulo {
     grid-column: 1/3;
   }
-  .historia .historia-paragrafo {
+  .historia .historia-desktop .paragrafo {
     grid-column: 1/2;
-    font-size: 1.6em;
+    font-size: 1.4em;
   }
-  .historia .primario {
+  .historia .historia-desktop .coluna-inteira {
+    grid-column: 1/3 !important;
+  }
+  .historia .historia-desktop .imagem {
+    align-self: center;
+    justify-self: center;
+    margin: 1em 0;
+    width: 800px;
+  }
+  .historia .historia-desktop .imagem img {
+    width: 100%;
+  }
+  .historia .historia-desktop .atomo {
+    width: 95%;
+  }
+  .historia .historia-desktop .atomo img {
+    width: 100%;
+  }
+  .historia .historia-desktop .subtitulo {
+    margin: 1.5em 0 0.5em 0;
+  }
+  .historia .historia-desktop .historia-versoesTabela {
+    grid-column: 1/3;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.5em;
+    margin: 1em 0;
+    width: 100%;
+  }
+  .historia .historia-desktop .historia-versoesTabela .historia-versoesTabela-item {
+    max-width: 450px;
+    width: 100%;
+    padding: 1em;
+    background-color: #A9AAAE;
+    border-radius: 6px;
+  }
+  .historia .historia-desktop .historia-versoesTabela .historia-versoesTabela-item .historia-versoesTabela-item-imagem {
+    margin: 1em 0;
+  }
+  .historia .historia-desktop .historia-versoesTabela .historia-versoesTabela-item .historia-versoesTabela-item-imagem img {
+    width: 100%;
+  }
+  .historia .historia-desktop .primario {
+    grid-row: 2/4;
     grid-column: 2/3;
-    grid-row: 2/3;
-    margin: 0;
+    gap: 0.5em;
+    margin: 0 auto;
   }
-  .historia .primario .card {
-    width: 240px;
-    height: 280px;
+  .historia .historia-desktop .primario .card {
+    width: 160px !important;
+    height: 200px;
   }
-  .historia .primario .card .card-texto .card-texto-paragrafo {
-    font-size: 0.85em;
+  .historia .historia-desktop .secundario {
+    grid-column: 1/3;
+    grid-row: 5/6;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em;
+    margin: 1em 0;
+  }
+  .historia .historia-desktop .secundario .card {
+    max-width: 230px;
+    max-height: 280px;
+  }
+  .historia .historia-desktop .secundario .card .card-texto:hover .card-texto-paragrafo {
+    height: 88% !important;
+  }
+  .historia .historia-desktop .lista-card {
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .historia .historia-desktop .lista-card .card {
+    width: 90%;
+    overflow: hidden;
+    border-radius: 6px;
+    position: relative;
+  }
+  .historia .historia-desktop .lista-card .card .card-image {
+    width: 100%;
+    height: 100%;
+    background-color: #46474b;
+    display: flex;
+    justify-content: center;
+  }
+  .historia .historia-desktop .lista-card .card .card-image img {
+    height: 100%;
+  }
+  .historia .historia-desktop .lista-card .card .card-texto {
+    background-color: #C2C2C2;
+  }
+  .historia .historia-desktop .lista-card .card .card-texto:hover .card-texto-paragrafo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    animation: animarCardHistoria 0.6s ease;
+    background-color: #C2C2C2;
+    overflow-y: scroll;
+    height: 84%;
+    padding: 0.2em 0.4em;
+  }
+  .historia .historia-desktop .lista-card .card .card-texto .card-texto-titulo {
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 100%;
+    text-align: center;
+    font-size: 1.1em;
+    background-color: #C2C2C2;
+    padding: 0.4em 0;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .historia .historia-mobile {
+    display: none;
+  }
+  .historia .historia-desktop {
+    display: grid;
+    grid-template-columns: 1fr 300px;
+  }
+  .historia .historia-desktop .historia-mobile-titulo {
     grid-column: 1/3;
   }
-  .historia .primario .card:nth-child(1) .card-texto .card-texto-paragrafo {
-    font-size: 0.8em;
+  .historia .historia-desktop .paragrafo {
+    grid-column: 1/2;
+    font-size: 1.4em;
   }
-  .historia .coluna-inteira {
-    grid-column: 1/3;
+  .historia .historia-desktop .coluna-inteira {
+    grid-column: 1/3 !important;
   }
-  .historia .secundario {
+  .historia .historia-desktop .imagem {
+    align-self: center;
+    justify-self: center;
+    margin: 1em 0;
+    width: 800px;
+  }
+  .historia .historia-desktop .imagem img {
+    width: 100%;
+  }
+  .historia .historia-desktop .atomo {
+    width: 95%;
+  }
+  .historia .historia-desktop .atomo img {
+    width: 100%;
+  }
+  .historia .historia-desktop .subtitulo {
+    margin: 1.5em 0 0.5em 0;
+  }
+  .historia .historia-desktop .historia-versoesTabela {
     grid-column: 1/3;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.5em;
+    margin: 1em 0;
+    width: 100%;
+    justify-content: center;
+  }
+  .historia .historia-desktop .historia-versoesTabela .historia-versoesTabela-item {
+    max-width: 440px;
+    width: 100%;
+    padding: 1em;
+    background-color: #A9AAAE;
+    border-radius: 6px;
+  }
+  .historia .historia-desktop .historia-versoesTabela .historia-versoesTabela-item .historia-versoesTabela-item-imagem {
+    margin: 1em 0;
+  }
+  .historia .historia-desktop .historia-versoesTabela .historia-versoesTabela-item .historia-versoesTabela-item-imagem img {
+    width: 100%;
+  }
+  .historia .historia-desktop .primario {
+    grid-row: 2/4;
+    grid-column: 2/3;
+    gap: 0.5em;
+    margin: 0 auto;
+  }
+  .historia .historia-desktop .primario .card {
+    width: 160px !important;
+    height: 200px;
+  }
+  .historia .historia-desktop .secundario {
+    grid-column: 1/3;
+    grid-row: 5/6;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em;
+    margin: 1em 0;
+    justify-content: space-around !important;
+  }
+  .historia .historia-desktop .secundario .card {
+    max-width: 300px;
+    max-height: 370px;
+  }
+  .historia .historia-desktop .secundario .card .card-texto:hover .card-texto-paragrafo {
+    height: 88% !important;
+  }
+  .historia .historia-desktop .lista-card {
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .historia .historia-desktop .lista-card .card {
+    width: 90%;
+    overflow: hidden;
+    border-radius: 6px;
+    position: relative;
+  }
+  .historia .historia-desktop .lista-card .card .card-image {
+    width: 100%;
+    height: 100%;
+    background-color: #46474b;
+    display: flex;
+    justify-content: center;
+  }
+  .historia .historia-desktop .lista-card .card .card-image img {
+    height: 100%;
+  }
+  .historia .historia-desktop .lista-card .card .card-texto {
+    background-color: #C2C2C2;
+  }
+  .historia .historia-desktop .lista-card .card .card-texto:hover .card-texto-paragrafo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    animation: animarCardHistoria 0.6s ease;
+    background-color: #C2C2C2;
+    overflow-y: scroll;
+    height: 84%;
+    padding: 0.2em 0.4em;
+  }
+  .historia .historia-desktop .lista-card .card .card-texto .card-texto-titulo {
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 100%;
+    text-align: center;
+    font-size: 1.1em;
+    background-color: #C2C2C2;
+    padding: 0.4em 0;
   }
 }
 @keyframes animarBorda {
