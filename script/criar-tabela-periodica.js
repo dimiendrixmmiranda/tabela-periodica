@@ -1,3 +1,5 @@
+import { criarElemento } from "./criar-elemento.js"
+import { criarContainerEletrons } from "./eletrons/criar-container-eletrons.js"
 import { formatarBotoes } from "./formatar-botoes-tabela.js"
 import { tabelaPeriodica } from "./tabelaPeriodica.js"
 
@@ -22,7 +24,6 @@ listaDeBotoesElemento.forEach(elemento => {
         const tituloElemento = document.querySelector('.conteudo-tabela-elemento-historia-titulo-elemento')
         pHistoria.innerHTML = elementoSelecionado.historia
         tituloElemento.innerHTML = elementoSelecionado.nome
-        imagemHistoria.setAttribute('src', elementoSelecionado.endereçoImagemElemento)
         selecionarElementoInformacoes(elementoSelecionado)
 
         listaDeBotoesElemento.forEach(elemento => elemento.classList.remove('active'))
@@ -61,7 +62,6 @@ function criarBotaoElemento(elemento) {
 function selecionarPrimeiroElemento() {
     const containerHistoria = document.querySelector('.conteudo-tabela-elemento-historia')
     containerHistoria.querySelector('.conteudo-tabela-elemento-historia-titulo-elemento').innerHTML = tabelaPeriodica[0].nome
-    containerHistoria.querySelector('.conteudo-tabela-elemento-historia-img').setAttribute('src', tabelaPeriodica[0].endereçoImagemElemento)
     containerHistoria.querySelector('.conteudo-tabela-elemento-historia-texto').innerHTML = tabelaPeriodica[0].historia
     // Setando o primeiro elemento active
     listaDeBotoesElemento[0].classList.add('active')
@@ -96,6 +96,7 @@ function selecionarElementoInformacoes(elementoSelecionado) {
     inserirDadosNaTabela('condutividadeTermica', elementoSelecionado.condutividadeTermica, 'W/cm·K')
     inserirDadosNaTabela('aplicacoesComuns', elementoSelecionado.aplicacoesComuns.join(', '), '')
 
+    gerarEletron(elementoSelecionado)
 
     const containerConteudoInformacoesElemento = document.querySelector('.conteudo-informacoes-elemento')
     selecionarCorContainer(containerConteudoInformacoesElemento, elementoSelecionado)
@@ -137,4 +138,53 @@ function inserirDadosNaTabela(idElemento, dado, unidadeDeMedida) {
     } else {
         elemento.forEach(el => el.innerHTML = 'Não disponível')
     }
+}
+
+function gerarEletron(elementoSelecionado) {
+    console.log()
+    const elementoCadeiaDeEletrons = document.querySelector(`[data-elemento="${elementoSelecionado.nome}"]`).closest('#conteudoElementosTabela').querySelector('.container-eletrons')
+
+    elementoCadeiaDeEletrons.innerHTML = ''
+
+    const sigla = criarElemento('div', 'container-eletrons-sigla', elementoSelecionado.sigla)
+    elementoCadeiaDeEletrons.appendChild(sigla)
+
+    let quantidadeDeEletrons = elementoSelecionado.decomposicao.eletrons
+    console.log(quantidadeDeEletrons)
+
+    if (quantidadeDeEletrons <= 2) {
+        const containerDeEletronsNivel1 = gerarContainerDeEletrons(50, quantidadeDeEletrons, 'nivel-1')
+        elementoCadeiaDeEletrons.appendChild(containerDeEletronsNivel1)
+    } else if (quantidadeDeEletrons <= 10) {
+        const containerDeEletronsNivel1 = gerarContainerDeEletrons(50, 2, 'nivel-1')
+        quantidadeDeEletrons -= 2
+        const containerDeEletronsNivel2 = gerarContainerDeEletrons(70, quantidadeDeEletrons, 'nivel-2')
+        elementoCadeiaDeEletrons.appendChild(containerDeEletronsNivel1)
+        elementoCadeiaDeEletrons.appendChild(containerDeEletronsNivel2)
+    } else if (quantidadeDeEletrons <= 28) {
+        const containerDeEletronsNivel1 = gerarContainerDeEletrons(50, 2, 'nivel-1')
+        quantidadeDeEletrons -= 2
+        const containerDeEletronsNivel2 = gerarContainerDeEletrons(70, 8, 'nivel-2')
+        quantidadeDeEletrons -= 8
+        const containerDeEletronsNivel3 = gerarContainerDeEletrons(90, quantidadeDeEletrons, 'nivel-3')
+        elementoCadeiaDeEletrons.appendChild(containerDeEletronsNivel1)
+        elementoCadeiaDeEletrons.appendChild(containerDeEletronsNivel2)
+        elementoCadeiaDeEletrons.appendChild(containerDeEletronsNivel3)
+        console.log('nivel1 e 2 e 3')
+    }
+    // const containerEletron = criarContainerEletron(elementoSelecionado)
+}
+
+function gerarContainerDeEletrons(tamanho, quantidadeDeDots, classeAuxiliar) {
+    const container = criarElemento('div', 'container-eletrons-nivel')
+    container.classList.add(classeAuxiliar)
+    container.setAttribute('style', `width: ${tamanho}px; height: ${tamanho}px;`)
+    const divCirculo = criarElemento('div', 'container-eletrons-nivel-circle')
+    container.appendChild(divCirculo)
+
+    for (let i = 0; i < quantidadeDeDots; i++) {
+        const dot = criarElemento('div', 'dot')
+        container.appendChild(dot)
+    }
+    return container
 }

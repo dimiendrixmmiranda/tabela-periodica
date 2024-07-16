@@ -89,12 +89,12 @@ function criarElementoHistoria() {
     const titulo = criarElemento('h3', 'conteudo-tabela-elemento-historia-titulo', 'História')
     const tituloElemento = criarElemento('h4', 'conteudo-tabela-elemento-historia-titulo-elemento')
     const texto = criarElemento('p', 'conteudo-tabela-elemento-historia-texto')
-    const imgElemento = criarElemento('img', 'conteudo-tabela-elemento-historia-img')
+    const containerEletrons = criarElemento('div', 'container-eletrons')
 
 
     containerHistoria.appendChild(titulo)
     containerHistoria.appendChild(texto)
     containerHistoria.appendChild(tituloElemento)
-    containerHistoria.appendChild(imgElemento)
+    containerHistoria.appendChild(containerEletrons)
     return containerHistoria
 }

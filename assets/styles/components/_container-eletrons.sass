@@ -1,0 +1,231 @@
+@import '../abstract/_variaveis'
+.container-eletrons
+    position: relative
+    display: flex
+    justify-content: center
+    align-items: ce
+    .container-eletrons-sigla
+        position: absolute
+        top: 50%
+        left: 50%
+        transform: translate(-50%, -50%)
+        z-index: 2
+    .container-eletrons-nivel
+        position: absolute
+        top: 50%
+        left: 50%
+        transform: translate(-50%, -50%)
+        .container-eletrons-nivel-circle
+            background: transparent
+            width: 100%
+            height: 100%
+            border-radius: 100%
+            border: solid 2px $branco
+        .dot
+            width: 100%
+            height: 100%
+            position: absolute
+            top: 0
+            left: 0
+            animation: $animarEletron
+            &::before
+                content: ''
+                position: absolute
+                top: 0
+                left: 0
+                border-radius: 100%
+                width: 6px
+                height: 6px
+                z-index: 3
+                background-color: $amarelo
+                box-shadow: 0 0 2px 1px $preto
+    .nivel-1
+        .dot
+            &:nth-child(2)
+                &::before
+                    left: 50%
+                    top: -2px
+                    transform: translate(-60%)
+            &:nth-child(3)
+                &::before
+                    left: 50%
+                    top: 88%
+                    transform: translate(-60%)
+    .nivel-2
+        .dot
+            &:nth-child(2)
+                &::before
+                    left: 50%
+                    top: -2px
+                    transform: translate(-60%)
+        .dot
+            &:nth-child(3)
+                &::before
+                    left: 50%
+                    top: 92%
+                    transform: translate(-60%)
+        .dot
+            &:nth-child(4)
+                &::before
+                    left: -3px
+                    top: 50%
+                    transform: translate(0%, -50%)
+        .dot
+            &:nth-child(5)
+                &::before
+                    left: auto
+                    right: -3px
+                    top: 50%
+                    transform: translate(0%, -50%)
+        .dot
+            &:nth-child(6)
+                &::before
+                    left: 4px
+                    top: 18.5%
+                    transform: translate(0%, -50%)
+        .dot
+            &:nth-child(7)
+                &::before
+                    left: auto
+                    right: 4px
+                    top: 18.5%
+                    transform: translate(0%, -50%)
+        .dot
+            &:nth-child(8)
+                &::before
+                    left: auto
+                    right: 4px
+                    top: 83%
+                    transform: translate(0%, -50%)
+        .dot
+            &:nth-child(9)
+                &::before
+                    left: 4px
+                    top: 83%
+                    transform: translate(0%, -50%)
+    .nivel-3
+        .dot
+            &:nth-child(2)
+                &::before
+                    left: 48%
+                    top: -2px
+                    transform: translate(-50%)
+        .dot
+            &:nth-child(3)
+                &::before
+                    left: 33%
+                    top: -0.5px
+                    transform: translate(-50%)
+        .dot
+            &:nth-child(4)
+                &::before
+                    left: 18%
+                    top: 7%
+                    transform: translate(-50%)
+        .dot
+            &:nth-child(5)
+                &::before
+                    left: 7%
+                    top: 21%
+                    transform: translate(-50%)
+        .dot
+            &:nth-child(6)
+                &::before
+                    left: 1%
+                    top: 40%
+                    transform: translate(-50%)
+        .dot
+            &:nth-child(7)
+                &::before
+                    left: 33%
+                    top: auto
+                    bottom: 0px
+                    transform: translate(-50%)
+        .dot
+            &:nth-child(8)
+                &::before
+                    left: 20%
+                    top: auto
+                    bottom: 5px
+                    transform: translate(-50%)
+        .dot
+            &:nth-child(9)
+                &::before
+                    left: 8%
+                    top: auto
+                    bottom: 14px
+                    transform: translate(-50%)
+        .dot
+            &:nth-child(10)
+                &::before
+                    left: 2%
+                    top: auto
+                    bottom: 35%
+                    transform: translate(-50%)
+        .dot
+            &:nth-child(11)
+                &::before
+                    left: 48%
+                    top: auto
+                    bottom: -2px
+                    transform: translate(-50%)
+        .dot
+            &:nth-child(12)
+                &::before
+                    right:28%
+                    left: auto
+                    top: -1px
+                    transform: translate(-50%)
+        .dot
+            &:nth-child(13)
+                &::before
+                    right: 13%
+                    left: auto
+                    top: 5.5%
+                    transform: translate(-50%)
+        .dot
+            &:nth-child(14)
+                &::before
+                    right: 2%
+                    left: auto
+                    top: 16%
+                    transform: translate(-50%)
+        .dot
+            &:nth-child(15)
+                &::before
+                    right: -4%
+                    left: auto
+                    top: 32%
+                    transform: translate(-50%)
+        .dot
+            &:nth-child(16)
+                &::before
+                    right: 28%
+                    left: auto
+                    top: auto
+                    bottom: -1%
+                    transform: translate(-50%)
+        .dot
+            &:nth-child(17)
+                &::before
+                    right: 14%
+                    left: auto
+                    top: auto
+                    bottom: 4px
+                    transform: translate(-50%)
+        .dot
+            &:nth-child(18)
+                &::before
+                    right: 1%
+                    left: auto
+                    top: auto
+                    bottom: 14px
+                    transform: translate(-50%)
+        .dot
+            &:nth-child(19)
+                &::before
+                    right: -6%
+                    left: auto
+                    top: auto
+                    bottom: 35%
+                    transform: translate(-50%)
