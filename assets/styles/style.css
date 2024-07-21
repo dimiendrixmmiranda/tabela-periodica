@@ -827,21 +827,20 @@ body::-webkit-scrollbar-thumb {
   height: 96%;
   margin: 0 auto;
   display: grid;
-  grid-template-rows: 45px 1fr;
-  grid-template-columns: 130px 1fr 120px;
+  grid-template-rows: 30px 1fr;
+  grid-template-columns: 130px 1fr 170px;
   overflow: hidden;
   -moz-column-gap: 0.5em;
        column-gap: 0.5em;
 }
 .conteudo-tabela-elemento .conteudo-tabela-elemento-historia .conteudo-tabela-elemento-historia-titulo {
-  font-size: 1.4em;
+  font-size: 1.2em;
   width: -moz-fit-content;
   width: fit-content;
   background-color: #070841;
   color: #fff;
   padding: 0.2em 1.2em 0.2em 0.4em;
   border-radius: 0 6px 6px 0;
-  margin: 0.2em 0.4em;
 }
 .conteudo-tabela-elemento .conteudo-tabela-elemento-historia .conteudo-tabela-elemento-historia-texto {
   width: 100%;
@@ -850,6 +849,7 @@ body::-webkit-scrollbar-thumb {
   grid-column: 1/3;
   overflow-y: scroll;
   padding: 0 0.5em;
+  margin-top: 0.5em;
 }
 .conteudo-tabela-elemento .conteudo-tabela-elemento-historia .conteudo-tabela-elemento-historia-texto::-webkit-scrollbar {
   width: 3px;
@@ -868,26 +868,13 @@ body::-webkit-scrollbar-thumb {
   padding-right: 0.5em;
 }
 .conteudo-tabela-elemento .conteudo-tabela-elemento-historia .conteudo-tabela-elemento-historia-titulo-elemento {
-  grid-column: 2/4;
   font-size: 1.6em;
   display: flex;
   justify-content: center;
   align-items: center;
   text-shadow: 1px 1px 2px #000;
   color: #fff;
-  margin-right: 2em;
   position: relative;
-}
-.conteudo-tabela-elemento .conteudo-tabela-elemento-historia .conteudo-tabela-elemento-historia-titulo-elemento::before {
-  content: "";
-  position: absolute;
-  bottom: 10%;
-  left: 50%;
-  transform: translate(-50%, 0%);
-  width: 65%;
-  height: 2px;
-  background-color: #070841;
-  animation: animarBordaTitulo 3s ease infinite;
 }
 .conteudo-tabela-elemento .grupo, .conteudo-tabela-elemento .periodo {
   display: flex;
@@ -1216,10 +1203,11 @@ body::-webkit-scrollbar-thumb {
 .container-eletrons {
   position: relative;
   display: flex;
-  justify-content: center;
-  align-items: ce;
+  grid-column: 3/4;
+  grid-row: 1/3;
 }
 .container-eletrons .container-eletrons-sigla {
+  display: none;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -1253,8 +1241,8 @@ body::-webkit-scrollbar-thumb {
   top: 0;
   left: 0;
   border-radius: 100%;
-  width: 6px;
-  height: 6px;
+  width: 4px;
+  height: 4px;
   z-index: 3;
   background-color: #FFC600;
   box-shadow: 0 0 2px 1px #000;
@@ -1313,111 +1301,100 @@ body::-webkit-scrollbar-thumb {
   transform: translate(0%, -50%);
 }
 .container-eletrons .nivel-3 .dot:nth-child(2)::before {
-  left: 48%;
-  top: -2px;
-  transform: translate(-50%);
+  transform: translate(-50%, -50%);
+  right: auto;
+  top: 48%;
+  left: 0;
 }
 .container-eletrons .nivel-3 .dot:nth-child(3)::before {
-  left: 33%;
-  top: -0.5px;
-  transform: translate(-50%);
+  transform: translate(-50%, -50%);
+  top: 48%;
+  left: 100%;
 }
 .container-eletrons .nivel-3 .dot:nth-child(4)::before {
-  left: 18%;
-  top: 7%;
-  transform: translate(-50%);
+  transform: translate(-50%, -50%);
+  top: 5.5%;
+  left: 32.5%;
 }
 .container-eletrons .nivel-3 .dot:nth-child(5)::before {
-  left: 7%;
-  top: 21%;
-  transform: translate(-50%);
+  transform: translate(-50%, -50%);
+  top: 96%;
+  left: 65%;
 }
 .container-eletrons .nivel-3 .dot:nth-child(6)::before {
-  left: 1%;
-  top: 40%;
-  transform: translate(-50%);
+  transform: translate(-50%, -50%);
+  top: 5.5%;
+  left: 67.5%;
 }
 .container-eletrons .nivel-3 .dot:nth-child(7)::before {
-  left: 33%;
-  top: auto;
-  bottom: 0px;
-  transform: translate(-50%);
+  transform: translate(-50%, -50%);
+  top: 95%;
+  left: 28%;
 }
 .container-eletrons .nivel-3 .dot:nth-child(8)::before {
-  left: 20%;
-  top: auto;
-  bottom: 5px;
-  transform: translate(-50%);
+  transform: translate(-50%, -50%);
+  top: 15%;
+  left: 17%;
 }
 .container-eletrons .nivel-3 .dot:nth-child(9)::before {
-  left: 8%;
-  top: auto;
-  bottom: 14px;
-  transform: translate(-50%);
+  transform: translate(-50%, -50%);
+  top: 15%;
+  left: 83%;
 }
 .container-eletrons .nivel-3 .dot:nth-child(10)::before {
-  left: 2%;
-  top: auto;
-  bottom: 35%;
-  transform: translate(-50%);
+  transform: translate(-50%, -50%);
+  top: 87%;
+  left: 83%;
 }
 .container-eletrons .nivel-3 .dot:nth-child(11)::before {
-  left: 48%;
-  top: auto;
-  bottom: -2px;
-  transform: translate(-50%);
+  transform: translate(-50%, -50%);
+  top: 87%;
+  left: 16%;
 }
 .container-eletrons .nivel-3 .dot:nth-child(12)::before {
-  right: 28%;
-  left: auto;
-  top: -1px;
-  transform: translate(-50%);
+  transform: translate(-50%, -50%);
+  top: 1.5%;
+  left: 50%;
 }
 .container-eletrons .nivel-3 .dot:nth-child(13)::before {
-  right: 13%;
-  left: auto;
-  top: 5.5%;
-  transform: translate(-50%);
+  transform: translate(-50%, -50%);
+  top: 98%;
+  left: 45%;
 }
 .container-eletrons .nivel-3 .dot:nth-child(14)::before {
-  right: 2%;
-  left: auto;
-  top: 16%;
-  transform: translate(-50%);
+  transform: translate(-50%, -50%);
+  top: 31%;
+  left: 5%;
 }
 .container-eletrons .nivel-3 .dot:nth-child(15)::before {
-  right: -4%;
-  left: auto;
-  top: 32%;
-  transform: translate(-50%);
+  transform: translate(-50%, -50%);
+  top: 31%;
+  left: 96%;
 }
 .container-eletrons .nivel-3 .dot:nth-child(16)::before {
-  right: 28%;
-  left: auto;
-  top: auto;
-  bottom: -1%;
-  transform: translate(-50%);
+  transform: translate(-50%, -50%);
+  top: 70%;
+  left: 96%;
+}
+.container-eletrons .nivel-3 .dot:nth-child(16)::before {
+  transform: translate(-50%, -50%);
+  top: 76%;
+  left: 92%;
 }
 .container-eletrons .nivel-3 .dot:nth-child(17)::before {
-  right: 14%;
-  left: auto;
-  top: auto;
-  bottom: 4px;
-  transform: translate(-50%);
+  transform: translate(-50%, -50%);
+  top: 65%;
+  left: 2%;
 }
 .container-eletrons .nivel-3 .dot:nth-child(18)::before {
-  right: 1%;
-  left: auto;
-  top: auto;
-  bottom: 14px;
-  transform: translate(-50%);
+  transform: translate(-50%, -50%);
+  top: 63%;
+  left: 98%;
 }
 .container-eletrons .nivel-3 .dot:nth-child(19)::before {
-  right: -6%;
-  left: auto;
-  top: auto;
-  bottom: 35%;
-  transform: translate(-50%);
+  transform: translate(-50%, -50%);
+  top: 78%;
+  left: 8%;
 }
 
 @keyframes animarBorda {

@@ -150,29 +150,101 @@ function gerarEletron(elementoSelecionado) {
     elementoCadeiaDeEletrons.appendChild(sigla)
 
     let quantidadeDeEletrons = elementoSelecionado.decomposicao.eletrons
-    console.log(quantidadeDeEletrons)
 
     if (quantidadeDeEletrons <= 2) {
+        console.log('nivel 1 - 2 eletrons')
         const containerDeEletronsNivel1 = gerarContainerDeEletrons(50, quantidadeDeEletrons, 'nivel-1')
         elementoCadeiaDeEletrons.appendChild(containerDeEletronsNivel1)
     } else if (quantidadeDeEletrons <= 10) {
-        const containerDeEletronsNivel1 = gerarContainerDeEletrons(50, 2, 'nivel-1')
+        console.log('nivel 2 - 8 eletrons')
+        const containerDeEletronsNivel1 = gerarContainerDeEletrons(20, 2, 'nivel-1')
         quantidadeDeEletrons -= 2
-        const containerDeEletronsNivel2 = gerarContainerDeEletrons(70, quantidadeDeEletrons, 'nivel-2')
+        const containerDeEletronsNivel2 = gerarContainerDeEletrons(40, quantidadeDeEletrons, 'nivel-2')
         elementoCadeiaDeEletrons.appendChild(containerDeEletronsNivel1)
         elementoCadeiaDeEletrons.appendChild(containerDeEletronsNivel2)
     } else if (quantidadeDeEletrons <= 28) {
-        const containerDeEletronsNivel1 = gerarContainerDeEletrons(50, 2, 'nivel-1')
+        console.log('nivel 3 - 18 eletrons')
+        const containerDeEletronsNivel1 = gerarContainerDeEletrons(20, 2, 'nivel-1')
         quantidadeDeEletrons -= 2
-        const containerDeEletronsNivel2 = gerarContainerDeEletrons(70, 8, 'nivel-2')
+        const containerDeEletronsNivel2 = gerarContainerDeEletrons(40, 8, 'nivel-2')
         quantidadeDeEletrons -= 8
-        const containerDeEletronsNivel3 = gerarContainerDeEletrons(90, quantidadeDeEletrons, 'nivel-3')
+        const containerDeEletronsNivel3 = gerarContainerDeEletrons(60, quantidadeDeEletrons, 'nivel-3')
         elementoCadeiaDeEletrons.appendChild(containerDeEletronsNivel1)
         elementoCadeiaDeEletrons.appendChild(containerDeEletronsNivel2)
         elementoCadeiaDeEletrons.appendChild(containerDeEletronsNivel3)
         console.log('nivel1 e 2 e 3')
+    } else if (quantidadeDeEletrons <= 60) {
+        console.log('nivel 4 - 32 eletrons')
+        const containerDeEletronsNivel1 = gerarContainerDeEletrons(20, 2, 'nivel-1')
+        quantidadeDeEletrons -= 2
+        elementoCadeiaDeEletrons.appendChild(containerDeEletronsNivel1)
+        const containerDeEletronsNivel2 = gerarContainerDeEletrons(40, 8, 'nivel-2')
+        quantidadeDeEletrons -= 8
+        elementoCadeiaDeEletrons.appendChild(containerDeEletronsNivel2)
+        const containerDeEletronsNivel3 = gerarContainerDeEletrons(60, 18, 'nivel-3')
+        quantidadeDeEletrons -= 18
+        elementoCadeiaDeEletrons.appendChild(containerDeEletronsNivel3)
+        const containerDeEletronsNivel4 = gerarContainerDeEletrons(80, quantidadeDeEletrons, 'nivel-4')
+        elementoCadeiaDeEletrons.appendChild(containerDeEletronsNivel4)
+    } else if (quantidadeDeEletrons <= 92) {
+        console.log('nivel 5 - 32 eletrons')
+        console.log(quantidadeDeEletrons)
+        const containerDeEletronsNivel1 = gerarContainerDeEletrons(20, 2, 'nivel-1')
+        quantidadeDeEletrons -= 2
+        elementoCadeiaDeEletrons.appendChild(containerDeEletronsNivel1)
+        const containerDeEletronsNivel2 = gerarContainerDeEletrons(40, 8, 'nivel-2')
+        quantidadeDeEletrons -= 8
+        elementoCadeiaDeEletrons.appendChild(containerDeEletronsNivel2)
+        const containerDeEletronsNivel3 = gerarContainerDeEletrons(60, 18, 'nivel-3')
+        quantidadeDeEletrons -= 18
+        elementoCadeiaDeEletrons.appendChild(containerDeEletronsNivel3)
+        const containerDeEletronsNivel4 = gerarContainerDeEletrons(80, 32, 'nivel-4')
+        quantidadeDeEletrons -= 32
+        elementoCadeiaDeEletrons.appendChild(containerDeEletronsNivel4)
+        const containerDeEletronsNivel5 = gerarContainerDeEletrons(100, quantidadeDeEletrons, 'nivel-5')
+        elementoCadeiaDeEletrons.appendChild(containerDeEletronsNivel5)
+    } else if (quantidadeDeEletrons <= 110) {
+        console.log('nivel 6 - 18 eletrons')
+        const containerDeEletronsNivel1 = gerarContainerDeEletrons(20, 2, 'nivel-1')
+        quantidadeDeEletrons -= 2
+        elementoCadeiaDeEletrons.appendChild(containerDeEletronsNivel1)
+        const containerDeEletronsNivel2 = gerarContainerDeEletrons(40, 8, 'nivel-2')
+        quantidadeDeEletrons -= 8
+        elementoCadeiaDeEletrons.appendChild(containerDeEletronsNivel2)
+        const containerDeEletronsNivel3 = gerarContainerDeEletrons(60, 18, 'nivel-3')
+        quantidadeDeEletrons -= 18
+        elementoCadeiaDeEletrons.appendChild(containerDeEletronsNivel3)
+        const containerDeEletronsNivel4 = gerarContainerDeEletrons(80, 32, 'nivel-4')
+        quantidadeDeEletrons -= 32
+        elementoCadeiaDeEletrons.appendChild(containerDeEletronsNivel4)
+        const containerDeEletronsNivel5 = gerarContainerDeEletrons(100, 32, 'nivel-5')
+        quantidadeDeEletrons -= 32
+        elementoCadeiaDeEletrons.appendChild(containerDeEletronsNivel5)
+        const containerDeEletronsNivel6 = gerarContainerDeEletrons(120, quantidadeDeEletrons, 'nivel-6')
+        elementoCadeiaDeEletrons.appendChild(containerDeEletronsNivel6)
+    } else if (quantidadeDeEletrons <= 118) {
+        console.log('nivel 7 - 8 eletrons')
+        const containerDeEletronsNivel1 = gerarContainerDeEletrons(20, 2, 'nivel-1')
+        quantidadeDeEletrons -= 2
+        elementoCadeiaDeEletrons.appendChild(containerDeEletronsNivel1)
+        const containerDeEletronsNivel2 = gerarContainerDeEletrons(40, 8, 'nivel-2')
+        quantidadeDeEletrons -= 8
+        elementoCadeiaDeEletrons.appendChild(containerDeEletronsNivel2)
+        const containerDeEletronsNivel3 = gerarContainerDeEletrons(60, 18, 'nivel-3')
+        quantidadeDeEletrons -= 18
+        elementoCadeiaDeEletrons.appendChild(containerDeEletronsNivel3)
+        const containerDeEletronsNivel4 = gerarContainerDeEletrons(80, 32, 'nivel-4')
+        quantidadeDeEletrons -= 32
+        elementoCadeiaDeEletrons.appendChild(containerDeEletronsNivel4)
+        const containerDeEletronsNivel5 = gerarContainerDeEletrons(100, 32, 'nivel-5')
+        quantidadeDeEletrons -= 32
+        elementoCadeiaDeEletrons.appendChild(containerDeEletronsNivel5)
+        const containerDeEletronsNivel6 = gerarContainerDeEletrons(120, 18, 'nivel-6')
+        quantidadeDeEletrons -= 18
+        elementoCadeiaDeEletrons.appendChild(containerDeEletronsNivel6)
+        const containerDeEletronsNivel7 = gerarContainerDeEletrons(140, quantidadeDeEletrons, 'nivel-7')
+        elementoCadeiaDeEletrons.appendChild(containerDeEletronsNivel7)
     }
-    // const containerEletron = criarContainerEletron(elementoSelecionado)
 }
 
 function gerarContainerDeEletrons(tamanho, quantidadeDeDots, classeAuxiliar) {
